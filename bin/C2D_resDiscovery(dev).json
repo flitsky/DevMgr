@@ -1,0 +1,26 @@
+{
+  "dev": [
+    {
+      "dev_id": "dev-id-test-1st",
+      "dev_name": "Ryan device 1st",
+      "dev_type": ["oic.wk.d", "oic.d.light"],
+      "spec_ver": "ocf.1.1.0",
+      "hst_addr": "coap:\/\/192.168.24.39:58966",
+
+      "server_ver": "Server Ver.20170727",
+      "plat_id": "Aries platform-id",
+      "plat_name": "Aries Platform"
+    },
+    {
+      "dev_id": "dev-id-test-2nd",
+      "dev_name": "Ryan device 2nd",
+      "dev_type": ["oic.wk.d", "oic.d.temp"],
+      "spec_ver": "ocf.1.1.0",
+      "hst_addr": "coap:\/\/192.168.24.40:58966",
+
+      "server_ver": "Server Ver.20170727",
+      "plat_id": "Aries platform-id",
+      "plat_name": "Aries Platform"
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "res": [
+    {
+      "res_id": "res-id-1234-1111",
+      "res_type": ["oic.r.switch.binary"],
+      "res_uri": "/Aries/light/1",
+      "res_iso": "true",
+      "res_dev": "dev-id-test-1st"
+    },
+    {
+      "res_id": "res-id-1234-5555",
+      "res_type": ["oic.r.temperature"],
+      "res_uri": "/Aries/temp/1",
+      "res_iso": "true",
+      "res_dev": "dev-id-test-1st"
+    },
+
+    {
+      "res_id": "res-id-7777-8888",
+      "res_type": ["oic.r.switch.binary"],
+      "res_uri": "/Aries/light/1",
+      "res_iso": "true",
+      "res_dev": "dev-id-test-2nd"
+    },
+    {
+      "res_id": "res-id-9999-0000",
+      "res_type": ["oic.r.temperature"],
+      "res_uri": "/Aries/temp/1",
+      "res_iso": "true",
+      "res_dev": "dev-id-test-2nd"
+    }
+  ]
+}
