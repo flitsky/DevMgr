@@ -19,7 +19,7 @@ public class DM {
     static void testfuncImportFromCCJson(C2D11Discovery discov) {
         try {
             // [ dev import ] -->
-            InputStream is = new FileInputStream("./src/C2D_resDiscovery(dev).json");
+            InputStream is = new FileInputStream("C2D_resDiscovery(dev).json");
             byte[] buffer = new byte[is.available()];
             is.read(buffer);
             is.close();
@@ -30,7 +30,7 @@ public class DM {
             discov.devices.get(0).dev_name = "Modified dev name kkk~";
 
             // [ rsrc import ] -->
-            is = new FileInputStream("./src/C2D_resDiscovery(rsrc).json");
+            is = new FileInputStream("C2D_resDiscovery(rsrc).json");
             buffer = new byte[is.available()];
             is.read(buffer);
             is.close();
