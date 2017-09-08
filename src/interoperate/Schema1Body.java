@@ -17,6 +17,7 @@ public class Schema1Body extends EntityX {
     }
 
     @BindField("status") public Integer status;
+    @BindField("dev_id") public String device_id;
     @BindField("res_id") public String resourcd_id;
     @BindField("authcode") public String authcode;
     @BindField("uid") public String uid;
@@ -25,7 +26,7 @@ public class Schema1Body extends EntityX {
     @BindField("tokentype") public String tokentype;
     @BindField("expiresin") public String expiresin;
 
-    @BindField("dis_dev") public ArrayList<Schema2DiscoveryDevice> dis_dev;
-    @BindField("dis_res") public ArrayList<Schema2DiscoveryResource> dis_res;
+    @BindField("devices") public ArrayList<Schema2DiscoveryDevice> devices;
+    @BindField("resources") public ArrayList<Schema2DiscoveryResource> resources;
     @BindField("properties") public ArrayList<Property> properties;
 }
