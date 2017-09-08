@@ -3,6 +3,7 @@ import java.io.InputStream;
 
 import org.json.JSONObject;
 
+import DAO.AriesDAO;
 import interoperate.C2D11Discovery;
 
 public class DM {
