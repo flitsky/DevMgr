@@ -1,7 +1,12 @@
 package DAO;
-import java.sql.*;
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.PreparedStatement;
+import java.sql.ResultSet;
+import java.sql.SQLException;
+import java.sql.Statement;
 
-import org.json.JSONObject;
+import model.TbDevice;
 
 public class AriesDAO {
 	// JDBC driver name and database URL
@@ -151,6 +156,23 @@ public class AriesDAO {
 			} // end finally try
 		} // end try
 		System.out.println("Done!");
+	}
+	
+	public boolean createDevice(TbDevice dev) {
+		try {
+			conn = getConn();
+			stmt = conn.createStatement();
+			
+			String sql = "INSERT INTO tb_device VALUES('" + dev.getDeviceId() + "', '" + dev.getTbUser() + "', '" + dev.getDeviceType() + "', '"
+	                + dev.getDeviceName() + "', '" + dev.getUserDefinedName() + "', '" + dev.getManufacturer() + "', '"
+	                + dev.getServerVersion() + "', '" + dev.getSpecVersion() + "', " + dev.getDeviceStatus() + ", '"
+	                + dev.getCreatedTimestamp() + "', '" + dev.getLastTimestamp() + "');";
+			stmt.executeUpdate(sql);
+		} catch(Exception e) {
+			e.printStackTrace();
+			return false;
+		}
+		return true;
 	}
 	
 	public boolean createDevice(String device_id, String user_id, String device_type, String device_name,

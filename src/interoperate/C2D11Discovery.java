@@ -12,16 +12,16 @@ import java.util.ArrayList;
 public class C2D11Discovery extends EntityX {
     public C2D11Discovery() {
         super();
-        devices = new ArrayList<C2D12Device>();
-        devices.add(new C2D12Device());
-        resource = new ArrayList<C2D13Resource>();
-        resource.add(new C2D13Resource());
+        devices = new ArrayList<Schema2DiscoveryDevice>();
+        devices.add(new Schema2DiscoveryDevice());
+        resource = new ArrayList<Schema2DiscoveryResource>();
+        resource.add(new Schema2DiscoveryResource());
     }
 
     @BindField("response") public String response;
     @BindField("source") public String source;
     @BindField("size") public String size;
 
-    @BindField("dev") public ArrayList<C2D12Device> devices;
-    @BindField("res") public ArrayList<C2D13Resource> resource;
+    @BindField("dev") public ArrayList<Schema2DiscoveryDevice> devices;
+    @BindField("res") public ArrayList<Schema2DiscoveryResource> resource;
 }

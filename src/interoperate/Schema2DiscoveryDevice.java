@@ -9,8 +9,8 @@ import interoperate.EntityX.EntityX;
  * Created by ryan on 17. 7. 26.
  */
 
-public class C2D12Device extends EntityX {
-    public C2D12Device()
+public class Schema2DiscoveryDevice extends EntityX {
+    public Schema2DiscoveryDevice()
     {
         super();
         dev_type = new ArrayList<String>();
@@ -20,7 +20,7 @@ public class C2D12Device extends EntityX {
     @BindField("dev_name") public String dev_name;
     @BindField("dev_type") public ArrayList<String> dev_type;
     @BindField("spec_ver") public String spec_ver;
-    @BindField("hst_addr") public String host_addr;
+    @BindField("host_addr") public String host_addr;
 
     //@BindField("server_ver") public String server_ver;
     //@BindField("plat_id") public String plat_id;
