@@ -17,16 +17,21 @@ public class Schema1Body extends EntityX {
     }
 
     @BindField("status") public Integer status;
-    @BindField("dev_id") public String device_id;
-    @BindField("res_id") public String resourcd_id;
-    @BindField("authcode") public String authcode;
-    @BindField("uid") public String uid;
-    @BindField("accesstoken") public String accesstoken;
-    @BindField("refreshtoken") public String refreshtoken;
-    @BindField("tokentype") public String tokentype;
-    @BindField("expiresin") public String expiresin;
+    @BindField("provider") public String provider; //sign up req
+    @BindField("authcode") public String authcode; //sign up req
+    @BindField("uid") public String uid; //sign up resp; sign in req 
+    @BindField("accesstoken") public String accesstoken; //sign up resp; sign in req
+    @BindField("expiresin") public String expiresin; //sign up resp; sign in req
 
-    @BindField("devices") public ArrayList<Schema2DiscoveryDevice> devices;
-    @BindField("resources") public ArrayList<Schema2DiscoveryResource> resources;
+    @BindField("dev_id") public String device_id; //discovery device resp; discovery resource req
+    @BindField("res_id") public String resourcd_id; //discovery resource resp; get/post/observe req
+
+    // between CC and DevMgr
+    @BindField("devices") public ArrayList<Schema2Device> devices;
+    @BindField("resources") public ArrayList<Schema2Resource> resources;
     @BindField("properties") public ArrayList<Property> properties;
+    
+    // between DevMgr and App
+
+    // between DevMgr and SvcMgr
 }

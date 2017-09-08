@@ -9,8 +9,8 @@ import interoperate.EntityX.EntityX;
  * Created by ryan on 17. 7. 26.
  */
 
-public class Schema2DiscoveryResource extends EntityX {
-    public Schema2DiscoveryResource()
+public class Schema2Resource extends EntityX {
+    public Schema2Resource()
     {
         super();
         res_type = new ArrayList<String>();
