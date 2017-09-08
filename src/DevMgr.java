@@ -1,11 +1,10 @@
 import java.io.FileNotFoundException;
 
-import org.json.JSONArray;
 import org.json.JSONObject;
 
 import DAO.AriesDAO;
-import interoperate.C2D11Discovery;
 import interoperate.Schema0Cmd;
+import interoperate.Schema1Body;
 import model.TbDevice;
 
 public class DevMgr {
@@ -71,6 +70,7 @@ public class DevMgr {
 		sendReqSchema0Cmd.type = "req";
 		sendReqSchema0Cmd.direction = "d2c";
 		sendReqSchema0Cmd.work_code = "dis_dev";
+		sendReqSchema0Cmd.body = new Schema1Body();
 		sendReqSchema0Cmd.body.device_id = "6341cb6f-2179-55a3-3732-c3ffbad1be68";
 		// Export jsonObject
 		try {
