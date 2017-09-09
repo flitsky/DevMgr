@@ -1,22 +1,21 @@
-package interoperate;
+package Aries.interoperate;
 
 import java.util.ArrayList;
 
-import interoperate.EntityX.BindField;
-import interoperate.EntityX.EntityX;
+import Aries.interoperate.EntityX.BindField;
+import Aries.interoperate.EntityX.EntityX;
 
 /**
  * Created by ryan on 17. 7. 26.
  */
 
 public class Schema2Device extends EntityX {
-    public Schema2Device()
-    {
-        super();
-        dev_type = new ArrayList<String>();
-        //resources = new ArrayList<D2A23Resource>();
-        //공백 노드 발생//resourceURIs.add(new D2A23Resource()); //하위 리소스 노드를 추가
-    }
+	public Schema2Device() {
+		super();
+		dev_type = new ArrayList<String>();
+		// resources = new ArrayList<D2A23Resource>();
+		// 공백 노드 발생//resourceURIs.add(new D2A23Resource()); //하위 리소스 노드를 추가
+	}
 
     @BindField("dev_id") public String dev_id;
     @BindField("dev_name") public String dev_name;

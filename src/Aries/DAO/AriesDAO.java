@@ -1,4 +1,4 @@
-package DAO;
+package Aries.DAO;
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.PreparedStatement;
@@ -6,7 +6,7 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Statement;
 
-import model.TbDevice;
+import Aries.model.TbDevice;
 
 public class AriesDAO {
 	// JDBC driver name and database URL

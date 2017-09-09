@@ -1,4 +1,4 @@
-package interoperate.EntityX;
+package Aries.interoperate.EntityX;
 
 import java.lang.reflect.Field;
 import java.lang.reflect.ParameterizedType;

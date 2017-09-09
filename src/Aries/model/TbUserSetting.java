@@ -1,4 +1,4 @@
-package model;
+package Aries.model;
 
 import java.io.Serializable;
 import javax.persistence.*;

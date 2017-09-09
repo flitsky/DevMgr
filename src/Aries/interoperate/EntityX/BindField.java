@@ -1,4 +1,4 @@
-package interoperate.EntityX;
+package Aries.interoperate.EntityX;
 
 import java.lang.annotation.Retention;
 import java.lang.annotation.Target;
