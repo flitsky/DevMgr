@@ -14,7 +14,7 @@ public class Schema2Device extends EntityX {
     {
         super();
         dev_type = new ArrayList<String>();
-        resources = new ArrayList<D2A23Resource>();
+        //resources = new ArrayList<D2A23Resource>();
         //공백 노드 발생//resourceURIs.add(new D2A23Resource()); //하위 리소스 노드를 추가
     }
 
