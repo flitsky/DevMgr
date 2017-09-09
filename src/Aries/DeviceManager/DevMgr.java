@@ -17,6 +17,8 @@ public class DevMgr {
 		final AriesDAO ariesDAO = new AriesDAO();
 		TbDevice device = new TbDevice();
 		
+		//Test commit. commemorate clone a git repositories on Windows Eclipse.
+		
 		//-- 1.[Recv REQ] Device&Resource List
 		//{"type":"req","dir":"a2d","work_code":"discovery","body":{"uid":"bb321fac-03e7-439c-b57b-35546216701c"}}
 		
