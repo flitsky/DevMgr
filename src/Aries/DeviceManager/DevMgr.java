@@ -41,10 +41,10 @@ public class DevMgr {
 		
 		//-- 1.[Send REQ] Discovery Device
 		//{"type":"req","dir":"d2c","work_code":"dis_dev","body":{}}
-		Schema0Cmd sendReqSchema0Cmd = new Schema0Cmd();
-		sendReqSchema0Cmd.type = "req";
-		sendReqSchema0Cmd.direction = "d2c";
-		sendReqSchema0Cmd.work_code = "dis_dev";
+		//Schema0Cmd sendReqSchema0Cmd = new Schema0Cmd();
+		//sendReqSchema0Cmd.type = "req";
+		//sendReqSchema0Cmd.direction = "d2c";
+		//sendReqSchema0Cmd.work_code = "dis_dev";
 		//sendCommand(sendReqSchema0Cmd);
 		
 		//-- 2.[Recv Resp] Discovery Device Result
@@ -52,31 +52,15 @@ public class DevMgr {
 		
 		//-- 3.[Send REQ] Discovery Resource
 		//{"type":"req","dir":"d2c","work_code":"dis_res","body":{"dev_id":"6341cb6f-2179-55a3-3732-c3ffbad1be68"}}
-		sendReqSchema0Cmd = new Schema0Cmd();
-		sendReqSchema0Cmd.type = "req";
-		sendReqSchema0Cmd.direction = "d2c";
-		sendReqSchema0Cmd.work_code = "dis_dev";
-		sendReqSchema0Cmd.body = new Schema1Body();
-		sendReqSchema0Cmd.body.device_id = "6341cb6f-2179-55a3-3732-c3ffbad1be68";
+		//sendReqSchema0Cmd = new Schema0Cmd();
+		//sendReqSchema0Cmd.type = "req";
+		//sendReqSchema0Cmd.direction = "d2c";
+		//sendReqSchema0Cmd.work_code = "dis_res";
+		//sendReqSchema0Cmd.body = new Schema1Body();
+		//sendReqSchema0Cmd.body.device_id = "6341cb6f-2179-55a3-3732-c3ffbad1be68";
 		//sendCommand(sendReqSchema0Cmd);
 
 		//-- 4.[Recv Resp] Discovery Resource Result
 		//{"type":"res","dir":"c2d","work_code":"dis_res","body":{"status":200,"resources":[{"res_id":"/oic/route/6341cb6f-2179-55a3-3732-c3ffbad1be68/power/0","res_type":["oic.r.switch.binary"],"res_uri":"/oic/route/6341cb6f-2179-55a3-3732-c3ffbad1be68/power/0","res_isobserve":true,"res_dev_id":"6341cb6f-2179-55a3-3732-c3ffbad1be68"}]}}
 	}
-	
-//	static void sendCommand(Schema0Cmd cmd) {
-//		// Export to jsonObject
-//		try {
-//			JSONObject JsonObj4Req = cmd.exportToJson();
-//			// check exported data
-//			logger.debug(" send cmd = " + JsonObj4Req.toString());
-//			
-//			// send command to ...
-//			// to do ...
-//		} catch (Exception e1) {
-//			// TODO Auto-generated catch block
-//			e1.printStackTrace();
-//		}
-//	}
-	
 }

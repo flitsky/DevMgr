@@ -21,7 +21,7 @@ public abstract class EntityX {
 		boolean isArray = false;
 		boolean isDerivedFromEntity;
 
-		EntityMetaData(String key, Class entityType, Class collectionType) {
+		EntityMetaData(String key, Class<?> entityType, Class<?> collectionType) {
 			this.key = key;
 			this.entityType = entityType;
 			this.collectionType = collectionType;
@@ -29,14 +29,14 @@ public abstract class EntityX {
 			isDerivedFromEntity = EntityX.class.isAssignableFrom(entityType);
 		}
 
-		EntityMetaData(String key, Class entityType) {
+		EntityMetaData(String key, Class<?> entityType) {
 			this.key = key;
 			this.entityType = entityType;
 			this.collectionType = void.class;
 			isDerivedFromEntity = EntityX.class.isAssignableFrom(entityType);
 		}
 
-		public Class getEntityType() {
+		public Class<?> getEntityType() {
 			return entityType;
 		}
 	}
@@ -53,7 +53,7 @@ public abstract class EntityX {
 				final BindField bf = field.getAnnotation(BindField.class);
 				if (bf != null) {
 					String field_name = bf.value();
-					Class clz = field.getType();
+					Class<?> clz = field.getType();
 					if (Iterable.class.isAssignableFrom(clz)) {
 						Type type = field.getGenericType();
 						ParameterizedType pt = (ParameterizedType) type;

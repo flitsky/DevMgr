@@ -2,8 +2,6 @@ package Aries.interoperate;
 
 import java.util.ArrayList;
 
-import org.json.JSONArray;
-
 import Aries.interoperate.EntityX.BindField;
 import Aries.interoperate.EntityX.EntityX;
 

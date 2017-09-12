@@ -1,19 +1,16 @@
 package Aries.DeviceManager;
 
 import java.io.FileNotFoundException;
-import java.io.IOException;
 import java.net.DatagramPacket;
 import java.net.DatagramSocket;
 import java.net.InetAddress;
-import java.net.SocketException;
-import java.net.UnknownHostException;
-import java.util.Scanner;
 import java.util.concurrent.BlockingQueue;
 
 import org.apache.log4j.Logger;
 import org.json.JSONObject;
 
 import Aries.interoperate.Schema0Cmd;
+import Aries.interoperate.Schema1Body;
 
 public class ProcessCommand implements Runnable {
 	static Logger logger = Logger.getLogger("ProcessCommand.class");
@@ -64,11 +61,19 @@ public class ProcessCommand implements Runnable {
 		switch (recvSchema0Cmd.direction) {
 		case "a2d":
 			if (recvSchema0Cmd.type.equals("req")) {
+				Schema0Cmd sendReqSchema0Cmd = new Schema0Cmd();
 				if (recvSchema0Cmd.work_code.equals("discovery")) {
-					Schema0Cmd sendReqSchema0Cmd = new Schema0Cmd();
 					sendReqSchema0Cmd.type = "req";
 					sendReqSchema0Cmd.direction = "d2c";
 					sendReqSchema0Cmd.work_code = "dis_dev";
+					// send command ...
+					sendCommand(sendReqSchema0Cmd);
+				} else if (recvSchema0Cmd.work_code.equals("dis_res")) {
+					sendReqSchema0Cmd.type = "req";
+					sendReqSchema0Cmd.direction = "d2c";
+					sendReqSchema0Cmd.work_code = "dis_res";
+					sendReqSchema0Cmd.body = new Schema1Body();
+					sendReqSchema0Cmd.body.device_id = "6341cb6f-2179-55a3-3732-c3ffbad1be68";
 					// send command ...
 					sendCommand(sendReqSchema0Cmd);
 				}

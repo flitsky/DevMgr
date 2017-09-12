@@ -1,7 +1,5 @@
 package Aries.interoperate;
 
-import java.util.ArrayList;
-
 import Aries.interoperate.EntityX.BindField;
 import Aries.interoperate.EntityX.EntityX;
 
