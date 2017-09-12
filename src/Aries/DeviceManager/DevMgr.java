@@ -4,7 +4,6 @@ import java.util.concurrent.ArrayBlockingQueue;
 import java.util.concurrent.BlockingQueue;
 
 import org.apache.log4j.Logger;
-import org.json.JSONObject;
 
 import Aries.DAO.AriesDAO;
 import Aries.interoperate.Schema0Cmd;
