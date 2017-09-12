@@ -74,3 +74,4 @@
 [2017-09-12 17:50:44,108]DEBUG232377[Thread-1] - Aries.DeviceManager.ProcessCommand.processCommand(ProcessCommand.java:51) -  [test code] ok.. receivedJson == imported data 
 [2017-09-12 17:53:33,777]DEBUG     0[Thread-1] - Aries.DeviceManager.ProcessCommand.processCommand(ProcessCommand.java:49) -  [test code] ok.. receivedJson == imported data 
 [2017-09-12 17:54:10,242]DEBUG     0[Thread-1] - Aries.DeviceManager.ProcessCommand.processCommand(ProcessCommand.java:49) -  [test code] ok.. receivedJson == imported data 
+[2017-09-12 18:02:46,314]DEBUG     0[Thread-1] - Aries.DeviceManager.ProcessCommand.processCommand(ProcessCommand.java:49) -  [test code] ok.. receivedJson == imported data 
