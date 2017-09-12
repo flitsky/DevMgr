@@ -46,7 +46,7 @@ public class DevMgr {
 		sendReqSchema0Cmd.type = "req";
 		sendReqSchema0Cmd.direction = "d2c";
 		sendReqSchema0Cmd.work_code = "dis_dev";
-		sendCommand(sendReqSchema0Cmd);
+		//sendCommand(sendReqSchema0Cmd);
 		
 		//-- 2.[Recv Resp] Discovery Device Result
 		//{"type":"res","dir":"c2d","work_code":"dis_dev","body":{"status":200,"devices":[{"dev_id":"c31e8fa3-b524-0e6b-2489-77760c3ca37b","dev_name":"THU Light","spec_ver":"ocf.1.1.0","dev_type":["oic.wk.d", "oic.d.light"],"host_addr":"coap:\/\/[fe80::c4a8:5af:7d0e:f40e%25wlan0]:49244"}]}}
@@ -59,25 +59,25 @@ public class DevMgr {
 		sendReqSchema0Cmd.work_code = "dis_dev";
 		sendReqSchema0Cmd.body = new Schema1Body();
 		sendReqSchema0Cmd.body.device_id = "6341cb6f-2179-55a3-3732-c3ffbad1be68";
-		sendCommand(sendReqSchema0Cmd);
+		//sendCommand(sendReqSchema0Cmd);
 
 		//-- 4.[Recv Resp] Discovery Resource Result
 		//{"type":"res","dir":"c2d","work_code":"dis_res","body":{"status":200,"resources":[{"res_id":"/oic/route/6341cb6f-2179-55a3-3732-c3ffbad1be68/power/0","res_type":["oic.r.switch.binary"],"res_uri":"/oic/route/6341cb6f-2179-55a3-3732-c3ffbad1be68/power/0","res_isobserve":true,"res_dev_id":"6341cb6f-2179-55a3-3732-c3ffbad1be68"}]}}
 	}
 	
-	static void sendCommand(Schema0Cmd cmd) {
-		// Export jsonObject
-		try {
-			JSONObject JsonObj4Req = cmd.exportToJson();
-			// check exported data
-			logger.debug(" send cmd = " + JsonObj4Req.toString());
-			
-			// send command to ...
-			// to do ...
-		} catch (Exception e1) {
-			// TODO Auto-generated catch block
-			e1.printStackTrace();
-		}
-	}
+//	static void sendCommand(Schema0Cmd cmd) {
+//		// Export to jsonObject
+//		try {
+//			JSONObject JsonObj4Req = cmd.exportToJson();
+//			// check exported data
+//			logger.debug(" send cmd = " + JsonObj4Req.toString());
+//			
+//			// send command to ...
+//			// to do ...
+//		} catch (Exception e1) {
+//			// TODO Auto-generated catch block
+//			e1.printStackTrace();
+//		}
+//	}
 	
 }
