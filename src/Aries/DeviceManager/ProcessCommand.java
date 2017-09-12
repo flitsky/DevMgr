@@ -1,6 +1,13 @@
 package Aries.DeviceManager;
 
 import java.io.FileNotFoundException;
+import java.io.IOException;
+import java.net.DatagramPacket;
+import java.net.DatagramSocket;
+import java.net.InetAddress;
+import java.net.SocketException;
+import java.net.UnknownHostException;
+import java.util.Scanner;
 import java.util.concurrent.BlockingQueue;
 
 import org.apache.log4j.Logger;
@@ -52,6 +59,70 @@ public class ProcessCommand implements Runnable {
 		} catch (Exception e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
+		}
+
+		switch (recvSchema0Cmd.direction) {
+		case "a2d":
+			if (recvSchema0Cmd.type.equals("req")) {
+				if (recvSchema0Cmd.work_code.equals("discovery")) {
+					try {
+						Schema0Cmd sendReqSchema0Cmd = new Schema0Cmd();
+						sendReqSchema0Cmd.type = "req";
+						sendReqSchema0Cmd.direction = "d2c";
+						sendReqSchema0Cmd.work_code = "dis_dev";
+						// Export jsonObject
+						JSONObject JsonObj4Req = sendReqSchema0Cmd.exportToJson();
+						// check exported data
+						logger.debug(" send cmd = " + JsonObj4Req.toString());
+
+						// send command to ...
+						// to do ...
+						DatagramSocket socket = new DatagramSocket();
+
+						String s = JsonObj4Req.toString();
+						byte[] buf = s.getBytes();
+						InetAddress address = InetAddress.getByName("localhost");
+						DatagramPacket packet = new DatagramPacket(buf, buf.length, address, 5000);
+						socket.send(packet);
+						socket.close();
+					} catch (SocketException e) {
+						// TODO Auto-generated catch block
+						e.printStackTrace();
+					} catch (UnknownHostException e) {
+						// TODO Auto-generated catch block
+						e.printStackTrace();
+					} catch (IOException e) {
+						// TODO Auto-generated catch block
+						e.printStackTrace();
+					} catch (Exception e) {
+						// TODO Auto-generated catch block
+						e.printStackTrace();
+					}
+				}
+			} else {
+
+			}
+			break;
+		case "e2d":
+			if (recvSchema0Cmd.type.equals("req")) {
+
+			} else {
+
+			}
+			break;
+		case "c2d":
+			if (recvSchema0Cmd.type.equals("req")) {
+
+			} else {
+				if (recvSchema0Cmd.work_code.equals("dis_dev")) {
+					if (recvSchema0Cmd.body.status == 200) {
+						logger.debug("Send Discovery Device result to DB.");
+					}
+				}
+			}
+			break;
+		default:
+			break;
 		}
 	}
 

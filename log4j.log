@@ -75,3 +75,24 @@
 [2017-09-12 17:53:33,777]DEBUG     0[Thread-1] - Aries.DeviceManager.ProcessCommand.processCommand(ProcessCommand.java:49) -  [test code] ok.. receivedJson == imported data 
 [2017-09-12 17:54:10,242]DEBUG     0[Thread-1] - Aries.DeviceManager.ProcessCommand.processCommand(ProcessCommand.java:49) -  [test code] ok.. receivedJson == imported data 
 [2017-09-12 18:02:46,314]DEBUG     0[Thread-1] - Aries.DeviceManager.ProcessCommand.processCommand(ProcessCommand.java:49) -  [test code] ok.. receivedJson == imported data 
+[2017-09-12 19:31:38,792]DEBUG     0[Thread-1] - Aries.DeviceManager.ProcessCommand.processCommand(ProcessCommand.java:56) -  [test code] ok.. receivedJson == imported data 
+[2017-09-12 19:31:38,793]DEBUG     1[Thread-1] - Aries.DeviceManager.ProcessCommand.processCommand(ProcessCommand.java:76) -  send cmd = {"work_code":"dis_dev","type":"req","dir":"d2c"}
+[2017-09-12 19:31:38,825]DEBUG    33[Thread-1] - Aries.DeviceManager.ProcessCommand.processCommand(ProcessCommand.java:56) -  [test code] ok.. receivedJson == imported data 
+[2017-09-12 19:32:56,163]DEBUG 77371[Thread-1] - Aries.DeviceManager.ProcessCommand.processCommand(ProcessCommand.java:56) -  [test code] ok.. receivedJson == imported data 
+[2017-09-12 19:32:56,169]DEBUG 77377[Thread-1] - Aries.DeviceManager.ProcessCommand.processCommand(ProcessCommand.java:76) -  send cmd = {"work_code":"dis_dev","type":"req","dir":"d2c"}
+[2017-09-12 19:32:56,202]DEBUG 77410[Thread-1] - Aries.DeviceManager.ProcessCommand.processCommand(ProcessCommand.java:56) -  [test code] ok.. receivedJson == imported data 
+[2017-09-12 19:34:44,005]DEBUG     0[Thread-1] - Aries.DeviceManager.ProcessCommand.processCommand(ProcessCommand.java:56) -  [test code] ok.. receivedJson == imported data 
+[2017-09-12 19:35:35,585]DEBUG 51580[Thread-1] - Aries.DeviceManager.ProcessCommand.processCommand(ProcessCommand.java:76) -  send cmd = {"work_code":"dis_dev","type":"req","dir":"d2c"}
+[2017-09-12 19:37:00,594]DEBUG136589[Thread-1] - Aries.DeviceManager.ProcessCommand.processCommand(ProcessCommand.java:56) -  [test code] ok.. receivedJson == imported data 
+[2017-09-12 19:38:03,053]DEBUG199048[Thread-1] - Aries.DeviceManager.ProcessCommand.processCommand(ProcessCommand.java:56) -  [test code] ok.. receivedJson == imported data 
+[2017-09-12 19:45:02,786]DEBUG618781[Thread-1] - Aries.DeviceManager.ProcessCommand.processCommand(ProcessCommand.java:56) -  [test code] ok.. receivedJson == imported data 
+[2017-09-12 19:45:17,267]DEBUG633262[Thread-1] - Aries.DeviceManager.ProcessCommand.processCommand(ProcessCommand.java:76) -  send cmd = {"work_code":"dis_dev","type":"req","dir":"d2c"}
+[2017-09-12 19:45:17,298]DEBUG633293[Thread-1] - Aries.DeviceManager.ProcessCommand.processCommand(ProcessCommand.java:56) -  [test code] ok.. receivedJson == imported data 
+[2017-09-12 19:45:40,287]DEBUG656282[Thread-1] - Aries.DeviceManager.ProcessCommand.processCommand(ProcessCommand.java:56) -  [test code] ok.. receivedJson == imported data 
+[2017-09-12 19:45:42,538]DEBUG658533[Thread-1] - Aries.DeviceManager.ProcessCommand.processCommand(ProcessCommand.java:76) -  send cmd = {"work_code":"dis_dev","type":"req","dir":"d2c"}
+[2017-09-12 19:45:42,573]DEBUG658568[Thread-1] - Aries.DeviceManager.ProcessCommand.processCommand(ProcessCommand.java:56) -  [test code] ok.. receivedJson == imported data 
+[2017-09-12 19:46:42,671]DEBUG     0[Thread-1] - Aries.DeviceManager.ProcessCommand.processCommand(ProcessCommand.java:56) -  [test code] ok.. receivedJson == imported data 
+[2017-09-12 19:46:54,528]DEBUG 11857[Thread-1] - Aries.DeviceManager.ProcessCommand.processCommand(ProcessCommand.java:76) -  send cmd = {"work_code":"dis_dev","type":"req","dir":"d2c"}
+[2017-09-12 19:46:54,562]DEBUG 11891[Thread-1] - Aries.DeviceManager.ProcessCommand.processCommand(ProcessCommand.java:56) -  [test code] ok.. receivedJson == imported data 
+[2017-09-12 19:47:46,183]DEBUG 63512[Thread-1] - Aries.DeviceManager.ProcessCommand.processCommand(ProcessCommand.java:56) -  [test code] ok.. receivedJson == imported data 
+[2017-09-12 19:48:17,301]DEBUG 94630[Thread-1] - Aries.DeviceManager.ProcessCommand.processCommand(ProcessCommand.java:119) - Send Discovery Device result to DB.

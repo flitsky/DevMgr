@@ -12,7 +12,6 @@ public class UdpClient implements Runnable {
 
 	@Override
 	public void run() {
-		// TODO Auto-generated method stub
 		DatagramSocket socket = null;
 		while (true) {
 			try {
