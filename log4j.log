@@ -67,3 +67,10 @@
 [2017-09-09 18:23:21,285]DEBUG     9[main] - Aries.DeviceManager.DevMgr.sendCommand(DevMgr.java:81) -  send cmd = {"work_code":"dis_dev","type":"req","dir":"d2c","body":{"dev_id":"6341cb6f-2179-55a3-3732-c3ffbad1be68"}}
 [2017-09-09 18:23:21,285]DEBUG     9[main] - Aries.DeviceManager.DevMgr.recvCommand(DevMgr.java:102) -  received cmd = {"work_code":"dis_res","type":"res","dir":"c2d","body":{"resources":[{"res_type":["oic.r.switch.binary"],"res_dev_id":"6341cb6f-2179-55a3-3732-c3ffbad1be68","res_isobserve":true,"res_id":"/oic/route/6341cb6f-2179-55a3-3732-c3ffbad1be68/power/0","res_uri":"/oic/route/6341cb6f-2179-55a3-3732-c3ffbad1be68/power/0"}],"status":200}}
 [2017-09-09 18:23:21,286]DEBUG    10[main] - Aries.DeviceManager.DevMgr.main(DevMgr.java:67) -  [test code] ok.. receivedJson == imported data 
+[2017-09-12 17:09:26,855]DEBUG     0[Thread-1] - Aries.DeviceManager.ProcessCommand.processCommand(ProcessCommand.java:49) -  [test code] ok.. receivedJson == imported data 
+[2017-09-12 17:10:09,933]DEBUG 43078[Thread-1] - Aries.DeviceManager.ProcessCommand.processCommand(ProcessCommand.java:49) -  [test code] ok.. receivedJson == imported data 
+[2017-09-12 17:46:51,731]DEBUG     0[Thread-1] - Aries.DeviceManager.ProcessCommand.processCommand(ProcessCommand.java:51) -  [test code] ok.. receivedJson == imported data 
+[2017-09-12 17:47:04,747]DEBUG 13016[Thread-1] - Aries.DeviceManager.ProcessCommand.processCommand(ProcessCommand.java:51) -  [test code] ok.. receivedJson == imported data 
+[2017-09-12 17:50:44,108]DEBUG232377[Thread-1] - Aries.DeviceManager.ProcessCommand.processCommand(ProcessCommand.java:51) -  [test code] ok.. receivedJson == imported data 
+[2017-09-12 17:53:33,777]DEBUG     0[Thread-1] - Aries.DeviceManager.ProcessCommand.processCommand(ProcessCommand.java:49) -  [test code] ok.. receivedJson == imported data 
+[2017-09-12 17:54:10,242]DEBUG     0[Thread-1] - Aries.DeviceManager.ProcessCommand.processCommand(ProcessCommand.java:49) -  [test code] ok.. receivedJson == imported data 
