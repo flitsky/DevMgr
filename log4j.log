@@ -170,3 +170,11 @@
 [2017-09-13 16:32:22,073]DEBUG     1[Thread-1] - Aries.DeviceManager.ProcessCommand.processCommand(ProcessCommand.java:105) - Sign-up response store user info...
 [2017-09-13 16:32:38,950]DEBUG 16878[Thread-1] - Aries.DeviceManager.ProcessCommand.processCommand(ProcessCommand.java:54) -  [test code] ok.. receivedJson == imported data 
 [2017-09-13 16:32:38,950]DEBUG 16878[Thread-1] - Aries.DeviceManager.ProcessCommand.processCommand(ProcessCommand.java:116) - Send Discovery Device result to DB.
+[2017-09-13 16:56:52,760]DEBUG     0[Thread-1] - Aries.DeviceManager.ProcessCommand.processCommand(ProcessCommand.java:54) -  [test code] ok.. receivedJson == imported data 
+[2017-09-13 16:56:52,763]DEBUG     3[Thread-1] - Aries.DeviceManager.ProcessCommand.processCommand(ProcessCommand.java:105) - Sign-up response store user info...
+[2017-09-13 16:57:00,964]DEBUG  8204[Thread-1] - Aries.DeviceManager.ProcessCommand.processCommand(ProcessCommand.java:54) -  [test code] ok.. receivedJson == imported data 
+[2017-09-13 16:57:00,964]DEBUG  8204[Thread-1] - Aries.DeviceManager.ProcessCommand.processCommand(ProcessCommand.java:116) - Send Discovery Device result to DB.
+[2017-09-13 16:57:56,763]DEBUG     0[Thread-1] - Aries.DeviceManager.ProcessCommand.processCommand(ProcessCommand.java:54) -  [test code] ok.. receivedJson == imported data 
+[2017-09-13 16:57:56,766]DEBUG     3[Thread-1] - Aries.DeviceManager.ProcessCommand.processCommand(ProcessCommand.java:105) - Sign-up response store user info...
+[2017-09-13 16:58:05,030]DEBUG  8267[Thread-1] - Aries.DeviceManager.ProcessCommand.processCommand(ProcessCommand.java:54) -  [test code] ok.. receivedJson == imported data 
+[2017-09-13 16:58:05,030]DEBUG  8267[Thread-1] - Aries.DeviceManager.ProcessCommand.processCommand(ProcessCommand.java:116) - Send Discovery Device result to DB.

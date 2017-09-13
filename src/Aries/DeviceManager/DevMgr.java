@@ -23,5 +23,9 @@ public class DevMgr {
 		// test command input thread
 		Thread tUdpClient = new Thread(new UdpClient());
 		tUdpClient.start();
+		//[Recv Resp] sign up
+		//{"type":"res","dir":"c2d","work_code":"signup","body":{"status":200,"uid":"22883d77-4ab8-4b80-b75b-74774868b484","accesstoken":"e00d0d9ec36095d749a350dab04b5a8c1b94e136","expiresin":-1}}
+		//[Recv Resp] Discovery Device Result
+		//{"type":"res","dir":"c2d","work_code":"dis_dev","body":{"status":200,"devices":[{"dev_id":"c31e8fa3-b524-0e6b-2489-77760c3ca37b","dev_name":"THU Light","spec_ver":"ocf.1.1.0","dev_type":["oic.wk.d", "oic.d.light"],"host_addr":"coap:\/\/[fe80::c4a8:5af:7d0e:f40e%25wlan0]:49244"}]}}
 	}
 }

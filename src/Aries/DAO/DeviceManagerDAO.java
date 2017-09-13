@@ -4,10 +4,10 @@ import java.text.SimpleDateFormat;
 import java.util.Calendar;
 import java.util.Date;
 
+import Aries.DTO.TbDevice;
+import Aries.DTO.TbUser;
 import Aries.interoperate.Schema1Body;
 import Aries.interoperate.Schema2Device;
-import Aries.model.TbDevice;
-import Aries.model.TbUser;
 
 public class DeviceManagerDAO {
 	static String curUid;
@@ -15,8 +15,8 @@ public class DeviceManagerDAO {
 	
 	public boolean storeUserInfo(Schema1Body body) {
 		final AriesDAO ariesDAO = new AriesDAO();
-		this.curUid = body.uid;
-		this.curToken = body.accesstoken;
+		curUid = body.uid;
+		curToken = body.accesstoken;
 		try {
 			TbUser userVO = new TbUser();
 			userVO.setUid(body.uid);

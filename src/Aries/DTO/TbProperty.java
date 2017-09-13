@@ -1,4 +1,4 @@
-package Aries.model;
+package Aries.DTO;
 
 import java.io.Serializable;
 import javax.persistence.*;

@@ -6,8 +6,8 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Statement;
 
-import Aries.model.TbDevice;
-import Aries.model.TbUser;
+import Aries.DTO.TbDevice;
+import Aries.DTO.TbUser;
 
 public class AriesDAO {
 	// JDBC driver name and database URL
