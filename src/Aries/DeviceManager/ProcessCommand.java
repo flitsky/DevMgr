@@ -9,6 +9,7 @@ import java.util.concurrent.BlockingQueue;
 import org.apache.log4j.Logger;
 import org.json.JSONObject;
 
+import Aries.DAO.DeviceManagerDAO;
 import Aries.interoperate.Schema0Cmd;
 import Aries.interoperate.Schema1Body;
 
@@ -100,6 +101,11 @@ public class ProcessCommand implements Runnable {
 			} else {
 				switch (recvSchema0Cmd.work_code) {
 				case "signup":
+					if (recvSchema0Cmd.body.status == 200) {
+						logger.debug("Sign-up response store user info...");
+						DeviceManagerDAO dmDAO = new DeviceManagerDAO();
+						dmDAO.storeUserInfo(recvSchema0Cmd.body);
+					}
 					break;
 				case "signin":
 					break;
@@ -108,6 +114,8 @@ public class ProcessCommand implements Runnable {
 				case "dis_dev":
 					if (recvSchema0Cmd.body.status == 200) {
 						logger.debug("Send Discovery Device result to DB.");
+						DeviceManagerDAO dmDAO = new DeviceManagerDAO();
+						dmDAO.storeDiscoveredDevices(recvSchema0Cmd.body);
 					}
 					break;
 				case "dis_res":

@@ -2,58 +2,60 @@ package Aries.model;
 
 import java.io.Serializable;
 import javax.persistence.*;
-import java.util.List;
 
+import java.util.ArrayList;
+import java.util.List;
+import java.util.StringTokenizer;
 
 /**
  * The persistent class for the tb_device database table.
  * 
  */
 @Entity
-@Table(name="tb_device")
-@NamedQuery(name="TbDevice.findAll", query="SELECT t FROM TbDevice t")
+@Table(name = "tb_device")
+@NamedQuery(name = "TbDevice.findAll", query = "SELECT t FROM TbDevice t")
 public class TbDevice implements Serializable {
 	private static final long serialVersionUID = 1L;
 
 	@Id
-	@Column(name="device_id")
+	@Column(name = "device_id")
 	private String deviceId;
 
 	@Lob
-	@Column(name="created_timestamp")
+	@Column(name = "created_timestamp")
 	private String createdTimestamp;
 
-	@Column(name="device_name")
+	@Column(name = "device_name")
 	private String deviceName;
 
-	@Column(name="device_status")
+	@Column(name = "device_status")
 	private int deviceStatus;
 
-	@Column(name="device_type")
+	@Column(name = "device_type")
 	private String deviceType;
 
 	@Lob
-	@Column(name="last_timestamp")
+	@Column(name = "last_timestamp")
 	private String lastTimestamp;
 
 	private String manufacturer;
 
-	@Column(name="server_version")
+	@Column(name = "server_version")
 	private String serverVersion;
 
-	@Column(name="spec_version")
+	@Column(name = "spec_version")
 	private String specVersion;
 
-	@Column(name="user_defined_name")
+	@Column(name = "user_defined_name")
 	private String userDefinedName;
 
-	//bi-directional many-to-one association to TbUser
+	// bi-directional many-to-one association to TbUser
 	@ManyToOne
-	@JoinColumn(name="user_id")
+	@JoinColumn(name = "user_id")
 	private TbUser tbUser;
 
-	//bi-directional many-to-one association to TbResource
-	@OneToMany(mappedBy="tbDevice")
+	// bi-directional many-to-one association to TbResource
+	@OneToMany(mappedBy = "tbDevice")
 	private List<TbResource> tbResources;
 
 	public TbDevice() {
@@ -89,6 +91,19 @@ public class TbDevice implements Serializable {
 
 	public void setDeviceStatus(int deviceStatus) {
 		this.deviceStatus = deviceStatus;
+	}
+
+	public ArrayList<String> getDeviceTypes() {
+		ArrayList<String> deviceTypes = new ArrayList<String>();
+		StringTokenizer stok = new StringTokenizer(this.deviceType, " ");
+		while (stok.hasMoreTokens()) {
+			deviceTypes.add(stok.nextToken());
+		}
+		return deviceTypes;
+	}
+
+	public void setDeviceType(ArrayList<String> deviceTypes) {
+		this.deviceType = String.join(" ", deviceTypes);
 	}
 
 	public String getDeviceType() {

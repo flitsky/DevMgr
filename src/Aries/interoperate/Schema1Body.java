@@ -19,7 +19,7 @@ public class Schema1Body extends EntityX {
     @BindField("authcode") public String authcode; //sign up req
     @BindField("uid") public String uid; //sign up resp; sign in req 
     @BindField("accesstoken") public String accesstoken; //sign up resp; sign in req
-    @BindField("expiresin") public String expiresin; //sign up resp; sign in req
+    @BindField("expiresin") public Integer expiresin; //sign up resp; sign in req
 
     @BindField("dev_id") public String device_id; //discovery device resp; discovery resource req
     @BindField("res_id") public String resourcd_id; //discovery resource resp; get/post/observe req

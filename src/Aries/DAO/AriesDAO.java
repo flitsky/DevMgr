@@ -7,6 +7,7 @@ import java.sql.SQLException;
 import java.sql.Statement;
 
 import Aries.model.TbDevice;
+import Aries.model.TbUser;
 
 public class AriesDAO {
 	// JDBC driver name and database URL
@@ -158,15 +159,49 @@ public class AriesDAO {
 		System.out.println("Done!");
 	}
 	
-	public boolean createDevice(TbDevice dev) {
+	public boolean storeUser(TbUser user) {
 		try {
 			conn = getConn();
 			stmt = conn.createStatement();
 			
-			String sql = "INSERT INTO tb_device VALUES('" + dev.getDeviceId() + "', '" + dev.getTbUser() + "', '" + dev.getDeviceType() + "', '"
+			String sql = "INSERT INTO tb_user VALUES('" + user.getUid() + "', '" + user.getAccessToken() + "', '"
+					+ user.getCreatedTimestamp() + "', '" + user.getLastTimestamp()
+					+ "') ON DUPLICATE KEY UPDATE access_token='" + user.getAccessToken() + "', last_timestamp='"
+					+ user.getLastTimestamp() + "';";
+			stmt.executeUpdate(sql);
+		} catch(Exception e) {
+			e.printStackTrace();
+			return false;
+		}
+		return true;
+	}
+
+	public TbUser readUser(String uid) {
+		TbUser user = new TbUser(); 
+		try {
+			conn = getConn();
+			
+			String sql = "SELECT * FROM tb_user WHERE uid='" + uid + "';";
+			PreparedStatement ps = conn.prepareStatement(sql);
+			ResultSet rs = ps.executeQuery();
+			user.setUid(uid);
+			user.setAccessToken(rs.getString("access_token"));
+		} catch(Exception e) {
+			e.printStackTrace();
+		}
+		return user;
+	}
+
+	public boolean createDevice(TbDevice dev) {
+		try {
+			conn = getConn();
+			stmt = conn.createStatement();
+			System.out.println("dev.getTbUser() = " + dev.getTbUser() + " uid=" + dev.getTbUser().getUid());
+			String sql = "INSERT INTO tb_device VALUES('" + dev.getDeviceId() + "', '" + dev.getTbUser().getUid() + "', '" + dev.getDeviceType() + "', '"
 	                + dev.getDeviceName() + "', '" + dev.getUserDefinedName() + "', '" + dev.getManufacturer() + "', '"
 	                + dev.getServerVersion() + "', '" + dev.getSpecVersion() + "', " + dev.getDeviceStatus() + ", '"
 	                + dev.getCreatedTimestamp() + "', '" + dev.getLastTimestamp() + "');";
+			System.out.println("sql = " + sql);
 			stmt.executeUpdate(sql);
 		} catch(Exception e) {
 			e.printStackTrace();
