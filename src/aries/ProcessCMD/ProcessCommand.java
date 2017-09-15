@@ -36,6 +36,9 @@ public class ProcessCommand implements Runnable {
 					System.out.println(Thread.currentThread().getName() + " Start.");
 					processCommand();
 					System.out.println(Thread.currentThread().getName() + " End.");
+				} else {
+					// idle time
+					Thread.sleep(1000);
 				}
 			} catch (InterruptedException e) {
 				// TODO Auto-generated catch block
