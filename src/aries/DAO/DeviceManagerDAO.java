@@ -1,13 +1,13 @@
-package Aries.DAO;
+package aries.DAO;
 
 import java.text.SimpleDateFormat;
 import java.util.Calendar;
 import java.util.Date;
 
-import Aries.DTO.TbDevice;
-import Aries.DTO.TbUser;
-import Aries.interoperate.Schema1Body;
-import Aries.interoperate.Schema2Device;
+import aries.DTO.TbDevice;
+import aries.DTO.TbUser;
+import aries.interoperate.Schema1Body;
+import aries.interoperate.Schema2Device;
 
 public class DeviceManagerDAO {
 	static String curUid;

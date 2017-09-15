@@ -1,4 +1,4 @@
-package Aries.DeviceManager;
+package aries.DeviceManager;
 
 public class Message {
 	private String msg;

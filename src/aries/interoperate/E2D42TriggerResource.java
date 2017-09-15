@@ -1,7 +1,7 @@
-package Aries.interoperate;
+package aries.interoperate;
 
-import Aries.interoperate.EntityX.BindField;
-import Aries.interoperate.EntityX.EntityX;
+import aries.interoperate.EntityX.BindField;
+import aries.interoperate.EntityX.EntityX;
 
 /**
  * Created by ryan on 17. 7. 26.

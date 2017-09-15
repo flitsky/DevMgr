@@ -1,4 +1,4 @@
-package Aries.socket;
+package aries.Socket;
 
 import java.io.IOException;
 import java.net.DatagramPacket;

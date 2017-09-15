@@ -1,4 +1,4 @@
-package Aries.socket;
+package aries.Socket;
 
 import java.io.IOException;
 import java.net.DatagramPacket;
@@ -6,7 +6,7 @@ import java.net.DatagramSocket;
 import java.net.SocketException;
 import java.util.concurrent.BlockingQueue;
 
-import Aries.DeviceManager.Message;
+import aries.DeviceManager.Message;
 
 public class UdpListener implements Runnable {
 	DatagramSocket socket = null;

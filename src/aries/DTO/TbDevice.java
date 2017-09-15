@@ -1,4 +1,4 @@
-package Aries.DTO;
+package aries.DTO;
 
 import java.io.Serializable;
 import javax.persistence.*;

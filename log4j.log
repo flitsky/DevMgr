@@ -225,3 +225,8 @@
 [2017-09-15 12:44:16,110]DEBUG220041[Thread-1] - Aries.DeviceManager.ProcessCommand.processCommand(ProcessCommand.java:52) -  [test code] check property value is empty : false
 [2017-09-15 12:44:16,111]DEBUG220042[Thread-1] - Aries.DeviceManager.ProcessCommand.processCommand(ProcessCommand.java:58) -  [test code] ok.. receivedJson == imported data 
 [2017-09-15 12:44:16,111]DEBUG220042[Thread-1] - Aries.DeviceManager.ProcessCommand.processCommand(ProcessCommand.java:139) - property type is boolean : [true, false]
+[2017-09-15 14:18:02,900]DEBUG     0[Thread-1] - aries.ProcessCMD.ProcessCommand.processCommand(ProcessCommand.java:51) -  [test code] check property type : integer
+[2017-09-15 14:18:02,903]DEBUG     3[Thread-1] - aries.ProcessCMD.ProcessCommand.processCommand(ProcessCommand.java:52) -  [test code] check property value size : 1
+[2017-09-15 14:18:02,903]DEBUG     3[Thread-1] - aries.ProcessCMD.ProcessCommand.processCommand(ProcessCommand.java:53) -  [test code] check property value is empty : false
+[2017-09-15 14:18:02,904]DEBUG     4[Thread-1] - aries.ProcessCMD.ProcessCommand.processCommand(ProcessCommand.java:59) -  [test code] ok.. receivedJson == imported data 
+[2017-09-15 14:18:02,905]DEBUG     5[Thread-1] - aries.ProcessCMD.ProcessCommand.processCommand(ProcessCommand.java:143) - property type is integer : [1004]

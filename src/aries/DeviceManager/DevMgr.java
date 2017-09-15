@@ -1,12 +1,13 @@
-package Aries.DeviceManager;
+package aries.DeviceManager;
 
 import java.util.concurrent.ArrayBlockingQueue;
 import java.util.concurrent.BlockingQueue;
 
 import org.apache.log4j.Logger;
 
-import Aries.socket.UdpClient;
-import Aries.socket.UdpListener;
+import aries.ProcessCMD.ProcessCommand;
+import aries.Socket.UdpClient;
+import aries.Socket.UdpListener;
 
 public class DevMgr {
 	static Logger logger = Logger.getLogger("DevMgr.class");

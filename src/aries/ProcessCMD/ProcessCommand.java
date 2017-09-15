@@ -1,4 +1,4 @@
-package Aries.DeviceManager;
+package aries.ProcessCMD;
 
 import java.io.FileNotFoundException;
 import java.net.DatagramPacket;
@@ -9,10 +9,11 @@ import java.util.concurrent.BlockingQueue;
 import org.apache.log4j.Logger;
 import org.json.JSONObject;
 
-import Aries.DAO.DeviceManagerDAO;
-import Aries.interoperate.Property;
-import Aries.interoperate.Schema0Cmd;
-import Aries.interoperate.Schema1Body;
+import aries.DAO.DeviceManagerDAO;
+import aries.DeviceManager.Message;
+import aries.interoperate.Property;
+import aries.interoperate.Schema0Cmd;
+import aries.interoperate.Schema1Body;
 
 public class ProcessCommand implements Runnable {
 	static Logger logger = Logger.getLogger("ProcessCommand.class");
