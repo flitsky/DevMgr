@@ -10,6 +10,7 @@ import org.apache.log4j.Logger;
 import org.json.JSONObject;
 
 import Aries.DAO.DeviceManagerDAO;
+import Aries.interoperate.Property;
 import Aries.interoperate.Schema0Cmd;
 import Aries.interoperate.Schema1Body;
 
@@ -46,6 +47,9 @@ public class ProcessCommand implements Runnable {
 		System.out.println("command = " + this.command);
 		JSONObject receivedJsonObj = new JSONObject(this.command);
 		Schema0Cmd recvSchema0Cmd = JsonObj2EntityX(receivedJsonObj);
+		logger.debug(" [test code] check property type : " + recvSchema0Cmd.body.properties.get(0).propertyValueType);
+		logger.debug(" [test code] check property value size : " + recvSchema0Cmd.body.properties.get(0).propertyValue.size());
+		logger.debug(" [test code] check property value is empty : " + recvSchema0Cmd.body.properties.get(0).propertyValue.isEmpty());
 
 		JSONObject jsonExportBody;
 		try {
@@ -128,6 +132,26 @@ public class ProcessCommand implements Runnable {
 				case "post":
 					break;
 				case "observe":
+					if (recvSchema0Cmd.body.status == 200) {
+						for (Property prop : recvSchema0Cmd.body.properties) {
+							switch(prop.propertyValueType) {
+							case "boolean":
+								logger.debug("property type is boolean : " + prop.propertyValue);
+								break;
+							case "integer":
+								logger.debug("property type is integer : " + prop.propertyValue);
+								break;
+							case "double":
+								logger.debug("property type is double : " + prop.propertyValue);
+								break;
+							case "string":
+								logger.debug("property type is string : " + prop.propertyValue);
+								break;
+							default:
+								break;
+							}
+						}
+					}
 					break;
 				case "obs_can":
 					break;

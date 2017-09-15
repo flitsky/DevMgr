@@ -178,3 +178,50 @@
 [2017-09-13 16:57:56,766]DEBUG     3[Thread-1] - Aries.DeviceManager.ProcessCommand.processCommand(ProcessCommand.java:105) - Sign-up response store user info...
 [2017-09-13 16:58:05,030]DEBUG  8267[Thread-1] - Aries.DeviceManager.ProcessCommand.processCommand(ProcessCommand.java:54) -  [test code] ok.. receivedJson == imported data 
 [2017-09-13 16:58:05,030]DEBUG  8267[Thread-1] - Aries.DeviceManager.ProcessCommand.processCommand(ProcessCommand.java:116) - Send Discovery Device result to DB.
+[2017-09-15 11:44:33,534]ERROR     0[Thread-1] - Aries.DeviceManager.ProcessCommand.processCommand(ProcessCommand.java:57) -  [test code] error.. imported data is not equal = {"work_code":"observe","type":"res","dir":"c2d"}
+[2017-09-15 11:49:58,620]ERROR     0[Thread-1] - Aries.DeviceManager.ProcessCommand.processCommand(ProcessCommand.java:57) -  [test code] error.. imported data is not equal = {"work_code":"observe","type":"res","dir":"c2d","body":{"res_id":"/oic/route/6341cb6f-2179-55a3-3732-c3ffbad1be68/power/0","properties":[{"prop_name":"value","prop_value":[],"prop_type":"string"}],"status":200}}
+[2017-09-15 11:54:59,331]DEBUG     0[Thread-1] - Aries.DeviceManager.ProcessCommand.processCommand(ProcessCommand.java:50) -  [test code] check property value : string
+[2017-09-15 11:57:26,214]DEBUG     0[Thread-1] - Aries.DeviceManager.ProcessCommand.processCommand(ProcessCommand.java:50) -  [test code] check property value : string
+[2017-09-15 11:57:26,217]DEBUG     3[Thread-1] - Aries.DeviceManager.ProcessCommand.processCommand(ProcessCommand.java:51) -  [test code] check property value : []
+[2017-09-15 11:57:26,218]ERROR     4[Thread-1] - Aries.DeviceManager.ProcessCommand.processCommand(ProcessCommand.java:59) -  [test code] error.. imported data is not equal = {"work_code":"observe","type":"res","dir":"c2d","body":{"res_id":"/oic/route/6341cb6f-2179-55a3-3732-c3ffbad1be68/power/0","properties":[{"prop_name":"value","prop_value":[],"prop_type":"string"}],"status":200}}
+[2017-09-15 11:57:26,218]DEBUG     4[Thread-1] - Aries.DeviceManager.ProcessCommand.processCommand(ProcessCommand.java:147) - property type is string : []
+[2017-09-15 12:34:28,633]DEBUG     0[Thread-1] - Aries.DeviceManager.ProcessCommand.processCommand(ProcessCommand.java:50) -  [test code] check property type : string
+[2017-09-15 12:34:28,634]DEBUG     1[Thread-1] - Aries.DeviceManager.ProcessCommand.processCommand(ProcessCommand.java:51) -  [test code] check property value size : 0
+[2017-09-15 12:34:28,634]DEBUG     1[Thread-1] - Aries.DeviceManager.ProcessCommand.processCommand(ProcessCommand.java:52) -  [test code] check property value is empty : true
+[2017-09-15 12:34:28,635]ERROR     2[Thread-1] - Aries.DeviceManager.ProcessCommand.processCommand(ProcessCommand.java:60) -  [test code] error.. imported data is not equal = {"work_code":"observe","type":"res","dir":"c2d","body":{"res_id":"/oic/route/6341cb6f-2179-55a3-3732-c3ffbad1be68/power/0","properties":[{"prop_name":"value","prop_value":[],"prop_type":"string"}],"status":200}}
+[2017-09-15 12:34:28,635]DEBUG     2[Thread-1] - Aries.DeviceManager.ProcessCommand.processCommand(ProcessCommand.java:148) - property type is string : []
+[2017-09-15 12:40:36,069]DEBUG     0[Thread-1] - Aries.DeviceManager.ProcessCommand.processCommand(ProcessCommand.java:50) -  [test code] check property type : double
+[2017-09-15 12:40:36,072]DEBUG     3[Thread-1] - Aries.DeviceManager.ProcessCommand.processCommand(ProcessCommand.java:51) -  [test code] check property value size : 0
+[2017-09-15 12:40:36,072]DEBUG     3[Thread-1] - Aries.DeviceManager.ProcessCommand.processCommand(ProcessCommand.java:52) -  [test code] check property value is empty : true
+[2017-09-15 12:40:36,073]ERROR     4[Thread-1] - Aries.DeviceManager.ProcessCommand.processCommand(ProcessCommand.java:60) -  [test code] error.. imported data is not equal = {"work_code":"observe","type":"res","dir":"c2d","body":{"res_id":"/oic/route/6341cb6f-2179-55a3-3732-c3ffbad1be68/power/0","properties":[{"prop_name":"value","prop_value":[],"read_only":false,"prop_type":"double"}],"status":200}}
+[2017-09-15 12:40:36,074]DEBUG     5[Thread-1] - Aries.DeviceManager.ProcessCommand.processCommand(ProcessCommand.java:145) - property type is double : []
+[2017-09-15 12:41:32,215]DEBUG 56146[Thread-1] - Aries.DeviceManager.ProcessCommand.processCommand(ProcessCommand.java:50) -  [test code] check property type : double
+[2017-09-15 12:41:32,216]DEBUG 56147[Thread-1] - Aries.DeviceManager.ProcessCommand.processCommand(ProcessCommand.java:51) -  [test code] check property value size : 1
+[2017-09-15 12:41:32,216]DEBUG 56147[Thread-1] - Aries.DeviceManager.ProcessCommand.processCommand(ProcessCommand.java:52) -  [test code] check property value is empty : false
+[2017-09-15 12:41:32,217]DEBUG 56148[Thread-1] - Aries.DeviceManager.ProcessCommand.processCommand(ProcessCommand.java:58) -  [test code] ok.. receivedJson == imported data 
+[2017-09-15 12:41:32,218]DEBUG 56149[Thread-1] - Aries.DeviceManager.ProcessCommand.processCommand(ProcessCommand.java:145) - property type is double : [1004.0]
+[2017-09-15 12:42:19,323]DEBUG103254[Thread-1] - Aries.DeviceManager.ProcessCommand.processCommand(ProcessCommand.java:50) -  [test code] check property type : boolean
+[2017-09-15 12:42:19,323]DEBUG103254[Thread-1] - Aries.DeviceManager.ProcessCommand.processCommand(ProcessCommand.java:51) -  [test code] check property value size : 1
+[2017-09-15 12:42:19,323]DEBUG103254[Thread-1] - Aries.DeviceManager.ProcessCommand.processCommand(ProcessCommand.java:52) -  [test code] check property value is empty : false
+[2017-09-15 12:42:19,324]DEBUG103255[Thread-1] - Aries.DeviceManager.ProcessCommand.processCommand(ProcessCommand.java:58) -  [test code] ok.. receivedJson == imported data 
+[2017-09-15 12:42:19,324]DEBUG103255[Thread-1] - Aries.DeviceManager.ProcessCommand.processCommand(ProcessCommand.java:139) - property type is boolean : [true]
+[2017-09-15 12:42:38,239]DEBUG122170[Thread-1] - Aries.DeviceManager.ProcessCommand.processCommand(ProcessCommand.java:50) -  [test code] check property type : integer
+[2017-09-15 12:42:38,241]DEBUG122172[Thread-1] - Aries.DeviceManager.ProcessCommand.processCommand(ProcessCommand.java:51) -  [test code] check property value size : 1
+[2017-09-15 12:42:38,241]DEBUG122172[Thread-1] - Aries.DeviceManager.ProcessCommand.processCommand(ProcessCommand.java:52) -  [test code] check property value is empty : false
+[2017-09-15 12:42:38,242]DEBUG122173[Thread-1] - Aries.DeviceManager.ProcessCommand.processCommand(ProcessCommand.java:58) -  [test code] ok.. receivedJson == imported data 
+[2017-09-15 12:42:38,242]DEBUG122173[Thread-1] - Aries.DeviceManager.ProcessCommand.processCommand(ProcessCommand.java:142) - property type is integer : [1004]
+[2017-09-15 12:42:47,127]DEBUG131058[Thread-1] - Aries.DeviceManager.ProcessCommand.processCommand(ProcessCommand.java:50) -  [test code] check property type : string
+[2017-09-15 12:42:47,128]DEBUG131059[Thread-1] - Aries.DeviceManager.ProcessCommand.processCommand(ProcessCommand.java:51) -  [test code] check property value size : 1
+[2017-09-15 12:42:47,128]DEBUG131059[Thread-1] - Aries.DeviceManager.ProcessCommand.processCommand(ProcessCommand.java:52) -  [test code] check property value is empty : false
+[2017-09-15 12:42:47,128]DEBUG131059[Thread-1] - Aries.DeviceManager.ProcessCommand.processCommand(ProcessCommand.java:58) -  [test code] ok.. receivedJson == imported data 
+[2017-09-15 12:42:47,129]DEBUG131060[Thread-1] - Aries.DeviceManager.ProcessCommand.processCommand(ProcessCommand.java:148) - property type is string : [string value]
+[2017-09-15 12:42:54,665]DEBUG138596[Thread-1] - Aries.DeviceManager.ProcessCommand.processCommand(ProcessCommand.java:50) -  [test code] check property type : double
+[2017-09-15 12:42:54,666]DEBUG138597[Thread-1] - Aries.DeviceManager.ProcessCommand.processCommand(ProcessCommand.java:51) -  [test code] check property value size : 1
+[2017-09-15 12:42:54,666]DEBUG138597[Thread-1] - Aries.DeviceManager.ProcessCommand.processCommand(ProcessCommand.java:52) -  [test code] check property value is empty : false
+[2017-09-15 12:42:54,666]DEBUG138597[Thread-1] - Aries.DeviceManager.ProcessCommand.processCommand(ProcessCommand.java:58) -  [test code] ok.. receivedJson == imported data 
+[2017-09-15 12:42:54,667]DEBUG138598[Thread-1] - Aries.DeviceManager.ProcessCommand.processCommand(ProcessCommand.java:145) - property type is double : [1004.0]
+[2017-09-15 12:44:16,109]DEBUG220040[Thread-1] - Aries.DeviceManager.ProcessCommand.processCommand(ProcessCommand.java:50) -  [test code] check property type : boolean
+[2017-09-15 12:44:16,110]DEBUG220041[Thread-1] - Aries.DeviceManager.ProcessCommand.processCommand(ProcessCommand.java:51) -  [test code] check property value size : 2
+[2017-09-15 12:44:16,110]DEBUG220041[Thread-1] - Aries.DeviceManager.ProcessCommand.processCommand(ProcessCommand.java:52) -  [test code] check property value is empty : false
+[2017-09-15 12:44:16,111]DEBUG220042[Thread-1] - Aries.DeviceManager.ProcessCommand.processCommand(ProcessCommand.java:58) -  [test code] ok.. receivedJson == imported data 
+[2017-09-15 12:44:16,111]DEBUG220042[Thread-1] - Aries.DeviceManager.ProcessCommand.processCommand(ProcessCommand.java:139) - property type is boolean : [true, false]

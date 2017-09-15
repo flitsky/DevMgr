@@ -14,6 +14,7 @@ public class Schema2Resource extends EntityX {
     {
         super();
         res_type = new ArrayList<String>();
+        properties = new ArrayList<Property>();
     }
 
     @BindField("res_id") public String res_id;
@@ -21,4 +22,5 @@ public class Schema2Resource extends EntityX {
     @BindField("res_uri") public String res_uri;
     @BindField("res_isobserve") public Boolean resIsObservable;
     @BindField("res_dev_id") public String res_dev_id;
+    @BindField("properties") public ArrayList<Property> properties;
 }

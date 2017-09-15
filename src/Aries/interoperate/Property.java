@@ -18,5 +18,5 @@ public class Property extends EntityX {
     @BindField("prop_name") public String propertyName;
     @BindField("prop_type") public String propertyValueType;
     @BindField("prop_value") public ArrayList<Object> propertyValue;
-    @BindField("read_only") public String readOnly;
+    @BindField("read_only") public Boolean readOnly;
 }
