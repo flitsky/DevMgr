@@ -1,37 +1,49 @@
-package aries.DeviceManager;
+package io.dase.network;
 
-import java.util.concurrent.ArrayBlockingQueue;
-import java.util.concurrent.BlockingQueue;
+import org.json.simple.JSONObject;
+import org.json.simple.JSONValue;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
-import org.apache.log4j.Logger;
+public class DevMgr extends DamqRcvConsumer {
+  private static final Logger logger = LoggerFactory.getLogger(DevMgr.class);
+  
+  public DevMgr() {    
+    super();
+  }
+  
+  public DevMgr(ModuleType m) {    
+    super(m);
+  }
 
-import aries.ProcessCMD.ProcessCommand;
-import aries.Socket.UdpClient;
-import aries.Socket.UdpListener;
-
-public class DevMgr {
-	static Logger logger = Logger.getLogger("DevMgr.class");
-	
-	public static void main(String[] args) {
-		BlockingQueue<Message> queue = new ArrayBlockingQueue<>(10);
-		
-		Thread udpListener = new Thread(new UdpListener(queue));
-		udpListener.start();
-		
-		Thread processCommand = new Thread(new ProcessCommand(queue));
-		processCommand.start();
-
-		// test command input thread
-		Thread tUdpClient = new Thread(new UdpClient());
-		tUdpClient.start();
-		//[Recv Resp] sign up
-		//{"type":"res","dir":"c2d","work_code":"signup","body":{"status":200,"uid":"22883d77-4ab8-4b80-b75b-74774868b484","accesstoken":"e00d0d9ec36095d749a350dab04b5a8c1b94e136","expiresin":-1}}
-		//[Recv Resp] Discovery Device Result
-		//{"type":"res","dir":"c2d","work_code":"dis_dev","body":{"status":200,"devices":[{"dev_id":"c31e8fa3-b524-0e6b-2489-77760c3ca37b","dev_name":"THU Light","spec_ver":"ocf.1.1.0","dev_type":["oic.wk.d", "oic.d.light"],"host_addr":"coap:\/\/[fe80::c4a8:5af:7d0e:f40e%25wlan0]:49244"}]}}
-		
-		//{"type":"res","dir":"c2d","work_code":"observe","body":{"status":200,"res_id":"/oic/route/6341cb6f-2179-55a3-3732-c3ffbad1be68/power/0","properties":[{"prop_name":"value","prop_type":"boolean","prop_value":[true, false],"read_only":false}]}}
-		//{"type":"res","dir":"c2d","work_code":"observe","body":{"status":200,"res_id":"/oic/route/6341cb6f-2179-55a3-3732-c3ffbad1be68/power/0","properties":[{"prop_name":"value","prop_type":"integer","prop_value":[1004],"read_only":false}]}}
-		//{"type":"res","dir":"c2d","work_code":"observe","body":{"status":200,"res_id":"/oic/route/6341cb6f-2179-55a3-3732-c3ffbad1be68/power/0","properties":[{"prop_name":"value","prop_type":"string","prop_value":["string value"],"read_only":false}]}}
-		//{"type":"res","dir":"c2d","work_code":"observe","body":{"status":200,"res_id":"/oic/route/6341cb6f-2179-55a3-3732-c3ffbad1be68/power/0","properties":[{"prop_name":"value","prop_type":"double","prop_value":[1004.0],"read_only":false}]}}
-	}
+  public void MainProc() {
+    logger.debug("DevMgr begins.");
+    //DamqMsg msg = null;
+    
+    while (true) {
+      try {
+        String rcvBuf = rcvQueue.take().getMsg();
+        if (rcvBuf.equals("{\"command\":\"lbxjtyf\"}")) break;
+        
+        JSONObject jo = (JSONObject)JSONValue.parseWithException(rcvBuf);        
+        String destination = jo.get("destination").toString().toLowerCase();
+        String uuid = jo.get("uuid").toString().toLowerCase();
+        String msgbody = jo.get("msgbody").toString().toLowerCase();
+        
+        logger.debug("dest : " + destination);
+        logger.debug("uuid : " + uuid);
+        logger.debug("body : " + msgbody);
+                
+        Thread.yield();
+      } catch (Exception e) {
+        if (e instanceof InterruptedException) {
+          logger.error("error: " + e.getMessage());          
+        } else {
+          logger.error("err0r: " + e.getMessage());
+        }
+        continue;
+      }
+    }
+    logger.debug("EngineMain ends.");
+  }
 }

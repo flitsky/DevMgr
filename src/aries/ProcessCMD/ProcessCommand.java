@@ -14,15 +14,34 @@ import aries.DeviceManager.Message;
 import aries.interoperate.Property;
 import aries.interoperate.Schema0Cmd;
 import aries.interoperate.Schema1Body;
+import io.dase.network.DamqMsg;
 
 public class ProcessCommand implements Runnable {
 	static Logger logger = Logger.getLogger("ProcessCommand.class");
 
-	private BlockingQueue<Message> queue;
+	private BlockingQueue<Message> queueReq;
+	private BlockingQueue<Message> queueResp;
 	private String command;
 
-	public ProcessCommand(BlockingQueue<Message> q) {
-		this.queue = q;
+	public ProcessCommand(BlockingQueue<Message> qReq, BlockingQueue<Message> qResp) {
+		this.queueReq = qReq;
+		this.queueResp = qResp;
+	}
+
+	public void PushToRequestQueue(String buf) {
+		try {
+			queueReq.put(new Message(buf));
+		} catch (Exception e) {
+			logger.error(e.getMessage());
+		}
+	}
+
+	public void PushToResponseQueue(String buf) {
+		try {
+			queueResp.put(new Message(buf));
+		} catch (Exception e) {
+			logger.error(e.getMessage());
+		}
 	}
 
 	@Override
@@ -30,11 +49,12 @@ public class ProcessCommand implements Runnable {
 		Message msg;
 		while (true) {
 			try {
-				if ((msg = queue.take()).getMsg() != "") {
+				if ((msg = queueReq.take()).getMsg() != "") {
 					Thread.sleep(30);
 					this.command = msg.getMsg();
-					System.out.println(Thread.currentThread().getName() + " Start.");
-					processCommand();
+					System.out.println(Thread.currentThread().getName() + " Start.  queueReq.size() : " + queueReq.size());
+					Thread.sleep(5000);
+					//kng for test //   processCommand();
 					System.out.println(Thread.currentThread().getName() + " End.");
 				} else {
 					// idle time
@@ -52,8 +72,10 @@ public class ProcessCommand implements Runnable {
 		JSONObject receivedJsonObj = new JSONObject(this.command);
 		Schema0Cmd recvSchema0Cmd = JsonObj2EntityX(receivedJsonObj);
 		logger.debug(" [test code] check property type : " + recvSchema0Cmd.body.properties.get(0).propertyValueType);
-		logger.debug(" [test code] check property value size : " + recvSchema0Cmd.body.properties.get(0).propertyValue.size());
-		logger.debug(" [test code] check property value is empty : " + recvSchema0Cmd.body.properties.get(0).propertyValue.isEmpty());
+		logger.debug(" [test code] check property value size : "
+				+ recvSchema0Cmd.body.properties.get(0).propertyValue.size());
+		logger.debug(" [test code] check property value is empty : "
+				+ recvSchema0Cmd.body.properties.get(0).propertyValue.isEmpty());
 
 		JSONObject jsonExportBody;
 		try {
@@ -138,7 +160,7 @@ public class ProcessCommand implements Runnable {
 				case "observe":
 					if (recvSchema0Cmd.body.status == 200) {
 						for (Property prop : recvSchema0Cmd.body.properties) {
-							switch(prop.propertyValueType) {
+							switch (prop.propertyValueType) {
 							case "boolean":
 								logger.debug("property type is boolean : " + prop.propertyValue);
 								break;
