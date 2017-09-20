@@ -1,11 +1,12 @@
 package io.dase.network;
 
+import java.net.DatagramPacket;
+import java.net.DatagramSocket;
+import java.net.InetAddress;
+import java.net.SocketException;
 import java.util.concurrent.BlockingQueue;
-import java.net.*;
 
-import org.json.simple.JSONObject;
-import org.json.simple.JSONValue;
-
+import org.json.JSONObject;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -46,8 +47,9 @@ public class DamqSndConsumer implements Runnable {
           udpSocket.send(packet);          
           break;
         } else {
-          JSONObject jo = (JSONObject)JSONValue.parseWithException(sendStr);
-          String destination = jo.get("destination").toString().toLowerCase();        
+        	logger.debug(" check sendStr : " + sendStr);
+          JSONObject jo = new JSONObject(sendStr);
+          String destination = jo.getString("destination").toLowerCase();        
           sendBuf = sendStr.getBytes();
           InetAddress destAddress = InetAddress.getByName(sndProducer.GetModuleAddress(destination));
           int destPort = sndProducer.GetModulePort(destination);                         

@@ -1,8 +1,6 @@
 package io.dase.network;
 
-import java.util.*;
 import java.util.concurrent.BlockingQueue;
-import java.net.*;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -11,10 +9,7 @@ import com.fasterxml.uuid.EthernetAddress;
 import com.fasterxml.uuid.Generators;
 import com.fasterxml.uuid.NoArgGenerator;
 
-import io.dase.network.DamqRcvConsumer.*;
-
-import org.json.simple.JSONObject;
-import org.json.simple.JSONValue;
+import io.dase.network.DamqRcvConsumer.ModuleType;
 
 public class DamqSndProducer {
   

@@ -1,232 +1,345 @@
-[2017-09-09 13:51:01,688]DEBUG     0[main] - DevMgr.main(DevMgr.java:20) - hello world!!
-[2017-09-09 13:51:18,484]DEBUG     0[main] - DevMgr.main(DevMgr.java:20) - hello world!!
-[2017-09-09 13:51:28,914]DEBUG     0[main] - DevMgr.main(DevMgr.java:20) - hello world!!
-[2017-09-09 13:53:41,241]DEBUG     0[main] - DevMgr.sendReqDiscoveryDevice(DevMgr.java:47) -  1 send request = {"work_code":"dis_dev","type":"req","dir":"d2c"}
-[2017-09-09 13:53:41,244]DEBUG     3[main] - DevMgr.recvRespDiscoveryDevice(DevMgr.java:59) -  2 received response json = {"work_code":"dis_dev","type":"res","dir":"c2d","body":{"devices":[{"dev_name":"THU Light","spec_ver":"ocf.1.1.0","dev_type":["oic.wk.d","oic.d.light"],"host_addr":"coap://[fe80::c4a8:5af:7d0e:f40e%25wlan0]:49244","dev_id":"c31e8fa3-b524-0e6b-2489-77760c3ca37b"}],"status":200}}
-[2017-09-09 13:53:41,250]DEBUG     9[main] - DevMgr.recvRespDiscoveryDevice(DevMgr.java:67) -  2 after import = {"work_code":"dis_dev","type":"res","dir":"c2d","body":{"devices":[{"dev_name":"THU Light","spec_ver":"ocf.1.1.0","resources":[],"dev_type":["oic.wk.d","oic.d.light"],"host_addr":"coap://[fe80::c4a8:5af:7d0e:f40e%25wlan0]:49244","dev_id":"c31e8fa3-b524-0e6b-2489-77760c3ca37b"}],"status":200}}
-[2017-09-09 13:53:41,250]DEBUG     9[main] - DevMgr.sendReqDiscoveryResource(DevMgr.java:88) -  1 send request = {"work_code":"dis_dev","type":"req","dir":"d2c","body":{"dev_id":"6341cb6f-2179-55a3-3732-c3ffbad1be68"}}
-[2017-09-09 13:53:41,250]DEBUG     9[main] - DevMgr.recvRespDiscoveryResource(DevMgr.java:100) -  2 received response json = {"work_code":"dis_res","type":"res","dir":"c2d","body":{"resources":[{"res_type":["oic.r.switch.binary"],"res_dev_id":"6341cb6f-2179-55a3-3732-c3ffbad1be68","res_isobserve":true,"res_id":"/oic/route/6341cb6f-2179-55a3-3732-c3ffbad1be68/power/0","res_uri":"/oic/route/6341cb6f-2179-55a3-3732-c3ffbad1be68/power/0"}],"status":200}}
-[2017-09-09 13:53:41,251]DEBUG    10[main] - DevMgr.recvRespDiscoveryResource(DevMgr.java:106) -  2 after import = equal ? true ^O^)/
-[2017-09-09 13:56:57,818]DEBUG     0[main] - DevMgr.sendReqDiscoveryDevice(DevMgr.java:47) -  1 send request = {"work_code":"dis_dev","type":"req","dir":"d2c"}
-[2017-09-09 13:56:57,823]DEBUG     5[main] - DevMgr.recvRespDiscoveryDevice(DevMgr.java:59) -  2 received response json = {"work_code":"dis_dev","type":"res","dir":"c2d","body":{"devices":[{"dev_name":"THU Light","spec_ver":"ocf.1.1.0","dev_type":["oic.wk.d","oic.d.light"],"host_addr":"coap://[fe80::c4a8:5af:7d0e:f40e%25wlan0]:49244","dev_id":"c31e8fa3-b524-0e6b-2489-77760c3ca37b"}],"status":200}}
-[2017-09-09 13:56:57,828]DEBUG    10[main] - DevMgr.recvRespDiscoveryDevice(DevMgr.java:65) -  2 after import = equal ? true ^O^)/
-[2017-09-09 13:56:57,828]DEBUG    10[main] - DevMgr.sendReqDiscoveryResource(DevMgr.java:88) -  1 send request = {"work_code":"dis_dev","type":"req","dir":"d2c","body":{"dev_id":"6341cb6f-2179-55a3-3732-c3ffbad1be68"}}
-[2017-09-09 13:56:57,828]DEBUG    10[main] - DevMgr.recvRespDiscoveryResource(DevMgr.java:100) -  2 received response json = {"work_code":"dis_res","type":"res","dir":"c2d","body":{"resources":[{"res_type":["oic.r.switch.binary"],"res_dev_id":"6341cb6f-2179-55a3-3732-c3ffbad1be68","res_isobserve":true,"res_id":"/oic/route/6341cb6f-2179-55a3-3732-c3ffbad1be68/power/0","res_uri":"/oic/route/6341cb6f-2179-55a3-3732-c3ffbad1be68/power/0"}],"status":200}}
-[2017-09-09 13:56:57,829]DEBUG    11[main] - DevMgr.recvRespDiscoveryResource(DevMgr.java:106) -  2 after import = equal ? true ^O^)/
-[2017-09-09 14:20:46,887]DEBUG     0[main] - DevMgr.sendReqDiscoveryDevice(DevMgr.java:47) -  1 send request = {"work_code":"dis_dev","type":"req","dir":"d2c"}
-[2017-09-09 14:20:46,891]DEBUG     4[main] - DevMgr.recvRespDiscoveryDevice(DevMgr.java:59) -  2 received response json = {"work_code":"dis_dev","type":"res","dir":"c2d","body":{"devices":[{"dev_name":"THU Light","spec_ver":"ocf.1.1.0","dev_type":["oic.wk.d","oic.d.light"],"host_addr":"coap://[fe80::c4a8:5af:7d0e:f40e%25wlan0]:49244","dev_id":"c31e8fa3-b524-0e6b-2489-77760c3ca37b"}],"status":200}}
-[2017-09-09 14:20:46,897]ERROR    10[main] - DevMgr.recvRespDiscoveryDevice(DevMgr.java:67) -  2 after import = {"work_code":"dis_dev","type":"res","dir":"c2d","body":{"devices":[{"dev_name":"THU Light","spec_ver":"ocf.1.1.0","resources":[],"dev_type":["oic.wk.d","oic.d.light"],"host_addr":"coap://[fe80::c4a8:5af:7d0e:f40e%25wlan0]:49244","dev_id":"c31e8fa3-b524-0e6b-2489-77760c3ca37b"}],"status":200}}
-[2017-09-09 14:20:46,897]DEBUG    10[main] - DevMgr.sendReqDiscoveryResource(DevMgr.java:88) -  1 send request = {"work_code":"dis_dev","type":"req","dir":"d2c","body":{"dev_id":"6341cb6f-2179-55a3-3732-c3ffbad1be68"}}
-[2017-09-09 14:20:46,897]DEBUG    10[main] - DevMgr.recvRespDiscoveryResource(DevMgr.java:100) -  2 received response json = {"work_code":"dis_res","type":"res","dir":"c2d","body":{"resources":[{"res_type":["oic.r.switch.binary"],"res_dev_id":"6341cb6f-2179-55a3-3732-c3ffbad1be68","res_isobserve":true,"res_id":"/oic/route/6341cb6f-2179-55a3-3732-c3ffbad1be68/power/0","res_uri":"/oic/route/6341cb6f-2179-55a3-3732-c3ffbad1be68/power/0"}],"status":200}}
-[2017-09-09 14:20:46,898]DEBUG    11[main] - DevMgr.recvRespDiscoveryResource(DevMgr.java:106) -  2 after import = equal ? true ^O^)/
-[2017-09-09 15:13:41,683]DEBUG     0[main] - Aries.DeviceManager.DevMgr.sendReqDiscoveryDevice(DevMgr.java:49) -  1 send request = {"work_code":"dis_dev","type":"req","dir":"d2c"}
-[2017-09-09 15:13:41,687]DEBUG     4[main] - Aries.DeviceManager.DevMgr.recvRespDiscoveryDevice(DevMgr.java:59) -  2 received response json = {"work_code":"dis_dev","type":"res","dir":"c2d","body":{"devices":[{"dev_name":"THU Light","spec_ver":"ocf.1.1.0","dev_type":["oic.wk.d","oic.d.light"],"host_addr":"coap://[fe80::c4a8:5af:7d0e:f40e%25wlan0]:49244","dev_id":"c31e8fa3-b524-0e6b-2489-77760c3ca37b"}],"status":200}}
-[2017-09-09 15:13:41,692]DEBUG     9[main] - Aries.DeviceManager.DevMgr.recvRespDiscoveryDevice(DevMgr.java:67) -  2 after import = equal ? true ^O^)/
-[2017-09-09 15:13:41,692]DEBUG     9[main] - Aries.DeviceManager.DevMgr.sendReqDiscoveryResource(DevMgr.java:90) -  1 send request = {"work_code":"dis_dev","type":"req","dir":"d2c","body":{"dev_id":"6341cb6f-2179-55a3-3732-c3ffbad1be68"}}
-[2017-09-09 15:13:41,693]DEBUG    10[main] - Aries.DeviceManager.DevMgr.recvRespDiscoveryResource(DevMgr.java:100) -  2 received response json = {"work_code":"dis_res","type":"res","dir":"c2d","body":{"resources":[{"res_type":["oic.r.switch.binary"],"res_dev_id":"6341cb6f-2179-55a3-3732-c3ffbad1be68","res_isobserve":true,"res_id":"/oic/route/6341cb6f-2179-55a3-3732-c3ffbad1be68/power/0","res_uri":"/oic/route/6341cb6f-2179-55a3-3732-c3ffbad1be68/power/0"}],"status":200}}
-[2017-09-09 15:13:41,694]DEBUG    11[main] - Aries.DeviceManager.DevMgr.recvRespDiscoveryResource(DevMgr.java:108) -  2 after import = equal ? true ^O^)/
-[2017-09-09 15:15:47,928]DEBUG     0[main] - Aries.DeviceManager.DevMgr.sendReqDiscoveryDevice(DevMgr.java:49) -  1 send request = {"work_code":"dis_dev","type":"req","dir":"d2c"}
-[2017-09-09 15:15:47,930]DEBUG     2[main] - Aries.DeviceManager.DevMgr.recvRespDiscoveryDevice(DevMgr.java:59) -  2 received response json = {"work_code":"dis_dev","type":"res","dir":"c2d","body":{"devices":[{"dev_name":"THU Light","spec_ver":"ocf.1.1.0","dev_type":["oic.wk.d","oic.d.light"],"host_addr":"coap://[fe80::c4a8:5af:7d0e:f40e%25wlan0]:49244","dev_id":"c31e8fa3-b524-0e6b-2489-77760c3ca37b"}],"status":200}}
-[2017-09-09 15:15:47,934]DEBUG     6[main] - Aries.DeviceManager.DevMgr.recvRespDiscoveryDevice(DevMgr.java:67) -  2 after import = equal ? true ^O^)/
-[2017-09-09 15:15:47,934]DEBUG     6[main] - Aries.DeviceManager.DevMgr.sendReqDiscoveryResource(DevMgr.java:90) -  1 send request = {"work_code":"dis_dev","type":"req","dir":"d2c","body":{"dev_id":"6341cb6f-2179-55a3-3732-c3ffbad1be68"}}
-[2017-09-09 15:15:47,935]DEBUG     7[main] - Aries.DeviceManager.DevMgr.recvRespDiscoveryResource(DevMgr.java:100) -  2 received response json = {"work_code":"dis_res","type":"res","dir":"c2d","body":{"resources":[{"res_type":["oic.r.switch.binary"],"res_dev_id":"6341cb6f-2179-55a3-3732-c3ffbad1be68","res_isobserve":true,"res_id":"/oic/route/6341cb6f-2179-55a3-3732-c3ffbad1be68/power/0","res_uri":"/oic/route/6341cb6f-2179-55a3-3732-c3ffbad1be68/power/0"}],"status":200}}
-[2017-09-09 15:15:47,935]DEBUG     7[main] - Aries.DeviceManager.DevMgr.recvRespDiscoveryResource(DevMgr.java:108) -  2 after import = equal ? true ^O^)/
-[2017-09-09 15:17:55,476]DEBUG     0[main] - Aries.DeviceManager.DevMgr.sendReqDiscoveryDevice(DevMgr.java:49) -  1 send request = {"work_code":"dis_dev","type":"req","dir":"d2c"}
-[2017-09-09 15:17:55,480]DEBUG     4[main] - Aries.DeviceManager.DevMgr.recvRespDiscoveryDevice(DevMgr.java:59) -  2 received response json = {"work_code":"dis_dev","type":"res","dir":"c2d","body":{"devices":[{"dev_name":"THU Light","spec_ver":"ocf.1.1.0","dev_type":["oic.wk.d","oic.d.light"],"host_addr":"coap://[fe80::c4a8:5af:7d0e:f40e%25wlan0]:49244","dev_id":"c31e8fa3-b524-0e6b-2489-77760c3ca37b"}],"status":200}}
-[2017-09-09 15:17:55,486]DEBUG    10[main] - Aries.DeviceManager.DevMgr.recvRespDiscoveryDevice(DevMgr.java:67) -  2 after import = equal ? true ^O^)/
-[2017-09-09 15:17:55,486]DEBUG    10[main] - Aries.DeviceManager.DevMgr.sendReqDiscoveryResource(DevMgr.java:90) -  1 send request = {"work_code":"dis_dev","type":"req","dir":"d2c","body":{"dev_id":"6341cb6f-2179-55a3-3732-c3ffbad1be68"}}
-[2017-09-09 15:17:55,487]DEBUG    11[main] - Aries.DeviceManager.DevMgr.recvRespDiscoveryResource(DevMgr.java:100) -  2 received response json = {"work_code":"dis_res","type":"res","dir":"c2d","body":{"resources":[{"res_type":["oic.r.switch.binary"],"res_dev_id":"6341cb6f-2179-55a3-3732-c3ffbad1be68","res_isobserve":true,"res_id":"/oic/route/6341cb6f-2179-55a3-3732-c3ffbad1be68/power/0","res_uri":"/oic/route/6341cb6f-2179-55a3-3732-c3ffbad1be68/power/0"}],"status":200}}
-[2017-09-09 15:17:55,488]DEBUG    12[main] - Aries.DeviceManager.DevMgr.recvRespDiscoveryResource(DevMgr.java:108) -  2 after import = equal ? true ^O^)/
-[2017-09-09 15:48:18,108]DEBUG     0[main] - Aries.DeviceManager.DevMgr.sendCommand(DevMgr.java:58) -  cmd = {"work_code":"dis_dev","type":"req","dir":"d2c"}
-[2017-09-09 15:48:18,112]DEBUG     4[main] - Aries.DeviceManager.DevMgr.recvRespDiscoveryDevice(DevMgr.java:71) -  2 received response json = {"work_code":"dis_dev","type":"res","dir":"c2d","body":{"devices":[{"dev_name":"THU Light","spec_ver":"ocf.1.1.0","dev_type":["oic.wk.d","oic.d.light"],"host_addr":"coap://[fe80::c4a8:5af:7d0e:f40e%25wlan0]:49244","dev_id":"c31e8fa3-b524-0e6b-2489-77760c3ca37b"}],"status":200}}
-[2017-09-09 15:48:18,118]DEBUG    10[main] - Aries.DeviceManager.DevMgr.recvRespDiscoveryDevice(DevMgr.java:79) -  2 after import = equal ? true ^O^)/
-[2017-09-09 15:48:18,118]DEBUG    10[main] - Aries.DeviceManager.DevMgr.sendCommand(DevMgr.java:58) -  cmd = {"work_code":"dis_dev","type":"req","dir":"d2c","body":{"dev_id":"6341cb6f-2179-55a3-3732-c3ffbad1be68"}}
-[2017-09-09 15:48:18,118]DEBUG    10[main] - Aries.DeviceManager.DevMgr.recvRespDiscoveryResource(DevMgr.java:94) -  2 received response json = {"work_code":"dis_res","type":"res","dir":"c2d","body":{"resources":[{"res_type":["oic.r.switch.binary"],"res_dev_id":"6341cb6f-2179-55a3-3732-c3ffbad1be68","res_isobserve":true,"res_id":"/oic/route/6341cb6f-2179-55a3-3732-c3ffbad1be68/power/0","res_uri":"/oic/route/6341cb6f-2179-55a3-3732-c3ffbad1be68/power/0"}],"status":200}}
-[2017-09-09 15:48:18,119]DEBUG    11[main] - Aries.DeviceManager.DevMgr.recvRespDiscoveryResource(DevMgr.java:102) -  2 after import = equal ? true ^O^)/
-[2017-09-09 16:38:40,649]DEBUG     0[main] - Aries.DeviceManager.DevMgr.sendCommand(DevMgr.java:81) -  send cmd = {"work_code":"dis_dev","type":"req","dir":"d2c"}
-[2017-09-09 16:38:40,654]DEBUG     5[main] - Aries.DeviceManager.DevMgr.recvCommand(DevMgr.java:102) -  received cmd = {"work_code":"dis_res","type":"res","dir":"c2d","body":{"resources":[{"res_type":["oic.r.switch.binary"],"res_dev_id":"6341cb6f-2179-55a3-3732-c3ffbad1be68","res_isobserve":true,"res_id":"/oic/route/6341cb6f-2179-55a3-3732-c3ffbad1be68/power/0","res_uri":"/oic/route/6341cb6f-2179-55a3-3732-c3ffbad1be68/power/0"}],"status":200}}
-[2017-09-09 16:38:40,660]DEBUG    11[main] - Aries.DeviceManager.DevMgr.main(DevMgr.java:42) -  2 after import... import data == receivedJson
-[2017-09-09 16:38:40,660]DEBUG    11[main] - Aries.DeviceManager.DevMgr.sendCommand(DevMgr.java:81) -  send cmd = {"work_code":"dis_dev","type":"req","dir":"d2c","body":{"dev_id":"6341cb6f-2179-55a3-3732-c3ffbad1be68"}}
-[2017-09-09 16:38:40,661]DEBUG    12[main] - Aries.DeviceManager.DevMgr.recvCommand(DevMgr.java:102) -  received cmd = {"work_code":"dis_res","type":"res","dir":"c2d","body":{"resources":[{"res_type":["oic.r.switch.binary"],"res_dev_id":"6341cb6f-2179-55a3-3732-c3ffbad1be68","res_isobserve":true,"res_id":"/oic/route/6341cb6f-2179-55a3-3732-c3ffbad1be68/power/0","res_uri":"/oic/route/6341cb6f-2179-55a3-3732-c3ffbad1be68/power/0"}],"status":200}}
-[2017-09-09 16:38:40,661]DEBUG    12[main] - Aries.DeviceManager.DevMgr.main(DevMgr.java:67) -  2 after import... import data == receivedJson
-[2017-09-09 16:41:00,834]DEBUG     0[main] - Aries.DeviceManager.DevMgr.sendCommand(DevMgr.java:81) -  send cmd = {"work_code":"dis_dev","type":"req","dir":"d2c"}
-[2017-09-09 16:41:00,837]DEBUG     3[main] - Aries.DeviceManager.DevMgr.recvCommand(DevMgr.java:102) -  received cmd = {"work_code":"dis_res","type":"res","dir":"c2d","body":{"resources":[{"res_type":["oic.r.switch.binary"],"res_dev_id":"6341cb6f-2179-55a3-3732-c3ffbad1be68","res_isobserve":true,"res_id":"/oic/route/6341cb6f-2179-55a3-3732-c3ffbad1be68/power/0","res_uri":"/oic/route/6341cb6f-2179-55a3-3732-c3ffbad1be68/power/0"}],"status":200}}
-[2017-09-09 16:41:00,840]DEBUG     6[main] - Aries.DeviceManager.DevMgr.main(DevMgr.java:42) -  2 after import... import data == receivedJson
-[2017-09-09 16:41:00,840]DEBUG     6[main] - Aries.DeviceManager.DevMgr.sendCommand(DevMgr.java:81) -  send cmd = {"work_code":"dis_dev","type":"req","dir":"d2c","body":{"dev_id":"6341cb6f-2179-55a3-3732-c3ffbad1be68"}}
-[2017-09-09 16:41:00,840]DEBUG     6[main] - Aries.DeviceManager.DevMgr.recvCommand(DevMgr.java:102) -  received cmd = {"work_code":"dis_res","type":"res","dir":"c2d","body":{"resources":[{"res_type":["oic.r.switch.binary"],"res_dev_id":"6341cb6f-2179-55a3-3732-c3ffbad1be68","res_isobserve":true,"res_id":"/oic/route/6341cb6f-2179-55a3-3732-c3ffbad1be68/power/0","res_uri":"/oic/route/6341cb6f-2179-55a3-3732-c3ffbad1be68/power/0"}],"status":200}}
-[2017-09-09 16:41:00,841]DEBUG     7[main] - Aries.DeviceManager.DevMgr.main(DevMgr.java:67) -  [test code] receivedJson == imported data 
-[2017-09-09 16:41:47,847]DEBUG     0[main] - Aries.DeviceManager.DevMgr.sendCommand(DevMgr.java:81) -  send cmd = {"work_code":"dis_dev","type":"req","dir":"d2c"}
-[2017-09-09 16:41:47,851]DEBUG     4[main] - Aries.DeviceManager.DevMgr.recvCommand(DevMgr.java:102) -  received cmd = {"work_code":"dis_res","type":"res","dir":"c2d","body":{"resources":[{"res_type":["oic.r.switch.binary"],"res_dev_id":"6341cb6f-2179-55a3-3732-c3ffbad1be68","res_isobserve":true,"res_id":"/oic/route/6341cb6f-2179-55a3-3732-c3ffbad1be68/power/0","res_uri":"/oic/route/6341cb6f-2179-55a3-3732-c3ffbad1be68/power/0"}],"status":200}}
-[2017-09-09 16:41:47,855]DEBUG     8[main] - Aries.DeviceManager.DevMgr.main(DevMgr.java:42) -  [test code] ok.. receivedJson == imported data 
-[2017-09-09 16:41:47,856]DEBUG     9[main] - Aries.DeviceManager.DevMgr.sendCommand(DevMgr.java:81) -  send cmd = {"work_code":"dis_dev","type":"req","dir":"d2c","body":{"dev_id":"6341cb6f-2179-55a3-3732-c3ffbad1be68"}}
-[2017-09-09 16:41:47,856]DEBUG     9[main] - Aries.DeviceManager.DevMgr.recvCommand(DevMgr.java:102) -  received cmd = {"work_code":"dis_res","type":"res","dir":"c2d","body":{"resources":[{"res_type":["oic.r.switch.binary"],"res_dev_id":"6341cb6f-2179-55a3-3732-c3ffbad1be68","res_isobserve":true,"res_id":"/oic/route/6341cb6f-2179-55a3-3732-c3ffbad1be68/power/0","res_uri":"/oic/route/6341cb6f-2179-55a3-3732-c3ffbad1be68/power/0"}],"status":200}}
-[2017-09-09 16:41:47,856]DEBUG     9[main] - Aries.DeviceManager.DevMgr.main(DevMgr.java:67) -  [test code] ok.. receivedJson == imported data 
-[2017-09-09 18:23:21,276]DEBUG     0[main] - Aries.DeviceManager.DevMgr.sendCommand(DevMgr.java:81) -  send cmd = {"work_code":"dis_dev","type":"req","dir":"d2c"}
-[2017-09-09 18:23:21,280]DEBUG     4[main] - Aries.DeviceManager.DevMgr.recvCommand(DevMgr.java:102) -  received cmd = {"work_code":"dis_res","type":"res","dir":"c2d","body":{"resources":[{"res_type":["oic.r.switch.binary"],"res_dev_id":"6341cb6f-2179-55a3-3732-c3ffbad1be68","res_isobserve":true,"res_id":"/oic/route/6341cb6f-2179-55a3-3732-c3ffbad1be68/power/0","res_uri":"/oic/route/6341cb6f-2179-55a3-3732-c3ffbad1be68/power/0"}],"status":200}}
-[2017-09-09 18:23:21,285]DEBUG     9[main] - Aries.DeviceManager.DevMgr.main(DevMgr.java:42) -  [test code] ok.. receivedJson == imported data 
-[2017-09-09 18:23:21,285]DEBUG     9[main] - Aries.DeviceManager.DevMgr.sendCommand(DevMgr.java:81) -  send cmd = {"work_code":"dis_dev","type":"req","dir":"d2c","body":{"dev_id":"6341cb6f-2179-55a3-3732-c3ffbad1be68"}}
-[2017-09-09 18:23:21,285]DEBUG     9[main] - Aries.DeviceManager.DevMgr.recvCommand(DevMgr.java:102) -  received cmd = {"work_code":"dis_res","type":"res","dir":"c2d","body":{"resources":[{"res_type":["oic.r.switch.binary"],"res_dev_id":"6341cb6f-2179-55a3-3732-c3ffbad1be68","res_isobserve":true,"res_id":"/oic/route/6341cb6f-2179-55a3-3732-c3ffbad1be68/power/0","res_uri":"/oic/route/6341cb6f-2179-55a3-3732-c3ffbad1be68/power/0"}],"status":200}}
-[2017-09-09 18:23:21,286]DEBUG    10[main] - Aries.DeviceManager.DevMgr.main(DevMgr.java:67) -  [test code] ok.. receivedJson == imported data 
-[2017-09-12 17:09:26,855]DEBUG     0[Thread-1] - Aries.DeviceManager.ProcessCommand.processCommand(ProcessCommand.java:49) -  [test code] ok.. receivedJson == imported data 
-[2017-09-12 17:10:09,933]DEBUG 43078[Thread-1] - Aries.DeviceManager.ProcessCommand.processCommand(ProcessCommand.java:49) -  [test code] ok.. receivedJson == imported data 
-[2017-09-12 17:46:51,731]DEBUG     0[Thread-1] - Aries.DeviceManager.ProcessCommand.processCommand(ProcessCommand.java:51) -  [test code] ok.. receivedJson == imported data 
-[2017-09-12 17:47:04,747]DEBUG 13016[Thread-1] - Aries.DeviceManager.ProcessCommand.processCommand(ProcessCommand.java:51) -  [test code] ok.. receivedJson == imported data 
-[2017-09-12 17:50:44,108]DEBUG232377[Thread-1] - Aries.DeviceManager.ProcessCommand.processCommand(ProcessCommand.java:51) -  [test code] ok.. receivedJson == imported data 
-[2017-09-12 17:53:33,777]DEBUG     0[Thread-1] - Aries.DeviceManager.ProcessCommand.processCommand(ProcessCommand.java:49) -  [test code] ok.. receivedJson == imported data 
-[2017-09-12 17:54:10,242]DEBUG     0[Thread-1] - Aries.DeviceManager.ProcessCommand.processCommand(ProcessCommand.java:49) -  [test code] ok.. receivedJson == imported data 
-[2017-09-12 18:02:46,314]DEBUG     0[Thread-1] - Aries.DeviceManager.ProcessCommand.processCommand(ProcessCommand.java:49) -  [test code] ok.. receivedJson == imported data 
-[2017-09-12 19:31:38,792]DEBUG     0[Thread-1] - Aries.DeviceManager.ProcessCommand.processCommand(ProcessCommand.java:56) -  [test code] ok.. receivedJson == imported data 
-[2017-09-12 19:31:38,793]DEBUG     1[Thread-1] - Aries.DeviceManager.ProcessCommand.processCommand(ProcessCommand.java:76) -  send cmd = {"work_code":"dis_dev","type":"req","dir":"d2c"}
-[2017-09-12 19:31:38,825]DEBUG    33[Thread-1] - Aries.DeviceManager.ProcessCommand.processCommand(ProcessCommand.java:56) -  [test code] ok.. receivedJson == imported data 
-[2017-09-12 19:32:56,163]DEBUG 77371[Thread-1] - Aries.DeviceManager.ProcessCommand.processCommand(ProcessCommand.java:56) -  [test code] ok.. receivedJson == imported data 
-[2017-09-12 19:32:56,169]DEBUG 77377[Thread-1] - Aries.DeviceManager.ProcessCommand.processCommand(ProcessCommand.java:76) -  send cmd = {"work_code":"dis_dev","type":"req","dir":"d2c"}
-[2017-09-12 19:32:56,202]DEBUG 77410[Thread-1] - Aries.DeviceManager.ProcessCommand.processCommand(ProcessCommand.java:56) -  [test code] ok.. receivedJson == imported data 
-[2017-09-12 19:34:44,005]DEBUG     0[Thread-1] - Aries.DeviceManager.ProcessCommand.processCommand(ProcessCommand.java:56) -  [test code] ok.. receivedJson == imported data 
-[2017-09-12 19:35:35,585]DEBUG 51580[Thread-1] - Aries.DeviceManager.ProcessCommand.processCommand(ProcessCommand.java:76) -  send cmd = {"work_code":"dis_dev","type":"req","dir":"d2c"}
-[2017-09-12 19:37:00,594]DEBUG136589[Thread-1] - Aries.DeviceManager.ProcessCommand.processCommand(ProcessCommand.java:56) -  [test code] ok.. receivedJson == imported data 
-[2017-09-12 19:38:03,053]DEBUG199048[Thread-1] - Aries.DeviceManager.ProcessCommand.processCommand(ProcessCommand.java:56) -  [test code] ok.. receivedJson == imported data 
-[2017-09-12 19:45:02,786]DEBUG618781[Thread-1] - Aries.DeviceManager.ProcessCommand.processCommand(ProcessCommand.java:56) -  [test code] ok.. receivedJson == imported data 
-[2017-09-12 19:45:17,267]DEBUG633262[Thread-1] - Aries.DeviceManager.ProcessCommand.processCommand(ProcessCommand.java:76) -  send cmd = {"work_code":"dis_dev","type":"req","dir":"d2c"}
-[2017-09-12 19:45:17,298]DEBUG633293[Thread-1] - Aries.DeviceManager.ProcessCommand.processCommand(ProcessCommand.java:56) -  [test code] ok.. receivedJson == imported data 
-[2017-09-12 19:45:40,287]DEBUG656282[Thread-1] - Aries.DeviceManager.ProcessCommand.processCommand(ProcessCommand.java:56) -  [test code] ok.. receivedJson == imported data 
-[2017-09-12 19:45:42,538]DEBUG658533[Thread-1] - Aries.DeviceManager.ProcessCommand.processCommand(ProcessCommand.java:76) -  send cmd = {"work_code":"dis_dev","type":"req","dir":"d2c"}
-[2017-09-12 19:45:42,573]DEBUG658568[Thread-1] - Aries.DeviceManager.ProcessCommand.processCommand(ProcessCommand.java:56) -  [test code] ok.. receivedJson == imported data 
-[2017-09-12 19:46:42,671]DEBUG     0[Thread-1] - Aries.DeviceManager.ProcessCommand.processCommand(ProcessCommand.java:56) -  [test code] ok.. receivedJson == imported data 
-[2017-09-12 19:46:54,528]DEBUG 11857[Thread-1] - Aries.DeviceManager.ProcessCommand.processCommand(ProcessCommand.java:76) -  send cmd = {"work_code":"dis_dev","type":"req","dir":"d2c"}
-[2017-09-12 19:46:54,562]DEBUG 11891[Thread-1] - Aries.DeviceManager.ProcessCommand.processCommand(ProcessCommand.java:56) -  [test code] ok.. receivedJson == imported data 
-[2017-09-12 19:47:46,183]DEBUG 63512[Thread-1] - Aries.DeviceManager.ProcessCommand.processCommand(ProcessCommand.java:56) -  [test code] ok.. receivedJson == imported data 
-[2017-09-12 19:48:17,301]DEBUG 94630[Thread-1] - Aries.DeviceManager.ProcessCommand.processCommand(ProcessCommand.java:119) - Send Discovery Device result to DB.
-[2017-09-13 00:15:38,596]DEBUG     0[Thread-1] - Aries.DeviceManager.ProcessCommand.processCommand(ProcessCommand.java:52) -  [test code] ok.. receivedJson == imported data 
-[2017-09-13 00:15:38,599]DEBUG     3[Thread-1] - Aries.DeviceManager.ProcessCommand.sendCommand(ProcessCommand.java:132) -  >>> sendCommand = {"work_code":"dis_dev","type":"req","dir":"d2c"}
-[2017-09-13 00:15:38,633]DEBUG    37[Thread-1] - Aries.DeviceManager.ProcessCommand.processCommand(ProcessCommand.java:52) -  [test code] ok.. receivedJson == imported data 
-[2017-09-13 00:15:56,117]DEBUG 17521[Thread-1] - Aries.DeviceManager.ProcessCommand.processCommand(ProcessCommand.java:52) -  [test code] ok.. receivedJson == imported data 
-[2017-09-13 00:15:56,118]DEBUG 17522[Thread-1] - Aries.DeviceManager.ProcessCommand.processCommand(ProcessCommand.java:101) - Send Discovery Device result to DB.
-[2017-09-13 00:23:29,103]DEBUG     0[Thread-1] - Aries.DeviceManager.ProcessCommand.processCommand(ProcessCommand.java:53) -  [test code] ok.. receivedJson == imported data 
-[2017-09-13 00:23:29,104]DEBUG     1[Thread-1] - Aries.DeviceManager.ProcessCommand.sendCommand(ProcessCommand.java:142) -  >>> sendCommand = {"work_code":"dis_dev","type":"req","dir":"d2c"}
-[2017-09-13 00:23:29,106]DEBUG     3[Thread-1] - Aries.DeviceManager.ProcessCommand.sendCommand(ProcessCommand.java:142) -  >>> sendCommand = {"work_code":"dis_res","type":"req","dir":"d2c","body":{"dev_id":"6341cb6f-2179-55a3-3732-c3ffbad1be68"}}
-[2017-09-13 00:23:29,147]DEBUG    44[Thread-1] - Aries.DeviceManager.ProcessCommand.processCommand(ProcessCommand.java:53) -  [test code] ok.. receivedJson == imported data 
-[2017-09-13 00:23:29,181]DEBUG    78[Thread-1] - Aries.DeviceManager.ProcessCommand.processCommand(ProcessCommand.java:53) -  [test code] ok.. receivedJson == imported data 
-[2017-09-13 00:25:24,315]DEBUG     0[Thread-1] - Aries.DeviceManager.ProcessCommand.processCommand(ProcessCommand.java:53) -  [test code] ok.. receivedJson == imported data 
-[2017-09-13 00:25:39,295]DEBUG 14980[Thread-1] - Aries.DeviceManager.ProcessCommand.sendCommand(ProcessCommand.java:142) -  >>> sendCommand = {"work_code":"dis_dev","type":"req","dir":"d2c"}
-[2017-09-13 00:25:58,633]DEBUG 34318[Thread-1] - Aries.DeviceManager.ProcessCommand.sendCommand(ProcessCommand.java:142) -  >>> sendCommand = {"work_code":"dis_res","type":"req","dir":"d2c","body":{"dev_id":"6341cb6f-2179-55a3-3732-c3ffbad1be68"}}
-[2017-09-13 00:29:57,252]DEBUG     0[Thread-1] - Aries.DeviceManager.ProcessCommand.processCommand(ProcessCommand.java:53) -  [test code] ok.. receivedJson == imported data 
-[2017-09-13 00:29:57,255]DEBUG     3[Thread-1] - Aries.DeviceManager.ProcessCommand.sendCommand(ProcessCommand.java:141) -  >>> sendCommand = {"work_code":"dis_dev","type":"req","dir":"d2c"}
-[2017-09-13 00:29:57,288]DEBUG    36[Thread-1] - Aries.DeviceManager.ProcessCommand.processCommand(ProcessCommand.java:53) -  [test code] ok.. receivedJson == imported data 
-[2017-09-13 00:30:20,385]DEBUG 23133[Thread-1] - Aries.DeviceManager.ProcessCommand.processCommand(ProcessCommand.java:53) -  [test code] ok.. receivedJson == imported data 
-[2017-09-13 00:30:20,386]DEBUG 23134[Thread-1] - Aries.DeviceManager.ProcessCommand.processCommand(ProcessCommand.java:110) - Send Discovery Device result to DB.
-[2017-09-13 14:10:29,138]DEBUG     0[Thread-1] - Aries.DeviceManager.ProcessCommand.processCommand(ProcessCommand.java:53) -  [test code] ok.. receivedJson == imported data 
-[2017-09-13 14:10:29,140]DEBUG     2[Thread-1] - Aries.DeviceManager.ProcessCommand.sendCommand(ProcessCommand.java:142) -  >>> sendCommand = {"work_code":"dis_dev","type":"req","dir":"d2c"}
-[2017-09-13 14:10:29,172]DEBUG    34[Thread-1] - Aries.DeviceManager.ProcessCommand.processCommand(ProcessCommand.java:53) -  [test code] ok.. receivedJson == imported data 
-[2017-09-13 14:10:51,217]DEBUG 22079[Thread-1] - Aries.DeviceManager.ProcessCommand.processCommand(ProcessCommand.java:53) -  [test code] ok.. receivedJson == imported data 
-[2017-09-13 14:10:51,218]DEBUG 22080[Thread-1] - Aries.DeviceManager.ProcessCommand.processCommand(ProcessCommand.java:110) - Send Discovery Device result to DB.
-[2017-09-13 14:15:16,294]DEBUG     0[Thread-1] - Aries.DeviceManager.ProcessCommand.processCommand(ProcessCommand.java:54) -  [test code] ok.. receivedJson == imported data 
-[2017-09-13 14:15:16,296]DEBUG     2[Thread-1] - Aries.DeviceManager.ProcessCommand.processCommand(ProcessCommand.java:111) - Send Discovery Device result to DB.
-[2017-09-13 15:12:44,947]DEBUG     0[Thread-1] - Aries.DeviceManager.ProcessCommand.processCommand(ProcessCommand.java:54) -  [test code] ok.. receivedJson == imported data 
-[2017-09-13 15:12:44,950]DEBUG     3[Thread-1] - Aries.DeviceManager.ProcessCommand.sendCommand(ProcessCommand.java:144) -  >>> sendCommand = {"work_code":"dis_dev","type":"req","dir":"d2c"}
-[2017-09-13 15:12:44,981]DEBUG    34[Thread-1] - Aries.DeviceManager.ProcessCommand.processCommand(ProcessCommand.java:54) -  [test code] ok.. receivedJson == imported data 
-[2017-09-13 15:13:06,466]DEBUG 21519[Thread-1] - Aries.DeviceManager.ProcessCommand.processCommand(ProcessCommand.java:54) -  [test code] ok.. receivedJson == imported data 
-[2017-09-13 15:13:06,467]DEBUG 21520[Thread-1] - Aries.DeviceManager.ProcessCommand.processCommand(ProcessCommand.java:111) - Send Discovery Device result to DB.
-[2017-09-13 15:18:28,416]DEBUG     0[Thread-1] - Aries.DeviceManager.ProcessCommand.processCommand(ProcessCommand.java:54) -  [test code] ok.. receivedJson == imported data 
-[2017-09-13 15:18:40,751]DEBUG 12335[Thread-1] - Aries.DeviceManager.ProcessCommand.sendCommand(ProcessCommand.java:144) -  >>> sendCommand = {"work_code":"dis_dev","type":"req","dir":"d2c"}
-[2017-09-13 15:18:40,787]DEBUG 12371[Thread-1] - Aries.DeviceManager.ProcessCommand.processCommand(ProcessCommand.java:54) -  [test code] ok.. receivedJson == imported data 
-[2017-09-13 15:50:04,611]ERROR     0[Thread-1] - Aries.DeviceManager.ProcessCommand.processCommand(ProcessCommand.java:56) -  [test code] error.. imported data is not equal = {"work_code":"signup","type":"res","dir":"c2d"}
-[2017-09-13 15:51:23,423]ERROR     0[Thread-1] - Aries.DeviceManager.ProcessCommand.processCommand(ProcessCommand.java:56) -  [test code] error.. imported data is not equal = {"work_code":"signup","type":"res","dir":"c2d"}
-[2017-09-13 15:52:42,422]ERROR     0[Thread-1] - Aries.DeviceManager.ProcessCommand.processCommand(ProcessCommand.java:56) -  [test code] error.. imported data is not equal = {"work_code":"signup","type":"res","dir":"c2d"}
-[2017-09-13 15:56:23,995]DEBUG     0[Thread-1] - Aries.DeviceManager.ProcessCommand.processCommand(ProcessCommand.java:54) -  [test code] ok.. receivedJson == imported data 
-[2017-09-13 15:56:23,997]DEBUG     2[Thread-1] - Aries.DeviceManager.ProcessCommand.processCommand(ProcessCommand.java:105) - Sign-up response store user info...
-[2017-09-13 16:01:17,157]DEBUG     0[Thread-1] - Aries.DeviceManager.ProcessCommand.processCommand(ProcessCommand.java:54) -  [test code] ok.. receivedJson == imported data 
-[2017-09-13 16:01:17,159]DEBUG     2[Thread-1] - Aries.DeviceManager.ProcessCommand.processCommand(ProcessCommand.java:105) - Sign-up response store user info...
-[2017-09-13 16:02:03,124]DEBUG 45967[Thread-1] - Aries.DeviceManager.ProcessCommand.processCommand(ProcessCommand.java:54) -  [test code] ok.. receivedJson == imported data 
-[2017-09-13 16:02:03,130]DEBUG 45973[Thread-1] - Aries.DeviceManager.ProcessCommand.processCommand(ProcessCommand.java:105) - Sign-up response store user info...
-[2017-09-13 16:04:15,137]DEBUG177980[Thread-1] - Aries.DeviceManager.ProcessCommand.processCommand(ProcessCommand.java:54) -  [test code] ok.. receivedJson == imported data 
-[2017-09-13 16:04:15,138]DEBUG177981[Thread-1] - Aries.DeviceManager.ProcessCommand.processCommand(ProcessCommand.java:105) - Sign-up response store user info...
-[2017-09-13 16:04:57,879]DEBUG220722[Thread-1] - Aries.DeviceManager.ProcessCommand.processCommand(ProcessCommand.java:54) -  [test code] ok.. receivedJson == imported data 
-[2017-09-13 16:04:57,880]DEBUG220723[Thread-1] - Aries.DeviceManager.ProcessCommand.processCommand(ProcessCommand.java:116) - Send Discovery Device result to DB.
-[2017-09-13 16:04:59,553]DEBUG222396[Thread-1] - Aries.DeviceManager.ProcessCommand.processCommand(ProcessCommand.java:54) -  [test code] ok.. receivedJson == imported data 
-[2017-09-13 16:04:59,553]DEBUG222396[Thread-1] - Aries.DeviceManager.ProcessCommand.processCommand(ProcessCommand.java:116) - Send Discovery Device result to DB.
-[2017-09-13 16:05:51,820]DEBUG     0[Thread-1] - Aries.DeviceManager.ProcessCommand.processCommand(ProcessCommand.java:54) -  [test code] ok.. receivedJson == imported data 
-[2017-09-13 16:05:51,821]DEBUG     1[Thread-1] - Aries.DeviceManager.ProcessCommand.processCommand(ProcessCommand.java:105) - Sign-up response store user info...
-[2017-09-13 16:06:32,158]DEBUG 40338[Thread-1] - Aries.DeviceManager.ProcessCommand.processCommand(ProcessCommand.java:54) -  [test code] ok.. receivedJson == imported data 
-[2017-09-13 16:06:32,161]DEBUG 40341[Thread-1] - Aries.DeviceManager.ProcessCommand.processCommand(ProcessCommand.java:116) - Send Discovery Device result to DB.
-[2017-09-13 16:13:26,957]DEBUG     0[Thread-1] - Aries.DeviceManager.ProcessCommand.processCommand(ProcessCommand.java:54) -  [test code] ok.. receivedJson == imported data 
-[2017-09-13 16:13:26,959]DEBUG     2[Thread-1] - Aries.DeviceManager.ProcessCommand.processCommand(ProcessCommand.java:105) - Sign-up response store user info...
-[2017-09-13 16:13:47,975]DEBUG 21018[Thread-1] - Aries.DeviceManager.ProcessCommand.processCommand(ProcessCommand.java:54) -  [test code] ok.. receivedJson == imported data 
-[2017-09-13 16:13:47,975]DEBUG 21018[Thread-1] - Aries.DeviceManager.ProcessCommand.processCommand(ProcessCommand.java:116) - Send Discovery Device result to DB.
-[2017-09-13 16:18:58,200]DEBUG     0[Thread-1] - Aries.DeviceManager.ProcessCommand.processCommand(ProcessCommand.java:54) -  [test code] ok.. receivedJson == imported data 
-[2017-09-13 16:18:58,203]DEBUG     3[Thread-1] - Aries.DeviceManager.ProcessCommand.processCommand(ProcessCommand.java:105) - Sign-up response store user info...
-[2017-09-13 16:19:12,699]DEBUG 14499[Thread-1] - Aries.DeviceManager.ProcessCommand.processCommand(ProcessCommand.java:54) -  [test code] ok.. receivedJson == imported data 
-[2017-09-13 16:19:12,700]DEBUG 14500[Thread-1] - Aries.DeviceManager.ProcessCommand.processCommand(ProcessCommand.java:116) - Send Discovery Device result to DB.
-[2017-09-13 16:20:38,873]DEBUG     0[Thread-1] - Aries.DeviceManager.ProcessCommand.processCommand(ProcessCommand.java:54) -  [test code] ok.. receivedJson == imported data 
-[2017-09-13 16:20:38,875]DEBUG     2[Thread-1] - Aries.DeviceManager.ProcessCommand.processCommand(ProcessCommand.java:105) - Sign-up response store user info...
-[2017-09-13 16:22:01,340]DEBUG     0[Thread-1] - Aries.DeviceManager.ProcessCommand.processCommand(ProcessCommand.java:54) -  [test code] ok.. receivedJson == imported data 
-[2017-09-13 16:22:01,343]DEBUG     3[Thread-1] - Aries.DeviceManager.ProcessCommand.processCommand(ProcessCommand.java:105) - Sign-up response store user info...
-[2017-09-13 16:22:24,603]DEBUG 23263[Thread-1] - Aries.DeviceManager.ProcessCommand.processCommand(ProcessCommand.java:54) -  [test code] ok.. receivedJson == imported data 
-[2017-09-13 16:22:24,603]DEBUG 23263[Thread-1] - Aries.DeviceManager.ProcessCommand.processCommand(ProcessCommand.java:116) - Send Discovery Device result to DB.
-[2017-09-13 16:27:23,078]DEBUG     0[Thread-1] - Aries.DeviceManager.ProcessCommand.processCommand(ProcessCommand.java:54) -  [test code] ok.. receivedJson == imported data 
-[2017-09-13 16:27:23,080]DEBUG     2[Thread-1] - Aries.DeviceManager.ProcessCommand.processCommand(ProcessCommand.java:105) - Sign-up response store user info...
-[2017-09-13 16:27:33,566]DEBUG 10488[Thread-1] - Aries.DeviceManager.ProcessCommand.processCommand(ProcessCommand.java:54) -  [test code] ok.. receivedJson == imported data 
-[2017-09-13 16:27:33,567]DEBUG 10489[Thread-1] - Aries.DeviceManager.ProcessCommand.processCommand(ProcessCommand.java:116) - Send Discovery Device result to DB.
-[2017-09-13 16:32:22,072]DEBUG     0[Thread-1] - Aries.DeviceManager.ProcessCommand.processCommand(ProcessCommand.java:54) -  [test code] ok.. receivedJson == imported data 
-[2017-09-13 16:32:22,073]DEBUG     1[Thread-1] - Aries.DeviceManager.ProcessCommand.processCommand(ProcessCommand.java:105) - Sign-up response store user info...
-[2017-09-13 16:32:38,950]DEBUG 16878[Thread-1] - Aries.DeviceManager.ProcessCommand.processCommand(ProcessCommand.java:54) -  [test code] ok.. receivedJson == imported data 
-[2017-09-13 16:32:38,950]DEBUG 16878[Thread-1] - Aries.DeviceManager.ProcessCommand.processCommand(ProcessCommand.java:116) - Send Discovery Device result to DB.
-[2017-09-13 16:56:52,760]DEBUG     0[Thread-1] - Aries.DeviceManager.ProcessCommand.processCommand(ProcessCommand.java:54) -  [test code] ok.. receivedJson == imported data 
-[2017-09-13 16:56:52,763]DEBUG     3[Thread-1] - Aries.DeviceManager.ProcessCommand.processCommand(ProcessCommand.java:105) - Sign-up response store user info...
-[2017-09-13 16:57:00,964]DEBUG  8204[Thread-1] - Aries.DeviceManager.ProcessCommand.processCommand(ProcessCommand.java:54) -  [test code] ok.. receivedJson == imported data 
-[2017-09-13 16:57:00,964]DEBUG  8204[Thread-1] - Aries.DeviceManager.ProcessCommand.processCommand(ProcessCommand.java:116) - Send Discovery Device result to DB.
-[2017-09-13 16:57:56,763]DEBUG     0[Thread-1] - Aries.DeviceManager.ProcessCommand.processCommand(ProcessCommand.java:54) -  [test code] ok.. receivedJson == imported data 
-[2017-09-13 16:57:56,766]DEBUG     3[Thread-1] - Aries.DeviceManager.ProcessCommand.processCommand(ProcessCommand.java:105) - Sign-up response store user info...
-[2017-09-13 16:58:05,030]DEBUG  8267[Thread-1] - Aries.DeviceManager.ProcessCommand.processCommand(ProcessCommand.java:54) -  [test code] ok.. receivedJson == imported data 
-[2017-09-13 16:58:05,030]DEBUG  8267[Thread-1] - Aries.DeviceManager.ProcessCommand.processCommand(ProcessCommand.java:116) - Send Discovery Device result to DB.
-[2017-09-15 11:44:33,534]ERROR     0[Thread-1] - Aries.DeviceManager.ProcessCommand.processCommand(ProcessCommand.java:57) -  [test code] error.. imported data is not equal = {"work_code":"observe","type":"res","dir":"c2d"}
-[2017-09-15 11:49:58,620]ERROR     0[Thread-1] - Aries.DeviceManager.ProcessCommand.processCommand(ProcessCommand.java:57) -  [test code] error.. imported data is not equal = {"work_code":"observe","type":"res","dir":"c2d","body":{"res_id":"/oic/route/6341cb6f-2179-55a3-3732-c3ffbad1be68/power/0","properties":[{"prop_name":"value","prop_value":[],"prop_type":"string"}],"status":200}}
-[2017-09-15 11:54:59,331]DEBUG     0[Thread-1] - Aries.DeviceManager.ProcessCommand.processCommand(ProcessCommand.java:50) -  [test code] check property value : string
-[2017-09-15 11:57:26,214]DEBUG     0[Thread-1] - Aries.DeviceManager.ProcessCommand.processCommand(ProcessCommand.java:50) -  [test code] check property value : string
-[2017-09-15 11:57:26,217]DEBUG     3[Thread-1] - Aries.DeviceManager.ProcessCommand.processCommand(ProcessCommand.java:51) -  [test code] check property value : []
-[2017-09-15 11:57:26,218]ERROR     4[Thread-1] - Aries.DeviceManager.ProcessCommand.processCommand(ProcessCommand.java:59) -  [test code] error.. imported data is not equal = {"work_code":"observe","type":"res","dir":"c2d","body":{"res_id":"/oic/route/6341cb6f-2179-55a3-3732-c3ffbad1be68/power/0","properties":[{"prop_name":"value","prop_value":[],"prop_type":"string"}],"status":200}}
-[2017-09-15 11:57:26,218]DEBUG     4[Thread-1] - Aries.DeviceManager.ProcessCommand.processCommand(ProcessCommand.java:147) - property type is string : []
-[2017-09-15 12:34:28,633]DEBUG     0[Thread-1] - Aries.DeviceManager.ProcessCommand.processCommand(ProcessCommand.java:50) -  [test code] check property type : string
-[2017-09-15 12:34:28,634]DEBUG     1[Thread-1] - Aries.DeviceManager.ProcessCommand.processCommand(ProcessCommand.java:51) -  [test code] check property value size : 0
-[2017-09-15 12:34:28,634]DEBUG     1[Thread-1] - Aries.DeviceManager.ProcessCommand.processCommand(ProcessCommand.java:52) -  [test code] check property value is empty : true
-[2017-09-15 12:34:28,635]ERROR     2[Thread-1] - Aries.DeviceManager.ProcessCommand.processCommand(ProcessCommand.java:60) -  [test code] error.. imported data is not equal = {"work_code":"observe","type":"res","dir":"c2d","body":{"res_id":"/oic/route/6341cb6f-2179-55a3-3732-c3ffbad1be68/power/0","properties":[{"prop_name":"value","prop_value":[],"prop_type":"string"}],"status":200}}
-[2017-09-15 12:34:28,635]DEBUG     2[Thread-1] - Aries.DeviceManager.ProcessCommand.processCommand(ProcessCommand.java:148) - property type is string : []
-[2017-09-15 12:40:36,069]DEBUG     0[Thread-1] - Aries.DeviceManager.ProcessCommand.processCommand(ProcessCommand.java:50) -  [test code] check property type : double
-[2017-09-15 12:40:36,072]DEBUG     3[Thread-1] - Aries.DeviceManager.ProcessCommand.processCommand(ProcessCommand.java:51) -  [test code] check property value size : 0
-[2017-09-15 12:40:36,072]DEBUG     3[Thread-1] - Aries.DeviceManager.ProcessCommand.processCommand(ProcessCommand.java:52) -  [test code] check property value is empty : true
-[2017-09-15 12:40:36,073]ERROR     4[Thread-1] - Aries.DeviceManager.ProcessCommand.processCommand(ProcessCommand.java:60) -  [test code] error.. imported data is not equal = {"work_code":"observe","type":"res","dir":"c2d","body":{"res_id":"/oic/route/6341cb6f-2179-55a3-3732-c3ffbad1be68/power/0","properties":[{"prop_name":"value","prop_value":[],"read_only":false,"prop_type":"double"}],"status":200}}
-[2017-09-15 12:40:36,074]DEBUG     5[Thread-1] - Aries.DeviceManager.ProcessCommand.processCommand(ProcessCommand.java:145) - property type is double : []
-[2017-09-15 12:41:32,215]DEBUG 56146[Thread-1] - Aries.DeviceManager.ProcessCommand.processCommand(ProcessCommand.java:50) -  [test code] check property type : double
-[2017-09-15 12:41:32,216]DEBUG 56147[Thread-1] - Aries.DeviceManager.ProcessCommand.processCommand(ProcessCommand.java:51) -  [test code] check property value size : 1
-[2017-09-15 12:41:32,216]DEBUG 56147[Thread-1] - Aries.DeviceManager.ProcessCommand.processCommand(ProcessCommand.java:52) -  [test code] check property value is empty : false
-[2017-09-15 12:41:32,217]DEBUG 56148[Thread-1] - Aries.DeviceManager.ProcessCommand.processCommand(ProcessCommand.java:58) -  [test code] ok.. receivedJson == imported data 
-[2017-09-15 12:41:32,218]DEBUG 56149[Thread-1] - Aries.DeviceManager.ProcessCommand.processCommand(ProcessCommand.java:145) - property type is double : [1004.0]
-[2017-09-15 12:42:19,323]DEBUG103254[Thread-1] - Aries.DeviceManager.ProcessCommand.processCommand(ProcessCommand.java:50) -  [test code] check property type : boolean
-[2017-09-15 12:42:19,323]DEBUG103254[Thread-1] - Aries.DeviceManager.ProcessCommand.processCommand(ProcessCommand.java:51) -  [test code] check property value size : 1
-[2017-09-15 12:42:19,323]DEBUG103254[Thread-1] - Aries.DeviceManager.ProcessCommand.processCommand(ProcessCommand.java:52) -  [test code] check property value is empty : false
-[2017-09-15 12:42:19,324]DEBUG103255[Thread-1] - Aries.DeviceManager.ProcessCommand.processCommand(ProcessCommand.java:58) -  [test code] ok.. receivedJson == imported data 
-[2017-09-15 12:42:19,324]DEBUG103255[Thread-1] - Aries.DeviceManager.ProcessCommand.processCommand(ProcessCommand.java:139) - property type is boolean : [true]
-[2017-09-15 12:42:38,239]DEBUG122170[Thread-1] - Aries.DeviceManager.ProcessCommand.processCommand(ProcessCommand.java:50) -  [test code] check property type : integer
-[2017-09-15 12:42:38,241]DEBUG122172[Thread-1] - Aries.DeviceManager.ProcessCommand.processCommand(ProcessCommand.java:51) -  [test code] check property value size : 1
-[2017-09-15 12:42:38,241]DEBUG122172[Thread-1] - Aries.DeviceManager.ProcessCommand.processCommand(ProcessCommand.java:52) -  [test code] check property value is empty : false
-[2017-09-15 12:42:38,242]DEBUG122173[Thread-1] - Aries.DeviceManager.ProcessCommand.processCommand(ProcessCommand.java:58) -  [test code] ok.. receivedJson == imported data 
-[2017-09-15 12:42:38,242]DEBUG122173[Thread-1] - Aries.DeviceManager.ProcessCommand.processCommand(ProcessCommand.java:142) - property type is integer : [1004]
-[2017-09-15 12:42:47,127]DEBUG131058[Thread-1] - Aries.DeviceManager.ProcessCommand.processCommand(ProcessCommand.java:50) -  [test code] check property type : string
-[2017-09-15 12:42:47,128]DEBUG131059[Thread-1] - Aries.DeviceManager.ProcessCommand.processCommand(ProcessCommand.java:51) -  [test code] check property value size : 1
-[2017-09-15 12:42:47,128]DEBUG131059[Thread-1] - Aries.DeviceManager.ProcessCommand.processCommand(ProcessCommand.java:52) -  [test code] check property value is empty : false
-[2017-09-15 12:42:47,128]DEBUG131059[Thread-1] - Aries.DeviceManager.ProcessCommand.processCommand(ProcessCommand.java:58) -  [test code] ok.. receivedJson == imported data 
-[2017-09-15 12:42:47,129]DEBUG131060[Thread-1] - Aries.DeviceManager.ProcessCommand.processCommand(ProcessCommand.java:148) - property type is string : [string value]
-[2017-09-15 12:42:54,665]DEBUG138596[Thread-1] - Aries.DeviceManager.ProcessCommand.processCommand(ProcessCommand.java:50) -  [test code] check property type : double
-[2017-09-15 12:42:54,666]DEBUG138597[Thread-1] - Aries.DeviceManager.ProcessCommand.processCommand(ProcessCommand.java:51) -  [test code] check property value size : 1
-[2017-09-15 12:42:54,666]DEBUG138597[Thread-1] - Aries.DeviceManager.ProcessCommand.processCommand(ProcessCommand.java:52) -  [test code] check property value is empty : false
-[2017-09-15 12:42:54,666]DEBUG138597[Thread-1] - Aries.DeviceManager.ProcessCommand.processCommand(ProcessCommand.java:58) -  [test code] ok.. receivedJson == imported data 
-[2017-09-15 12:42:54,667]DEBUG138598[Thread-1] - Aries.DeviceManager.ProcessCommand.processCommand(ProcessCommand.java:145) - property type is double : [1004.0]
-[2017-09-15 12:44:16,109]DEBUG220040[Thread-1] - Aries.DeviceManager.ProcessCommand.processCommand(ProcessCommand.java:50) -  [test code] check property type : boolean
-[2017-09-15 12:44:16,110]DEBUG220041[Thread-1] - Aries.DeviceManager.ProcessCommand.processCommand(ProcessCommand.java:51) -  [test code] check property value size : 2
-[2017-09-15 12:44:16,110]DEBUG220041[Thread-1] - Aries.DeviceManager.ProcessCommand.processCommand(ProcessCommand.java:52) -  [test code] check property value is empty : false
-[2017-09-15 12:44:16,111]DEBUG220042[Thread-1] - Aries.DeviceManager.ProcessCommand.processCommand(ProcessCommand.java:58) -  [test code] ok.. receivedJson == imported data 
-[2017-09-15 12:44:16,111]DEBUG220042[Thread-1] - Aries.DeviceManager.ProcessCommand.processCommand(ProcessCommand.java:139) - property type is boolean : [true, false]
-[2017-09-15 14:18:02,900]DEBUG     0[Thread-1] - aries.ProcessCMD.ProcessCommand.processCommand(ProcessCommand.java:51) -  [test code] check property type : integer
-[2017-09-15 14:18:02,903]DEBUG     3[Thread-1] - aries.ProcessCMD.ProcessCommand.processCommand(ProcessCommand.java:52) -  [test code] check property value size : 1
-[2017-09-15 14:18:02,903]DEBUG     3[Thread-1] - aries.ProcessCMD.ProcessCommand.processCommand(ProcessCommand.java:53) -  [test code] check property value is empty : false
-[2017-09-15 14:18:02,904]DEBUG     4[Thread-1] - aries.ProcessCMD.ProcessCommand.processCommand(ProcessCommand.java:59) -  [test code] ok.. receivedJson == imported data 
-[2017-09-15 14:18:02,905]DEBUG     5[Thread-1] - aries.ProcessCMD.ProcessCommand.processCommand(ProcessCommand.java:143) - property type is integer : [1004]
+[2017-09-19 12:40:18,357]DEBUG  4214[Thread-0] - io.dase.network.DevMgr.MainProc(DevMgr.java:37) - body : {"work_code":"signup","type":"res","dir":"c2d","body":{"expiresin":-1,"uid":"22883d77-4ab8-4b80-b75b-74774868b484","accesstoken":"e00d0d9ec36095d749a350dab04b5a8c1b94e136","status":200}}
+[2017-09-19 12:40:48,367]ERROR 34224[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:53) - err0r : Receive timed out
+[2017-09-19 12:41:18,384]ERROR 64241[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:53) - err0r : Receive timed out
+[2017-09-19 12:41:48,413]ERROR 94270[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:53) - err0r : Receive timed out
+[2017-09-19 12:42:18,444]ERROR124301[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:53) - err0r : Receive timed out
+[2017-09-19 12:42:48,464]ERROR154321[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:53) - err0r : Receive timed out
+[2017-09-19 12:42:51,143]ERROR157000[main] - io.dase.network.App.main(App.java:70) - ma1n error: No line found
+[2017-09-19 12:42:51,143]DEBUG157000[main] - io.dase.network.App.main(App.java:74) - Adios
+[2017-09-19 12:45:25,591]DEBUG     0[main] - io.dase.network.App.main(App.java:16) - Hola
+[2017-09-19 12:45:25,596]DEBUG     5[Thread-0] - io.dase.network.DamqRcvConsumer.run(DamqRcvConsumer.java:72) - DamqRcvConsumer begins.
+[2017-09-19 12:45:25,597]ERROR     6[Thread-0] - io.dase.network.DamqSndProducer.InitDamqSndProducer(DamqSndProducer.java:34) - InitDamqSndProducer
+[2017-09-19 12:45:25,597]DEBUG     6[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:20) - DamqRcvProducer begins.
+[2017-09-19 12:45:25,598]DEBUG     7[Thread-0] - io.dase.network.DevMgr.MainProc(DevMgr.java:20) - DevMgr begins.
+[2017-09-19 12:45:25,598]DEBUG     7[Thread-2] - io.dase.network.DamqSndConsumer.run(DamqSndConsumer.java:24) - DamqSndConsumer begins.
+[2017-09-19 12:45:55,617]ERROR 30026[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:53) - err0r : Receive timed out
+[2017-09-19 12:46:25,647]ERROR 60056[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:53) - err0r : Receive timed out
+[2017-09-19 12:46:55,663]ERROR 90072[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:53) - err0r : Receive timed out
+[2017-09-19 12:47:25,685]ERROR120094[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:53) - err0r : Receive timed out
+[2017-09-19 12:47:55,716]ERROR150125[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:53) - err0r : Receive timed out
+[2017-09-19 12:48:25,745]ERROR180154[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:53) - err0r : Receive timed out
+[2017-09-19 12:48:55,774]ERROR210183[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:53) - err0r : Receive timed out
+[2017-09-19 12:49:25,806]ERROR240215[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:53) - err0r : Receive timed out
+[2017-09-19 12:49:55,837]ERROR270246[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:53) - err0r : Receive timed out
+[2017-09-19 12:50:25,846]ERROR300255[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:53) - err0r : Receive timed out
+[2017-09-19 12:50:55,860]ERROR330269[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:53) - err0r : Receive timed out
+[2017-09-19 12:51:25,864]ERROR360273[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:53) - err0r : Receive timed out
+[2017-09-19 12:51:55,893]ERROR390302[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:53) - err0r : Receive timed out
+[2017-09-19 12:52:25,924]ERROR420333[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:53) - err0r : Receive timed out
+[2017-09-19 12:52:55,933]ERROR450342[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:53) - err0r : Receive timed out
+[2017-09-19 12:53:25,950]ERROR480359[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:53) - err0r : Receive timed out
+[2017-09-19 12:53:55,977]ERROR510386[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:53) - err0r : Receive timed out
+[2017-09-19 12:54:25,979]ERROR540388[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:53) - err0r : Receive timed out
+[2017-09-19 12:54:55,994]ERROR570403[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:53) - err0r : Receive timed out
+[2017-09-19 12:55:26,002]ERROR600411[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:53) - err0r : Receive timed out
+[2017-09-19 12:55:56,005]ERROR630414[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:53) - err0r : Receive timed out
+[2017-09-19 12:56:26,029]ERROR660438[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:53) - err0r : Receive timed out
+[2017-09-19 12:56:56,030]ERROR690439[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:53) - err0r : Receive timed out
+[2017-09-19 12:57:26,052]ERROR720461[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:53) - err0r : Receive timed out
+[2017-09-19 12:57:56,083]ERROR750492[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:53) - err0r : Receive timed out
+[2017-09-19 12:58:26,111]ERROR780520[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:53) - err0r : Receive timed out
+[2017-09-19 12:58:26,697]ERROR781106[main] - io.dase.network.App.main(App.java:69) - ma1n error: No line found
+[2017-09-19 12:58:26,698]DEBUG781107[main] - io.dase.network.App.main(App.java:73) - Adios
+[2017-09-19 12:58:39,772]DEBUG     0[main] - io.dase.network.App.main(App.java:16) - Hola
+[2017-09-19 12:58:39,777]DEBUG     5[Thread-0] - io.dase.network.DamqRcvConsumer.run(DamqRcvConsumer.java:72) - DamqRcvConsumer begins.
+[2017-09-19 12:58:39,778]ERROR     6[Thread-0] - io.dase.network.DamqSndProducer.InitDamqSndProducer(DamqSndProducer.java:34) - InitDamqSndProducer
+[2017-09-19 12:58:39,778]DEBUG     6[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:20) - DamqRcvProducer begins.
+[2017-09-19 12:58:39,778]DEBUG     6[Thread-0] - io.dase.network.DevMgr.MainProc(DevMgr.java:20) - DevMgr begins.
+[2017-09-19 12:58:39,778]DEBUG     6[Thread-2] - io.dase.network.DamqSndConsumer.run(DamqSndConsumer.java:24) - DamqSndConsumer begins.
+[2017-09-19 12:58:50,898]DEBUG 11126[Thread-2] - io.dase.network.DamqSndConsumer.run(DamqSndConsumer.java:49) -  check sendStr : {"destination":"devmgr","uuid":"cc0accca-9cdb-11e7-a348-1c1b0d70047a","msgbody":{"type":"res","dir":"c2d","work_code":"signup","body":{"status":200,"uid":"22883d77-4ab8-4b80-b75b-74774868b484","accesstoken":"e00d0d9ec36095d749a350dab04b5a8c1b94e136","expiresin":-1}}}
+[2017-09-19 12:58:50,909]DEBUG 11137[Thread-0] - io.dase.network.DevMgr.MainProc(DevMgr.java:34) - jo : {"destination":"devmgr","uuid":"cc0accca-9cdb-11e7-a348-1c1b0d70047a","msgbody":{"work_code":"signup","type":"res","dir":"c2d","body":{"expiresin":-1,"uid":"22883d77-4ab8-4b80-b75b-74774868b484","accesstoken":"e00d0d9ec36095d749a350dab04b5a8c1b94e136","status":200}}}
+[2017-09-19 12:58:50,910]DEBUG 11138[Thread-0] - io.dase.network.DevMgr.MainProc(DevMgr.java:35) - dest : devmgr
+[2017-09-19 12:58:50,910]DEBUG 11138[Thread-0] - io.dase.network.DevMgr.MainProc(DevMgr.java:36) - uuid : cc0accca-9cdb-11e7-a348-1c1b0d70047a
+[2017-09-19 12:58:50,910]DEBUG 11138[Thread-0] - io.dase.network.DevMgr.MainProc(DevMgr.java:37) - body : {"work_code":"signup","type":"res","dir":"c2d","body":{"expiresin":-1,"uid":"22883d77-4ab8-4b80-b75b-74774868b484","accesstoken":"e00d0d9ec36095d749a350dab04b5a8c1b94e136","status":200}}
+[2017-09-19 12:59:20,939]ERROR 41167[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:53) - err0r : Receive timed out
+[2017-09-19 12:59:26,115]ERROR 46343[main] - io.dase.network.App.main(App.java:69) - ma1n error: No line found
+[2017-09-19 12:59:26,115]DEBUG 46343[main] - io.dase.network.App.main(App.java:73) - Adios
+[2017-09-19 14:18:55,911]DEBUG     0[main] - io.dase.network.App.main(App.java:16) - Hola
+[2017-09-19 14:18:55,916]DEBUG     5[Thread-0] - io.dase.network.DamqRcvConsumer.run(DamqRcvConsumer.java:72) - DamqRcvConsumer begins.
+[2017-09-19 14:18:55,916]ERROR     5[Thread-0] - io.dase.network.DamqSndProducer.InitDamqSndProducer(DamqSndProducer.java:34) - InitDamqSndProducer
+[2017-09-19 14:18:55,917]DEBUG     6[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:20) - DamqRcvProducer begins.
+[2017-09-19 14:18:55,917]DEBUG     6[Thread-0] - io.dase.network.DevMgr.MainProc(DevMgr.java:22) - DevMgr begins.
+[2017-09-19 14:18:55,917]DEBUG     6[Thread-2] - io.dase.network.DamqSndConsumer.run(DamqSndConsumer.java:24) - DamqSndConsumer begins.
+[2017-09-19 14:19:07,289]DEBUG 11378[Thread-2] - io.dase.network.DamqSndConsumer.run(DamqSndConsumer.java:49) -  check sendStr : {"destination":"devmgr","uuid":"cc0accca-9cdb-11e7-a348-1c1b0d70047a","msgbody":{"type":"res","dir":"c2d","work_code":"signup","body":{"status":200,"uid":"22883d77-4ab8-4b80-b75b-74774868b484","accesstoken":"e00d0d9ec36095d749a350dab04b5a8c1b94e136","expiresin":-1}}}
+[2017-09-19 14:19:07,315]DEBUG 11404[Thread-0] - io.dase.network.DevMgr.MainProc(DevMgr.java:39) - jo : {"destination":"devmgr","uuid":"cc0accca-9cdb-11e7-a348-1c1b0d70047a","msgbody":{"work_code":"signup","type":"res","dir":"c2d","body":{"expiresin":-1,"uid":"22883d77-4ab8-4b80-b75b-74774868b484","accesstoken":"e00d0d9ec36095d749a350dab04b5a8c1b94e136","status":200}}}
+[2017-09-19 14:19:07,315]DEBUG 11404[Thread-0] - io.dase.network.DevMgr.MainProc(DevMgr.java:40) - dest : devmgr
+[2017-09-19 14:19:07,316]DEBUG 11405[Thread-0] - io.dase.network.DevMgr.MainProc(DevMgr.java:41) - uuid : cc0accca-9cdb-11e7-a348-1c1b0d70047a
+[2017-09-19 14:19:07,316]DEBUG 11405[Thread-0] - io.dase.network.DevMgr.MainProc(DevMgr.java:42) - body : {"work_code":"signup","type":"res","dir":"c2d","body":{"expiresin":-1,"uid":"22883d77-4ab8-4b80-b75b-74774868b484","accesstoken":"e00d0d9ec36095d749a350dab04b5a8c1b94e136","status":200}}
+[2017-09-19 14:19:33,090]ERROR 37179[main] - io.dase.network.App.main(App.java:69) - ma1n error: No line found
+[2017-09-19 14:19:33,091]DEBUG 37180[main] - io.dase.network.App.main(App.java:73) - Adios
+[2017-09-19 15:06:15,907]DEBUG     0[main] - io.dase.network.App.main(App.java:16) - Hola
+[2017-09-19 15:06:15,911]DEBUG     4[Thread-0] - io.dase.network.DamqRcvConsumer.run(DamqRcvConsumer.java:72) - DamqRcvConsumer begins.
+[2017-09-19 15:06:15,914]ERROR     7[Thread-0] - io.dase.network.DamqSndProducer.InitDamqSndProducer(DamqSndProducer.java:34) - InitDamqSndProducer
+[2017-09-19 15:06:15,914]DEBUG     7[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:20) - DamqRcvProducer begins.
+[2017-09-19 15:06:15,915]DEBUG     8[Thread-0] - io.dase.network.DevMgr.MainProc(DevMgr.java:26) - DevMgr begins.
+[2017-09-19 15:06:15,915]DEBUG     8[Thread-2] - io.dase.network.DamqSndConsumer.run(DamqSndConsumer.java:24) - DamqSndConsumer begins.
+[2017-09-19 15:06:21,021]DEBUG  5114[Thread-2] - io.dase.network.DamqSndConsumer.run(DamqSndConsumer.java:49) -  check sendStr : asdf
+[2017-09-19 15:06:21,038]ERROR  5131[Thread-2] - io.dase.network.DamqSndConsumer.run(DamqSndConsumer.java:65) - err0r : null
+[2017-09-19 15:06:34,709]DEBUG 18802[Thread-2] - io.dase.network.DamqSndConsumer.run(DamqSndConsumer.java:49) -  check sendStr : {"destination":"devmgr","uuid":"cc0accca-9cdb-11e7-a348-1c1b0d70047a","msgbody":{"type":"res","dir":"c2d","work_code":"signup","body":{"status":200,"uid":"22883d77-4ab8-4b80-b75b-74774868b484","accesstoken":"e00d0d9ec36095d749a350dab04b5a8c1b94e136","expiresin":-1}}}
+[2017-09-19 15:06:34,711]DEBUG 18804[Thread-0] - io.dase.network.DevMgr.MainProc(DevMgr.java:44) - jo : {"destination":"devmgr","uuid":"cc0accca-9cdb-11e7-a348-1c1b0d70047a","msgbody":{"work_code":"signup","type":"res","dir":"c2d","body":{"expiresin":-1,"uid":"22883d77-4ab8-4b80-b75b-74774868b484","accesstoken":"e00d0d9ec36095d749a350dab04b5a8c1b94e136","status":200}}}
+[2017-09-19 15:06:34,711]DEBUG 18804[Thread-0] - io.dase.network.DevMgr.MainProc(DevMgr.java:45) - dest : devmgr
+[2017-09-19 15:06:34,712]DEBUG 18805[Thread-0] - io.dase.network.DevMgr.MainProc(DevMgr.java:46) - uuid : cc0accca-9cdb-11e7-a348-1c1b0d70047a
+[2017-09-19 15:06:34,712]DEBUG 18805[Thread-0] - io.dase.network.DevMgr.MainProc(DevMgr.java:47) - body : {"work_code":"signup","type":"res","dir":"c2d","body":{"expiresin":-1,"uid":"22883d77-4ab8-4b80-b75b-74774868b484","accesstoken":"e00d0d9ec36095d749a350dab04b5a8c1b94e136","status":200}}
+[2017-09-19 15:06:36,595]DEBUG 20688[Thread-2] - io.dase.network.DamqSndConsumer.run(DamqSndConsumer.java:49) -  check sendStr : {"destination":"devmgr","uuid":"cc0accca-9cdb-11e7-a348-1c1b0d70047a","msgbody":{"type":"res","dir":"c2d","work_code":"signup","body":{"status":200,"uid":"22883d77-4ab8-4b80-b75b-74774868b484","accesstoken":"e00d0d9ec36095d749a350dab04b5a8c1b94e136","expiresin":-1}}}
+[2017-09-19 15:06:36,597]DEBUG 20690[Thread-0] - io.dase.network.DevMgr.MainProc(DevMgr.java:44) - jo : {"destination":"devmgr","uuid":"cc0accca-9cdb-11e7-a348-1c1b0d70047a","msgbody":{"work_code":"signup","type":"res","dir":"c2d","body":{"expiresin":-1,"uid":"22883d77-4ab8-4b80-b75b-74774868b484","accesstoken":"e00d0d9ec36095d749a350dab04b5a8c1b94e136","status":200}}}
+[2017-09-19 15:06:36,598]DEBUG 20691[Thread-0] - io.dase.network.DevMgr.MainProc(DevMgr.java:45) - dest : devmgr
+[2017-09-19 15:06:36,603]DEBUG 20696[Thread-0] - io.dase.network.DevMgr.MainProc(DevMgr.java:46) - uuid : cc0accca-9cdb-11e7-a348-1c1b0d70047a
+[2017-09-19 15:06:36,603]DEBUG 20696[Thread-0] - io.dase.network.DevMgr.MainProc(DevMgr.java:47) - body : {"work_code":"signup","type":"res","dir":"c2d","body":{"expiresin":-1,"uid":"22883d77-4ab8-4b80-b75b-74774868b484","accesstoken":"e00d0d9ec36095d749a350dab04b5a8c1b94e136","status":200}}
+[2017-09-19 15:06:37,171]DEBUG 21264[Thread-2] - io.dase.network.DamqSndConsumer.run(DamqSndConsumer.java:49) -  check sendStr : {"destination":"devmgr","uuid":"cc0accca-9cdb-11e7-a348-1c1b0d70047a","msgbody":{"type":"res","dir":"c2d","work_code":"signup","body":{"status":200,"uid":"22883d77-4ab8-4b80-b75b-74774868b484","accesstoken":"e00d0d9ec36095d749a350dab04b5a8c1b94e136","expiresin":-1}}}
+[2017-09-19 15:06:37,173]DEBUG 21266[Thread-0] - io.dase.network.DevMgr.MainProc(DevMgr.java:44) - jo : {"destination":"devmgr","uuid":"cc0accca-9cdb-11e7-a348-1c1b0d70047a","msgbody":{"work_code":"signup","type":"res","dir":"c2d","body":{"expiresin":-1,"uid":"22883d77-4ab8-4b80-b75b-74774868b484","accesstoken":"e00d0d9ec36095d749a350dab04b5a8c1b94e136","status":200}}}
+[2017-09-19 15:06:37,174]DEBUG 21267[Thread-0] - io.dase.network.DevMgr.MainProc(DevMgr.java:45) - dest : devmgr
+[2017-09-19 15:06:37,174]DEBUG 21267[Thread-0] - io.dase.network.DevMgr.MainProc(DevMgr.java:46) - uuid : cc0accca-9cdb-11e7-a348-1c1b0d70047a
+[2017-09-19 15:06:37,175]DEBUG 21268[Thread-0] - io.dase.network.DevMgr.MainProc(DevMgr.java:47) - body : {"work_code":"signup","type":"res","dir":"c2d","body":{"expiresin":-1,"uid":"22883d77-4ab8-4b80-b75b-74774868b484","accesstoken":"e00d0d9ec36095d749a350dab04b5a8c1b94e136","status":200}}
+[2017-09-19 15:06:37,777]DEBUG 21870[Thread-2] - io.dase.network.DamqSndConsumer.run(DamqSndConsumer.java:49) -  check sendStr : {"destination":"devmgr","uuid":"cc0accca-9cdb-11e7-a348-1c1b0d70047a","msgbody":{"type":"res","dir":"c2d","work_code":"signup","body":{"status":200,"uid":"22883d77-4ab8-4b80-b75b-74774868b484","accesstoken":"e00d0d9ec36095d749a350dab04b5a8c1b94e136","expiresin":-1}}}
+[2017-09-19 15:06:37,780]DEBUG 21873[Thread-0] - io.dase.network.DevMgr.MainProc(DevMgr.java:44) - jo : {"destination":"devmgr","uuid":"cc0accca-9cdb-11e7-a348-1c1b0d70047a","msgbody":{"work_code":"signup","type":"res","dir":"c2d","body":{"expiresin":-1,"uid":"22883d77-4ab8-4b80-b75b-74774868b484","accesstoken":"e00d0d9ec36095d749a350dab04b5a8c1b94e136","status":200}}}
+[2017-09-19 15:06:37,781]DEBUG 21874[Thread-0] - io.dase.network.DevMgr.MainProc(DevMgr.java:45) - dest : devmgr
+[2017-09-19 15:06:37,782]DEBUG 21875[Thread-0] - io.dase.network.DevMgr.MainProc(DevMgr.java:46) - uuid : cc0accca-9cdb-11e7-a348-1c1b0d70047a
+[2017-09-19 15:06:37,783]DEBUG 21876[Thread-0] - io.dase.network.DevMgr.MainProc(DevMgr.java:47) - body : {"work_code":"signup","type":"res","dir":"c2d","body":{"expiresin":-1,"uid":"22883d77-4ab8-4b80-b75b-74774868b484","accesstoken":"e00d0d9ec36095d749a350dab04b5a8c1b94e136","status":200}}
+[2017-09-19 15:06:39,835]DEBUG 23928[Thread-2] - io.dase.network.DamqSndConsumer.run(DamqSndConsumer.java:49) -  check sendStr : {"destination":"devmgr","uuid":"cc0accca-9cdb-11e7-a348-1c1b0d70047a","msgbody":{"type":"res","dir":"c2d","work_code":"signup","body":{"status":200,"uid":"22883d77-4ab8-4b80-b75b-74774868b484","accesstoken":"e00d0d9ec36095d749a350dab04b5a8c1b94e136","expiresin":-1}}}
+[2017-09-19 15:06:39,838]DEBUG 23931[Thread-0] - io.dase.network.DevMgr.MainProc(DevMgr.java:44) - jo : {"destination":"devmgr","uuid":"cc0accca-9cdb-11e7-a348-1c1b0d70047a","msgbody":{"work_code":"signup","type":"res","dir":"c2d","body":{"expiresin":-1,"uid":"22883d77-4ab8-4b80-b75b-74774868b484","accesstoken":"e00d0d9ec36095d749a350dab04b5a8c1b94e136","status":200}}}
+[2017-09-19 15:06:39,839]DEBUG 23932[Thread-0] - io.dase.network.DevMgr.MainProc(DevMgr.java:45) - dest : devmgr
+[2017-09-19 15:06:39,839]DEBUG 23932[Thread-0] - io.dase.network.DevMgr.MainProc(DevMgr.java:46) - uuid : cc0accca-9cdb-11e7-a348-1c1b0d70047a
+[2017-09-19 15:06:39,840]DEBUG 23933[Thread-0] - io.dase.network.DevMgr.MainProc(DevMgr.java:47) - body : {"work_code":"signup","type":"res","dir":"c2d","body":{"expiresin":-1,"uid":"22883d77-4ab8-4b80-b75b-74774868b484","accesstoken":"e00d0d9ec36095d749a350dab04b5a8c1b94e136","status":200}}
+[2017-09-19 15:06:40,668]DEBUG 24761[Thread-2] - io.dase.network.DamqSndConsumer.run(DamqSndConsumer.java:49) -  check sendStr : {"destination":"devmgr","uuid":"cc0accca-9cdb-11e7-a348-1c1b0d70047a","msgbody":{"type":"res","dir":"c2d","work_code":"signup","body":{"status":200,"uid":"22883d77-4ab8-4b80-b75b-74774868b484","accesstoken":"e00d0d9ec36095d749a350dab04b5a8c1b94e136","expiresin":-1}}}
+[2017-09-19 15:06:43,927]DEBUG 28020[Thread-2] - io.dase.network.DamqSndConsumer.run(DamqSndConsumer.java:49) -  check sendStr : {"destination":"devmgr","uuid":"cc0accca-9cdb-11e7-a348-1c1b0d70047a","msgbody":{"type":"res","dir":"c2d","work_code":"signup","body":{"status":200,"uid":"22883d77-4ab8-4b80-b75b-74774868b484","accesstoken":"e00d0d9ec36095d749a350dab04b5a8c1b94e136","expiresin":-1}}}
+[2017-09-19 15:06:44,743]DEBUG 28836[Thread-0] - io.dase.network.DevMgr.MainProc(DevMgr.java:44) - jo : {"destination":"devmgr","uuid":"cc0accca-9cdb-11e7-a348-1c1b0d70047a","msgbody":{"work_code":"signup","type":"res","dir":"c2d","body":{"expiresin":-1,"uid":"22883d77-4ab8-4b80-b75b-74774868b484","accesstoken":"e00d0d9ec36095d749a350dab04b5a8c1b94e136","status":200}}}
+[2017-09-19 15:06:44,744]DEBUG 28837[Thread-0] - io.dase.network.DevMgr.MainProc(DevMgr.java:45) - dest : devmgr
+[2017-09-19 15:06:44,745]DEBUG 28838[Thread-0] - io.dase.network.DevMgr.MainProc(DevMgr.java:46) - uuid : cc0accca-9cdb-11e7-a348-1c1b0d70047a
+[2017-09-19 15:06:44,745]DEBUG 28838[Thread-0] - io.dase.network.DevMgr.MainProc(DevMgr.java:47) - body : {"work_code":"signup","type":"res","dir":"c2d","body":{"expiresin":-1,"uid":"22883d77-4ab8-4b80-b75b-74774868b484","accesstoken":"e00d0d9ec36095d749a350dab04b5a8c1b94e136","status":200}}
+[2017-09-19 15:06:54,774]DEBUG 38867[Thread-0] - io.dase.network.DevMgr.MainProc(DevMgr.java:44) - jo : {"destination":"devmgr","uuid":"cc0accca-9cdb-11e7-a348-1c1b0d70047a","msgbody":{"work_code":"signup","type":"res","dir":"c2d","body":{"expiresin":-1,"uid":"22883d77-4ab8-4b80-b75b-74774868b484","accesstoken":"e00d0d9ec36095d749a350dab04b5a8c1b94e136","status":200}}}
+[2017-09-19 15:06:54,775]DEBUG 38868[Thread-0] - io.dase.network.DevMgr.MainProc(DevMgr.java:45) - dest : devmgr
+[2017-09-19 15:06:54,776]DEBUG 38869[Thread-0] - io.dase.network.DevMgr.MainProc(DevMgr.java:46) - uuid : cc0accca-9cdb-11e7-a348-1c1b0d70047a
+[2017-09-19 15:06:54,776]DEBUG 38869[Thread-0] - io.dase.network.DevMgr.MainProc(DevMgr.java:47) - body : {"work_code":"signup","type":"res","dir":"c2d","body":{"expiresin":-1,"uid":"22883d77-4ab8-4b80-b75b-74774868b484","accesstoken":"e00d0d9ec36095d749a350dab04b5a8c1b94e136","status":200}}
+[2017-09-19 15:07:13,949]ERROR 58042[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:53) - err0r : Receive timed out
+[2017-09-19 15:07:43,953]ERROR 88046[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:53) - err0r : Receive timed out
+[2017-09-19 15:07:54,586]ERROR 98679[main] - io.dase.network.App.main(App.java:69) - ma1n error: No line found
+[2017-09-19 15:07:54,586]DEBUG 98679[main] - io.dase.network.App.main(App.java:73) - Adios
+[2017-09-19 15:07:56,995]DEBUG     0[main] - io.dase.network.App.main(App.java:16) - Hola
+[2017-09-19 15:07:56,999]DEBUG     4[Thread-0] - io.dase.network.DamqRcvConsumer.run(DamqRcvConsumer.java:72) - DamqRcvConsumer begins.
+[2017-09-19 15:07:57,000]ERROR     5[Thread-0] - io.dase.network.DamqSndProducer.InitDamqSndProducer(DamqSndProducer.java:34) - InitDamqSndProducer
+[2017-09-19 15:07:57,000]DEBUG     5[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:20) - DamqRcvProducer begins.
+[2017-09-19 15:07:57,001]DEBUG     6[Thread-0] - io.dase.network.DevMgr.MainProc(DevMgr.java:26) - DevMgr begins.
+[2017-09-19 15:07:57,003]DEBUG     8[Thread-2] - io.dase.network.DamqSndConsumer.run(DamqSndConsumer.java:24) - DamqSndConsumer begins.
+[2017-09-19 15:08:00,426]DEBUG  3431[Thread-2] - io.dase.network.DamqSndConsumer.run(DamqSndConsumer.java:49) -  check sendStr : {"destination":"devmgr","uuid":"cc0accca-9cdb-11e7-a348-1c1b0d70047a","msgbody":{"type":"res","dir":"c2d","work_code":"signup","body":{"status":200,"uid":"22883d77-4ab8-4b80-b75b-74774868b484","accesstoken":"e00d0d9ec36095d749a350dab04b5a8c1b94e136","expiresin":-1}}}
+[2017-09-19 15:08:00,449]DEBUG  3454[Thread-0] - io.dase.network.DevMgr.MainProc(DevMgr.java:44) - rcvQueue.size() : 0
+[2017-09-19 15:08:00,450]DEBUG  3455[Thread-0] - io.dase.network.DevMgr.MainProc(DevMgr.java:45) - dest : devmgr
+[2017-09-19 15:08:00,450]DEBUG  3455[Thread-0] - io.dase.network.DevMgr.MainProc(DevMgr.java:46) - uuid : cc0accca-9cdb-11e7-a348-1c1b0d70047a
+[2017-09-19 15:08:00,451]DEBUG  3456[Thread-0] - io.dase.network.DevMgr.MainProc(DevMgr.java:47) - body : {"work_code":"signup","type":"res","dir":"c2d","body":{"expiresin":-1,"uid":"22883d77-4ab8-4b80-b75b-74774868b484","accesstoken":"e00d0d9ec36095d749a350dab04b5a8c1b94e136","status":200}}
+[2017-09-19 15:08:01,904]DEBUG  4909[Thread-2] - io.dase.network.DamqSndConsumer.run(DamqSndConsumer.java:49) -  check sendStr : {"destination":"devmgr","uuid":"cc0accca-9cdb-11e7-a348-1c1b0d70047a","msgbody":{"type":"res","dir":"c2d","work_code":"signup","body":{"status":200,"uid":"22883d77-4ab8-4b80-b75b-74774868b484","accesstoken":"e00d0d9ec36095d749a350dab04b5a8c1b94e136","expiresin":-1}}}
+[2017-09-19 15:08:01,907]DEBUG  4912[Thread-0] - io.dase.network.DevMgr.MainProc(DevMgr.java:44) - rcvQueue.size() : 0
+[2017-09-19 15:08:01,907]DEBUG  4912[Thread-0] - io.dase.network.DevMgr.MainProc(DevMgr.java:45) - dest : devmgr
+[2017-09-19 15:08:01,908]DEBUG  4913[Thread-0] - io.dase.network.DevMgr.MainProc(DevMgr.java:46) - uuid : cc0accca-9cdb-11e7-a348-1c1b0d70047a
+[2017-09-19 15:08:01,909]DEBUG  4914[Thread-0] - io.dase.network.DevMgr.MainProc(DevMgr.java:47) - body : {"work_code":"signup","type":"res","dir":"c2d","body":{"expiresin":-1,"uid":"22883d77-4ab8-4b80-b75b-74774868b484","accesstoken":"e00d0d9ec36095d749a350dab04b5a8c1b94e136","status":200}}
+[2017-09-19 15:08:03,252]DEBUG  6257[Thread-2] - io.dase.network.DamqSndConsumer.run(DamqSndConsumer.java:49) -  check sendStr : {"destination":"devmgr","uuid":"cc0accca-9cdb-11e7-a348-1c1b0d70047a","msgbody":{"type":"res","dir":"c2d","work_code":"signup","body":{"status":200,"uid":"22883d77-4ab8-4b80-b75b-74774868b484","accesstoken":"e00d0d9ec36095d749a350dab04b5a8c1b94e136","expiresin":-1}}}
+[2017-09-19 15:08:03,254]DEBUG  6259[Thread-0] - io.dase.network.DevMgr.MainProc(DevMgr.java:44) - rcvQueue.size() : 0
+[2017-09-19 15:08:03,255]DEBUG  6260[Thread-0] - io.dase.network.DevMgr.MainProc(DevMgr.java:45) - dest : devmgr
+[2017-09-19 15:08:03,256]DEBUG  6261[Thread-0] - io.dase.network.DevMgr.MainProc(DevMgr.java:46) - uuid : cc0accca-9cdb-11e7-a348-1c1b0d70047a
+[2017-09-19 15:08:03,256]DEBUG  6261[Thread-0] - io.dase.network.DevMgr.MainProc(DevMgr.java:47) - body : {"work_code":"signup","type":"res","dir":"c2d","body":{"expiresin":-1,"uid":"22883d77-4ab8-4b80-b75b-74774868b484","accesstoken":"e00d0d9ec36095d749a350dab04b5a8c1b94e136","status":200}}
+[2017-09-19 15:08:04,253]DEBUG  7258[Thread-2] - io.dase.network.DamqSndConsumer.run(DamqSndConsumer.java:49) -  check sendStr : {"destination":"devmgr","uuid":"cc0accca-9cdb-11e7-a348-1c1b0d70047a","msgbody":{"type":"res","dir":"c2d","work_code":"signup","body":{"status":200,"uid":"22883d77-4ab8-4b80-b75b-74774868b484","accesstoken":"e00d0d9ec36095d749a350dab04b5a8c1b94e136","expiresin":-1}}}
+[2017-09-19 15:08:04,255]DEBUG  7260[Thread-0] - io.dase.network.DevMgr.MainProc(DevMgr.java:44) - rcvQueue.size() : 0
+[2017-09-19 15:08:04,256]DEBUG  7261[Thread-0] - io.dase.network.DevMgr.MainProc(DevMgr.java:45) - dest : devmgr
+[2017-09-19 15:08:04,257]DEBUG  7262[Thread-0] - io.dase.network.DevMgr.MainProc(DevMgr.java:46) - uuid : cc0accca-9cdb-11e7-a348-1c1b0d70047a
+[2017-09-19 15:08:04,257]DEBUG  7262[Thread-0] - io.dase.network.DevMgr.MainProc(DevMgr.java:47) - body : {"work_code":"signup","type":"res","dir":"c2d","body":{"expiresin":-1,"uid":"22883d77-4ab8-4b80-b75b-74774868b484","accesstoken":"e00d0d9ec36095d749a350dab04b5a8c1b94e136","status":200}}
+[2017-09-19 15:08:04,946]DEBUG  7951[Thread-2] - io.dase.network.DamqSndConsumer.run(DamqSndConsumer.java:49) -  check sendStr : {"destination":"devmgr","uuid":"cc0accca-9cdb-11e7-a348-1c1b0d70047a","msgbody":{"type":"res","dir":"c2d","work_code":"signup","body":{"status":200,"uid":"22883d77-4ab8-4b80-b75b-74774868b484","accesstoken":"e00d0d9ec36095d749a350dab04b5a8c1b94e136","expiresin":-1}}}
+[2017-09-19 15:08:04,948]DEBUG  7953[Thread-0] - io.dase.network.DevMgr.MainProc(DevMgr.java:44) - rcvQueue.size() : 0
+[2017-09-19 15:08:04,949]DEBUG  7954[Thread-0] - io.dase.network.DevMgr.MainProc(DevMgr.java:45) - dest : devmgr
+[2017-09-19 15:08:04,949]DEBUG  7954[Thread-0] - io.dase.network.DevMgr.MainProc(DevMgr.java:46) - uuid : cc0accca-9cdb-11e7-a348-1c1b0d70047a
+[2017-09-19 15:08:04,950]DEBUG  7955[Thread-0] - io.dase.network.DevMgr.MainProc(DevMgr.java:47) - body : {"work_code":"signup","type":"res","dir":"c2d","body":{"expiresin":-1,"uid":"22883d77-4ab8-4b80-b75b-74774868b484","accesstoken":"e00d0d9ec36095d749a350dab04b5a8c1b94e136","status":200}}
+[2017-09-19 15:08:05,562]DEBUG  8567[Thread-2] - io.dase.network.DamqSndConsumer.run(DamqSndConsumer.java:49) -  check sendStr : {"destination":"devmgr","uuid":"cc0accca-9cdb-11e7-a348-1c1b0d70047a","msgbody":{"type":"res","dir":"c2d","work_code":"signup","body":{"status":200,"uid":"22883d77-4ab8-4b80-b75b-74774868b484","accesstoken":"e00d0d9ec36095d749a350dab04b5a8c1b94e136","expiresin":-1}}}
+[2017-09-19 15:08:10,484]DEBUG 13489[Thread-0] - io.dase.network.DevMgr.MainProc(DevMgr.java:44) - rcvQueue.size() : 0
+[2017-09-19 15:08:10,485]DEBUG 13490[Thread-0] - io.dase.network.DevMgr.MainProc(DevMgr.java:45) - dest : devmgr
+[2017-09-19 15:08:10,486]DEBUG 13491[Thread-0] - io.dase.network.DevMgr.MainProc(DevMgr.java:46) - uuid : cc0accca-9cdb-11e7-a348-1c1b0d70047a
+[2017-09-19 15:08:10,486]DEBUG 13491[Thread-0] - io.dase.network.DevMgr.MainProc(DevMgr.java:47) - body : {"work_code":"signup","type":"res","dir":"c2d","body":{"expiresin":-1,"uid":"22883d77-4ab8-4b80-b75b-74774868b484","accesstoken":"e00d0d9ec36095d749a350dab04b5a8c1b94e136","status":200}}
+[2017-09-19 15:08:23,275]ERROR 26280[main] - io.dase.network.App.main(App.java:69) - ma1n error: No line found
+[2017-09-19 15:08:23,276]DEBUG 26281[main] - io.dase.network.App.main(App.java:73) - Adios
+[2017-09-19 15:09:21,158]DEBUG     0[main] - io.dase.network.App.main(App.java:16) - Hola
+[2017-09-19 15:09:21,162]DEBUG     4[Thread-0] - io.dase.network.DamqRcvConsumer.run(DamqRcvConsumer.java:72) - DamqRcvConsumer begins.
+[2017-09-19 15:09:21,163]ERROR     5[Thread-0] - io.dase.network.DamqSndProducer.InitDamqSndProducer(DamqSndProducer.java:34) - InitDamqSndProducer
+[2017-09-19 15:09:21,163]DEBUG     5[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:20) - DamqRcvProducer begins.
+[2017-09-19 15:09:21,164]DEBUG     6[Thread-0] - io.dase.network.DevMgr.MainProc(DevMgr.java:26) - DevMgr begins.
+[2017-09-19 15:09:21,164]DEBUG     6[Thread-2] - io.dase.network.DamqSndConsumer.run(DamqSndConsumer.java:24) - DamqSndConsumer begins.
+[2017-09-19 15:09:24,447]DEBUG  3289[Thread-2] - io.dase.network.DamqSndConsumer.run(DamqSndConsumer.java:49) -  check sendStr : {"destination":"devmgr","uuid":"cc0accca-9cdb-11e7-a348-1c1b0d70047a","msgbody":{"type":"res","dir":"c2d","work_code":"signup","body":{"status":200,"uid":"22883d77-4ab8-4b80-b75b-74774868b484","accesstoken":"e00d0d9ec36095d749a350dab04b5a8c1b94e136","expiresin":-1}}}
+[2017-09-19 15:09:24,455]DEBUG  3297[Thread-0] - io.dase.network.DevMgr.MainProc(DevMgr.java:44) - rcvQueue.size() : 0   queue.size() : 0
+[2017-09-19 15:09:24,455]DEBUG  3297[Thread-0] - io.dase.network.DevMgr.MainProc(DevMgr.java:45) - dest : devmgr
+[2017-09-19 15:09:24,455]DEBUG  3297[Thread-0] - io.dase.network.DevMgr.MainProc(DevMgr.java:46) - uuid : cc0accca-9cdb-11e7-a348-1c1b0d70047a
+[2017-09-19 15:09:24,455]DEBUG  3297[Thread-0] - io.dase.network.DevMgr.MainProc(DevMgr.java:47) - body : {"work_code":"signup","type":"res","dir":"c2d","body":{"expiresin":-1,"uid":"22883d77-4ab8-4b80-b75b-74774868b484","accesstoken":"e00d0d9ec36095d749a350dab04b5a8c1b94e136","status":200}}
+[2017-09-19 15:09:26,226]DEBUG  5068[Thread-2] - io.dase.network.DamqSndConsumer.run(DamqSndConsumer.java:49) -  check sendStr : {"destination":"devmgr","uuid":"cc0accca-9cdb-11e7-a348-1c1b0d70047a","msgbody":{"type":"res","dir":"c2d","work_code":"signup","body":{"status":200,"uid":"22883d77-4ab8-4b80-b75b-74774868b484","accesstoken":"e00d0d9ec36095d749a350dab04b5a8c1b94e136","expiresin":-1}}}
+[2017-09-19 15:09:26,229]DEBUG  5071[Thread-0] - io.dase.network.DevMgr.MainProc(DevMgr.java:44) - rcvQueue.size() : 0   queue.size() : 0
+[2017-09-19 15:09:26,229]DEBUG  5071[Thread-0] - io.dase.network.DevMgr.MainProc(DevMgr.java:45) - dest : devmgr
+[2017-09-19 15:09:26,230]DEBUG  5072[Thread-0] - io.dase.network.DevMgr.MainProc(DevMgr.java:46) - uuid : cc0accca-9cdb-11e7-a348-1c1b0d70047a
+[2017-09-19 15:09:26,231]DEBUG  5073[Thread-0] - io.dase.network.DevMgr.MainProc(DevMgr.java:47) - body : {"work_code":"signup","type":"res","dir":"c2d","body":{"expiresin":-1,"uid":"22883d77-4ab8-4b80-b75b-74774868b484","accesstoken":"e00d0d9ec36095d749a350dab04b5a8c1b94e136","status":200}}
+[2017-09-19 15:09:27,239]DEBUG  6081[Thread-2] - io.dase.network.DamqSndConsumer.run(DamqSndConsumer.java:49) -  check sendStr : {"destination":"devmgr","uuid":"cc0accca-9cdb-11e7-a348-1c1b0d70047a","msgbody":{"type":"res","dir":"c2d","work_code":"signup","body":{"status":200,"uid":"22883d77-4ab8-4b80-b75b-74774868b484","accesstoken":"e00d0d9ec36095d749a350dab04b5a8c1b94e136","expiresin":-1}}}
+[2017-09-19 15:09:27,242]DEBUG  6084[Thread-0] - io.dase.network.DevMgr.MainProc(DevMgr.java:44) - rcvQueue.size() : 0   queue.size() : 1
+[2017-09-19 15:09:27,242]DEBUG  6084[Thread-0] - io.dase.network.DevMgr.MainProc(DevMgr.java:45) - dest : devmgr
+[2017-09-19 15:09:27,243]DEBUG  6085[Thread-0] - io.dase.network.DevMgr.MainProc(DevMgr.java:46) - uuid : cc0accca-9cdb-11e7-a348-1c1b0d70047a
+[2017-09-19 15:09:27,243]DEBUG  6085[Thread-0] - io.dase.network.DevMgr.MainProc(DevMgr.java:47) - body : {"work_code":"signup","type":"res","dir":"c2d","body":{"expiresin":-1,"uid":"22883d77-4ab8-4b80-b75b-74774868b484","accesstoken":"e00d0d9ec36095d749a350dab04b5a8c1b94e136","status":200}}
+[2017-09-19 15:09:29,499]DEBUG  8341[Thread-2] - io.dase.network.DamqSndConsumer.run(DamqSndConsumer.java:49) -  check sendStr : {"destination":"devmgr","uuid":"cc0accca-9cdb-11e7-a348-1c1b0d70047a","msgbody":{"type":"res","dir":"c2d","work_code":"signup","body":{"status":200,"uid":"22883d77-4ab8-4b80-b75b-74774868b484","accesstoken":"e00d0d9ec36095d749a350dab04b5a8c1b94e136","expiresin":-1}}}
+[2017-09-19 15:09:29,501]DEBUG  8343[Thread-0] - io.dase.network.DevMgr.MainProc(DevMgr.java:44) - rcvQueue.size() : 0   queue.size() : 2
+[2017-09-19 15:09:29,502]DEBUG  8344[Thread-0] - io.dase.network.DevMgr.MainProc(DevMgr.java:45) - dest : devmgr
+[2017-09-19 15:09:29,503]DEBUG  8345[Thread-0] - io.dase.network.DevMgr.MainProc(DevMgr.java:46) - uuid : cc0accca-9cdb-11e7-a348-1c1b0d70047a
+[2017-09-19 15:09:29,503]DEBUG  8345[Thread-0] - io.dase.network.DevMgr.MainProc(DevMgr.java:47) - body : {"work_code":"signup","type":"res","dir":"c2d","body":{"expiresin":-1,"uid":"22883d77-4ab8-4b80-b75b-74774868b484","accesstoken":"e00d0d9ec36095d749a350dab04b5a8c1b94e136","status":200}}
+[2017-09-19 15:09:30,222]DEBUG  9064[Thread-2] - io.dase.network.DamqSndConsumer.run(DamqSndConsumer.java:49) -  check sendStr : {"destination":"devmgr","uuid":"cc0accca-9cdb-11e7-a348-1c1b0d70047a","msgbody":{"type":"res","dir":"c2d","work_code":"signup","body":{"status":200,"uid":"22883d77-4ab8-4b80-b75b-74774868b484","accesstoken":"e00d0d9ec36095d749a350dab04b5a8c1b94e136","expiresin":-1}}}
+[2017-09-19 15:09:30,224]DEBUG  9066[Thread-0] - io.dase.network.DevMgr.MainProc(DevMgr.java:44) - rcvQueue.size() : 0   queue.size() : 3
+[2017-09-19 15:09:30,224]DEBUG  9066[Thread-0] - io.dase.network.DevMgr.MainProc(DevMgr.java:45) - dest : devmgr
+[2017-09-19 15:09:30,225]DEBUG  9067[Thread-0] - io.dase.network.DevMgr.MainProc(DevMgr.java:46) - uuid : cc0accca-9cdb-11e7-a348-1c1b0d70047a
+[2017-09-19 15:09:30,226]DEBUG  9068[Thread-0] - io.dase.network.DevMgr.MainProc(DevMgr.java:47) - body : {"work_code":"signup","type":"res","dir":"c2d","body":{"expiresin":-1,"uid":"22883d77-4ab8-4b80-b75b-74774868b484","accesstoken":"e00d0d9ec36095d749a350dab04b5a8c1b94e136","status":200}}
+[2017-09-19 15:09:30,858]DEBUG  9700[Thread-2] - io.dase.network.DamqSndConsumer.run(DamqSndConsumer.java:49) -  check sendStr : {"destination":"devmgr","uuid":"cc0accca-9cdb-11e7-a348-1c1b0d70047a","msgbody":{"type":"res","dir":"c2d","work_code":"signup","body":{"status":200,"uid":"22883d77-4ab8-4b80-b75b-74774868b484","accesstoken":"e00d0d9ec36095d749a350dab04b5a8c1b94e136","expiresin":-1}}}
+[2017-09-19 15:09:31,556]DEBUG 10398[Thread-2] - io.dase.network.DamqSndConsumer.run(DamqSndConsumer.java:49) -  check sendStr : {"destination":"devmgr","uuid":"cc0accca-9cdb-11e7-a348-1c1b0d70047a","msgbody":{"type":"res","dir":"c2d","work_code":"signup","body":{"status":200,"uid":"22883d77-4ab8-4b80-b75b-74774868b484","accesstoken":"e00d0d9ec36095d749a350dab04b5a8c1b94e136","expiresin":-1}}}
+[2017-09-19 15:09:32,360]DEBUG 11202[Thread-2] - io.dase.network.DamqSndConsumer.run(DamqSndConsumer.java:49) -  check sendStr : {"destination":"devmgr","uuid":"cc0accca-9cdb-11e7-a348-1c1b0d70047a","msgbody":{"type":"res","dir":"c2d","work_code":"signup","body":{"status":200,"uid":"22883d77-4ab8-4b80-b75b-74774868b484","accesstoken":"e00d0d9ec36095d749a350dab04b5a8c1b94e136","expiresin":-1}}}
+[2017-09-19 15:09:34,487]DEBUG 13329[Thread-0] - io.dase.network.DevMgr.MainProc(DevMgr.java:44) - rcvQueue.size() : 2   queue.size() : 3
+[2017-09-19 15:09:34,488]DEBUG 13330[Thread-0] - io.dase.network.DevMgr.MainProc(DevMgr.java:45) - dest : devmgr
+[2017-09-19 15:09:34,489]DEBUG 13331[Thread-0] - io.dase.network.DevMgr.MainProc(DevMgr.java:46) - uuid : cc0accca-9cdb-11e7-a348-1c1b0d70047a
+[2017-09-19 15:09:34,489]DEBUG 13331[Thread-0] - io.dase.network.DevMgr.MainProc(DevMgr.java:47) - body : {"work_code":"signup","type":"res","dir":"c2d","body":{"expiresin":-1,"uid":"22883d77-4ab8-4b80-b75b-74774868b484","accesstoken":"e00d0d9ec36095d749a350dab04b5a8c1b94e136","status":200}}
+[2017-09-19 15:09:36,446]DEBUG 15288[Thread-2] - io.dase.network.DamqSndConsumer.run(DamqSndConsumer.java:49) -  check sendStr : {"destination":"devmgr","uuid":"cc0accca-9cdb-11e7-a348-1c1b0d70047a","msgbody":{"type":"res","dir":"c2d","work_code":"signup","body":{"status":200,"uid":"22883d77-4ab8-4b80-b75b-74774868b484","accesstoken":"e00d0d9ec36095d749a350dab04b5a8c1b94e136","expiresin":-1}}}
+[2017-09-19 15:09:44,518]DEBUG 23360[Thread-0] - io.dase.network.DevMgr.MainProc(DevMgr.java:44) - rcvQueue.size() : 2   queue.size() : 3
+[2017-09-19 15:09:44,519]DEBUG 23361[Thread-0] - io.dase.network.DevMgr.MainProc(DevMgr.java:45) - dest : devmgr
+[2017-09-19 15:09:44,520]DEBUG 23362[Thread-0] - io.dase.network.DevMgr.MainProc(DevMgr.java:46) - uuid : cc0accca-9cdb-11e7-a348-1c1b0d70047a
+[2017-09-19 15:09:44,520]DEBUG 23362[Thread-0] - io.dase.network.DevMgr.MainProc(DevMgr.java:47) - body : {"work_code":"signup","type":"res","dir":"c2d","body":{"expiresin":-1,"uid":"22883d77-4ab8-4b80-b75b-74774868b484","accesstoken":"e00d0d9ec36095d749a350dab04b5a8c1b94e136","status":200}}
+[2017-09-19 15:09:54,549]DEBUG 33391[Thread-0] - io.dase.network.DevMgr.MainProc(DevMgr.java:44) - rcvQueue.size() : 1   queue.size() : 3
+[2017-09-19 15:09:54,550]DEBUG 33392[Thread-0] - io.dase.network.DevMgr.MainProc(DevMgr.java:45) - dest : devmgr
+[2017-09-19 15:09:54,550]DEBUG 33392[Thread-0] - io.dase.network.DevMgr.MainProc(DevMgr.java:46) - uuid : cc0accca-9cdb-11e7-a348-1c1b0d70047a
+[2017-09-19 15:09:54,551]DEBUG 33393[Thread-0] - io.dase.network.DevMgr.MainProc(DevMgr.java:47) - body : {"work_code":"signup","type":"res","dir":"c2d","body":{"expiresin":-1,"uid":"22883d77-4ab8-4b80-b75b-74774868b484","accesstoken":"e00d0d9ec36095d749a350dab04b5a8c1b94e136","status":200}}
+[2017-09-19 15:10:04,580]DEBUG 43422[Thread-0] - io.dase.network.DevMgr.MainProc(DevMgr.java:44) - rcvQueue.size() : 0   queue.size() : 3
+[2017-09-19 15:10:04,580]DEBUG 43422[Thread-0] - io.dase.network.DevMgr.MainProc(DevMgr.java:45) - dest : devmgr
+[2017-09-19 15:10:04,581]DEBUG 43423[Thread-0] - io.dase.network.DevMgr.MainProc(DevMgr.java:46) - uuid : cc0accca-9cdb-11e7-a348-1c1b0d70047a
+[2017-09-19 15:10:04,582]DEBUG 43424[Thread-0] - io.dase.network.DevMgr.MainProc(DevMgr.java:47) - body : {"work_code":"signup","type":"res","dir":"c2d","body":{"expiresin":-1,"uid":"22883d77-4ab8-4b80-b75b-74774868b484","accesstoken":"e00d0d9ec36095d749a350dab04b5a8c1b94e136","status":200}}
+[2017-09-19 15:10:06,478]ERROR 45320[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:53) - err0r : Receive timed out
+[2017-09-19 15:10:36,494]ERROR 75336[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:53) - err0r : Receive timed out
+[2017-09-19 15:10:55,467]ERROR 94309[main] - io.dase.network.App.main(App.java:69) - ma1n error: No line found
+[2017-09-19 15:10:55,468]DEBUG 94310[main] - io.dase.network.App.main(App.java:73) - Adios
+[2017-09-19 15:12:07,789]DEBUG     0[main] - io.dase.network.App.main(App.java:16) - Hola
+[2017-09-19 15:12:07,793]DEBUG     4[Thread-0] - io.dase.network.DamqRcvConsumer.run(DamqRcvConsumer.java:72) - DamqRcvConsumer begins.
+[2017-09-19 15:12:07,794]ERROR     5[Thread-0] - io.dase.network.DamqSndProducer.InitDamqSndProducer(DamqSndProducer.java:34) - InitDamqSndProducer
+[2017-09-19 15:12:07,794]DEBUG     5[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:20) - DamqRcvProducer begins.
+[2017-09-19 15:12:07,794]DEBUG     5[Thread-0] - io.dase.network.DevMgr.MainProc(DevMgr.java:26) - DevMgr begins.
+[2017-09-19 15:12:07,795]DEBUG     6[Thread-2] - io.dase.network.DamqSndConsumer.run(DamqSndConsumer.java:24) - DamqSndConsumer begins.
+[2017-09-19 15:12:09,713]DEBUG  1924[Thread-2] - io.dase.network.DamqSndConsumer.run(DamqSndConsumer.java:49) -  check sendStr : {"destination":"devmgr","uuid":"cc0accca-9cdb-11e7-a348-1c1b0d70047a","msgbody":{"type":"res","dir":"c2d","work_code":"signup","body":{"status":200,"uid":"22883d77-4ab8-4b80-b75b-74774868b484","accesstoken":"e00d0d9ec36095d749a350dab04b5a8c1b94e136","expiresin":-1}}}
+[2017-09-19 15:12:09,722]DEBUG  1933[Thread-0] - io.dase.network.DevMgr.MainProc(DevMgr.java:44) - rcvQueue.size() : 0
+[2017-09-19 15:12:09,722]DEBUG  1933[Thread-0] - io.dase.network.DevMgr.MainProc(DevMgr.java:45) - dest : devmgr
+[2017-09-19 15:12:09,722]DEBUG  1933[Thread-0] - io.dase.network.DevMgr.MainProc(DevMgr.java:46) - uuid : cc0accca-9cdb-11e7-a348-1c1b0d70047a
+[2017-09-19 15:12:09,722]DEBUG  1933[Thread-0] - io.dase.network.DevMgr.MainProc(DevMgr.java:47) - body : {"work_code":"signup","type":"res","dir":"c2d","body":{"expiresin":-1,"uid":"22883d77-4ab8-4b80-b75b-74774868b484","accesstoken":"e00d0d9ec36095d749a350dab04b5a8c1b94e136","status":200}}
+[2017-09-19 15:12:21,974]DEBUG 14185[Thread-2] - io.dase.network.DamqSndConsumer.run(DamqSndConsumer.java:49) -  check sendStr : {"destination":"devmgr","uuid":"cc0accca-9cdb-11e7-a348-1c1b0d70047a","msgbody":{"type":"res","dir":"c2d","work_code":"signup","body":{"status":200,"uid":"22883d77-4ab8-4b80-b75b-74774868b484","accesstoken":"e00d0d9ec36095d749a350dab04b5a8c1b94e136","expiresin":-1}}}
+[2017-09-19 15:12:21,977]DEBUG 14188[Thread-0] - io.dase.network.DevMgr.MainProc(DevMgr.java:44) - rcvQueue.size() : 0
+[2017-09-19 15:12:21,978]DEBUG 14189[Thread-0] - io.dase.network.DevMgr.MainProc(DevMgr.java:45) - dest : devmgr
+[2017-09-19 15:12:21,979]DEBUG 14190[Thread-0] - io.dase.network.DevMgr.MainProc(DevMgr.java:46) - uuid : cc0accca-9cdb-11e7-a348-1c1b0d70047a
+[2017-09-19 15:12:21,979]DEBUG 14190[Thread-0] - io.dase.network.DevMgr.MainProc(DevMgr.java:47) - body : {"work_code":"signup","type":"res","dir":"c2d","body":{"expiresin":-1,"uid":"22883d77-4ab8-4b80-b75b-74774868b484","accesstoken":"e00d0d9ec36095d749a350dab04b5a8c1b94e136","status":200}}
+[2017-09-19 15:12:23,587]DEBUG 15798[Thread-2] - io.dase.network.DamqSndConsumer.run(DamqSndConsumer.java:49) -  check sendStr : {"destination":"devmgr","uuid":"cc0accca-9cdb-11e7-a348-1c1b0d70047a","msgbody":{"type":"res","dir":"c2d","work_code":"signup","body":{"status":200,"uid":"22883d77-4ab8-4b80-b75b-74774868b484","accesstoken":"e00d0d9ec36095d749a350dab04b5a8c1b94e136","expiresin":-1}}}
+[2017-09-19 15:12:23,590]DEBUG 15801[Thread-0] - io.dase.network.DevMgr.MainProc(DevMgr.java:44) - rcvQueue.size() : 0
+[2017-09-19 15:12:23,590]DEBUG 15801[Thread-0] - io.dase.network.DevMgr.MainProc(DevMgr.java:45) - dest : devmgr
+[2017-09-19 15:12:23,591]DEBUG 15802[Thread-0] - io.dase.network.DevMgr.MainProc(DevMgr.java:46) - uuid : cc0accca-9cdb-11e7-a348-1c1b0d70047a
+[2017-09-19 15:12:23,592]DEBUG 15803[Thread-0] - io.dase.network.DevMgr.MainProc(DevMgr.java:47) - body : {"work_code":"signup","type":"res","dir":"c2d","body":{"expiresin":-1,"uid":"22883d77-4ab8-4b80-b75b-74774868b484","accesstoken":"e00d0d9ec36095d749a350dab04b5a8c1b94e136","status":200}}
+[2017-09-19 15:12:53,606]ERROR 45817[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:53) - err0r : Receive timed out
+[2017-09-19 15:13:23,636]ERROR 75847[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:53) - err0r : Receive timed out
+[2017-09-19 15:13:28,997]DEBUG 81208[Thread-2] - io.dase.network.DamqSndConsumer.run(DamqSndConsumer.java:49) -  check sendStr : {"destination":"devmgr","uuid":"cc0accca-9cdb-11e7-a348-1c1b0d70047a","msgbody":{"type":"res","dir":"c2d","work_code":"signup","body":{"status":200,"uid":"22883d77-4ab8-4b80-b75b-74774868b484","accesstoken":"e00d0d9ec36095d749a350dab04b5a8c1b94e136","expiresin":-1}}}
+[2017-09-19 15:13:29,000]DEBUG 81211[Thread-0] - io.dase.network.DevMgr.MainProc(DevMgr.java:44) - rcvQueue.size() : 0
+[2017-09-19 15:13:29,000]DEBUG 81211[Thread-0] - io.dase.network.DevMgr.MainProc(DevMgr.java:45) - dest : devmgr
+[2017-09-19 15:13:29,001]DEBUG 81212[Thread-0] - io.dase.network.DevMgr.MainProc(DevMgr.java:46) - uuid : cc0accca-9cdb-11e7-a348-1c1b0d70047a
+[2017-09-19 15:13:29,001]DEBUG 81212[Thread-0] - io.dase.network.DevMgr.MainProc(DevMgr.java:47) - body : {"work_code":"signup","type":"res","dir":"c2d","body":{"expiresin":-1,"uid":"22883d77-4ab8-4b80-b75b-74774868b484","accesstoken":"e00d0d9ec36095d749a350dab04b5a8c1b94e136","status":200}}
+[2017-09-19 15:13:30,832]DEBUG 83043[Thread-2] - io.dase.network.DamqSndConsumer.run(DamqSndConsumer.java:49) -  check sendStr : {"destination":"devmgr","uuid":"cc0accca-9cdb-11e7-a348-1c1b0d70047a","msgbody":{"type":"res","dir":"c2d","work_code":"signup","body":{"status":200,"uid":"22883d77-4ab8-4b80-b75b-74774868b484","accesstoken":"e00d0d9ec36095d749a350dab04b5a8c1b94e136","expiresin":-1}}}
+[2017-09-19 15:13:30,835]DEBUG 83046[Thread-0] - io.dase.network.DevMgr.MainProc(DevMgr.java:44) - rcvQueue.size() : 0
+[2017-09-19 15:13:30,836]DEBUG 83047[Thread-0] - io.dase.network.DevMgr.MainProc(DevMgr.java:45) - dest : devmgr
+[2017-09-19 15:13:30,836]DEBUG 83047[Thread-0] - io.dase.network.DevMgr.MainProc(DevMgr.java:46) - uuid : cc0accca-9cdb-11e7-a348-1c1b0d70047a
+[2017-09-19 15:13:30,837]DEBUG 83048[Thread-0] - io.dase.network.DevMgr.MainProc(DevMgr.java:47) - body : {"work_code":"signup","type":"res","dir":"c2d","body":{"expiresin":-1,"uid":"22883d77-4ab8-4b80-b75b-74774868b484","accesstoken":"e00d0d9ec36095d749a350dab04b5a8c1b94e136","status":200}}
+[2017-09-19 15:13:32,348]DEBUG 84559[Thread-2] - io.dase.network.DamqSndConsumer.run(DamqSndConsumer.java:49) -  check sendStr : {"destination":"devmgr","uuid":"cc0accca-9cdb-11e7-a348-1c1b0d70047a","msgbody":{"type":"res","dir":"c2d","work_code":"signup","body":{"status":200,"uid":"22883d77-4ab8-4b80-b75b-74774868b484","accesstoken":"e00d0d9ec36095d749a350dab04b5a8c1b94e136","expiresin":-1}}}
+[2017-09-19 15:13:32,350]DEBUG 84561[Thread-0] - io.dase.network.DevMgr.MainProc(DevMgr.java:44) - rcvQueue.size() : 0
+[2017-09-19 15:13:32,351]DEBUG 84562[Thread-0] - io.dase.network.DevMgr.MainProc(DevMgr.java:45) - dest : devmgr
+[2017-09-19 15:13:32,352]DEBUG 84563[Thread-0] - io.dase.network.DevMgr.MainProc(DevMgr.java:46) - uuid : cc0accca-9cdb-11e7-a348-1c1b0d70047a
+[2017-09-19 15:13:32,352]DEBUG 84563[Thread-0] - io.dase.network.DevMgr.MainProc(DevMgr.java:47) - body : {"work_code":"signup","type":"res","dir":"c2d","body":{"expiresin":-1,"uid":"22883d77-4ab8-4b80-b75b-74774868b484","accesstoken":"e00d0d9ec36095d749a350dab04b5a8c1b94e136","status":200}}
+[2017-09-19 15:13:33,132]DEBUG 85343[Thread-2] - io.dase.network.DamqSndConsumer.run(DamqSndConsumer.java:49) -  check sendStr : {"destination":"devmgr","uuid":"cc0accca-9cdb-11e7-a348-1c1b0d70047a","msgbody":{"type":"res","dir":"c2d","work_code":"signup","body":{"status":200,"uid":"22883d77-4ab8-4b80-b75b-74774868b484","accesstoken":"e00d0d9ec36095d749a350dab04b5a8c1b94e136","expiresin":-1}}}
+[2017-09-19 15:13:33,133]DEBUG 85344[Thread-0] - io.dase.network.DevMgr.MainProc(DevMgr.java:44) - rcvQueue.size() : 0
+[2017-09-19 15:13:33,134]DEBUG 85345[Thread-0] - io.dase.network.DevMgr.MainProc(DevMgr.java:45) - dest : devmgr
+[2017-09-19 15:13:33,135]DEBUG 85346[Thread-0] - io.dase.network.DevMgr.MainProc(DevMgr.java:46) - uuid : cc0accca-9cdb-11e7-a348-1c1b0d70047a
+[2017-09-19 15:13:33,135]DEBUG 85346[Thread-0] - io.dase.network.DevMgr.MainProc(DevMgr.java:47) - body : {"work_code":"signup","type":"res","dir":"c2d","body":{"expiresin":-1,"uid":"22883d77-4ab8-4b80-b75b-74774868b484","accesstoken":"e00d0d9ec36095d749a350dab04b5a8c1b94e136","status":200}}
+[2017-09-19 15:13:34,184]DEBUG 86395[Thread-2] - io.dase.network.DamqSndConsumer.run(DamqSndConsumer.java:49) -  check sendStr : {"destination":"devmgr","uuid":"cc0accca-9cdb-11e7-a348-1c1b0d70047a","msgbody":{"type":"res","dir":"c2d","work_code":"signup","body":{"status":200,"uid":"22883d77-4ab8-4b80-b75b-74774868b484","accesstoken":"e00d0d9ec36095d749a350dab04b5a8c1b94e136","expiresin":-1}}}
+[2017-09-19 15:13:34,186]DEBUG 86397[Thread-0] - io.dase.network.DevMgr.MainProc(DevMgr.java:44) - rcvQueue.size() : 0
+[2017-09-19 15:13:34,186]DEBUG 86397[Thread-0] - io.dase.network.DevMgr.MainProc(DevMgr.java:45) - dest : devmgr
+[2017-09-19 15:13:34,187]DEBUG 86398[Thread-0] - io.dase.network.DevMgr.MainProc(DevMgr.java:46) - uuid : cc0accca-9cdb-11e7-a348-1c1b0d70047a
+[2017-09-19 15:13:34,187]DEBUG 86398[Thread-0] - io.dase.network.DevMgr.MainProc(DevMgr.java:47) - body : {"work_code":"signup","type":"res","dir":"c2d","body":{"expiresin":-1,"uid":"22883d77-4ab8-4b80-b75b-74774868b484","accesstoken":"e00d0d9ec36095d749a350dab04b5a8c1b94e136","status":200}}
+[2017-09-19 15:14:04,199]ERROR116410[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:53) - err0r : Receive timed out
+[2017-09-19 15:14:06,941]DEBUG119152[Thread-2] - io.dase.network.DamqSndConsumer.run(DamqSndConsumer.java:49) -  check sendStr : {"destination":"devmgr","uuid":"cc0accca-9cdb-11e7-a348-1c1b0d70047a","msgbody":{"type":"res","dir":"c2d","work_code":"signup","body":{"status":200,"uid":"22883d77-4ab8-4b80-b75b-74774868b484","accesstoken":"e00d0d9ec36095d749a350dab04b5a8c1b94e136","expiresin":-1}}}
+[2017-09-19 15:14:06,943]DEBUG119154[Thread-0] - io.dase.network.DevMgr.MainProc(DevMgr.java:44) - rcvQueue.size() : 0
+[2017-09-19 15:14:06,944]DEBUG119155[Thread-0] - io.dase.network.DevMgr.MainProc(DevMgr.java:45) - dest : devmgr
+[2017-09-19 15:14:06,944]DEBUG119155[Thread-0] - io.dase.network.DevMgr.MainProc(DevMgr.java:46) - uuid : cc0accca-9cdb-11e7-a348-1c1b0d70047a
+[2017-09-19 15:14:06,945]DEBUG119156[Thread-0] - io.dase.network.DevMgr.MainProc(DevMgr.java:47) - body : {"work_code":"signup","type":"res","dir":"c2d","body":{"expiresin":-1,"uid":"22883d77-4ab8-4b80-b75b-74774868b484","accesstoken":"e00d0d9ec36095d749a350dab04b5a8c1b94e136","status":200}}
+[2017-09-19 15:14:07,445]DEBUG119656[Thread-2] - io.dase.network.DamqSndConsumer.run(DamqSndConsumer.java:49) -  check sendStr : {"destination":"devmgr","uuid":"cc0accca-9cdb-11e7-a348-1c1b0d70047a","msgbody":{"type":"res","dir":"c2d","work_code":"signup","body":{"status":200,"uid":"22883d77-4ab8-4b80-b75b-74774868b484","accesstoken":"e00d0d9ec36095d749a350dab04b5a8c1b94e136","expiresin":-1}}}
+[2017-09-19 15:14:07,447]DEBUG119658[Thread-0] - io.dase.network.DevMgr.MainProc(DevMgr.java:44) - rcvQueue.size() : 0
+[2017-09-19 15:14:07,448]DEBUG119659[Thread-0] - io.dase.network.DevMgr.MainProc(DevMgr.java:45) - dest : devmgr
+[2017-09-19 15:14:07,448]DEBUG119659[Thread-0] - io.dase.network.DevMgr.MainProc(DevMgr.java:46) - uuid : cc0accca-9cdb-11e7-a348-1c1b0d70047a
+[2017-09-19 15:14:07,449]DEBUG119660[Thread-0] - io.dase.network.DevMgr.MainProc(DevMgr.java:47) - body : {"work_code":"signup","type":"res","dir":"c2d","body":{"expiresin":-1,"uid":"22883d77-4ab8-4b80-b75b-74774868b484","accesstoken":"e00d0d9ec36095d749a350dab04b5a8c1b94e136","status":200}}
+[2017-09-19 15:14:07,974]DEBUG120185[Thread-2] - io.dase.network.DamqSndConsumer.run(DamqSndConsumer.java:49) -  check sendStr : {"destination":"devmgr","uuid":"cc0accca-9cdb-11e7-a348-1c1b0d70047a","msgbody":{"type":"res","dir":"c2d","work_code":"signup","body":{"status":200,"uid":"22883d77-4ab8-4b80-b75b-74774868b484","accesstoken":"e00d0d9ec36095d749a350dab04b5a8c1b94e136","expiresin":-1}}}
+[2017-09-19 15:14:07,976]DEBUG120187[Thread-0] - io.dase.network.DevMgr.MainProc(DevMgr.java:44) - rcvQueue.size() : 0
+[2017-09-19 15:14:07,976]DEBUG120187[Thread-0] - io.dase.network.DevMgr.MainProc(DevMgr.java:45) - dest : devmgr
+[2017-09-19 15:14:07,977]DEBUG120188[Thread-0] - io.dase.network.DevMgr.MainProc(DevMgr.java:46) - uuid : cc0accca-9cdb-11e7-a348-1c1b0d70047a
+[2017-09-19 15:14:07,977]DEBUG120188[Thread-0] - io.dase.network.DevMgr.MainProc(DevMgr.java:47) - body : {"work_code":"signup","type":"res","dir":"c2d","body":{"expiresin":-1,"uid":"22883d77-4ab8-4b80-b75b-74774868b484","accesstoken":"e00d0d9ec36095d749a350dab04b5a8c1b94e136","status":200}}
+[2017-09-19 15:14:08,413]DEBUG120624[Thread-2] - io.dase.network.DamqSndConsumer.run(DamqSndConsumer.java:49) -  check sendStr : {"destination":"devmgr","uuid":"cc0accca-9cdb-11e7-a348-1c1b0d70047a","msgbody":{"type":"res","dir":"c2d","work_code":"signup","body":{"status":200,"uid":"22883d77-4ab8-4b80-b75b-74774868b484","accesstoken":"e00d0d9ec36095d749a350dab04b5a8c1b94e136","expiresin":-1}}}
+[2017-09-19 15:14:08,859]DEBUG121070[Thread-2] - io.dase.network.DamqSndConsumer.run(DamqSndConsumer.java:49) -  check sendStr : {"destination":"devmgr","uuid":"cc0accca-9cdb-11e7-a348-1c1b0d70047a","msgbody":{"type":"res","dir":"c2d","work_code":"signup","body":{"status":200,"uid":"22883d77-4ab8-4b80-b75b-74774868b484","accesstoken":"e00d0d9ec36095d749a350dab04b5a8c1b94e136","expiresin":-1}}}
+[2017-09-19 15:14:09,124]DEBUG121335[Thread-0] - io.dase.network.DevMgr.MainProc(DevMgr.java:44) - rcvQueue.size() : 1
+[2017-09-19 15:14:09,125]DEBUG121336[Thread-0] - io.dase.network.DevMgr.MainProc(DevMgr.java:45) - dest : devmgr
+[2017-09-19 15:14:09,125]DEBUG121336[Thread-0] - io.dase.network.DevMgr.MainProc(DevMgr.java:46) - uuid : cc0accca-9cdb-11e7-a348-1c1b0d70047a
+[2017-09-19 15:14:09,125]DEBUG121336[Thread-0] - io.dase.network.DevMgr.MainProc(DevMgr.java:47) - body : {"work_code":"signup","type":"res","dir":"c2d","body":{"expiresin":-1,"uid":"22883d77-4ab8-4b80-b75b-74774868b484","accesstoken":"e00d0d9ec36095d749a350dab04b5a8c1b94e136","status":200}}
+[2017-09-19 15:14:09,320]DEBUG121531[Thread-2] - io.dase.network.DamqSndConsumer.run(DamqSndConsumer.java:49) -  check sendStr : {"destination":"devmgr","uuid":"cc0accca-9cdb-11e7-a348-1c1b0d70047a","msgbody":{"type":"res","dir":"c2d","work_code":"signup","body":{"status":200,"uid":"22883d77-4ab8-4b80-b75b-74774868b484","accesstoken":"e00d0d9ec36095d749a350dab04b5a8c1b94e136","expiresin":-1}}}
+[2017-09-19 15:14:09,798]DEBUG122009[Thread-2] - io.dase.network.DamqSndConsumer.run(DamqSndConsumer.java:49) -  check sendStr : {"destination":"devmgr","uuid":"cc0accca-9cdb-11e7-a348-1c1b0d70047a","msgbody":{"type":"res","dir":"c2d","work_code":"signup","body":{"status":200,"uid":"22883d77-4ab8-4b80-b75b-74774868b484","accesstoken":"e00d0d9ec36095d749a350dab04b5a8c1b94e136","expiresin":-1}}}
+[2017-09-19 15:14:10,222]DEBUG122433[Thread-2] - io.dase.network.DamqSndConsumer.run(DamqSndConsumer.java:49) -  check sendStr : {"destination":"devmgr","uuid":"cc0accca-9cdb-11e7-a348-1c1b0d70047a","msgbody":{"type":"res","dir":"c2d","work_code":"signup","body":{"status":200,"uid":"22883d77-4ab8-4b80-b75b-74774868b484","accesstoken":"e00d0d9ec36095d749a350dab04b5a8c1b94e136","expiresin":-1}}}
+[2017-09-19 15:14:10,654]DEBUG122865[Thread-2] - io.dase.network.DamqSndConsumer.run(DamqSndConsumer.java:49) -  check sendStr : {"destination":"devmgr","uuid":"cc0accca-9cdb-11e7-a348-1c1b0d70047a","msgbody":{"type":"res","dir":"c2d","work_code":"signup","body":{"status":200,"uid":"22883d77-4ab8-4b80-b75b-74774868b484","accesstoken":"e00d0d9ec36095d749a350dab04b5a8c1b94e136","expiresin":-1}}}
+[2017-09-19 15:14:11,104]DEBUG123315[Thread-2] - io.dase.network.DamqSndConsumer.run(DamqSndConsumer.java:49) -  check sendStr : {"destination":"devmgr","uuid":"cc0accca-9cdb-11e7-a348-1c1b0d70047a","msgbody":{"type":"res","dir":"c2d","work_code":"signup","body":{"status":200,"uid":"22883d77-4ab8-4b80-b75b-74774868b484","accesstoken":"e00d0d9ec36095d749a350dab04b5a8c1b94e136","expiresin":-1}}}
+[2017-09-19 15:14:11,563]DEBUG123774[Thread-2] - io.dase.network.DamqSndConsumer.run(DamqSndConsumer.java:49) -  check sendStr : {"destination":"devmgr","uuid":"cc0accca-9cdb-11e7-a348-1c1b0d70047a","msgbody":{"type":"res","dir":"c2d","work_code":"signup","body":{"status":200,"uid":"22883d77-4ab8-4b80-b75b-74774868b484","accesstoken":"e00d0d9ec36095d749a350dab04b5a8c1b94e136","expiresin":-1}}}
+[2017-09-19 15:14:11,983]DEBUG124194[Thread-2] - io.dase.network.DamqSndConsumer.run(DamqSndConsumer.java:49) -  check sendStr : {"destination":"devmgr","uuid":"cc0accca-9cdb-11e7-a348-1c1b0d70047a","msgbody":{"type":"res","dir":"c2d","work_code":"signup","body":{"status":200,"uid":"22883d77-4ab8-4b80-b75b-74774868b484","accesstoken":"e00d0d9ec36095d749a350dab04b5a8c1b94e136","expiresin":-1}}}
+[2017-09-19 15:14:12,427]DEBUG124638[Thread-2] - io.dase.network.DamqSndConsumer.run(DamqSndConsumer.java:49) -  check sendStr : {"destination":"devmgr","uuid":"cc0accca-9cdb-11e7-a348-1c1b0d70047a","msgbody":{"type":"res","dir":"c2d","work_code":"signup","body":{"status":200,"uid":"22883d77-4ab8-4b80-b75b-74774868b484","accesstoken":"e00d0d9ec36095d749a350dab04b5a8c1b94e136","expiresin":-1}}}
+[2017-09-19 15:14:19,155]DEBUG131366[Thread-0] - io.dase.network.DevMgr.MainProc(DevMgr.java:44) - rcvQueue.size() : 8
+[2017-09-19 15:14:19,156]DEBUG131367[Thread-0] - io.dase.network.DevMgr.MainProc(DevMgr.java:45) - dest : devmgr
+[2017-09-19 15:14:19,156]DEBUG131367[Thread-0] - io.dase.network.DevMgr.MainProc(DevMgr.java:46) - uuid : cc0accca-9cdb-11e7-a348-1c1b0d70047a
+[2017-09-19 15:14:19,156]DEBUG131367[Thread-0] - io.dase.network.DevMgr.MainProc(DevMgr.java:47) - body : {"work_code":"signup","type":"res","dir":"c2d","body":{"expiresin":-1,"uid":"22883d77-4ab8-4b80-b75b-74774868b484","accesstoken":"e00d0d9ec36095d749a350dab04b5a8c1b94e136","status":200}}
+[2017-09-19 15:14:29,186]DEBUG141397[Thread-0] - io.dase.network.DevMgr.MainProc(DevMgr.java:44) - rcvQueue.size() : 7
+[2017-09-19 15:14:29,186]DEBUG141397[Thread-0] - io.dase.network.DevMgr.MainProc(DevMgr.java:45) - dest : devmgr
+[2017-09-19 15:14:29,187]DEBUG141398[Thread-0] - io.dase.network.DevMgr.MainProc(DevMgr.java:46) - uuid : cc0accca-9cdb-11e7-a348-1c1b0d70047a
+[2017-09-19 15:14:29,188]DEBUG141399[Thread-0] - io.dase.network.DevMgr.MainProc(DevMgr.java:47) - body : {"work_code":"signup","type":"res","dir":"c2d","body":{"expiresin":-1,"uid":"22883d77-4ab8-4b80-b75b-74774868b484","accesstoken":"e00d0d9ec36095d749a350dab04b5a8c1b94e136","status":200}}
+[2017-09-19 15:14:39,216]DEBUG151427[Thread-0] - io.dase.network.DevMgr.MainProc(DevMgr.java:44) - rcvQueue.size() : 6
+[2017-09-19 15:14:39,217]DEBUG151428[Thread-0] - io.dase.network.DevMgr.MainProc(DevMgr.java:45) - dest : devmgr
+[2017-09-19 15:14:39,217]DEBUG151428[Thread-0] - io.dase.network.DevMgr.MainProc(DevMgr.java:46) - uuid : cc0accca-9cdb-11e7-a348-1c1b0d70047a
+[2017-09-19 15:14:39,218]DEBUG151429[Thread-0] - io.dase.network.DevMgr.MainProc(DevMgr.java:47) - body : {"work_code":"signup","type":"res","dir":"c2d","body":{"expiresin":-1,"uid":"22883d77-4ab8-4b80-b75b-74774868b484","accesstoken":"e00d0d9ec36095d749a350dab04b5a8c1b94e136","status":200}}
+[2017-09-19 15:14:42,445]ERROR154656[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:53) - err0r : Receive timed out
+[2017-09-19 15:14:49,247]DEBUG161458[Thread-0] - io.dase.network.DevMgr.MainProc(DevMgr.java:44) - rcvQueue.size() : 5
+[2017-09-19 15:14:49,248]DEBUG161459[Thread-0] - io.dase.network.DevMgr.MainProc(DevMgr.java:45) - dest : devmgr
+[2017-09-19 15:14:49,248]DEBUG161459[Thread-0] - io.dase.network.DevMgr.MainProc(DevMgr.java:46) - uuid : cc0accca-9cdb-11e7-a348-1c1b0d70047a
+[2017-09-19 15:14:49,249]DEBUG161460[Thread-0] - io.dase.network.DevMgr.MainProc(DevMgr.java:47) - body : {"work_code":"signup","type":"res","dir":"c2d","body":{"expiresin":-1,"uid":"22883d77-4ab8-4b80-b75b-74774868b484","accesstoken":"e00d0d9ec36095d749a350dab04b5a8c1b94e136","status":200}}
+[2017-09-19 15:14:59,277]DEBUG171488[Thread-0] - io.dase.network.DevMgr.MainProc(DevMgr.java:44) - rcvQueue.size() : 4
+[2017-09-19 15:14:59,278]DEBUG171489[Thread-0] - io.dase.network.DevMgr.MainProc(DevMgr.java:45) - dest : devmgr
+[2017-09-19 15:14:59,279]DEBUG171490[Thread-0] - io.dase.network.DevMgr.MainProc(DevMgr.java:46) - uuid : cc0accca-9cdb-11e7-a348-1c1b0d70047a
+[2017-09-19 15:14:59,279]DEBUG171490[Thread-0] - io.dase.network.DevMgr.MainProc(DevMgr.java:47) - body : {"work_code":"signup","type":"res","dir":"c2d","body":{"expiresin":-1,"uid":"22883d77-4ab8-4b80-b75b-74774868b484","accesstoken":"e00d0d9ec36095d749a350dab04b5a8c1b94e136","status":200}}
+[2017-09-19 15:15:09,308]DEBUG181519[Thread-0] - io.dase.network.DevMgr.MainProc(DevMgr.java:44) - rcvQueue.size() : 3
+[2017-09-19 15:15:09,308]DEBUG181519[Thread-0] - io.dase.network.DevMgr.MainProc(DevMgr.java:45) - dest : devmgr
+[2017-09-19 15:15:09,309]DEBUG181520[Thread-0] - io.dase.network.DevMgr.MainProc(DevMgr.java:46) - uuid : cc0accca-9cdb-11e7-a348-1c1b0d70047a
+[2017-09-19 15:15:09,310]DEBUG181521[Thread-0] - io.dase.network.DevMgr.MainProc(DevMgr.java:47) - body : {"work_code":"signup","type":"res","dir":"c2d","body":{"expiresin":-1,"uid":"22883d77-4ab8-4b80-b75b-74774868b484","accesstoken":"e00d0d9ec36095d749a350dab04b5a8c1b94e136","status":200}}
+[2017-09-19 15:15:12,475]ERROR184686[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:53) - err0r : Receive timed out
+[2017-09-19 15:15:19,338]DEBUG191549[Thread-0] - io.dase.network.DevMgr.MainProc(DevMgr.java:44) - rcvQueue.size() : 2
+[2017-09-19 15:15:19,339]DEBUG191550[Thread-0] - io.dase.network.DevMgr.MainProc(DevMgr.java:45) - dest : devmgr
+[2017-09-19 15:15:19,340]DEBUG191551[Thread-0] - io.dase.network.DevMgr.MainProc(DevMgr.java:46) - uuid : cc0accca-9cdb-11e7-a348-1c1b0d70047a
+[2017-09-19 15:15:19,340]DEBUG191551[Thread-0] - io.dase.network.DevMgr.MainProc(DevMgr.java:47) - body : {"work_code":"signup","type":"res","dir":"c2d","body":{"expiresin":-1,"uid":"22883d77-4ab8-4b80-b75b-74774868b484","accesstoken":"e00d0d9ec36095d749a350dab04b5a8c1b94e136","status":200}}
+[2017-09-19 15:15:29,369]DEBUG201580[Thread-0] - io.dase.network.DevMgr.MainProc(DevMgr.java:44) - rcvQueue.size() : 1
+[2017-09-19 15:15:29,370]DEBUG201581[Thread-0] - io.dase.network.DevMgr.MainProc(DevMgr.java:45) - dest : devmgr
+[2017-09-19 15:15:29,370]DEBUG201581[Thread-0] - io.dase.network.DevMgr.MainProc(DevMgr.java:46) - uuid : cc0accca-9cdb-11e7-a348-1c1b0d70047a
+[2017-09-19 15:15:29,371]DEBUG201582[Thread-0] - io.dase.network.DevMgr.MainProc(DevMgr.java:47) - body : {"work_code":"signup","type":"res","dir":"c2d","body":{"expiresin":-1,"uid":"22883d77-4ab8-4b80-b75b-74774868b484","accesstoken":"e00d0d9ec36095d749a350dab04b5a8c1b94e136","status":200}}
+[2017-09-19 15:15:39,400]DEBUG211611[Thread-0] - io.dase.network.DevMgr.MainProc(DevMgr.java:44) - rcvQueue.size() : 0
+[2017-09-19 15:15:39,400]DEBUG211611[Thread-0] - io.dase.network.DevMgr.MainProc(DevMgr.java:45) - dest : devmgr
+[2017-09-19 15:15:39,401]DEBUG211612[Thread-0] - io.dase.network.DevMgr.MainProc(DevMgr.java:46) - uuid : cc0accca-9cdb-11e7-a348-1c1b0d70047a
+[2017-09-19 15:15:39,401]DEBUG211612[Thread-0] - io.dase.network.DevMgr.MainProc(DevMgr.java:47) - body : {"work_code":"signup","type":"res","dir":"c2d","body":{"expiresin":-1,"uid":"22883d77-4ab8-4b80-b75b-74774868b484","accesstoken":"e00d0d9ec36095d749a350dab04b5a8c1b94e136","status":200}}
+[2017-09-19 15:15:42,506]ERROR214717[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:53) - err0r : Receive timed out
+[2017-09-19 15:16:12,535]ERROR244746[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:53) - err0r : Receive timed out
+[2017-09-19 15:16:16,779]ERROR248990[main] - io.dase.network.App.main(App.java:69) - ma1n error: No line found
+[2017-09-19 15:16:16,779]DEBUG248990[main] - io.dase.network.App.main(App.java:73) - Adios
+[2017-09-19 17:04:36,250]DEBUG     0[main] - io.dase.network.App.main(App.java:16) - Hola
+[2017-09-19 17:04:36,255]DEBUG     5[Thread-0] - io.dase.network.DamqRcvConsumer.run(DamqRcvConsumer.java:72) - DamqRcvConsumer begins.
+[2017-09-19 17:04:36,255]ERROR     5[Thread-0] - io.dase.network.DamqSndProducer.InitDamqSndProducer(DamqSndProducer.java:29) - InitDamqSndProducer
+[2017-09-19 17:04:36,255]DEBUG     5[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:20) - DamqRcvProducer begins.
+[2017-09-19 17:04:36,258]DEBUG     8[Thread-0] - io.dase.network.DevMgr.MainProc(DevMgr.java:25) - DevMgr begins.
+[2017-09-19 17:04:36,258]DEBUG     8[Thread-2] - io.dase.network.DamqSndConsumer.run(DamqSndConsumer.java:25) - DamqSndConsumer begins.
+[2017-09-19 17:04:43,547]ERROR  7297[main] - io.dase.network.App.main(App.java:69) - ma1n error: No line found
+[2017-09-19 17:04:43,548]DEBUG  7298[main] - io.dase.network.App.main(App.java:73) - Adios
+[2017-09-19 17:04:48,263]DEBUG     0[main] - io.dase.network.App.main(App.java:16) - Hola
+[2017-09-19 17:04:48,267]DEBUG     4[Thread-0] - io.dase.network.DamqRcvConsumer.run(DamqRcvConsumer.java:72) - DamqRcvConsumer begins.
+[2017-09-19 17:04:48,268]ERROR     5[Thread-0] - io.dase.network.DamqSndProducer.InitDamqSndProducer(DamqSndProducer.java:29) - InitDamqSndProducer
+[2017-09-19 17:04:48,268]DEBUG     5[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:20) - DamqRcvProducer begins.
+[2017-09-19 17:04:48,268]DEBUG     5[Thread-0] - io.dase.network.DevMgr.MainProc(DevMgr.java:25) - DevMgr begins.
+[2017-09-19 17:04:48,268]DEBUG     5[Thread-2] - io.dase.network.DamqSndConsumer.run(DamqSndConsumer.java:25) - DamqSndConsumer begins.
+[2017-09-19 17:04:51,431]ERROR  3168[main] - io.dase.network.App.main(App.java:69) - ma1n error: No line found
+[2017-09-19 17:04:51,432]DEBUG  3169[main] - io.dase.network.App.main(App.java:73) - Adios

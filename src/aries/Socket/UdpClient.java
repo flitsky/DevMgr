@@ -13,11 +13,12 @@ public class UdpClient implements Runnable {
 	@Override
 	public void run() {
 		DatagramSocket socket = null;
+		Scanner scanner = new Scanner(System.in);
 		while (true) {
 			try {
 				socket = new DatagramSocket();
 				System.out.println("Input CMD:");
-				String s = new Scanner(System.in).nextLine();
+				String s = scanner.nextLine();
 				if (s.equals("exit"))
 					break;
 				byte[] buf = s.getBytes();
@@ -36,6 +37,7 @@ public class UdpClient implements Runnable {
 				e.printStackTrace();
 			}
 		}
+		scanner.close();
 		System.out.println("Bye~~");
 	}
 }
