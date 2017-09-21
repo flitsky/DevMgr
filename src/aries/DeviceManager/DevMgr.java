@@ -26,7 +26,7 @@ public class DevMgr extends DamqRcvConsumer {
 		logger.debug("DevMgr begins.");
 		// DamqMsg msg = null;
 
-		BlockingQueue<Message> queueReq = new ArrayBlockingQueue<>(100);
+		BlockingQueue<Message> queueReq = new ArrayBlockingQueue<>(10);
 		BlockingQueue<Message> queueResp = new ArrayBlockingQueue<>(100);
 		Thread processCommand = new Thread(new ProcessCommand(queueReq, queueResp));
 		processCommand.start();

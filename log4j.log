@@ -343,3 +343,11 @@
 [2017-09-19 17:04:48,268]DEBUG     5[Thread-2] - io.dase.network.DamqSndConsumer.run(DamqSndConsumer.java:25) - DamqSndConsumer begins.
 [2017-09-19 17:04:51,431]ERROR  3168[main] - io.dase.network.App.main(App.java:69) - ma1n error: No line found
 [2017-09-19 17:04:51,432]DEBUG  3169[main] - io.dase.network.App.main(App.java:73) - Adios
+[2017-09-21 10:30:02,903]DEBUG     0[main] - io.dase.network.App.main(App.java:17) - Hola
+[2017-09-21 10:30:02,907]DEBUG     4[Thread-0] - io.dase.network.DamqRcvConsumer.run(DamqRcvConsumer.java:72) - DamqRcvConsumer begins.
+[2017-09-21 10:30:02,908]ERROR     5[Thread-0] - io.dase.network.DamqSndProducer.InitDamqSndProducer(DamqSndProducer.java:29) - InitDamqSndProducer
+[2017-09-21 10:30:02,908]DEBUG     5[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:20) - DamqRcvProducer begins.
+[2017-09-21 10:30:02,909]DEBUG     6[Thread-0] - aries.DeviceManager.DevMgr.MainProc(DevMgr.java:26) - DevMgr begins.
+[2017-09-21 10:30:02,909]DEBUG     6[Thread-2] - io.dase.network.DamqSndConsumer.run(DamqSndConsumer.java:25) - DamqSndConsumer begins.
+[2017-09-21 10:30:05,259]ERROR  2356[main] - io.dase.network.App.main(App.java:70) - ma1n error: No line found
+[2017-09-21 10:30:05,260]DEBUG  2357[main] - io.dase.network.App.main(App.java:74) - Adios

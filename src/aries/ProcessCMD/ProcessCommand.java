@@ -1,10 +1,11 @@
 package aries.ProcessCMD;
 
 import java.io.FileNotFoundException;
-import java.net.DatagramPacket;
-import java.net.DatagramSocket;
-import java.net.InetAddress;
 import java.util.concurrent.BlockingQueue;
+import java.util.concurrent.CompletableFuture;
+import java.util.concurrent.ExecutionException;
+import java.util.concurrent.Future;
+import java.util.function.Supplier;
 
 import org.apache.log4j.Logger;
 import org.json.JSONObject;
@@ -14,7 +15,7 @@ import aries.DeviceManager.Message;
 import aries.interoperate.Property;
 import aries.interoperate.Schema0Cmd;
 import aries.interoperate.Schema1Body;
-import io.dase.network.DamqMsg;
+import io.dase.network.DamqSndProducer;
 
 public class ProcessCommand implements Runnable {
 	static Logger logger = Logger.getLogger("ProcessCommand.class");
@@ -22,6 +23,7 @@ public class ProcessCommand implements Runnable {
 	private BlockingQueue<Message> queueReq;
 	private BlockingQueue<Message> queueResp;
 	private String command;
+	private String response;
 
 	public ProcessCommand(BlockingQueue<Message> qReq, BlockingQueue<Message> qResp) {
 		this.queueReq = qReq;
@@ -49,12 +51,17 @@ public class ProcessCommand implements Runnable {
 		Message msg;
 		while (true) {
 			try {
+				if (this.response == "") {
+					if ((msg = queueResp.take()).getMsg() != "") {
+						this.response = msg.getMsg();
+						processCommand();
+					}
+				}
 				if ((msg = queueReq.take()).getMsg() != "") {
 					Thread.sleep(30);
 					this.command = msg.getMsg();
 					System.out.println(Thread.currentThread().getName() + " Start.  queueReq.size() : " + queueReq.size());
-					Thread.sleep(5000);
-					//kng for test //   processCommand();
+					processCommand();
 					System.out.println(Thread.currentThread().getName() + " End.");
 				} else {
 					// idle time
@@ -68,6 +75,58 @@ public class ProcessCommand implements Runnable {
 	}
 
 	private void processCommand() {
+		System.out.println("command = " + this.command);
+		JSONObject receivedJsonObj = new JSONObject(this.command);
+		Schema0Cmd recvSchema0Cmd = JsonObj2EntityX(receivedJsonObj);
+		System.out.println("response = " + this.response);
+		receivedJsonObj = new JSONObject(this.response);
+		Schema0Cmd recvSchema0Resp = JsonObj2EntityX(receivedJsonObj);
+		Schema0Cmd sendRespSchema0Cmd = new Schema0Cmd();
+				
+		Supplier<Schema0Cmd> RecvReqSignup = () -> {
+			System.out.println("A 스레드 작업 시작 : Make Sign-up Request CMD");
+			Schema0Cmd sendReqSchema0Cmd = new Schema0Cmd();
+			sendReqSchema0Cmd.type = "req";
+			sendReqSchema0Cmd.direction = "d2c";
+			sendReqSchema0Cmd.work_code = "signup";
+			sendReqSchema0Cmd.body = new Schema1Body();
+			sendReqSchema0Cmd.body.provider = recvSchema0Cmd.body.provider;
+			sendReqSchema0Cmd.body.authcode = recvSchema0Cmd.body.authcode;
+			// Thread.sleep(100);
+			System.out.println("A 스레드 작업 완료");
+			return sendReqSchema0Cmd;
+		};
+
+		Supplier<String> SendReqSignup = () -> {
+			try {
+				System.out.println("C 스레드 작업 시작 : Send Sign-up Request CMD");
+				System.out.println("C 스레드 작업 대기 : wait resp signup c2d");
+				Thread.sleep(500);
+				System.out.println("C 스레드 작업 완료 : Receive Sign-up response");
+				return "C 실행";
+			} catch (InterruptedException e) {
+				e.printStackTrace();
+				return "실패";
+			}
+		};
+
+		Future<String> result2 = CompletableFuture.supplyAsync(RecvReqSignup)
+				.thenApply(aResult -> aResult + " A 성공 -> ")
+				.thenCombine(CompletableFuture.supplyAsync(SendReqSignup), (a, c) -> a + c);
+
+		try {
+			System.out.println(result2.get());
+		} catch (InterruptedException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		} catch (ExecutionException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+
+	}
+
+	private void processOldCommand() {
 		System.out.println("command = " + this.command);
 		JSONObject receivedJsonObj = new JSONObject(this.command);
 		Schema0Cmd recvSchema0Cmd = JsonObj2EntityX(receivedJsonObj);
@@ -199,14 +258,9 @@ public class ProcessCommand implements Runnable {
 			logger.debug(" >>> sendCommand = " + JsonObj4Req.toString());
 
 			// send command to ...
-			DatagramSocket socket = new DatagramSocket();
-
 			String s = JsonObj4Req.toString();
-			byte[] buf = s.getBytes();
-			InetAddress address = InetAddress.getByName("localhost");
-			DatagramPacket packet = new DatagramPacket(buf, buf.length, address, 5000);
-			socket.send(packet);
-			socket.close();
+			DamqSndProducer sndProducer = DamqSndProducer.getInstance();
+			sndProducer.PushToSendQueue(s);
 		} catch (Exception e1) {
 			// TODO Auto-generated catch block
 			e1.printStackTrace();
