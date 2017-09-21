@@ -9,7 +9,6 @@ import org.slf4j.LoggerFactory;
 
 import aries.ProcessCMD.ProcessCommand;
 import io.dase.network.DamqRcvConsumer;
-import io.dase.network.DamqRcvConsumer.ModuleType;
 
 public class DevMgr extends DamqRcvConsumer {
 	private static final Logger logger = LoggerFactory.getLogger(DevMgr.class);
@@ -22,7 +21,8 @@ public class DevMgr extends DamqRcvConsumer {
 		super(m);
 	}
 
-	public void MainProc() {
+	protected void MainProc(String org, String dst, String dateTime, String msgId, String msgType, String workCode,
+			String msgBody) {
 		logger.debug("DevMgr begins.");
 		// DamqMsg msg = null;
 
@@ -46,18 +46,18 @@ public class DevMgr extends DamqRcvConsumer {
 				logger.debug("dest : " + destination);
 				logger.debug("uuid : " + uuid);
 				logger.debug("body : " + msgbody);
-				
+
 				// [a2d] recv req msg : sign up
-				// 		[d2c] make req msg and send
-				// 		[c2d] recv resp
+				// [d2c] make req msg and send
+				// [c2d] recv resp
 				// [d2a] make resp msg and send
 				Message msg = new Message(msgbody);
-				if(destination == "devmgr") {
+				if (destination == "devmgr") {
 					queueResp.put(msg);
 				} else {
 					queueReq.put(msg);
 				}
-				
+
 				Thread.yield();
 			} catch (Exception e) {
 				if (e instanceof InterruptedException) {
@@ -69,5 +69,13 @@ public class DevMgr extends DamqRcvConsumer {
 			}
 		}
 		logger.debug("EngineMain ends.");
+	}
+
+	protected void ExceptionProc(Exception e) {
+		if (e instanceof InterruptedException) {
+			logger.error("error: " + e.getMessage());
+		} else {
+			logger.error("err0r: " + e.getMessage());
+		}
 	}
 }

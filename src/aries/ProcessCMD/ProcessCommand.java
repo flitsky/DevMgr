@@ -16,6 +16,8 @@ import aries.interoperate.Property;
 import aries.interoperate.Schema0Cmd;
 import aries.interoperate.Schema1Body;
 import io.dase.network.DamqSndProducer;
+import io.dase.network.DamqRcvConsumer.ModuleType;
+import io.dase.network.DamqRcvConsumer.MsgType;
 
 public class ProcessCommand implements Runnable {
 	static Logger logger = Logger.getLogger("ProcessCommand.class");
@@ -23,7 +25,7 @@ public class ProcessCommand implements Runnable {
 	private BlockingQueue<Message> queueReq;
 	private BlockingQueue<Message> queueResp;
 	private String command;
-	private String response;
+	private volatile String response;
 
 	public ProcessCommand(BlockingQueue<Message> qReq, BlockingQueue<Message> qResp) {
 		this.queueReq = qReq;
@@ -86,8 +88,8 @@ public class ProcessCommand implements Runnable {
 		Supplier<Schema0Cmd> RecvReqSignup = () -> {
 			System.out.println("A 스레드 작업 시작 : Make Sign-up Request CMD");
 			Schema0Cmd sendReqSchema0Cmd = new Schema0Cmd();
-			sendReqSchema0Cmd.type = "req";
-			sendReqSchema0Cmd.direction = "d2c";
+			sendReqSchema0Cmd.msgtype = "req";
+			sendReqSchema0Cmd.dst = "common";
 			sendReqSchema0Cmd.work_code = "signup";
 			sendReqSchema0Cmd.body = new Schema1Body();
 			sendReqSchema0Cmd.body.provider = recvSchema0Cmd.body.provider;
@@ -148,38 +150,33 @@ public class ProcessCommand implements Runnable {
 			e.printStackTrace();
 		}
 
-		switch (recvSchema0Cmd.direction) {
-		case "a2d":
-			if (recvSchema0Cmd.type.equals("req")) {
-				Schema0Cmd sendReqSchema0Cmd = new Schema0Cmd();
+		switch (recvSchema0Cmd.org) {
+		//public static String[] ModuleName = { "app", "ngin", "devmgr", "common" };
+		case "app":
+			if (recvSchema0Cmd.msgtype.equals("req")) {
+				Schema1Body sendReqSchema1Body = new Schema1Body();
 				if (recvSchema0Cmd.work_code.equals("discovery")) {
-					sendReqSchema0Cmd.type = "req";
-					sendReqSchema0Cmd.direction = "d2c";
-					sendReqSchema0Cmd.work_code = "dis_dev";
-					// send command ...
-					sendCommand(sendReqSchema0Cmd);
+					DamqSndProducer sndProducer = DamqSndProducer.getInstance();
+					sndProducer.PushToSendQueue(ModuleType.COMCLNT, MsgType.Request, "dis_dev", "");
 				} else if (recvSchema0Cmd.work_code.equals("dis_res")) {
-					sendReqSchema0Cmd.type = "req";
-					sendReqSchema0Cmd.direction = "d2c";
-					sendReqSchema0Cmd.work_code = "dis_res";
-					sendReqSchema0Cmd.body = new Schema1Body();
-					sendReqSchema0Cmd.body.device_id = "6341cb6f-2179-55a3-3732-c3ffbad1be68";
-					// send command ...
-					sendCommand(sendReqSchema0Cmd);
+					sendReqSchema1Body.device_id = "6341cb6f-2179-55a3-3732-c3ffbad1be68";
+					String s = sendReqSchema1Body.toString();
+					DamqSndProducer sndProducer = DamqSndProducer.getInstance();
+					sndProducer.PushToSendQueue(ModuleType.COMCLNT, MsgType.Request, "dis_res", s);
 				}
 			} else {
 
 			}
 			break;
-		case "e2d":
-			if (recvSchema0Cmd.type.equals("req")) {
+		case "ngin":
+			if (recvSchema0Cmd.msgtype.equals("req")) {
 
 			} else {
 
 			}
 			break;
-		case "c2d":
-			if (recvSchema0Cmd.type.equals("req")) {
+		case "common":
+			if (recvSchema0Cmd.msgtype.equals("req")) {
 				switch (recvSchema0Cmd.work_code) {
 				case "observe":
 					break;
@@ -260,7 +257,7 @@ public class ProcessCommand implements Runnable {
 			// send command to ...
 			String s = JsonObj4Req.toString();
 			DamqSndProducer sndProducer = DamqSndProducer.getInstance();
-			sndProducer.PushToSendQueue(s);
+			sndProducer.PushToSendQueue(ModuleType.DEVMGR, MsgType.Request, "signin", s);
 		} catch (Exception e1) {
 			// TODO Auto-generated catch block
 			e1.printStackTrace();

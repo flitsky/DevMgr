@@ -2,15 +2,13 @@ package io.dase.network;
 
 import java.util.concurrent.BlockingQueue;
 import java.net.*;
-
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-
-//import io.dase.network.DamqRcvConsumer.*;
 
 public class DamqRcvProducer implements Runnable {
   private static final Logger logger = LoggerFactory.getLogger(DamqRcvProducer.class);
   private BlockingQueue<DamqMsg> recvQueue;
+  DamqSndProducer sndProducer = DamqSndProducer.getInstance();
   
   public DamqRcvProducer(BlockingQueue<DamqMsg> q) {
     this.recvQueue = q;
@@ -31,19 +29,16 @@ public class DamqRcvProducer implements Runnable {
     while (true) {
       try {
         DatagramPacket packet = new DatagramPacket(rcvBuf, rcvBuf.length);
-        udpSocket.setSoTimeout(30000);
+        udpSocket.setSoTimeout(15000);
         udpSocket.receive(packet);
         udpSocket.setSoTimeout(0);
         String rcvStr = new String(rcvBuf, 0, packet.getLength());
-        if (rcvStr.equals("")) {
-          continue;
-        } else if (rcvStr.equals("{\"command\":\"lbxjtyf\"}")) {
-          logger.debug("DamqRcvProducer : terminate signal has arrived.");
-          recvQueue.put(new DamqMsg(rcvStr));
+        recvQueue.put(new DamqMsg(rcvStr));
+        if (sndProducer.IsTerminateSignal(rcvStr)) {
+          logger.debug("rcvProducer: SIG_TERM");
           break;
         }
-        recvQueue.put(new DamqMsg(rcvStr));
-        Thread.yield();
+        Thread.sleep(0);
       } catch (Exception e) {
         if (e instanceof InterruptedException) {
           logger.error("3rror : " + e.getMessage());
@@ -52,6 +47,7 @@ public class DamqRcvProducer implements Runnable {
         } else {
           logger.error("err0r : " + e.getMessage());
         }
+        logger.debug("gocha!");
         continue;
       }
     }

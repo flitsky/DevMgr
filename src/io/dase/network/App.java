@@ -8,6 +8,7 @@ import org.slf4j.LoggerFactory;
 import aries.DeviceManager.DevMgr;
 //import io.dase.network.Damq.ModuleType;
 import io.dase.network.DamqRcvConsumer.ModuleType;
+import io.dase.network.DamqRcvConsumer.MsgType;
 
 public class App {
 	private static final Logger logger = LoggerFactory.getLogger(App.class);
@@ -29,13 +30,10 @@ public class App {
 				// test
 				DamqSndProducer sndProducer = DamqSndProducer.getInstance();
 				for (int i = 0; i < 10; i++) {
-					String buf = String.format(
-							"{\"destination\":\"%s\",\"uuid\":\"%s\",\"msgbody\":{\"index\":\"%d\",\"value\":\"200 OK\"}}",
-							"devmgr", sndProducer.getUUID(), i);
-					sndProducer.PushToSendQueue(buf);
-					// logger.debug("test : " + buf);
+					String buf = String.format("{\"index\":\"%d\",\"value\":\"200 OK\"}", i);
+					sndProducer.PushToSendQueue(ModuleType.DEVMGR, MsgType.Request, "signin", buf);
 				}
-				sndProducer.PushToSendQueue("{\"command\":\"lbxjtyf\"}");
+				sndProducer.SendExitSignal();
 			} else if ( TEST_CODE == 2) {
 				// test command input
 				DamqSndProducer sndProducer = DamqSndProducer.getInstance();
@@ -47,7 +45,7 @@ public class App {
 						if (s.equals("exit"))
 							break;
 						System.out.println("CMD : " + s);
-						sndProducer.PushToSendQueue(s);
+						sndProducer.PushToSendQueue(ModuleType.DEVMGR, MsgType.Request, "signin", s);
 				}
 				scanner.close();
 				System.out.println("Bye~~");

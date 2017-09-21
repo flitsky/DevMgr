@@ -166,4 +166,10 @@ public abstract class EntityX {
 		}
 		return outputJsonObject;
 	}
+	
+	public String exportToString() throws Exception {
+		JSONObject exportToJson = this.exportToJson();
+		String s = exportToJson.toString();
+		return s;
+	}
 }

@@ -1,28 +1,27 @@
 package io.dase.network;
 
 import java.util.concurrent.*;
-
+import org.json.JSONObject;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-  
-//import io.dase.network.*;
 
 public abstract class DamqRcvConsumer implements Runnable {
   public enum ModuleType {
     APP(0), NGIN(1), DEVMGR(2), COMCLNT(3);
-    
     private int _value;
-
-    ModuleType(int Value) {
-        this._value = Value;
-    }
-
-    public int getValue() {
-            return _value;
-    }
-  }  
+    ModuleType(int Value) { this._value = Value; }
+    public int getValue() { return _value; }
+  }
+  public enum MsgType { 
+    Request(0), Response(1); 
+    private int _value;
+    MsgType(int Value) { this._value = Value; }
+    public int getValue() { return _value; }
+  }
+  public static String[] ModuleName = { "app", "ngin", "devmgr", "common" };
   public static String[] ModuleAddress = { "127.0.0.1", "127.0.0.1", "127.0.0.1", "127.0.0.1" };
   public static int[] ModulePort = { 5001, 5002, 5003, 5004 };
+  public static String[] MsgTypeName = { "req", "res" };
   
   private static final Logger logger = LoggerFactory.getLogger(DamqRcvConsumer.class);
   public static int myModuleType = 0;
@@ -72,7 +71,28 @@ public abstract class DamqRcvConsumer implements Runnable {
     logger.debug("DamqRcvConsumer begins.");
     StartJobs();
     
-    MainProc();      
+    while (true) {
+      try {
+        String rcvBuf = rcvQueue.take().getMsg();
+        if (sndProducer.IsTerminateSignal(rcvBuf)) {
+          logger.debug("rcvConsumer: SIG_TERM");
+          break;
+        }    
+        JSONObject jo = new JSONObject(rcvBuf);
+        String org = jo.get("org").toString().toLowerCase();
+        String dst = jo.get("dst").toString().toLowerCase();
+        String dateTime = jo.get("date").toString().toLowerCase();
+        String msgId = jo.get("msgid").toString().toLowerCase();
+        String msgType = jo.get("msgtype").toString().toLowerCase();
+        String workCode = jo.get("workcode").toString().toLowerCase();
+        String msgBody = jo.get("body").toString().toLowerCase();  
+        MainProc(org, dst, dateTime, msgId, msgType, workCode, msgBody);
+        Thread.sleep(0);
+      } catch (Exception e) {
+        ExceptionProc(e);
+        continue;
+      }
+    }    
     
     try {
       rcvProducer.join();
@@ -83,10 +103,11 @@ public abstract class DamqRcvConsumer implements Runnable {
       } else {
         logger.error("3rr0r: " + e.getMessage());
       }
-    }      
-    logger.debug("All threads joined.");
+    }          
     logger.debug("DamqRcvConsumer ends.");
+    logger.debug("All threads joined.");
   }
   
-  public abstract void MainProc();
+  protected abstract void MainProc(String org, String dst, String dateTime, String msgId, String msgType, String workCode, String msgBody);
+  protected abstract void ExceptionProc(Exception e);
 }

@@ -1,25 +1,21 @@
 package io.dase.network;
 
-import java.net.DatagramPacket;
-import java.net.DatagramSocket;
-import java.net.InetAddress;
-import java.net.SocketException;
 import java.util.concurrent.BlockingQueue;
+import java.net.*;
 
 import org.json.JSONObject;
+
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-
-//import io.dase.network.DamqRcvConsumer.*;
 
 public class DamqSndConsumer implements Runnable {
   private static final Logger logger = LoggerFactory.getLogger(DamqSndConsumer.class);
   private BlockingQueue<DamqMsg> sendQueue;
   DamqSndProducer sndProducer = DamqSndProducer.getInstance();
-  
+
   public DamqSndConsumer(BlockingQueue<DamqMsg> sq) {
     this.sendQueue = sq;   
-  } 
+  }
   
   public void run() {
     logger.debug("DamqSndConsumer begins.");
@@ -36,27 +32,18 @@ public class DamqSndConsumer implements Runnable {
     while (true) {
       try {
         String sendStr = sendQueue.take().getMsg();        
-        if (sendStr.equals("")) {
-          continue;
-        } else if (sendStr.equals("{\"command\":\"lbxjtyf\"}")) {
-          logger.debug("DamqSndConsumer : terminate signal has arrived."); 
-          sendBuf = sendStr.getBytes();
-          InetAddress destAddress = InetAddress.getByName(DamqRcvConsumer.ModuleAddress[DamqRcvConsumer.myModuleType]);
-          int destPort = DamqRcvConsumer.ModulePort[DamqRcvConsumer.myModuleType];                         
-          DatagramPacket packet = new DatagramPacket(sendBuf, sendBuf.length, destAddress, destPort);
-          udpSocket.send(packet);          
+        JSONObject jo = new JSONObject(sendStr);        
+        String destination = jo.get("dst").toString().toLowerCase();        
+        sendBuf = sendStr.getBytes();
+        InetAddress destAddress = InetAddress.getByName(sndProducer.GetModuleAddress(destination));
+        int destPort = sndProducer.GetModulePort(destination);                         
+        DatagramPacket packet = new DatagramPacket(sendBuf, sendBuf.length, destAddress, destPort);
+        udpSocket.send(packet);
+        if (sndProducer.IsTerminateSignal(sendStr)) {
+          logger.debug("sndConsumer: SIG_TERM");
           break;
-        } else {
-        	logger.debug(" check sendStr : " + sendStr);
-          JSONObject jo = new JSONObject(sendStr);
-          String destination = jo.getString("destination").toLowerCase();        
-          sendBuf = sendStr.getBytes();
-          InetAddress destAddress = InetAddress.getByName(sndProducer.GetModuleAddress(destination));
-          int destPort = sndProducer.GetModulePort(destination);                         
-          DatagramPacket packet = new DatagramPacket(sendBuf, sendBuf.length, destAddress, destPort);
-          udpSocket.send(packet);
-        }
-        Thread.yield(); 
+        }    
+        Thread.sleep(0);
       } catch (Exception e) {
         if (e instanceof InterruptedException) {
           logger.error("3rror : " + e.getMessage());
@@ -65,9 +52,10 @@ public class DamqSndConsumer implements Runnable {
         } else {
           logger.error("err0r : " + e.getMessage());
         }
+        logger.debug("gocha!");
         continue;
       }       
-    }
+    } 
     
     udpSocket.close();
     logger.debug("DamqSndConsumer ends.");
