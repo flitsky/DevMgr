@@ -51,11 +51,13 @@ public class App {
 					else
 						msgType = MsgType.Request;
 					String workcode = "";
-										
+
 					sndProducer.PushToSendQueue(ModuleType.DEVMGR, msgType, workcode, s);
 				}
 				scanner.close();
 				System.out.println("Bye~~");
+				// [Recv Req] sign up
+				// {"dst":"devmgr","msgtype":"req","workcode":"signup","body":{"provider":"github","authcode":"48ff254740b053676001"}}
 				// [Recv Resp] sign up
 				// {"org":"common","dst":"devmgr","date":"19800202","msgid":"msgid1234","msgtype":"res","workcode":"signup","body":{"status":200,"uid":"22883d77-4ab8-4b80-b75b-74774868b484","accesstoken":"e00d0d9ec36095d749a350dab04b5a8c1b94e136","expiresin":-1}}
 				// [Recv Resp] Discovery Device Result

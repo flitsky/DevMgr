@@ -13,13 +13,16 @@ import org.json.JSONObject;
 import aries.DeviceManager.Message;
 import aries.interoperate.Schema0Header;
 import aries.interoperate.Schema1Body;
+import io.dase.network.DamqSndProducer;
+import io.dase.network.DamqRcvConsumer.ModuleType;
+import io.dase.network.DamqRcvConsumer.MsgType;
 
 public class ProcessCommand implements Runnable {
 	static Logger logger = Logger.getLogger("ProcessCommand.class");
 
 	private BlockingQueue<Message> queueReq;
 	private BlockingQueue<Message> queueResp;
-	private volatile String command = "";
+	private volatile String request = "";
 	private volatile String response = "";
 
 	public ProcessCommand(BlockingQueue<Message> qReq, BlockingQueue<Message> qResp) {
@@ -57,13 +60,13 @@ public class ProcessCommand implements Runnable {
 					}
 				}
 
-				if (this.command.isEmpty() && !queueReq.isEmpty()) {
+				if (this.request.isEmpty() && !queueReq.isEmpty()) {
 					if ((msg = queueReq.take()).getMsg() != "") {
-						this.command = msg.getMsg();
+						this.request = msg.getMsg();
 					}
 				}
 
-				if (this.command.isEmpty() &&  this.response.isEmpty()) {
+				if (this.request.isEmpty() &&  this.response.isEmpty()) {
 					// idle time
 					Thread.sleep(3000);
 				} else {
@@ -80,23 +83,24 @@ public class ProcessCommand implements Runnable {
 	}
 
 	private void processCommand() {
-		System.out.println("command = " + this.command);
-		Schema0Header recvdReq = String2JsonObj2EntityX(this.command);
+		System.out.println("command = " + this.request);
+		Schema0Header recvdReq = String2JsonObj2EntityX(this.request);
 		System.out.println("response = " + this.response);
 		Schema0Header recvdResp = String2JsonObj2EntityX(this.response);
-		Schema0Header sendRespSchema0Cmd;
 
-		Supplier<Schema0Header> RecvReqSignup = () -> {
+		Supplier<Schema0Header> MakeSignupReqFromAppReq = () -> {
 			System.out.println("A 스레드 작업 시작 : Make Sign-up Request CMD");
+			Schema0Header recvdReqSchema = String2JsonObj2EntityX(this.request);
 			Schema0Header sendReqSchema0Cmd = new Schema0Header();
 			sendReqSchema0Cmd.msgtype = "req";
 			sendReqSchema0Cmd.dst = "common";
 			sendReqSchema0Cmd.workcode = "signup";
 			sendReqSchema0Cmd.body = new Schema1Body();
-			sendReqSchema0Cmd.body.provider = recvdReq.body.provider;
-			sendReqSchema0Cmd.body.authcode = recvdReq.body.authcode;
+			sendReqSchema0Cmd.body.provider = recvdReqSchema.body.provider;
+			sendReqSchema0Cmd.body.authcode = recvdReqSchema.body.authcode;
 			// Thread.sleep(100);
 			System.out.println("A 스레드 작업 완료");
+			this.request = "";
 			return sendReqSchema0Cmd;
 		};
 
@@ -113,8 +117,26 @@ public class ProcessCommand implements Runnable {
 			}
 		};
 
-		Future<String> result2 = CompletableFuture.supplyAsync(RecvReqSignup)
-				.thenApply(aResult -> aResult + " A 성공 -> ")
+		Future<String> result2 = CompletableFuture.supplyAsync(MakeSignupReqFromAppReq)
+				.thenApply(aResult -> {
+					DamqSndProducer sndProducer = DamqSndProducer.getInstance();
+					MsgType msgType = MsgType.Request;
+					if(aResult.msgtype.equals("res"))
+						msgType = MsgType.Response;
+					String str;
+					try {
+						System.out.println(" aResult.body.provider : " + aResult.body.provider);
+						Schema1Body msgBody = aResult.body;
+						str = msgBody.exportToString();
+						sndProducer.PushToSendQueue(ModuleType.DEVMGR, msgType, aResult.workcode, str);
+						System.out.println(" request body : " + str);
+						return " request success -> " + aResult.exportToString();
+					} catch (Exception e) {
+						// TODO Auto-generated catch block
+						e.printStackTrace();
+					}
+					return " request fail -> " + aResult.toString();
+					})
 				.thenCombine(CompletableFuture.supplyAsync(SendReqSignup), (a, c) -> a + c);
 
 		try {
@@ -144,6 +166,9 @@ public class ProcessCommand implements Runnable {
 	}
 
 	static Schema0Header String2JsonObj2EntityX(String str) {
+		if (str.isEmpty()) {
+			return null;
+		}
 		JSONObject JsonObj = new JSONObject(str);
 		Schema0Header recvSchema0Cmd = new Schema0Header();
 		// Import from jsonObject
@@ -161,6 +186,6 @@ public class ProcessCommand implements Runnable {
 
 	@Override
 	public String toString() {
-		return this.command;
+		return this.request;
 	}
 }
