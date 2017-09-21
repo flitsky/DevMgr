@@ -14,5 +14,5 @@ public class SchemaDamq extends EntityX {
 
     @BindField("destination") public String destination;
     @BindField("uuid") public String uuid;
-    @BindField("msgbody") public Schema0Cmd msgbody;
+    @BindField("msgbody") public Schema0Header msgbody;
 }

@@ -7,8 +7,8 @@ import aries.interoperate.EntityX.EntityX;
  * Created by ryan on 17. 7. 26.
  */
 
-public class Schema0Cmd extends EntityX {
-    public Schema0Cmd() {
+public class Schema0Header extends EntityX {
+    public Schema0Header() {
         super();
         //body = new ArrayList<Schema1Body>();
     }
@@ -18,7 +18,7 @@ public class Schema0Cmd extends EntityX {
     @BindField("date") public String date;
     @BindField("msgid") public String msgid;
     @BindField("msgtype") public String msgtype;
-    @BindField("work_code") public String work_code;
+    @BindField("workcode") public String workcode;
 
     @BindField("body") public Schema1Body body;
     //@BindField("body") public ArrayList<Schema1Body> body;
