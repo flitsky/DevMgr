@@ -56,23 +56,25 @@ public class ProcessCommand implements Runnable {
 
 				if (this.response.isEmpty() && !queueResp.isEmpty()) {
 					if ((msg = queueResp.take()).getMsg() != "") {
+						System.out.println(" res  msg.getMsg() = " + msg.getMsg());
 						this.response = msg.getMsg();
 					}
 				}
 
 				if (this.request.isEmpty() && !queueReq.isEmpty()) {
 					if ((msg = queueReq.take()).getMsg() != "") {
+						System.out.println(" req  msg.getMsg() = " + msg.getMsg());
 						this.request = msg.getMsg();
 					}
 				}
 
-				if (this.request.isEmpty() &&  this.response.isEmpty()) {
+				if (this.request.isEmpty() && this.response.isEmpty()) {
 					// idle time
 					Thread.sleep(3000);
 				} else {
 					processCommand();
 				}
-				
+
 				System.out.println(Thread.currentThread().getName() + " End.");
 				Thread.sleep(3000);
 			} catch (InterruptedException e) {
@@ -83,6 +85,68 @@ public class ProcessCommand implements Runnable {
 	}
 
 	private void processCommand() {
+
+		if (!this.response.isEmpty()) {
+			Schema0Header recvdResp = String2JsonObj2EntityX(this.response);
+			Schema0Header sendResp = new Schema0Header();
+			if (recvdResp.workcode.equals("signup")) {
+				this.response = "";
+				sendResp.msgtype = recvdResp.msgtype;
+				sendResp.dst = "app";
+				sendResp.workcode = recvdResp.workcode;
+				sendResp.body = new Schema1Body();
+				sendResp.body.provider = recvdResp.body.provider;
+				sendResp.body.authcode = recvdResp.body.authcode;
+
+				System.out.println("   received response.... process and send response ");
+				
+				Schema1Body msgBody = sendResp.body;
+				String str = null;
+				try {
+					str = msgBody.exportToString();
+				} catch (Exception e) {
+					// TODO Auto-generated catch block
+					e.printStackTrace();
+				}
+				MsgType msgType = MsgType.Request;
+				if (sendResp.msgtype.equals("res"))
+					msgType = MsgType.Response;
+				DamqSndProducer sndProducer = DamqSndProducer.getInstance();
+				sndProducer.PushToSendQueue(ModuleType.COMCLNT, msgType, sendResp.workcode, str);
+			}
+		}
+
+		if (!this.request.isEmpty()) {
+			Schema0Header recvdReq = String2JsonObj2EntityX(this.request);
+			Schema0Header sendReq = new Schema0Header();
+			System.out.println("recvd workcode ? " + recvdReq.workcode + "  request = " + this.request);
+			if (recvdReq.workcode.equals("signup")) {
+				this.request = "";
+				sendReq.msgtype = recvdReq.msgtype;
+				sendReq.dst = "common";
+				sendReq.workcode = recvdReq.workcode;
+				sendReq.body = new Schema1Body();
+				sendReq.body.provider = recvdReq.body.provider;
+				sendReq.body.authcode = recvdReq.body.authcode;
+
+				Schema1Body msgBody = sendReq.body;
+				String str = null;
+				try {
+					str = msgBody.exportToString();
+				} catch (Exception e) {
+					// TODO Auto-generated catch block
+					e.printStackTrace();
+				}
+				MsgType msgType = MsgType.Request;
+				if (sendReq.msgtype.equals("res"))
+					msgType = MsgType.Response;
+				DamqSndProducer sndProducer = DamqSndProducer.getInstance();
+				sndProducer.PushToSendQueue(ModuleType.COMCLNT, msgType, sendReq.workcode, str);
+			}
+		}
+	}
+
+	private void processSignUpCommandwithCompletableFuture() {
 		System.out.println("command = " + this.request);
 		Schema0Header recvdReq = String2JsonObj2EntityX(this.request);
 		System.out.println("response = " + this.response);
@@ -117,27 +181,25 @@ public class ProcessCommand implements Runnable {
 			}
 		};
 
-		Future<String> result2 = CompletableFuture.supplyAsync(MakeSignupReqFromAppReq)
-				.thenApply(aResult -> {
-					DamqSndProducer sndProducer = DamqSndProducer.getInstance();
-					MsgType msgType = MsgType.Request;
-					if(aResult.msgtype.equals("res"))
-						msgType = MsgType.Response;
-					String str;
-					try {
-						System.out.println(" aResult.body.provider : " + aResult.body.provider);
-						Schema1Body msgBody = aResult.body;
-						str = msgBody.exportToString();
-						sndProducer.PushToSendQueue(ModuleType.DEVMGR, msgType, aResult.workcode, str);
-						System.out.println(" request body : " + str);
-						return " request success -> " + aResult.exportToString();
-					} catch (Exception e) {
-						// TODO Auto-generated catch block
-						e.printStackTrace();
-					}
-					return " request fail -> " + aResult.toString();
-					})
-				.thenCombine(CompletableFuture.supplyAsync(SendReqSignup), (a, c) -> a + c);
+		Future<String> result2 = CompletableFuture.supplyAsync(MakeSignupReqFromAppReq).thenApply(aResult -> {
+			DamqSndProducer sndProducer = DamqSndProducer.getInstance();
+			MsgType msgType = MsgType.Request;
+			if (aResult.msgtype.equals("res"))
+				msgType = MsgType.Response;
+			String str;
+			try {
+				System.out.println(" aResult.body.provider : " + aResult.body.provider);
+				Schema1Body msgBody = aResult.body;
+				str = msgBody.exportToString();
+				sndProducer.PushToSendQueue(ModuleType.COMCLNT, msgType, aResult.workcode, str);
+				System.out.println(" request body : " + str);
+				return " request success -> " + aResult.exportToString();
+			} catch (Exception e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			}
+			return " request fail -> " + aResult.toString();
+		}).thenCombine(CompletableFuture.supplyAsync(SendReqSignup), (a, c) -> a + c);
 
 		try {
 			System.out.println(result2.get());

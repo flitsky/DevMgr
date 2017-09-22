@@ -84,7 +84,7 @@ public class DamqSndProducer {
 					new SimpleDateFormat("yyyyMMddHHmmss").format(new Date()), UUID.randomUUID().toString(),
 					DamqRcvConsumer.MsgTypeName[msgType.getValue()], workCode, msgBody);
 
-			System.out.println(" PushToSendQueue buf : " + buf);
+			System.out.println(" >>>>>>>>>> PushToSendQueue buf : " + buf);
 			sendQueue.put(new DamqMsg(buf));
 
 		} catch (Exception e) {

@@ -1,11 +1,14 @@
 package io.dase.network;
 
+import java.io.FileNotFoundException;
 import java.util.Scanner;
 
+import org.json.JSONObject;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 import aries.DeviceManager.DevMgr;
+import aries.interoperate.Schema0Header;
 //import io.dase.network.Damq.ModuleType;
 import io.dase.network.DamqRcvConsumer.ModuleType;
 import io.dase.network.DamqRcvConsumer.MsgType;
@@ -45,14 +48,34 @@ public class App {
 					if (s.equals("exit"))
 						break;
 					System.out.println("CMD : " + s);
+
+					Schema0Header recvd = String2JsonObj2EntityX(s);
 					MsgType msgType;
-					if (s.contains("\"msgtype\":\"res\""))
+					if (recvd.msgtype.equals("res"))
 						msgType = MsgType.Response;
 					else
 						msgType = MsgType.Request;
-					String workcode = "";
 
-					sndProducer.PushToSendQueue(ModuleType.DEVMGR, msgType, workcode, s);
+					ModuleType moduleType = ModuleType.DEVMGR;
+					switch ( recvd.dst ) {
+					case "app":
+						moduleType = ModuleType.APP;
+						break;
+					case "ngin":
+						moduleType = ModuleType.NGIN;
+						break;
+					case "devmgr":
+						moduleType = ModuleType.DEVMGR;
+						break;
+					case "common":
+						moduleType = ModuleType.COMCLNT;
+						break;
+					default:
+						break;
+					}
+					String msg = recvd.body.exportToString();
+					System.out.println("recvd workcode : " + recvd.workcode);
+					sndProducer.PushToSendQueue(moduleType, msgType, recvd.workcode, msg);
 				}
 				scanner.close();
 				System.out.println("Bye~~");
@@ -85,4 +108,24 @@ public class App {
 
 		System.exit(0);
 	}
+
+	static Schema0Header String2JsonObj2EntityX(String str) {
+		if (str.isEmpty()) {
+			return null;
+		}
+		JSONObject JsonObj = new JSONObject(str);
+		Schema0Header recvSchema0Cmd = new Schema0Header();
+		// Import from jsonObject
+		try {
+			recvSchema0Cmd.importFromJson(JsonObj);
+		} catch (FileNotFoundException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		} catch (Exception e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		return recvSchema0Cmd;
+	}
+
 }
