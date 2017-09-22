@@ -10,7 +10,7 @@ public class ObserverThread2 implements Observer {
 	@Override
 	public void update(Observable observable, Object arg) {
 		msgUpdate = (ObservableMsg) observable;
-		if(msgUpdate.getMessage().contains("Second msg") || msgUpdate.getMessage().contains("Common"))
+		if (msgUpdate.getMessage().contains("Second msg") || msgUpdate.getMessage().contains("Common"))
 			System.out.println("ObserverThread2 " + msgUpdate.getMessage());
 	}
 }
