@@ -90,13 +90,17 @@ public class ProcessCommand implements Runnable {
 			Schema0Header recvdResp = String2JsonObj2EntityX(this.response);
 			Schema0Header sendResp = new Schema0Header();
 			if (recvdResp.workcode.equals("signup")) {
+				System.out.println("[3333 Receive Response signup] <-----");
 				this.response = "";
 				sendResp.msgtype = recvdResp.msgtype;
 				sendResp.dst = "app";
 				sendResp.workcode = recvdResp.workcode;
+				sendResp.msgid = recvdResp.msgid;
 				sendResp.body = new Schema1Body();
-				sendResp.body.provider = recvdResp.body.provider;
-				sendResp.body.authcode = recvdResp.body.authcode;
+				sendResp.body.expiresin = recvdResp.body.expiresin;
+				sendResp.body.uid = recvdResp.body.uid;
+				sendResp.body.accesstoken = recvdResp.body.accesstoken;
+				sendResp.body.status = recvdResp.body.status;
 
 				System.out.println("   received response.... process and send response ");
 				
@@ -111,20 +115,23 @@ public class ProcessCommand implements Runnable {
 				MsgType msgType = MsgType.Request;
 				if (sendResp.msgtype.equals("res"))
 					msgType = MsgType.Response;
+				System.out.println("[4444 Send Response signup] <=====");
 				DamqSndProducer sndProducer = DamqSndProducer.getInstance();
-				sndProducer.PushToSendQueue(ModuleType.COMCLNT, msgType, sendResp.workcode, str);
+				sndProducer.PushToSendQueue(sendResp.dst, sendResp.msgid, msgType, sendResp.workcode, str);
 			}
 		}
 
 		if (!this.request.isEmpty()) {
 			Schema0Header recvdReq = String2JsonObj2EntityX(this.request);
 			Schema0Header sendReq = new Schema0Header();
-			System.out.println("recvd workcode ? " + recvdReq.workcode + "  request = " + this.request);
+			//System.out.println("[processCommand] recvd workcode ? " + recvdReq.workcode + "  request = " + this.request);
 			if (recvdReq.workcode.equals("signup")) {
+				System.out.println("[1111 Receive Request signup] =====>");
 				this.request = "";
 				sendReq.msgtype = recvdReq.msgtype;
 				sendReq.dst = "common";
 				sendReq.workcode = recvdReq.workcode;
+				sendReq.msgid = recvdReq.msgid;
 				sendReq.body = new Schema1Body();
 				sendReq.body.provider = recvdReq.body.provider;
 				sendReq.body.authcode = recvdReq.body.authcode;
@@ -141,7 +148,9 @@ public class ProcessCommand implements Runnable {
 				if (sendReq.msgtype.equals("res"))
 					msgType = MsgType.Response;
 				DamqSndProducer sndProducer = DamqSndProducer.getInstance();
-				sndProducer.PushToSendQueue(ModuleType.COMCLNT, msgType, sendReq.workcode, str);
+				System.out.println("[2222 Send Request signup] ----->");
+				//System.out.println(" >>>>>  sndProducer : ["+sendReq.dst+"]   str=" + str);
+				sndProducer.PushToSendQueue(sendReq.dst, sendReq.msgid, msgType, sendReq.workcode, str);
 			}
 		}
 	}

@@ -16,7 +16,7 @@ public class Schema1Body extends EntityX {
 
     @BindField("status") public Integer status;
     @BindField("provider") public String provider; //sign up req
-    @BindField("authcode") public String authcode; //sign up req
+    @BindField("auth_code") public String authcode; //sign up req
     @BindField("uid") public String uid; //sign up resp; sign in req 
     @BindField("accesstoken") public String accesstoken; //sign up resp; sign in req
     @BindField("expiresin") public Integer expiresin; //sign up resp; sign in req

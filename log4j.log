@@ -252,3 +252,187 @@
 [2017-09-22 15:45:50,257]DEBUG 27016[Thread-3] - io.dase.network.DamqSndConsumer.run(DamqSndConsumer.java:55) - gocha!
 [2017-09-22 15:45:52,751]ERROR 29510[main] - io.dase.network.App.main(App.java:103) - ma1n error: No line found
 [2017-09-22 15:45:52,752]DEBUG 29511[main] - io.dase.network.App.main(App.java:107) - Adios
+[2017-09-22 16:33:22,554]DEBUG     0[main] - io.dase.network.App.main(App.java:21) - Hola
+[2017-09-22 16:33:22,558]DEBUG     4[Thread-1] - io.dase.network.DamqRcvConsumer.run(DamqRcvConsumer.java:71) - DamqRcvConsumer begins.
+[2017-09-22 16:33:22,563]ERROR     9[Thread-1] - io.dase.network.DamqSndProducer.InitDamqSndProducer(DamqSndProducer.java:35) - InitDamqSndProducer
+[2017-09-22 16:33:22,563]DEBUG     9[Thread-2] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:18) - DamqRcvProducer begins.
+[2017-09-22 16:33:22,564]DEBUG    10[Thread-3] - io.dase.network.DamqSndConsumer.run(DamqSndConsumer.java:21) - DamqSndConsumer begins.
+[2017-09-22 16:33:25,318]DEBUG  2764[Thread-1] - aries.DeviceManager.DevMgr.MainProc(DevMgr.java:33) - origin:devmgr & msgid:10124ec0-2c29-4a99-bce1-92c9a82995fd & body:{"authcode":"48ff254740b053676001","provider":"github"}
+[2017-09-22 16:33:28,563]ERROR  6009[Thread-3] - io.dase.network.DamqSndConsumer.run(DamqSndConsumer.java:53) - err0r : 부적절한 인수 (sendto failed)
+[2017-09-22 16:33:28,573]DEBUG  6019[Thread-3] - io.dase.network.DamqSndConsumer.run(DamqSndConsumer.java:55) - gocha!
+[2017-09-22 16:33:33,066]ERROR 10512[main] - io.dase.network.App.main(App.java:103) - ma1n error: No line found
+[2017-09-22 16:33:33,067]DEBUG 10513[main] - io.dase.network.App.main(App.java:107) - Adios
+[2017-09-22 16:35:08,185]DEBUG     0[main] - io.dase.network.App.main(App.java:21) - Hola
+[2017-09-22 16:35:08,190]DEBUG     5[Thread-1] - io.dase.network.DamqRcvConsumer.run(DamqRcvConsumer.java:71) - DamqRcvConsumer begins.
+[2017-09-22 16:35:08,190]ERROR     5[Thread-1] - io.dase.network.DamqSndProducer.InitDamqSndProducer(DamqSndProducer.java:35) - InitDamqSndProducer
+[2017-09-22 16:35:08,190]DEBUG     5[Thread-2] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:18) - DamqRcvProducer begins.
+[2017-09-22 16:35:08,191]DEBUG     6[Thread-3] - io.dase.network.DamqSndConsumer.run(DamqSndConsumer.java:21) - DamqSndConsumer begins.
+[2017-09-22 16:35:12,761]DEBUG  4576[Thread-1] - aries.DeviceManager.DevMgr.MainProc(DevMgr.java:33) - origin:devmgr & msgid:a148c18b-aacc-4acc-8bfe-d345e3af0e25 & body:{"authcode":"48ff254740b053676001","provider":"github"}
+[2017-09-22 16:35:14,194]ERROR  6009[Thread-3] - io.dase.network.DamqSndConsumer.run(DamqSndConsumer.java:53) - err0r : 부적절한 인수 (sendto failed)
+[2017-09-22 16:35:14,195]DEBUG  6010[Thread-3] - io.dase.network.DamqSndConsumer.run(DamqSndConsumer.java:55) - gocha!
+[2017-09-22 16:35:24,145]ERROR 15960[main] - io.dase.network.App.main(App.java:103) - ma1n error: No line found
+[2017-09-22 16:35:24,146]DEBUG 15961[main] - io.dase.network.App.main(App.java:107) - Adios
+[2017-09-22 16:43:25,684]DEBUG     0[main] - io.dase.network.App.main(App.java:21) - Hola
+[2017-09-22 16:43:25,689]DEBUG     5[Thread-1] - io.dase.network.DamqRcvConsumer.run(DamqRcvConsumer.java:71) - DamqRcvConsumer begins.
+[2017-09-22 16:43:25,689]ERROR     5[Thread-1] - io.dase.network.DamqSndProducer.InitDamqSndProducer(DamqSndProducer.java:35) - InitDamqSndProducer
+[2017-09-22 16:43:25,690]DEBUG     6[Thread-2] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:18) - DamqRcvProducer begins.
+[2017-09-22 16:43:25,691]DEBUG     7[Thread-3] - io.dase.network.DamqSndConsumer.run(DamqSndConsumer.java:21) - DamqSndConsumer begins.
+[2017-09-22 16:43:42,905]ERROR 17221[main] - io.dase.network.App.main(App.java:103) - ma1n error: A JSONObject text must begin with '{' at 1 [character 2 line 1]
+[2017-09-22 16:43:42,905]DEBUG 17221[main] - io.dase.network.App.main(App.java:107) - Adios
+[2017-09-22 16:43:52,902]DEBUG     0[main] - io.dase.network.App.main(App.java:21) - Hola
+[2017-09-22 16:43:52,906]DEBUG     4[Thread-1] - io.dase.network.DamqRcvConsumer.run(DamqRcvConsumer.java:71) - DamqRcvConsumer begins.
+[2017-09-22 16:43:52,907]ERROR     5[Thread-1] - io.dase.network.DamqSndProducer.InitDamqSndProducer(DamqSndProducer.java:35) - InitDamqSndProducer
+[2017-09-22 16:43:52,907]DEBUG     5[Thread-2] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:18) - DamqRcvProducer begins.
+[2017-09-22 16:43:52,910]DEBUG     8[Thread-3] - io.dase.network.DamqSndConsumer.run(DamqSndConsumer.java:21) - DamqSndConsumer begins.
+[2017-09-22 16:43:56,844]DEBUG  3942[Thread-1] - aries.DeviceManager.DevMgr.MainProc(DevMgr.java:33) - origin:devmgr & msgid:db2a3541-10ab-45da-a817-bb0729fa62ef & body:{"authcode":"48ff254740b053676001","provider":"github"}
+[2017-09-22 16:43:58,911]ERROR  6009[Thread-3] - io.dase.network.DamqSndConsumer.run(DamqSndConsumer.java:53) - err0r : 부적절한 인수 (sendto failed)
+[2017-09-22 16:43:58,912]DEBUG  6010[Thread-3] - io.dase.network.DamqSndConsumer.run(DamqSndConsumer.java:55) - gocha!
+[2017-09-22 16:44:05,553]ERROR 12651[main] - io.dase.network.App.main(App.java:103) - ma1n error: No line found
+[2017-09-22 16:44:05,554]DEBUG 12652[main] - io.dase.network.App.main(App.java:107) - Adios
+[2017-09-22 16:45:55,650]DEBUG     0[main] - io.dase.network.App.main(App.java:21) - Hola
+[2017-09-22 16:45:55,657]DEBUG     7[Thread-1] - io.dase.network.DamqRcvConsumer.run(DamqRcvConsumer.java:71) - DamqRcvConsumer begins.
+[2017-09-22 16:45:55,658]ERROR     8[Thread-1] - io.dase.network.DamqSndProducer.InitDamqSndProducer(DamqSndProducer.java:35) - InitDamqSndProducer
+[2017-09-22 16:45:55,658]DEBUG     8[Thread-2] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:18) - DamqRcvProducer begins.
+[2017-09-22 16:45:55,661]DEBUG    11[Thread-3] - io.dase.network.DamqSndConsumer.run(DamqSndConsumer.java:21) - DamqSndConsumer begins.
+[2017-09-22 16:46:21,211]DEBUG 25561[Thread-1] - aries.DeviceManager.DevMgr.MainProc(DevMgr.java:33) - origin:devmgr & msgid:9facee0b-3f48-4165-814e-8c062865b5e0 & body:{"authcode":"48ff254740b053676001","provider":"github"}
+[2017-09-22 16:46:31,799]ERROR 36149[Thread-3] - io.dase.network.DamqSndConsumer.run(DamqSndConsumer.java:53) - err0r : 부적절한 인수 (sendto failed)
+[2017-09-22 16:46:33,372]DEBUG 37722[Thread-3] - io.dase.network.DamqSndConsumer.run(DamqSndConsumer.java:55) - gocha!
+[2017-09-22 16:47:03,217]DEBUG 67567[Thread-1] - aries.DeviceManager.DevMgr.MainProc(DevMgr.java:33) - origin:devmgr & msgid:efec5fa9-5264-4d05-a7ce-f2cc56b4da71 & body:{"authcode":"48ff254740b053676001","provider":"github"}
+[2017-09-22 16:47:32,985]ERROR 97335[Thread-3] - io.dase.network.DamqSndConsumer.run(DamqSndConsumer.java:53) - err0r : 부적절한 인수 (sendto failed)
+[2017-09-22 16:47:37,993]DEBUG102343[Thread-3] - io.dase.network.DamqSndConsumer.run(DamqSndConsumer.java:55) - gocha!
+[2017-09-22 16:47:56,050]DEBUG     0[main] - io.dase.network.App.main(App.java:21) - Hola
+[2017-09-22 16:47:56,056]DEBUG     6[Thread-1] - io.dase.network.DamqRcvConsumer.run(DamqRcvConsumer.java:71) - DamqRcvConsumer begins.
+[2017-09-22 16:47:56,057]ERROR     7[Thread-1] - io.dase.network.DamqSndProducer.InitDamqSndProducer(DamqSndProducer.java:35) - InitDamqSndProducer
+[2017-09-22 16:47:56,057]DEBUG     7[Thread-2] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:18) - DamqRcvProducer begins.
+[2017-09-22 16:47:56,060]DEBUG    10[Thread-3] - io.dase.network.DamqSndConsumer.run(DamqSndConsumer.java:21) - DamqSndConsumer begins.
+[2017-09-22 16:50:11,596]ERROR135546[main] - io.dase.network.App.main(App.java:103) - ma1n error: null
+[2017-09-22 16:50:11,597]DEBUG135547[main] - io.dase.network.App.main(App.java:107) - Adios
+[2017-09-22 16:51:27,513]DEBUG     0[main] - io.dase.network.App.main(App.java:21) - Hola
+[2017-09-22 16:51:27,519]DEBUG     6[Thread-1] - io.dase.network.DamqRcvConsumer.run(DamqRcvConsumer.java:71) - DamqRcvConsumer begins.
+[2017-09-22 16:51:27,519]ERROR     6[Thread-1] - io.dase.network.DamqSndProducer.InitDamqSndProducer(DamqSndProducer.java:35) - InitDamqSndProducer
+[2017-09-22 16:51:27,519]DEBUG     6[Thread-2] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:18) - DamqRcvProducer begins.
+[2017-09-22 16:51:27,521]DEBUG     8[Thread-3] - io.dase.network.DamqSndConsumer.run(DamqSndConsumer.java:21) - DamqSndConsumer begins.
+[2017-09-22 16:51:31,983]DEBUG  4470[Thread-1] - aries.DeviceManager.DevMgr.MainProc(DevMgr.java:33) - origin:devmgr & msgid:02d00861-9569-4e0a-85de-e1177c6ac5b8 & body:{"authcode":"48ff254740b053676001","provider":"github"}
+[2017-09-22 16:51:33,524]ERROR  6011[Thread-3] - io.dase.network.DamqSndConsumer.run(DamqSndConsumer.java:53) - err0r : 부적절한 인수 (sendto failed)
+[2017-09-22 16:51:33,525]DEBUG  6012[Thread-3] - io.dase.network.DamqSndConsumer.run(DamqSndConsumer.java:55) - gocha!
+[2017-09-22 16:51:40,168]ERROR 12655[main] - io.dase.network.App.main(App.java:103) - ma1n error: No line found
+[2017-09-22 16:51:40,169]DEBUG 12656[main] - io.dase.network.App.main(App.java:107) - Adios
+[2017-09-22 16:52:02,242]DEBUG     0[main] - io.dase.network.App.main(App.java:21) - Hola
+[2017-09-22 16:52:02,246]DEBUG     4[Thread-1] - io.dase.network.DamqRcvConsumer.run(DamqRcvConsumer.java:71) - DamqRcvConsumer begins.
+[2017-09-22 16:52:02,247]ERROR     5[Thread-1] - io.dase.network.DamqSndProducer.InitDamqSndProducer(DamqSndProducer.java:35) - InitDamqSndProducer
+[2017-09-22 16:52:02,247]DEBUG     5[Thread-2] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:18) - DamqRcvProducer begins.
+[2017-09-22 16:52:02,248]DEBUG     6[Thread-3] - io.dase.network.DamqSndConsumer.run(DamqSndConsumer.java:21) - DamqSndConsumer begins.
+[2017-09-22 16:52:04,209]ERROR  1967[main] - io.dase.network.App.main(App.java:103) - ma1n error: No line found
+[2017-09-22 16:52:04,210]DEBUG  1968[main] - io.dase.network.App.main(App.java:107) - Adios
+[2017-09-22 16:52:06,174]DEBUG     0[main] - io.dase.network.App.main(App.java:21) - Hola
+[2017-09-22 16:52:06,181]DEBUG     7[Thread-1] - io.dase.network.DamqRcvConsumer.run(DamqRcvConsumer.java:71) - DamqRcvConsumer begins.
+[2017-09-22 16:52:06,182]ERROR     8[Thread-1] - io.dase.network.DamqSndProducer.InitDamqSndProducer(DamqSndProducer.java:35) - InitDamqSndProducer
+[2017-09-22 16:52:06,182]DEBUG     8[Thread-2] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:18) - DamqRcvProducer begins.
+[2017-09-22 16:52:06,184]DEBUG    10[Thread-3] - io.dase.network.DamqSndConsumer.run(DamqSndConsumer.java:21) - DamqSndConsumer begins.
+[2017-09-22 16:52:17,537]DEBUG 11363[Thread-1] - aries.DeviceManager.DevMgr.MainProc(DevMgr.java:33) - origin:devmgr & msgid:3a728469-ad56-4390-b9f8-8fcbd92d1a46 & body:{"authcode":"48ff254740b053676001","provider":"github"}
+[2017-09-22 16:53:34,615]DEBUG     0[main] - io.dase.network.App.main(App.java:21) - Hola
+[2017-09-22 16:53:34,620]DEBUG     5[Thread-1] - io.dase.network.DamqRcvConsumer.run(DamqRcvConsumer.java:71) - DamqRcvConsumer begins.
+[2017-09-22 16:53:34,622]ERROR     7[Thread-1] - io.dase.network.DamqSndProducer.InitDamqSndProducer(DamqSndProducer.java:35) - InitDamqSndProducer
+[2017-09-22 16:53:34,622]DEBUG     7[Thread-2] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:18) - DamqRcvProducer begins.
+[2017-09-22 16:53:34,623]DEBUG     8[Thread-3] - io.dase.network.DamqSndConsumer.run(DamqSndConsumer.java:21) - DamqSndConsumer begins.
+[2017-09-22 16:53:40,197]DEBUG  5582[Thread-1] - aries.DeviceManager.DevMgr.MainProc(DevMgr.java:33) - origin:devmgr & msgid:d850144b-006a-4a1d-9284-a62e6455b792 & body:{"authcode":"48ff254740b053676001","provider":"github"}
+[2017-09-22 16:53:40,625]ERROR  6010[Thread-3] - io.dase.network.DamqSndConsumer.run(DamqSndConsumer.java:54) - err0r : 부적절한 인수 (sendto failed)
+[2017-09-22 16:53:40,626]DEBUG  6011[Thread-3] - io.dase.network.DamqSndConsumer.run(DamqSndConsumer.java:56) - gocha!
+[2017-09-22 16:53:44,141]ERROR  9526[main] - io.dase.network.App.main(App.java:103) - ma1n error: No line found
+[2017-09-22 16:53:44,141]DEBUG  9526[main] - io.dase.network.App.main(App.java:107) - Adios
+[2017-09-22 16:56:15,314]DEBUG     0[main] - io.dase.network.App.main(App.java:21) - Hola
+[2017-09-22 16:56:15,318]DEBUG     4[Thread-1] - io.dase.network.DamqRcvConsumer.run(DamqRcvConsumer.java:71) - DamqRcvConsumer begins.
+[2017-09-22 16:56:15,319]ERROR     5[Thread-1] - io.dase.network.DamqSndProducer.InitDamqSndProducer(DamqSndProducer.java:35) - InitDamqSndProducer
+[2017-09-22 16:56:15,319]DEBUG     5[Thread-2] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:18) - DamqRcvProducer begins.
+[2017-09-22 16:56:15,320]DEBUG     6[Thread-3] - io.dase.network.DamqSndConsumer.run(DamqSndConsumer.java:21) - DamqSndConsumer begins.
+[2017-09-22 16:56:18,355]DEBUG  3041[Thread-1] - aries.DeviceManager.DevMgr.MainProc(DevMgr.java:33) - origin:devmgr & msgid:5648f446-04b6-4680-8117-e400e1025ac7 & body:{"authcode":"48ff254740b053676001","provider":"github"}
+[2017-09-22 16:56:21,324]ERROR  6010[Thread-3] - io.dase.network.DamqSndConsumer.run(DamqSndConsumer.java:54) - err0r : 부적절한 인수 (sendto failed)
+[2017-09-22 16:56:21,324]DEBUG  6010[Thread-3] - io.dase.network.DamqSndConsumer.run(DamqSndConsumer.java:56) - gocha!
+[2017-09-22 16:56:23,339]ERROR  8025[main] - io.dase.network.App.main(App.java:103) - ma1n error: No line found
+[2017-09-22 16:56:23,340]DEBUG  8026[main] - io.dase.network.App.main(App.java:107) - Adios
+[2017-09-22 16:56:53,538]DEBUG     0[main] - io.dase.network.App.main(App.java:21) - Hola
+[2017-09-22 16:56:53,542]DEBUG     4[Thread-1] - io.dase.network.DamqRcvConsumer.run(DamqRcvConsumer.java:71) - DamqRcvConsumer begins.
+[2017-09-22 16:56:53,543]ERROR     5[Thread-1] - io.dase.network.DamqSndProducer.InitDamqSndProducer(DamqSndProducer.java:35) - InitDamqSndProducer
+[2017-09-22 16:56:53,543]DEBUG     5[Thread-2] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:18) - DamqRcvProducer begins.
+[2017-09-22 16:56:53,544]DEBUG     6[Thread-3] - io.dase.network.DamqSndConsumer.run(DamqSndConsumer.java:21) - DamqSndConsumer begins.
+[2017-09-22 16:56:56,053]DEBUG  2515[Thread-1] - aries.DeviceManager.DevMgr.MainProc(DevMgr.java:33) - origin:devmgr & msgid:4bc5736c-c376-4c7f-9d17-3d4bb5c3cae8 & body:{"authcode":"48ff254740b053676001","provider":"github"}
+[2017-09-22 16:56:59,547]ERROR  6009[Thread-3] - io.dase.network.DamqSndConsumer.run(DamqSndConsumer.java:54) - err0r : 부적절한 인수 (sendto failed)
+[2017-09-22 16:56:59,548]DEBUG  6010[Thread-3] - io.dase.network.DamqSndConsumer.run(DamqSndConsumer.java:56) - gocha!
+[2017-09-22 16:57:01,638]ERROR  8100[main] - io.dase.network.App.main(App.java:103) - ma1n error: No line found
+[2017-09-22 17:00:48,519]DEBUG     0[main] - io.dase.network.App.main(App.java:21) - Hola
+[2017-09-22 17:00:48,523]DEBUG     4[Thread-1] - io.dase.network.DamqRcvConsumer.run(DamqRcvConsumer.java:71) - DamqRcvConsumer begins.
+[2017-09-22 17:00:48,524]ERROR     5[Thread-1] - io.dase.network.DamqSndProducer.InitDamqSndProducer(DamqSndProducer.java:35) - InitDamqSndProducer
+[2017-09-22 17:00:48,524]DEBUG     5[Thread-2] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:18) - DamqRcvProducer begins.
+[2017-09-22 17:00:48,525]DEBUG     6[Thread-3] - io.dase.network.DamqSndConsumer.run(DamqSndConsumer.java:21) - DamqSndConsumer begins.
+[2017-09-22 17:00:51,219]DEBUG  2700[Thread-1] - aries.DeviceManager.DevMgr.MainProc(DevMgr.java:33) - origin:devmgr & msgid:f08a13c5-fdaa-4e50-8e37-bfac5e5a7769 & body:{"authcode":"48ff254740b053676001","provider":"github"}
+[2017-09-22 17:01:24,258]DEBUG 35739[Thread-1] - aries.DeviceManager.DevMgr.MainProc(DevMgr.java:33) - origin:devmgr & msgid:4cd4389e-1f20-416f-9643-cb466a72da92 & body:{"authcode":"48ff254740b053676001","provider":"github"}
+[2017-09-22 17:02:45,037]ERROR116518[main] - io.dase.network.App.main(App.java:103) - ma1n error: No line found
+[2017-09-22 17:02:45,037]DEBUG116518[main] - io.dase.network.App.main(App.java:107) - Adios
+[2017-09-22 17:02:46,339]DEBUG     0[main] - io.dase.network.App.main(App.java:21) - Hola
+[2017-09-22 17:02:46,343]DEBUG     4[Thread-1] - io.dase.network.DamqRcvConsumer.run(DamqRcvConsumer.java:71) - DamqRcvConsumer begins.
+[2017-09-22 17:02:46,344]ERROR     5[Thread-1] - io.dase.network.DamqSndProducer.InitDamqSndProducer(DamqSndProducer.java:35) - InitDamqSndProducer
+[2017-09-22 17:02:46,344]DEBUG     5[Thread-2] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:18) - DamqRcvProducer begins.
+[2017-09-22 17:02:46,345]DEBUG     6[Thread-3] - io.dase.network.DamqSndConsumer.run(DamqSndConsumer.java:21) - DamqSndConsumer begins.
+[2017-09-22 17:02:49,086]DEBUG  2747[Thread-1] - aries.DeviceManager.DevMgr.MainProc(DevMgr.java:33) - origin:devmgr & msgid:1092aca4-b812-4739-8826-e68898799b5f & body:{"provider":"github"}
+[2017-09-22 17:02:56,367]ERROR 10028[main] - io.dase.network.App.main(App.java:103) - ma1n error: No line found
+[2017-09-22 17:02:56,368]DEBUG 10029[main] - io.dase.network.App.main(App.java:107) - Adios
+[2017-09-22 17:03:10,144]DEBUG     0[main] - io.dase.network.App.main(App.java:21) - Hola
+[2017-09-22 17:03:10,149]DEBUG     5[Thread-1] - io.dase.network.DamqRcvConsumer.run(DamqRcvConsumer.java:71) - DamqRcvConsumer begins.
+[2017-09-22 17:03:10,150]ERROR     6[Thread-1] - io.dase.network.DamqSndProducer.InitDamqSndProducer(DamqSndProducer.java:35) - InitDamqSndProducer
+[2017-09-22 17:03:10,150]DEBUG     6[Thread-2] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:18) - DamqRcvProducer begins.
+[2017-09-22 17:03:10,151]DEBUG     7[Thread-3] - io.dase.network.DamqSndConsumer.run(DamqSndConsumer.java:21) - DamqSndConsumer begins.
+[2017-09-22 17:03:11,739]DEBUG  1595[Thread-1] - aries.DeviceManager.DevMgr.MainProc(DevMgr.java:33) - origin:devmgr & msgid:2436bcf6-3b1e-4c53-8ea2-0f1b2a5bf08d & body:{"provider":"github","auth_code":"48ff254740b053676001"}
+[2017-09-22 17:03:17,200]DEBUG  7056[Thread-1] - aries.DeviceManager.DevMgr.MainProc(DevMgr.java:33) - origin:common & msgid:5cd07a65-2971-4f3c-ba93-85bf012a1f66 & body:{"expiresin":-1,"uid":"2631ce1d-984b-4ccb-a5d8-4edf6a88eec6","accesstoken":"88fba265ec381d02b880ace698002b143f751395","status":200}
+[2017-09-22 17:03:30,326]ERROR 20182[main] - io.dase.network.App.main(App.java:103) - ma1n error: No line found
+[2017-09-22 17:03:30,327]DEBUG 20183[main] - io.dase.network.App.main(App.java:107) - Adios
+[2017-09-22 17:09:09,874]DEBUG     1[main] - io.dase.network.App.main(App.java:21) - Hola
+[2017-09-22 17:09:09,878]DEBUG     5[Thread-1] - io.dase.network.DamqRcvConsumer.run(DamqRcvConsumer.java:71) - DamqRcvConsumer begins.
+[2017-09-22 17:09:09,879]ERROR     6[Thread-1] - io.dase.network.DamqSndProducer.InitDamqSndProducer(DamqSndProducer.java:35) - InitDamqSndProducer
+[2017-09-22 17:09:09,879]DEBUG     6[Thread-2] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:18) - DamqRcvProducer begins.
+[2017-09-22 17:09:09,880]DEBUG     7[Thread-3] - io.dase.network.DamqSndConsumer.run(DamqSndConsumer.java:21) - DamqSndConsumer begins.
+[2017-09-22 17:09:14,536]DEBUG  4663[Thread-1] - aries.DeviceManager.DevMgr.MainProc(DevMgr.java:33) - origin:devmgr & msgid:72611908-9ad8-43ab-b615-a61db173f1a2 & body:{"provider":"github","auth_code":"48ff254740b053676001"}
+[2017-09-22 17:09:16,916]DEBUG  7043[Thread-1] - aries.DeviceManager.DevMgr.MainProc(DevMgr.java:33) - origin:common & msgid:72611908-9ad8-43ab-b615-a61db173f1a2 & body:{"expiresin":-1,"uid":"2631ce1d-984b-4ccb-a5d8-4edf6a88eec6","accesstoken":"88fba265ec381d02b880ace698002b143f751395","status":200}
+[2017-09-22 17:09:22,248]ERROR 12375[main] - io.dase.network.App.main(App.java:103) - ma1n error: No line found
+[2017-09-22 17:09:22,249]DEBUG 12376[main] - io.dase.network.App.main(App.java:107) - Adios
+[2017-09-22 17:13:41,574]DEBUG     0[main] - io.dase.network.App.main(App.java:21) - Hola
+[2017-09-22 17:13:41,580]DEBUG     6[Thread-1] - io.dase.network.DamqRcvConsumer.run(DamqRcvConsumer.java:71) - DamqRcvConsumer begins.
+[2017-09-22 17:13:41,580]ERROR     6[Thread-1] - io.dase.network.DamqSndProducer.InitDamqSndProducer(DamqSndProducer.java:35) - InitDamqSndProducer
+[2017-09-22 17:13:41,580]DEBUG     6[Thread-2] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:18) - DamqRcvProducer begins.
+[2017-09-22 17:13:41,586]DEBUG    12[Thread-3] - io.dase.network.DamqSndConsumer.run(DamqSndConsumer.java:21) - DamqSndConsumer begins.
+[2017-09-22 17:13:45,922]DEBUG  4348[Thread-1] - aries.DeviceManager.DevMgr.MainProc(DevMgr.java:33) - origin:devmgr & msgid:180bd395-86af-468c-93c3-3cef9f4cbf1d & body:{"provider":"github","auth_code":"48ff254740b053676001"}
+[2017-09-22 17:13:57,210]ERROR 15636[main] - io.dase.network.App.main(App.java:103) - ma1n error: No line found
+[2017-09-22 17:13:57,211]DEBUG 15637[main] - io.dase.network.App.main(App.java:107) - Adios
+[2017-09-22 17:14:20,478]DEBUG     0[main] - io.dase.network.App.main(App.java:21) - Hola
+[2017-09-22 17:14:20,483]DEBUG     5[Thread-1] - io.dase.network.DamqRcvConsumer.run(DamqRcvConsumer.java:71) - DamqRcvConsumer begins.
+[2017-09-22 17:14:20,483]ERROR     5[Thread-1] - io.dase.network.DamqSndProducer.InitDamqSndProducer(DamqSndProducer.java:35) - InitDamqSndProducer
+[2017-09-22 17:14:20,484]DEBUG     6[Thread-2] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:18) - DamqRcvProducer begins.
+[2017-09-22 17:14:20,484]DEBUG     6[Thread-3] - io.dase.network.DamqSndConsumer.run(DamqSndConsumer.java:21) - DamqSndConsumer begins.
+[2017-09-22 17:14:23,075]DEBUG  2597[Thread-1] - aries.DeviceManager.DevMgr.MainProc(DevMgr.java:33) - origin:devmgr & msgid:2da5012f-bcda-428a-804b-9e9b4eaf09be & body:{"provider":"github","auth_code":"48ff254740b053676001"}
+[2017-09-22 17:14:51,540]ERROR 31062[main] - io.dase.network.App.main(App.java:103) - ma1n error: No line found
+[2017-09-22 17:14:51,541]DEBUG 31063[main] - io.dase.network.App.main(App.java:107) - Adios
+[2017-09-22 17:19:23,685]DEBUG     0[main] - io.dase.network.App.main(App.java:21) - Hola
+[2017-09-22 17:19:23,690]DEBUG     5[Thread-1] - io.dase.network.DamqRcvConsumer.run(DamqRcvConsumer.java:71) - DamqRcvConsumer begins.
+[2017-09-22 17:19:23,691]ERROR     6[Thread-1] - io.dase.network.DamqSndProducer.InitDamqSndProducer(DamqSndProducer.java:35) - InitDamqSndProducer
+[2017-09-22 17:19:23,691]DEBUG     6[Thread-2] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:18) - DamqRcvProducer begins.
+[2017-09-22 17:19:23,696]DEBUG    11[Thread-3] - io.dase.network.DamqSndConsumer.run(DamqSndConsumer.java:21) - DamqSndConsumer begins.
+[2017-09-22 17:19:26,208]DEBUG  2523[Thread-1] - aries.DeviceManager.DevMgr.MainProc(DevMgr.java:33) - origin:devmgr & msgid:1ce165dd-c609-4820-a4ee-dd1535e6cb0e & body:{"provider":"github","auth_code":"48ff254740b053676001"}
+[2017-09-22 17:20:03,910]ERROR 40225[main] - io.dase.network.App.main(App.java:103) - ma1n error: No line found
+[2017-09-22 17:20:03,911]DEBUG 40226[main] - io.dase.network.App.main(App.java:107) - Adios
+[2017-09-22 17:20:06,013]DEBUG     0[main] - io.dase.network.App.main(App.java:21) - Hola
+[2017-09-22 17:20:06,018]DEBUG     5[Thread-1] - io.dase.network.DamqRcvConsumer.run(DamqRcvConsumer.java:71) - DamqRcvConsumer begins.
+[2017-09-22 17:20:06,019]ERROR     6[Thread-1] - io.dase.network.DamqSndProducer.InitDamqSndProducer(DamqSndProducer.java:35) - InitDamqSndProducer
+[2017-09-22 17:20:06,019]DEBUG     6[Thread-2] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:18) - DamqRcvProducer begins.
+[2017-09-22 17:20:06,020]DEBUG     7[Thread-3] - io.dase.network.DamqSndConsumer.run(DamqSndConsumer.java:21) - DamqSndConsumer begins.
+[2017-09-22 17:20:09,119]DEBUG  3106[Thread-1] - aries.DeviceManager.DevMgr.MainProc(DevMgr.java:33) - origin:devmgr & msgid:ae1f4c56-e3f6-4f30-b66c-8a37b526294f & body:{"provider":"github","auth_code":"48ff254740b053676001"}
+[2017-09-22 17:20:13,056]DEBUG  7043[Thread-1] - aries.DeviceManager.DevMgr.MainProc(DevMgr.java:33) - origin:common & msgid:ae1f4c56-e3f6-4f30-b66c-8a37b526294f & body:{"expiresin":-1,"uid":"2631ce1d-984b-4ccb-a5d8-4edf6a88eec6","accesstoken":"88fba265ec381d02b880ace698002b143f751395","status":200}
+[2017-09-22 17:20:24,629]ERROR 18616[main] - io.dase.network.App.main(App.java:103) - ma1n error: No line found
+[2017-09-22 17:20:24,630]DEBUG 18617[main] - io.dase.network.App.main(App.java:107) - Adios
+[2017-09-22 17:26:36,620]DEBUG     0[main] - io.dase.network.App.main(App.java:21) - Hola
+[2017-09-22 17:26:36,625]DEBUG     5[Thread-1] - io.dase.network.DamqRcvConsumer.run(DamqRcvConsumer.java:71) - DamqRcvConsumer begins.
+[2017-09-22 17:26:36,626]ERROR     6[Thread-1] - io.dase.network.DamqSndProducer.InitDamqSndProducer(DamqSndProducer.java:35) - InitDamqSndProducer
+[2017-09-22 17:26:36,626]DEBUG     6[Thread-2] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:18) - DamqRcvProducer begins.
+[2017-09-22 17:26:36,626]DEBUG     6[Thread-3] - io.dase.network.DamqSndConsumer.run(DamqSndConsumer.java:21) - DamqSndConsumer begins.
+[2017-09-22 17:26:38,554]DEBUG  1934[Thread-1] - aries.DeviceManager.DevMgr.MainProc(DevMgr.java:33) - origin:devmgr & msgid:5b568483-e799-46eb-ae74-58c3ee5f2cc3 & body:{"provider":"github","auth_code":"48ff254740b053676001"}
+[2017-09-22 17:26:43,641]DEBUG  7021[Thread-1] - aries.DeviceManager.DevMgr.MainProc(DevMgr.java:33) - origin:common & msgid:5b568483-e799-46eb-ae74-58c3ee5f2cc3 & body:{"expiresin":-1,"uid":"2631ce1d-984b-4ccb-a5d8-4edf6a88eec6","accesstoken":"88fba265ec381d02b880ace698002b143f751395","status":200}
+[2017-09-22 17:26:58,613]ERROR 21993[main] - io.dase.network.App.main(App.java:103) - ma1n error: No line found
+[2017-09-22 17:26:58,613]DEBUG 21993[main] - io.dase.network.App.main(App.java:107) - Adios
