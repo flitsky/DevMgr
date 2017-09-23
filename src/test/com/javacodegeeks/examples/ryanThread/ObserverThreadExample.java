@@ -17,13 +17,13 @@ public class ObserverThreadExample {
 	static void processCommand() {
 		
 		if(cmd1.equals("post")) {
-			ObserverThread1 post = new ObserverThread1();
+			ObserverSignUp post = new ObserverSignUp();
 			observableMsg.addObserver(post);
 			cmd1 = "";
 		}
 
 		if(cmd2.equals("get")) {
-			ObserverThread2 get = new ObserverThread2();
+			ObserverGet get = new ObserverGet();
 			observableMsg.addObserver(get);
 			cmd2 = "";
 		}

@@ -3,12 +3,18 @@ package test.com.javacodegeeks.examples.ryanThread;
 import java.util.Observable;
 import java.util.Observer;
 
-public class ObserverThread1 implements Observer {
+public class ObserverSignUp implements Observer {
 
 	private ObservableMsg msgUpdate;
 
-	public ObserverThread1() {
-		System.out.println("ObserverThread1 [command processing][make message][send req/resp] ~> [wait resp]");
+	ObserverSignUp() {
+		System.out.println("ObserverSignUp [command processing][make message][send req/resp] ~> ");
+		System.out.println("ObserverSignUp [wait resp...]");
+	}
+
+	ObserverSignUp(Observable observable) {
+		this();
+		observable.addObserver(this);
 	}
 
 	@Override
@@ -19,7 +25,10 @@ public class ObserverThread1 implements Observer {
 		else if (msgUpdate.getMessage().contains("Common")) {
 			System.out.println("ObserverThread1 " + msgUpdate.getMessage());
 			System.out.println("ObserverThread1 - process complete!!!   deleteObserver ");
-			msgUpdate.deleteObserver(this);
+			//msgUpdate.deleteObserver(this);
+
+			//if process done well
+			observable.deleteObserver(this);
 		}
 	}
 }
