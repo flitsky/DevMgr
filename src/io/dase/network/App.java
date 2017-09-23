@@ -57,7 +57,7 @@ public class App {
 						msgType = MsgType.Request;
 
 					ModuleType moduleType = ModuleType.DEVMGR;
-					switch ( recvd.dst ) {
+					switch (recvd.dst) {
 					case "app":
 						moduleType = ModuleType.APP;
 						break;
@@ -75,14 +75,20 @@ public class App {
 					}
 					String msg = recvd.body.exportToString();
 					System.out.println(" >>> console input ~call~ sndProducer >>> recvd workcode : " + recvd.workcode);
-					sndProducer.PushToSendQueue(moduleType, msgType, recvd.workcode, msg);
+					if (recvd.msgid.equals("")) {
+						sndProducer.PushToSendQueue(moduleType, msgType, recvd.workcode, msg);
+					} else {
+						// PushToSendQueue(String dest, String msgId, MsgType msgType, String workCode,
+						// String msgBody)
+						sndProducer.PushToSendQueue(recvd.dst, recvd.msgid, msgType, recvd.workcode, msg);
+					}
 				}
 				scanner.close();
 				System.out.println("Bye~~");
 				// [Recv Req] sign up
 				// {"dst":"devmgr","msgtype":"req","workcode":"signup","body":{"provider":"github","auth_code":"48ff254740b053676001"},"msgid":"cc655607-4e6b-489c-964c-748e3c2505ab"}
 				// [Recv Resp] sign up
-				// {"org":"common","dst":"devmgr","date":"19800202","msgid":"msgid1234","msgtype":"res","workcode":"signup","body":{"status":200,"uid":"22883d77-4ab8-4b80-b75b-74774868b484","accesstoken":"e00d0d9ec36095d749a350dab04b5a8c1b94e136","expiresin":-1}}
+				// {"org":"common","dst":"devmgr","date":"19800202","msgid":"cc655607-4e6b-489c-964c-748e3c2505ab","msgtype":"res","workcode":"signup","body":{"status":200,"uid":"22883d77-4ab8-4b80-b75b-74774868b484","accesstoken":"e00d0d9ec36095d749a350dab04b5a8c1b94e136","expiresin":-1}}
 				// [Recv Resp] Discovery Device Result
 				// {"org":"common","dst":"devmgr","date":"19800202","msgid":"msgid1234","msgtype":"res","workcode":"dis_dev","body":{"status":200,"devices":[{"dev_id":"c31e8fa3-b524-0e6b-2489-77760c3ca37b","dev_name":"THU
 				// Light","spec_ver":"ocf.1.1.0","dev_type":["oic.wk.d",
