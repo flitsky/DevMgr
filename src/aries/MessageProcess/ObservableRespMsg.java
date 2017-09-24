@@ -1,9 +1,11 @@
-package aries.DeviceManager;
+package aries.MessageProcess;
 
 import java.util.Observable;
 import java.util.concurrent.BlockingQueue;
 
 import org.json.JSONObject;
+
+import aries.DeviceManager.Message;
 
 public class ObservableRespMsg extends Observable {
 	private String msg = "";
@@ -32,10 +34,6 @@ public class ObservableRespMsg extends Observable {
 		return messageId;
 	}
 
-	public String checkMessageId() {
-		return messageId;
-	}
-
 	public void work() {
 		if (this.msg == "") {
 			takeMessage();
@@ -50,19 +48,17 @@ public class ObservableRespMsg extends Observable {
 
 		// take message & check response queue is available
 		if (queueResp.isEmpty()) {
-			return false;
 		} else {
 			try {
 				if ((qResp = queueResp.take()).getMsg() != "") {
-					JSONObject jo = new JSONObject(qResp.getMsg());
-					setMessageId(jo.get("msgid").toString().toLowerCase());
+					setMessageId(qResp.getMessageID());
 					setMessage(qResp.getMsg());
 				}
 			} catch (InterruptedException e) {
 				// TODO Auto-generated catch block
 				e.printStackTrace();
 			}
-			return true;
 		}
+		return true;
 	}
 }

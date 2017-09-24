@@ -4,7 +4,6 @@ import java.util.Observable;
 import java.util.Observer;
 
 import aries.DeviceManager.Message;
-import aries.DeviceManager.ObservableRespMsg;
 
 public abstract class CmdProcessObserver implements Observer {
 	private String ResponseMsgID = "";
@@ -13,10 +12,7 @@ public abstract class CmdProcessObserver implements Observer {
 	public String getMsgID() {
 		return ResponseMsgID;
 	}
-	private void setMsgID(String msgId) {
-		this.ResponseMsgID = msgId;
-	}
-	
+
 	public CmdProcessObserver(Message msg, ObservableRespMsg observable) {
 		// TODO Auto-generated constructor stub
 		observable.addObserver(this);

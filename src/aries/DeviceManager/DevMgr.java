@@ -8,6 +8,7 @@ import org.json.JSONObject;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
+import aries.MessageProcess.ObservableRespMsg;
 import aries.MessageProcess.ObserverSignUp;
 import aries.interoperate.Schema0Header;
 import aries.interoperate.Schema1Body;
@@ -26,9 +27,6 @@ public class DevMgr extends DamqRcvConsumer {
 
 	public DevMgr(ModuleType m) {
 		super(m);
-
-		//Thread processCommand = new Thread(new ProcessCommand(ObsReq, ObsResp));
-		//processCommand.start();
 	}
 
 	protected void MainProc(String org, String dst, String dateTime, String msgId, String msgType, String workCode,
@@ -64,10 +62,9 @@ public class DevMgr extends DamqRcvConsumer {
 		// <=========== 정리 필요
 
 		// Message msg = new Message(msgBody); // 헤더 포함해서 던져주기위해서...
-		Message msg = new Message(msgFull); // 헤더 포함해서 던져주기위해서...
+		Message msg = new Message(msgId, msgFull); // 헤더 포함해서 던져주기위해서...
 		try {
 			if (msgType.equals("req")) {
-				msg.setMessageID(msgId);
 				requestProcess(msg);
 			} else if (msgType.equals("res")) {
 				queueResp.put(msg);

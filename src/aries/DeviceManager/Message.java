@@ -4,7 +4,8 @@ public class Message {
 	private String msg;
 	private String messageID;
 
-	public Message(String str) {
+	public Message(String msgId, String str) {
+		this.messageID = msgId;
 		this.msg = str;
 	}
 
@@ -14,9 +15,5 @@ public class Message {
 
 	public String getMessageID() {
 		return messageID;
-	}
-
-	public void setMessageID(String msgId) {
-		this.messageID = msgId;
 	}
 }

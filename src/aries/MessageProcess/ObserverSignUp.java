@@ -1,11 +1,8 @@
 package aries.MessageProcess;
 
-import java.util.Observable;
-
 import org.json.JSONObject;
 
 import aries.DeviceManager.Message;
-import aries.DeviceManager.ObservableRespMsg;
 import aries.interoperate.Schema0Header;
 import aries.interoperate.Schema1Body;
 import io.dase.network.DamqRcvConsumer.MsgType;
@@ -56,8 +53,43 @@ public class ObserverSignUp extends CmdProcessObserver {
 			e.printStackTrace();
 		}
 	}
+
 	@Override
-	protected void ResponseProc(String str) {
-		System.out.println("[6666 ResponseProc] str : " + str);
+	protected void ResponseProc(String RespStr) {
+		System.out.println("[6666 ResponseProc] str : " + RespStr);
+		JSONObject jo = new JSONObject(RespStr);
+		Schema0Header cmd = new Schema0Header();
+		try {
+			cmd.importFromJson(jo);
+			Schema0Header sendResp = new Schema0Header();
+			sendResp.msgtype = cmd.msgtype;
+			sendResp.dst = "app";
+			sendResp.workcode = cmd.workcode;
+			sendResp.msgid = cmd.msgid;
+			sendResp.body = new Schema1Body();
+			sendResp.body.status = cmd.body.status;
+			sendResp.body.uid = cmd.body.uid;
+			sendResp.body.accesstoken = cmd.body.accesstoken;
+			Schema1Body msgBody = sendResp.body;
+			String str = null;
+			try {
+				str = msgBody.exportToString();
+			} catch (Exception e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			}
+			MsgType msgType = MsgType.Request;
+			if (sendResp.msgtype.equals("res"))
+				msgType = MsgType.Response;
+			DamqSndProducer sndProducer = DamqSndProducer.getInstance();
+
+			// System.out.println(" >>>>> sndProducer : ["+sendResp.dst+"] str=" + str);
+			System.out.println("[7777 Send Response signup] ----->");
+			sndProducer.PushToSendQueue(sendResp.dst, sendResp.msgid, msgType, sendResp.workcode, str);
+			System.out.println("[8888 Process Done]");
+		} catch (Exception e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
 	}
 }
