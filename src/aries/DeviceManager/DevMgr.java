@@ -110,6 +110,9 @@ public class DevMgr extends DamqRcvConsumer {
 		case "obs_can":
 			break;
 		default:
+			JSONObject jo = new JSONObject();
+			jo.put("status", 404);
+			sndProducer.PushToSendQueue(cmd.org, cmd.msgid, MsgType.Response, cmd.workcode, jo.toString());
 			break;
 		}
 	}

@@ -110,7 +110,25 @@ public class DamqSndProducer {
       logger.error(e.getMessage());
     }
   }
-  
+
+  public void PushToSendQueue(String org, String dest, String msgId, MsgType msgType, String workCode, String msgBody) {   
+    try {
+      String buf = String.format("{\"org\":\"%s\",\"dst\":\"%s\",\"date\":\"%s\",\"msgid\":\"%s\",\"msgtype\":\"%s\",\"workcode\":\"%s\",\"body\":%s}"
+                                , org
+                                , dest
+                                , new SimpleDateFormat("yyyyMMddHHmmss").format(new Date())
+                                , msgId
+                                , DamqRcvConsumer.MsgTypeName[msgType.getValue()]
+                                , workCode
+                                , msgBody);
+      
+      System.out.println(" ###########  sendQueue.put DamqMsg  ##########");
+      sendQueue.put(new DamqMsg(buf));
+      
+    } catch (Exception e) {
+      logger.error(e.getMessage());
+    }
+  }
   private boolean CheckHash(String buf) {
     try {
       JSONObject jo = new JSONObject(buf);
