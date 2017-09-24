@@ -671,3 +671,12 @@
 [2017-09-24 16:55:55,343]ERROR712472[Thread-0] - aries.DeviceManager.DevMgr.ExceptionProc(DevMgr.java:86) - err0r: A JSONObject text must begin with '{' at 1 [character 2 line 1]
 [2017-09-24 16:56:03,335]DEBUG720464[Thread-0] - aries.DeviceManager.DevMgr.MainProc(DevMgr.java:35) - origin:common & msgid:msgid-signin-1234-5678-0001ab & body:{"status":200}
 [2017-09-24 16:56:10,368]DEBUG727497[Thread-0] - aries.DeviceManager.DevMgr.MainProc(DevMgr.java:35) - origin:common & msgid:msgid-signin-1234-5678-0001ff & body:{"status":200}
+[2017-09-24 17:03:53,972]ERROR191101[main] - aries.DeviceManager.App.main(App.java:114) - ma1n error: No line found
+[2017-09-24 17:03:53,973]DEBUG191102[main] - aries.DeviceManager.App.main(App.java:118) - Adios
+[2017-09-24 17:04:01,986]DEBUG     0[main] - aries.DeviceManager.App.main(App.java:22) - Hola
+[2017-09-24 17:04:01,990]DEBUG     4[Thread-0] - io.dase.network.DamqRcvConsumer.run(DamqRcvConsumer.java:71) - DamqRcvConsumer begins.
+[2017-09-24 17:04:01,991]ERROR     5[Thread-0] - io.dase.network.DamqSndProducer.InitDamqSndProducer(DamqSndProducer.java:35) - InitDamqSndProducer
+[2017-09-24 17:04:01,991]DEBUG     5[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:18) - DamqRcvProducer begins.
+[2017-09-24 17:04:01,994]DEBUG     8[Thread-2] - io.dase.network.DamqSndConsumer.run(DamqSndConsumer.java:21) - DamqSndConsumer begins.
+[2017-09-24 17:04:04,139]DEBUG  2153[Thread-0] - aries.DeviceManager.DevMgr.MainProc(DevMgr.java:36) - origin:app & msgid:msgid-signout-1234-5678-0001ab & body:{"accesstoken":"e00d0d9ec36095d749a350dab04b5a8c1b94e136"}
+[2017-09-24 17:04:13,779]DEBUG 11793[Thread-0] - aries.DeviceManager.DevMgr.MainProc(DevMgr.java:36) - origin:common & msgid:msgid-signout-1234-5678-0001ab & body:{"status":200}

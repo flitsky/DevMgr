@@ -96,6 +96,11 @@ public class App {
 				// [Recv Resp] sign in
 				// {"org":"common","dst":"devmgr","msgtype":"res","workcode":"signin","body":{"status":200},"msgid":"msgid-signin-1234-5678-0001ab"}
 
+				// [Recv Req] sign out
+				// {"org":"app","dst":"devmgr","msgtype":"req","workcode":"signout","body":{"accesstoken":"e00d0d9ec36095d749a350dab04b5a8c1b94e136"},"msgid":"msgid-signout-1234-5678-0001ab"}
+				// [Recv Resp] sign in
+				// {"org":"common","dst":"devmgr","msgtype":"res","workcode":"signout","body":{"status":200},"msgid":"msgid-signout-1234-5678-0001ab"}
+
 				// [Recv Resp] Discovery Device Result
 				// {"org":"common","dst":"devmgr","date":"19800202","msgid":"msgid1234","msgtype":"res","workcode":"dis_dev","body":{"status":200,"devices":[{"dev_id":"c31e8fa3-b524-0e6b-2489-77760c3ca37b","dev_name":"THU
 				// Light","spec_ver":"ocf.1.1.0","dev_type":["oic.wk.d",
