@@ -32,6 +32,10 @@ public class ObservableRespMsg extends Observable {
 		return messageId;
 	}
 
+	public String checkMessageId() {
+		return messageId;
+	}
+
 	public void work() {
 		if (this.msg == "") {
 			takeMessage();

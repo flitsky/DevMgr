@@ -84,7 +84,7 @@ public class DamqSndProducer {
                                 , workCode
                                 , msgBody);
       
-      System.out.println(" ###########  sendQueue.put DamqMsg  ##########");
+      System.out.println(" ###### sendQueue.put DamqMsg ");
       sendQueue.put(new DamqMsg(buf));
       
     } catch (Exception e) {

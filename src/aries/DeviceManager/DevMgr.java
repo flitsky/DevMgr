@@ -67,6 +67,7 @@ public class DevMgr extends DamqRcvConsumer {
 		Message msg = new Message(msgFull); // 헤더 포함해서 던져주기위해서...
 		try {
 			if (msgType.equals("req")) {
+				msg.setMessageID(msgId);
 				requestProcess(msg);
 			} else if (msgType.equals("res")) {
 				queueResp.put(msg);

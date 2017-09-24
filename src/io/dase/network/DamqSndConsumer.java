@@ -38,7 +38,7 @@ public class DamqSndConsumer implements Runnable {
         InetAddress destAddress = InetAddress.getByName(sndProducer.GetModuleAddress(destination));
         int destPort = sndProducer.GetModulePort(destination);                         
         DatagramPacket packet = new DatagramPacket(sendBuf, sendBuf.length, destAddress, destPort);
-        System.out.println("☆☆☆☆☆☆☆☆ sendConsumer   sendStr : " + sendStr + " destAddress : " + destAddress + " destPort : " +destPort);
+        System.out.println(" ###### sendConsumer   sendStr : " + sendStr + " destAddress : " + destAddress + " destPort : " +destPort);
         udpSocket.send(packet);
         if (sndProducer.IsTerminateSignal(sendStr)) {
           logger.debug("sndConsumer: SIG_TERM");

@@ -18,21 +18,19 @@ public class ObserverSignUp extends CmdProcessObserver {
 		// TODO Auto-generated constructor stub
 	}
 
-	private ObservableRespMsg responseMessage;
-
 	@Override
 	protected void CmdProc(Message msg) {
-		// TODO Auto-generated method stub
 		JSONObject jo = new JSONObject(msg.getMsg());
 		Schema0Header cmd = new Schema0Header();
 		System.out.println("[1111 Receive Request signup] =====>");
+		System.out.println("[2222 Request process > Make Request] =====>");
 		try {
 			cmd.importFromJson(jo);
 			Schema0Header sendReq = new Schema0Header();
 			sendReq.msgtype = cmd.msgtype;
 			sendReq.dst = "common";
 			sendReq.workcode = cmd.workcode;
-			sendReq.msgid = this.ResponseMsgID = cmd.msgid;
+			sendReq.msgid = cmd.msgid;
 			sendReq.body = new Schema1Body();
 			sendReq.body.provider = cmd.body.provider;
 			sendReq.body.authcode = cmd.body.authcode;
@@ -50,22 +48,16 @@ public class ObserverSignUp extends CmdProcessObserver {
 			DamqSndProducer sndProducer = DamqSndProducer.getInstance();
 
 			// System.out.println(" >>>>> sndProducer : ["+sendReq.dst+"] str=" + str);
+			System.out.println("[3333 Send Request signup] ----->");
 			sndProducer.PushToSendQueue(sendReq.dst, sendReq.msgid, msgType, sendReq.workcode, str);
-			System.out.println("[2222 Send Request signup] ----->");
+			System.out.println("[4444 Wait Response...] ----->");
 		} catch (Exception e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
 	}
-
 	@Override
-	public void update(Observable observable, Object arg) {
-		responseMessage = (ObservableRespMsg) observable;
-		if (responseMessage.getMessageId().equals(ResponseMsgID)) {
-			System.out.println("ObserverSignUp Response is arrived ... " + responseMessage.getMessage());
-
-			// if process done well
-			observable.deleteObserver(this);
-		}
+	protected void ResponseProc(String str) {
+		System.out.println("[6666 ResponseProc] str : " + str);
 	}
 }

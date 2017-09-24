@@ -86,6 +86,7 @@ public abstract class DamqRcvConsumer implements Runnable {
         String msgType = jo.get("msgtype").toString().toLowerCase();
         String workCode = jo.get("workcode").toString().toLowerCase();
         String msgBody = jo.get("body").toString().toLowerCase();  
+        System.out.println(" @@@@@@ rcvConsume call MainProc ");
         MainProc(org, dst, dateTime, msgId, msgType, workCode, msgBody);
         Thread.sleep(0);
       } catch (Exception e) {
