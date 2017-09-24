@@ -9,6 +9,7 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 import aries.MessageProcess.ObservableRespMsg;
+import aries.MessageProcess.ObserverSignIn;
 import aries.MessageProcess.ObserverSignUp;
 import aries.interoperate.Schema0Header;
 import aries.interoperate.Schema1Body;
@@ -16,9 +17,9 @@ import io.dase.network.DamqRcvConsumer;
 
 public class DevMgr extends DamqRcvConsumer {
 	private static final Logger logger = LoggerFactory.getLogger(DevMgr.class);
-	//BlockingQueue<Message> queueReq = new ArrayBlockingQueue<>(100);
+	// BlockingQueue<Message> queueReq = new ArrayBlockingQueue<>(100);
 	BlockingQueue<Message> queueResp = new ArrayBlockingQueue<>(100);
-	//private ObservableReqMsg ObsReq = new ObservableReqMsg(queueReq);
+	// private ObservableReqMsg ObsReq = new ObservableReqMsg(queueReq);
 	private ObservableRespMsg ObsResp = new ObservableRespMsg(queueResp);
 
 	public DevMgr() {
@@ -85,15 +86,16 @@ public class DevMgr extends DamqRcvConsumer {
 			logger.error("err0r: " + e.getMessage());
 		}
 	}
-	
+
 	private void requestProcess(Message msg) {
 		Schema0Header cmd = String2JsonObj2EntityX(msg.getMsg());
-		
-		switch(cmd.workcode) {
+
+		switch (cmd.workcode) {
 		case "signup":
 			ObserverSignUp obsSignUp = new ObserverSignUp(msg, ObsResp);
 			break;
 		case "signin":
+			ObserverSignIn obsSignIn = new ObserverSignIn(msg, ObsResp);
 			break;
 		case "signout":
 			break;
@@ -116,6 +118,7 @@ public class DevMgr extends DamqRcvConsumer {
 			break;
 		}
 	}
+
 	static Schema0Header String2JsonObj2EntityX(String str) {
 		if (str.isEmpty()) {
 			return null;

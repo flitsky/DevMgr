@@ -1,556 +1,673 @@
-[2017-09-24 13:47:28,119]ERROR  4319[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
-[2017-09-24 13:47:28,119]ERROR  4319[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
-[2017-09-24 13:47:28,119]ERROR  4319[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
-[2017-09-24 13:47:28,119]ERROR  4319[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
-[2017-09-24 13:47:28,119]ERROR  4319[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
-[2017-09-24 13:47:28,119]ERROR  4319[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
-[2017-09-24 13:47:28,119]ERROR  4319[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
-[2017-09-24 13:47:28,119]ERROR  4319[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
-[2017-09-24 13:47:28,119]ERROR  4319[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
-[2017-09-24 13:47:28,119]ERROR  4319[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
-[2017-09-24 13:47:28,119]ERROR  4319[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
-[2017-09-24 13:47:28,119]ERROR  4319[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
-[2017-09-24 13:47:28,119]ERROR  4319[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
-[2017-09-24 13:47:28,119]ERROR  4319[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
-[2017-09-24 13:47:28,119]ERROR  4319[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
-[2017-09-24 13:47:28,120]ERROR  4320[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
-[2017-09-24 13:47:28,120]ERROR  4320[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
-[2017-09-24 13:47:28,120]ERROR  4320[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
-[2017-09-24 13:47:28,120]ERROR  4320[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
-[2017-09-24 13:47:28,120]ERROR  4320[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
-[2017-09-24 13:47:28,120]ERROR  4320[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
-[2017-09-24 13:47:28,120]ERROR  4320[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
-[2017-09-24 13:47:28,120]ERROR  4320[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
-[2017-09-24 13:47:28,120]ERROR  4320[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
-[2017-09-24 13:47:28,120]ERROR  4320[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
-[2017-09-24 13:47:28,120]ERROR  4320[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
-[2017-09-24 13:47:28,120]ERROR  4320[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
-[2017-09-24 13:47:28,120]ERROR  4320[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
-[2017-09-24 13:47:28,120]ERROR  4320[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
-[2017-09-24 13:47:28,120]ERROR  4320[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
-[2017-09-24 13:47:28,120]ERROR  4320[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
-[2017-09-24 13:47:28,120]ERROR  4320[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
-[2017-09-24 13:47:28,120]ERROR  4320[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
-[2017-09-24 13:47:28,120]ERROR  4320[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
-[2017-09-24 13:47:28,120]ERROR  4320[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
-[2017-09-24 13:47:28,120]ERROR  4320[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
-[2017-09-24 13:47:28,120]ERROR  4320[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
-[2017-09-24 13:47:28,120]ERROR  4320[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
-[2017-09-24 13:47:28,120]ERROR  4320[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
-[2017-09-24 13:47:28,120]ERROR  4320[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
-[2017-09-24 13:47:28,120]ERROR  4320[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
-[2017-09-24 13:47:28,120]ERROR  4320[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
-[2017-09-24 13:47:28,120]ERROR  4320[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
-[2017-09-24 13:47:28,120]ERROR  4320[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
-[2017-09-24 13:47:28,120]ERROR  4320[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
-[2017-09-24 13:47:28,121]ERROR  4321[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
-[2017-09-24 13:47:28,121]ERROR  4321[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
-[2017-09-24 13:47:28,121]ERROR  4321[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
-[2017-09-24 13:47:28,121]ERROR  4321[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
-[2017-09-24 13:47:28,121]ERROR  4321[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
-[2017-09-24 13:47:28,121]ERROR  4321[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
-[2017-09-24 13:47:28,121]ERROR  4321[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
-[2017-09-24 13:47:28,121]ERROR  4321[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
-[2017-09-24 13:47:28,121]ERROR  4321[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
-[2017-09-24 13:47:28,121]ERROR  4321[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
-[2017-09-24 13:47:28,121]ERROR  4321[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
-[2017-09-24 13:47:28,121]ERROR  4321[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
-[2017-09-24 13:47:28,121]ERROR  4321[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
-[2017-09-24 13:47:28,121]ERROR  4321[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
-[2017-09-24 13:47:28,121]ERROR  4321[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
-[2017-09-24 13:47:28,121]ERROR  4321[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
-[2017-09-24 13:47:28,121]ERROR  4321[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
-[2017-09-24 13:47:28,121]ERROR  4321[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
-[2017-09-24 13:47:28,121]ERROR  4321[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
-[2017-09-24 13:47:28,121]ERROR  4321[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
-[2017-09-24 13:47:28,121]ERROR  4321[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
-[2017-09-24 13:47:28,121]ERROR  4321[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
-[2017-09-24 13:47:28,121]ERROR  4321[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
-[2017-09-24 13:47:28,121]ERROR  4321[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
-[2017-09-24 13:47:28,121]ERROR  4321[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
-[2017-09-24 13:47:28,121]ERROR  4321[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
-[2017-09-24 13:47:28,121]ERROR  4321[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
-[2017-09-24 13:47:28,121]ERROR  4321[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
-[2017-09-24 13:47:28,121]ERROR  4321[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
-[2017-09-24 13:47:28,122]ERROR  4322[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
-[2017-09-24 13:47:28,122]ERROR  4322[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
-[2017-09-24 13:47:28,122]ERROR  4322[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
-[2017-09-24 13:47:28,122]ERROR  4322[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
-[2017-09-24 13:47:28,122]ERROR  4322[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
-[2017-09-24 13:47:28,122]ERROR  4322[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
-[2017-09-24 13:47:28,122]ERROR  4322[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
-[2017-09-24 13:47:28,122]ERROR  4322[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
-[2017-09-24 13:47:28,122]ERROR  4322[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
-[2017-09-24 13:47:28,122]ERROR  4322[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
-[2017-09-24 13:47:28,122]ERROR  4322[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
-[2017-09-24 13:47:28,122]ERROR  4322[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
-[2017-09-24 13:47:28,122]ERROR  4322[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
-[2017-09-24 13:47:28,122]ERROR  4322[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
-[2017-09-24 13:47:28,122]ERROR  4322[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
-[2017-09-24 13:47:28,122]ERROR  4322[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
-[2017-09-24 13:47:28,122]ERROR  4322[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
-[2017-09-24 13:47:28,122]ERROR  4322[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
-[2017-09-24 13:47:28,122]ERROR  4322[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
-[2017-09-24 13:47:28,122]ERROR  4322[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
-[2017-09-24 13:47:28,122]ERROR  4322[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
-[2017-09-24 13:47:28,122]ERROR  4322[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
-[2017-09-24 13:47:28,122]ERROR  4322[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
-[2017-09-24 13:47:28,122]ERROR  4322[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
-[2017-09-24 13:47:28,122]ERROR  4322[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
-[2017-09-24 13:47:28,122]ERROR  4322[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
-[2017-09-24 13:47:28,122]ERROR  4322[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
-[2017-09-24 13:47:28,122]ERROR  4322[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
-[2017-09-24 13:47:28,122]ERROR  4322[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
-[2017-09-24 13:47:28,122]ERROR  4322[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
-[2017-09-24 13:47:28,123]ERROR  4323[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
-[2017-09-24 13:47:28,123]ERROR  4323[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
-[2017-09-24 13:47:28,123]ERROR  4323[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
-[2017-09-24 13:47:28,123]ERROR  4323[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
-[2017-09-24 13:47:28,123]ERROR  4323[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
-[2017-09-24 13:47:28,123]ERROR  4323[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
-[2017-09-24 13:47:28,123]ERROR  4323[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
-[2017-09-24 13:47:28,123]ERROR  4323[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
-[2017-09-24 13:47:28,123]ERROR  4323[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
-[2017-09-24 13:47:28,123]ERROR  4323[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
-[2017-09-24 13:47:28,123]ERROR  4323[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
-[2017-09-24 13:47:28,123]ERROR  4323[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
-[2017-09-24 13:47:28,123]ERROR  4323[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
-[2017-09-24 13:47:28,123]ERROR  4323[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
-[2017-09-24 13:47:28,123]ERROR  4323[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
-[2017-09-24 13:47:28,123]ERROR  4323[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
-[2017-09-24 13:47:28,123]ERROR  4323[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
-[2017-09-24 13:47:28,123]ERROR  4323[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
-[2017-09-24 13:47:28,123]ERROR  4323[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
-[2017-09-24 13:47:28,123]ERROR  4323[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
-[2017-09-24 13:47:28,123]ERROR  4323[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
-[2017-09-24 13:47:28,123]ERROR  4323[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
-[2017-09-24 13:47:28,123]ERROR  4323[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
-[2017-09-24 13:47:28,123]ERROR  4323[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
-[2017-09-24 13:47:28,123]ERROR  4323[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
-[2017-09-24 13:47:28,123]ERROR  4323[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
-[2017-09-24 13:47:28,123]ERROR  4323[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
-[2017-09-24 13:47:28,123]ERROR  4323[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
-[2017-09-24 13:47:28,123]ERROR  4323[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
-[2017-09-24 13:47:28,123]ERROR  4323[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
-[2017-09-24 13:47:28,124]ERROR  4324[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
-[2017-09-24 13:47:28,124]ERROR  4324[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
-[2017-09-24 13:47:28,124]ERROR  4324[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
-[2017-09-24 13:47:28,124]ERROR  4324[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
-[2017-09-24 13:47:28,124]ERROR  4324[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
-[2017-09-24 13:47:28,124]ERROR  4324[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
-[2017-09-24 13:47:28,124]ERROR  4324[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
-[2017-09-24 13:47:28,124]ERROR  4324[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
-[2017-09-24 13:47:28,124]ERROR  4324[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
-[2017-09-24 13:47:28,124]ERROR  4324[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
-[2017-09-24 13:47:28,124]ERROR  4324[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
-[2017-09-24 13:47:28,124]ERROR  4324[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
-[2017-09-24 13:47:28,124]ERROR  4324[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
-[2017-09-24 13:47:28,124]ERROR  4324[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
-[2017-09-24 13:47:28,124]ERROR  4324[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
-[2017-09-24 13:47:28,124]ERROR  4324[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
-[2017-09-24 13:47:28,124]ERROR  4324[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
-[2017-09-24 13:47:28,124]ERROR  4324[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
-[2017-09-24 13:47:28,124]ERROR  4324[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
-[2017-09-24 13:47:28,124]ERROR  4324[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
-[2017-09-24 13:47:28,124]ERROR  4324[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
-[2017-09-24 13:47:28,124]ERROR  4324[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
-[2017-09-24 13:47:28,124]ERROR  4324[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
-[2017-09-24 13:47:28,124]ERROR  4324[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
-[2017-09-24 13:47:28,124]ERROR  4324[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
-[2017-09-24 13:47:28,124]ERROR  4324[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
-[2017-09-24 13:47:28,124]ERROR  4324[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
-[2017-09-24 13:47:28,124]ERROR  4324[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
-[2017-09-24 13:47:28,124]ERROR  4324[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
-[2017-09-24 13:47:28,124]ERROR  4324[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
-[2017-09-24 13:47:28,125]ERROR  4325[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
-[2017-09-24 13:47:28,125]ERROR  4325[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
-[2017-09-24 13:47:28,125]ERROR  4325[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
-[2017-09-24 13:47:28,125]ERROR  4325[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
-[2017-09-24 13:47:28,125]ERROR  4325[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
-[2017-09-24 13:47:28,125]ERROR  4325[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
-[2017-09-24 13:47:28,125]ERROR  4325[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
-[2017-09-24 13:47:28,125]ERROR  4325[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
-[2017-09-24 13:47:28,125]ERROR  4325[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
-[2017-09-24 13:47:28,125]ERROR  4325[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
-[2017-09-24 13:47:28,125]ERROR  4325[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
-[2017-09-24 13:47:28,125]ERROR  4325[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
-[2017-09-24 13:47:28,125]ERROR  4325[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
-[2017-09-24 13:47:28,125]ERROR  4325[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
-[2017-09-24 13:47:28,125]ERROR  4325[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
-[2017-09-24 13:47:28,125]ERROR  4325[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
-[2017-09-24 13:47:28,125]ERROR  4325[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
-[2017-09-24 13:47:28,125]ERROR  4325[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
-[2017-09-24 13:47:28,125]ERROR  4325[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
-[2017-09-24 13:47:28,125]ERROR  4325[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
-[2017-09-24 13:47:28,125]ERROR  4325[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
-[2017-09-24 13:47:28,125]ERROR  4325[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
-[2017-09-24 13:47:28,125]ERROR  4325[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
-[2017-09-24 13:47:28,125]ERROR  4325[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
-[2017-09-24 13:47:28,125]ERROR  4325[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
-[2017-09-24 13:47:28,125]ERROR  4325[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
-[2017-09-24 13:47:28,125]ERROR  4325[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
-[2017-09-24 13:47:28,126]ERROR  4326[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
-[2017-09-24 13:47:28,126]ERROR  4326[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
-[2017-09-24 13:47:28,126]ERROR  4326[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
-[2017-09-24 13:47:28,126]ERROR  4326[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
-[2017-09-24 13:47:28,126]ERROR  4326[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
-[2017-09-24 13:47:28,126]ERROR  4326[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
-[2017-09-24 13:47:28,126]ERROR  4326[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
-[2017-09-24 13:47:28,126]ERROR  4326[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
-[2017-09-24 13:47:28,126]ERROR  4326[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
-[2017-09-24 13:47:28,126]ERROR  4326[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
-[2017-09-24 13:47:28,126]ERROR  4326[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
-[2017-09-24 13:47:28,126]ERROR  4326[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
-[2017-09-24 13:47:28,126]ERROR  4326[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
-[2017-09-24 13:47:28,126]ERROR  4326[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
-[2017-09-24 13:47:28,126]ERROR  4326[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
-[2017-09-24 13:47:28,126]ERROR  4326[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
-[2017-09-24 13:47:28,126]ERROR  4326[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
-[2017-09-24 13:47:28,126]ERROR  4326[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
-[2017-09-24 13:47:28,126]ERROR  4326[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
-[2017-09-24 13:47:28,126]ERROR  4326[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
-[2017-09-24 13:47:28,126]ERROR  4326[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
-[2017-09-24 13:47:28,126]ERROR  4326[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
-[2017-09-24 13:47:28,126]ERROR  4326[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
-[2017-09-24 13:47:28,126]ERROR  4326[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
-[2017-09-24 13:47:28,126]ERROR  4326[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
-[2017-09-24 13:47:28,126]ERROR  4326[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
-[2017-09-24 13:47:28,126]ERROR  4326[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
-[2017-09-24 13:47:28,126]ERROR  4326[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
-[2017-09-24 13:47:28,126]ERROR  4326[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
-[2017-09-24 13:47:28,127]ERROR  4327[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
-[2017-09-24 13:47:28,127]ERROR  4327[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
-[2017-09-24 13:47:28,127]ERROR  4327[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
-[2017-09-24 13:47:28,127]ERROR  4327[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
-[2017-09-24 13:47:28,127]ERROR  4327[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
-[2017-09-24 13:47:28,127]ERROR  4327[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
-[2017-09-24 13:47:28,127]ERROR  4327[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
-[2017-09-24 13:47:28,127]ERROR  4327[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
-[2017-09-24 13:47:28,127]ERROR  4327[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
-[2017-09-24 13:47:28,127]ERROR  4327[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
-[2017-09-24 13:47:28,127]ERROR  4327[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
-[2017-09-24 13:47:28,127]ERROR  4327[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
-[2017-09-24 13:47:28,127]ERROR  4327[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
-[2017-09-24 13:47:28,127]ERROR  4327[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
-[2017-09-24 13:47:28,127]ERROR  4327[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
-[2017-09-24 13:47:28,127]ERROR  4327[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
-[2017-09-24 13:47:28,127]ERROR  4327[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
-[2017-09-24 13:47:28,127]ERROR  4327[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
-[2017-09-24 13:47:28,127]ERROR  4327[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
-[2017-09-24 13:47:28,127]ERROR  4327[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
-[2017-09-24 13:47:28,127]ERROR  4327[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
-[2017-09-24 13:47:28,127]ERROR  4327[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
-[2017-09-24 13:47:28,127]ERROR  4327[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
-[2017-09-24 13:47:28,127]ERROR  4327[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
-[2017-09-24 13:47:28,127]ERROR  4327[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
-[2017-09-24 13:47:28,127]ERROR  4327[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
-[2017-09-24 13:47:28,127]ERROR  4327[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
-[2017-09-24 13:47:28,127]ERROR  4327[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
-[2017-09-24 13:47:28,127]ERROR  4327[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
-[2017-09-24 13:47:28,128]ERROR  4328[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
-[2017-09-24 13:47:28,128]ERROR  4328[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
-[2017-09-24 13:47:28,128]ERROR  4328[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
-[2017-09-24 13:47:28,128]ERROR  4328[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
-[2017-09-24 13:47:28,128]ERROR  4328[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
-[2017-09-24 13:47:28,128]ERROR  4328[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
-[2017-09-24 13:47:28,128]ERROR  4328[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
-[2017-09-24 13:47:28,128]ERROR  4328[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
-[2017-09-24 13:47:28,128]ERROR  4328[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
-[2017-09-24 13:47:28,128]ERROR  4328[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
-[2017-09-24 13:47:28,128]ERROR  4328[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
-[2017-09-24 13:47:28,128]ERROR  4328[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
-[2017-09-24 13:47:28,128]ERROR  4328[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
-[2017-09-24 13:47:28,148]ERROR  4348[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
-[2017-09-24 13:47:28,148]ERROR  4348[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
-[2017-09-24 13:47:28,148]ERROR  4348[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
-[2017-09-24 13:47:28,148]ERROR  4348[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
-[2017-09-24 13:47:28,148]ERROR  4348[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
-[2017-09-24 13:47:28,148]ERROR  4348[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
-[2017-09-24 13:47:28,148]ERROR  4348[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
-[2017-09-24 13:47:28,148]ERROR  4348[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
-[2017-09-24 13:47:28,148]ERROR  4348[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
-[2017-09-24 13:47:28,148]ERROR  4348[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
-[2017-09-24 13:47:28,148]ERROR  4348[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
-[2017-09-24 13:47:28,148]ERROR  4348[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
-[2017-09-24 13:47:28,148]ERROR  4348[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
-[2017-09-24 13:47:28,148]ERROR  4348[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
-[2017-09-24 13:47:28,148]ERROR  4348[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
-[2017-09-24 13:47:28,148]ERROR  4348[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
-[2017-09-24 13:47:28,148]ERROR  4348[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
-[2017-09-24 13:47:28,148]ERROR  4348[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
-[2017-09-24 13:47:28,148]ERROR  4348[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
-[2017-09-24 13:47:28,148]ERROR  4348[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
-[2017-09-24 13:47:28,149]ERROR  4349[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
-[2017-09-24 13:47:28,149]ERROR  4349[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
-[2017-09-24 13:47:28,149]ERROR  4349[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
-[2017-09-24 13:47:28,149]ERROR  4349[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
-[2017-09-24 13:47:28,149]ERROR  4349[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
-[2017-09-24 13:47:28,149]ERROR  4349[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
-[2017-09-24 13:47:28,149]ERROR  4349[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
-[2017-09-24 13:47:28,149]ERROR  4349[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
-[2017-09-24 13:47:28,149]ERROR  4349[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
-[2017-09-24 13:47:28,149]ERROR  4349[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
-[2017-09-24 13:47:28,149]ERROR  4349[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
-[2017-09-24 13:47:28,149]ERROR  4349[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
-[2017-09-24 13:47:28,149]ERROR  4349[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
-[2017-09-24 13:47:28,149]ERROR  4349[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
-[2017-09-24 13:47:28,149]ERROR  4349[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
-[2017-09-24 13:47:28,149]ERROR  4349[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
-[2017-09-24 13:47:28,149]ERROR  4349[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
-[2017-09-24 13:47:28,149]ERROR  4349[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
-[2017-09-24 13:47:28,149]ERROR  4349[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
-[2017-09-24 13:47:28,149]ERROR  4349[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
-[2017-09-24 13:47:28,149]ERROR  4349[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
-[2017-09-24 13:47:28,150]ERROR  4350[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
-[2017-09-24 13:47:28,150]ERROR  4350[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
-[2017-09-24 13:47:28,150]ERROR  4350[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
-[2017-09-24 13:47:28,150]ERROR  4350[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
-[2017-09-24 13:47:28,150]ERROR  4350[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
-[2017-09-24 13:47:28,150]ERROR  4350[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
-[2017-09-24 13:47:28,150]ERROR  4350[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
-[2017-09-24 13:47:28,150]ERROR  4350[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
-[2017-09-24 13:47:28,150]ERROR  4350[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
-[2017-09-24 13:47:28,151]ERROR  4351[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
-[2017-09-24 13:47:28,151]ERROR  4351[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
-[2017-09-24 13:47:28,151]ERROR  4351[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
-[2017-09-24 13:47:28,151]ERROR  4351[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
-[2017-09-24 13:47:28,151]ERROR  4351[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
-[2017-09-24 13:47:28,151]ERROR  4351[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
-[2017-09-24 13:47:28,151]ERROR  4351[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
-[2017-09-24 13:47:28,151]ERROR  4351[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
-[2017-09-24 13:47:28,151]ERROR  4351[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
-[2017-09-24 13:47:28,151]ERROR  4351[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
-[2017-09-24 13:47:28,151]ERROR  4351[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
-[2017-09-24 13:47:28,151]ERROR  4351[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
-[2017-09-24 13:47:28,151]ERROR  4351[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
-[2017-09-24 13:47:28,151]ERROR  4351[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
-[2017-09-24 13:47:28,151]ERROR  4351[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
-[2017-09-24 13:47:28,151]ERROR  4351[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
-[2017-09-24 13:47:28,151]ERROR  4351[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
-[2017-09-24 13:47:28,151]ERROR  4351[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
-[2017-09-24 13:47:28,151]ERROR  4351[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
-[2017-09-24 13:47:28,151]ERROR  4351[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
-[2017-09-24 13:47:28,151]ERROR  4351[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
-[2017-09-24 13:47:28,151]ERROR  4351[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
-[2017-09-24 13:47:28,151]ERROR  4351[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
-[2017-09-24 13:47:28,151]ERROR  4351[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
-[2017-09-24 13:47:28,151]ERROR  4351[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
-[2017-09-24 13:47:28,151]ERROR  4351[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
-[2017-09-24 13:47:28,151]ERROR  4351[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
-[2017-09-24 13:47:28,151]ERROR  4351[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
-[2017-09-24 13:47:28,151]ERROR  4351[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
-[2017-09-24 13:47:28,152]ERROR  4352[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
-[2017-09-24 13:47:28,152]ERROR  4352[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
-[2017-09-24 13:47:28,152]ERROR  4352[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
-[2017-09-24 13:47:28,152]ERROR  4352[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
-[2017-09-24 13:47:28,152]ERROR  4352[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
-[2017-09-24 13:47:28,152]ERROR  4352[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
-[2017-09-24 13:47:28,152]ERROR  4352[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
-[2017-09-24 13:47:28,152]ERROR  4352[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
-[2017-09-24 13:47:28,152]ERROR  4352[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
-[2017-09-24 13:47:28,152]ERROR  4352[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
-[2017-09-24 13:47:28,152]ERROR  4352[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
-[2017-09-24 13:47:28,152]ERROR  4352[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
-[2017-09-24 13:47:28,152]ERROR  4352[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
-[2017-09-24 13:47:28,152]ERROR  4352[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
-[2017-09-24 13:47:28,152]ERROR  4352[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
-[2017-09-24 13:47:28,152]ERROR  4352[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
-[2017-09-24 13:47:28,152]ERROR  4352[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
-[2017-09-24 13:47:28,152]ERROR  4352[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
-[2017-09-24 13:47:28,152]ERROR  4352[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
-[2017-09-24 13:47:28,152]ERROR  4352[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
-[2017-09-24 13:47:28,152]ERROR  4352[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
-[2017-09-24 13:47:28,152]ERROR  4352[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
-[2017-09-24 13:47:28,152]ERROR  4352[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
-[2017-09-24 13:47:28,152]ERROR  4352[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
-[2017-09-24 13:47:28,152]ERROR  4352[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
-[2017-09-24 13:47:28,152]ERROR  4352[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
-[2017-09-24 13:47:28,152]ERROR  4352[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
-[2017-09-24 13:47:28,152]ERROR  4352[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
-[2017-09-24 13:47:28,152]ERROR  4352[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
-[2017-09-24 13:47:28,153]ERROR  4353[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
-[2017-09-24 13:47:28,153]ERROR  4353[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
-[2017-09-24 13:47:28,153]ERROR  4353[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
-[2017-09-24 13:47:28,153]ERROR  4353[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
-[2017-09-24 13:47:28,153]ERROR  4353[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
-[2017-09-24 13:47:28,153]ERROR  4353[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
-[2017-09-24 13:47:28,153]ERROR  4353[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
-[2017-09-24 13:47:28,153]ERROR  4353[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
-[2017-09-24 13:47:28,153]ERROR  4353[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
-[2017-09-24 13:47:28,153]ERROR  4353[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
-[2017-09-24 13:47:28,153]ERROR  4353[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
-[2017-09-24 13:47:28,153]ERROR  4353[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
-[2017-09-24 13:47:28,153]ERROR  4353[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
-[2017-09-24 13:47:28,153]ERROR  4353[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
-[2017-09-24 13:47:28,153]ERROR  4353[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
-[2017-09-24 13:47:28,153]ERROR  4353[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
-[2017-09-24 13:47:28,153]ERROR  4353[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
-[2017-09-24 13:47:28,153]ERROR  4353[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
-[2017-09-24 13:47:28,153]ERROR  4353[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
-[2017-09-24 13:47:28,153]ERROR  4353[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
-[2017-09-24 13:47:28,153]ERROR  4353[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
-[2017-09-24 13:47:28,153]ERROR  4353[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
-[2017-09-24 13:47:28,153]ERROR  4353[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
-[2017-09-24 13:47:28,153]ERROR  4353[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
-[2017-09-24 13:47:28,153]ERROR  4353[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
-[2017-09-24 13:47:28,153]ERROR  4353[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
-[2017-09-24 13:47:28,153]ERROR  4353[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
-[2017-09-24 13:47:28,153]ERROR  4353[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
-[2017-09-24 13:47:28,153]ERROR  4353[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
-[2017-09-24 13:47:28,153]ERROR  4353[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
-[2017-09-24 13:47:28,154]ERROR  4354[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
-[2017-09-24 13:47:28,154]ERROR  4354[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
-[2017-09-24 13:47:28,154]ERROR  4354[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
-[2017-09-24 13:47:28,154]ERROR  4354[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
-[2017-09-24 13:47:28,154]ERROR  4354[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
-[2017-09-24 13:47:28,154]ERROR  4354[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
-[2017-09-24 13:47:28,154]ERROR  4354[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
-[2017-09-24 13:47:28,154]ERROR  4354[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
-[2017-09-24 13:47:28,154]ERROR  4354[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
-[2017-09-24 13:47:28,154]ERROR  4354[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
-[2017-09-24 13:47:28,154]ERROR  4354[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
-[2017-09-24 13:47:28,154]ERROR  4354[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
-[2017-09-24 13:47:28,154]ERROR  4354[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
-[2017-09-24 13:47:28,154]ERROR  4354[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
-[2017-09-24 13:47:28,154]ERROR  4354[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
-[2017-09-24 13:47:28,154]ERROR  4354[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
-[2017-09-24 13:47:28,154]ERROR  4354[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
-[2017-09-24 13:47:28,154]ERROR  4354[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
-[2017-09-24 13:47:28,154]ERROR  4354[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
-[2017-09-24 13:47:28,154]ERROR  4354[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
-[2017-09-24 13:47:28,154]ERROR  4354[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
-[2017-09-24 13:47:28,154]ERROR  4354[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
-[2017-09-24 13:47:28,154]ERROR  4354[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
-[2017-09-24 13:47:28,154]ERROR  4354[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
-[2017-09-24 13:47:28,154]ERROR  4354[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
-[2017-09-24 13:47:28,154]ERROR  4354[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
-[2017-09-24 13:47:28,154]ERROR  4354[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
-[2017-09-24 13:47:28,154]ERROR  4354[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
-[2017-09-24 13:47:28,154]ERROR  4354[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
-[2017-09-24 13:47:28,155]ERROR  4355[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
-[2017-09-24 13:47:28,155]ERROR  4355[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
-[2017-09-24 13:47:28,155]ERROR  4355[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
-[2017-09-24 13:47:28,155]ERROR  4355[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
-[2017-09-24 13:47:28,155]ERROR  4355[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
-[2017-09-24 13:47:28,155]ERROR  4355[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
-[2017-09-24 13:47:28,155]ERROR  4355[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
-[2017-09-24 13:47:28,155]ERROR  4355[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
-[2017-09-24 13:47:28,155]ERROR  4355[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
-[2017-09-24 13:47:28,155]ERROR  4355[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
-[2017-09-24 13:47:28,155]ERROR  4355[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
-[2017-09-24 13:47:28,155]ERROR  4355[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
-[2017-09-24 13:47:28,155]ERROR  4355[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
-[2017-09-24 13:47:28,155]ERROR  4355[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
-[2017-09-24 13:47:28,155]ERROR  4355[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
-[2017-09-24 13:47:28,155]ERROR  4355[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
-[2017-09-24 13:47:28,155]ERROR  4355[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
-[2017-09-24 13:47:28,155]ERROR  4355[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
-[2017-09-24 13:47:28,155]ERROR  4355[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
-[2017-09-24 13:47:28,155]ERROR  4355[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
-[2017-09-24 13:47:28,155]ERROR  4355[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
-[2017-09-24 13:47:28,155]ERROR  4355[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
-[2017-09-24 13:47:28,155]ERROR  4355[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
-[2017-09-24 13:47:28,155]ERROR  4355[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
-[2017-09-24 13:47:28,155]ERROR  4355[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
-[2017-09-24 13:47:28,155]ERROR  4355[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
-[2017-09-24 13:47:28,155]ERROR  4355[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
-[2017-09-24 13:47:28,156]ERROR  4356[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
-[2017-09-24 13:47:28,156]ERROR  4356[main] - aries.DeviceManager.App.main(App.java:109) - ma1n error: No line found
-[2017-09-24 13:47:28,156]ERROR  4356[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
-[2017-09-24 13:47:32,079]DEBUG     0[main] - aries.DeviceManager.App.main(App.java:22) - Hola
-[2017-09-24 13:47:32,083]DEBUG     4[Thread-0] - io.dase.network.DamqRcvConsumer.run(DamqRcvConsumer.java:71) - DamqRcvConsumer begins.
-[2017-09-24 13:47:32,084]ERROR     5[Thread-0] - io.dase.network.DamqSndProducer.InitDamqSndProducer(DamqSndProducer.java:35) - InitDamqSndProducer
-[2017-09-24 13:47:32,084]DEBUG     5[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:18) - DamqRcvProducer begins.
-[2017-09-24 13:47:32,085]DEBUG     6[Thread-2] - io.dase.network.DamqSndConsumer.run(DamqSndConsumer.java:21) - DamqSndConsumer begins.
-[2017-09-24 13:47:37,234]DEBUG  5155[Thread-0] - aries.DeviceManager.DevMgr.MainProc(DevMgr.java:36) - origin:devmgr & msgid:cc655607-4e6b-489c-964c-748e3c2505ab & body:{"provider":"github","auth_code":"48ff254740b053676001"}
-[2017-09-24 13:47:41,717]DEBUG  9638[Thread-0] - aries.DeviceManager.DevMgr.MainProc(DevMgr.java:36) - origin:devmgr & msgid:cc655607-4e6b-489c-964c-748e3c2505ff & body:{"provider":"github","auth_code":"48ff254740b053676001"}
-[2017-09-24 13:47:58,538]DEBUG 26459[Thread-0] - aries.DeviceManager.DevMgr.MainProc(DevMgr.java:36) - origin:devmgr & msgid:cc655607-4e6b-489c-964c-748e3c2505cd & body:{"expiresin":-1,"uid":"22883d77-4ab8-4b80-b75b-74774868b484","accesstoken":"e00d0d9ec36095d749a350dab04b5a8c1b94e136","status":200}
-[2017-09-24 13:48:06,415]DEBUG 34336[Thread-0] - aries.DeviceManager.DevMgr.MainProc(DevMgr.java:36) - origin:devmgr & msgid:cc655607-4e6b-489c-964c-748e3c2505ff & body:{"expiresin":-1,"uid":"22883d77-4ab8-4b80-b75b-74774868b484","accesstoken":"e00d0d9ec36095d749a350dab04b5a8c1b94e136","status":200}
-[2017-09-24 13:48:12,250]DEBUG 40171[Thread-0] - aries.DeviceManager.DevMgr.MainProc(DevMgr.java:36) - origin:devmgr & msgid:cc655607-4e6b-489c-964c-748e3c2505ab & body:{"expiresin":-1,"uid":"22883d77-4ab8-4b80-b75b-74774868b484","accesstoken":"e00d0d9ec36095d749a350dab04b5a8c1b94e136","status":200}
-[2017-09-24 13:48:21,358]ERROR 49279[main] - aries.DeviceManager.App.main(App.java:109) - ma1n error: No line found
-[2017-09-24 13:48:21,359]DEBUG 49280[main] - aries.DeviceManager.App.main(App.java:113) - Adios
-[2017-09-24 14:58:02,596]DEBUG     0[main] - aries.DeviceManager.App.main(App.java:22) - Hola
-[2017-09-24 14:58:02,600]DEBUG     4[Thread-0] - io.dase.network.DamqRcvConsumer.run(DamqRcvConsumer.java:71) - DamqRcvConsumer begins.
-[2017-09-24 14:58:02,601]ERROR     5[Thread-0] - io.dase.network.DamqSndProducer.InitDamqSndProducer(DamqSndProducer.java:35) - InitDamqSndProducer
-[2017-09-24 14:58:02,601]DEBUG     5[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:18) - DamqRcvProducer begins.
-[2017-09-24 14:58:02,603]DEBUG     7[Thread-2] - io.dase.network.DamqSndConsumer.run(DamqSndConsumer.java:21) - DamqSndConsumer begins.
-[2017-09-24 14:58:09,266]DEBUG  6670[Thread-0] - aries.DeviceManager.DevMgr.MainProc(DevMgr.java:34) - origin:devmgr & msgid:cc655607-4e6b-489c-964c-748e3c2505ab & body:{"provider":"github","auth_code":"48ff254740b053676001"}
-[2017-09-24 14:58:25,651]DEBUG 23055[Thread-0] - aries.DeviceManager.DevMgr.MainProc(DevMgr.java:34) - origin:devmgr & msgid:cc655607-4e6b-489c-964c-748e3c2505ff & body:{"provider":"github","auth_code":"48ff254740b053676001"}
-[2017-09-24 14:58:35,521]DEBUG 32925[Thread-0] - aries.DeviceManager.DevMgr.MainProc(DevMgr.java:34) - origin:devmgr & msgid:cc655607-4e6b-489c-964c-748e3c2505ab & body:{"expiresin":-1,"uid":"22883d77-4ab8-4b80-b75b-74774868b484","accesstoken":"e00d0d9ec36095d749a350dab04b5a8c1b94e136","status":200}
-[2017-09-24 14:59:20,374]DEBUG 77778[Thread-0] - aries.DeviceManager.DevMgr.MainProc(DevMgr.java:34) - origin:devmgr & msgid:cc655607-4e6b-489c-964c-748e3c2505ff & body:{"expiresin":-1,"uid":"22883d77-4ab8-4b80-b75b-74774868b484","accesstoken":"e00d0d9ec36095d749a350dab04b5a8c1b94e136","status":200}
-[2017-09-24 14:59:41,914]ERROR 99318[main] - aries.DeviceManager.App.main(App.java:109) - ma1n error: No line found
-[2017-09-24 14:59:41,915]DEBUG 99319[main] - aries.DeviceManager.App.main(App.java:113) - Adios
-[2017-09-24 15:34:34,107]DEBUG     0[main] - aries.DeviceManager.App.main(App.java:22) - Hola
-[2017-09-24 15:34:34,111]DEBUG     4[Thread-0] - io.dase.network.DamqRcvConsumer.run(DamqRcvConsumer.java:71) - DamqRcvConsumer begins.
-[2017-09-24 15:34:34,111]ERROR     4[Thread-0] - io.dase.network.DamqSndProducer.InitDamqSndProducer(DamqSndProducer.java:35) - InitDamqSndProducer
-[2017-09-24 15:34:34,111]DEBUG     4[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:18) - DamqRcvProducer begins.
-[2017-09-24 15:34:34,112]DEBUG     5[Thread-2] - io.dase.network.DamqSndConsumer.run(DamqSndConsumer.java:21) - DamqSndConsumer begins.
-[2017-09-24 15:34:43,774]DEBUG  9667[Thread-0] - aries.DeviceManager.DevMgr.MainProc(DevMgr.java:34) - origin:devmgr & msgid:cc655607-4e6b-489c-964c-748e3c2505ab & body:{"provider":"github","auth_code":"48ff254740b053676001"}
-[2017-09-24 15:34:52,070]ERROR 17963[main] - aries.DeviceManager.App.main(App.java:109) - ma1n error: No line found
-[2017-09-24 15:34:52,071]DEBUG 17964[main] - aries.DeviceManager.App.main(App.java:113) - Adios
-[2017-09-24 15:38:37,510]DEBUG     0[main] - aries.DeviceManager.App.main(App.java:22) - Hola
-[2017-09-24 15:38:37,514]DEBUG     4[Thread-0] - io.dase.network.DamqRcvConsumer.run(DamqRcvConsumer.java:71) - DamqRcvConsumer begins.
-[2017-09-24 15:38:37,515]ERROR     5[Thread-0] - io.dase.network.DamqSndProducer.InitDamqSndProducer(DamqSndProducer.java:35) - InitDamqSndProducer
-[2017-09-24 15:38:37,515]DEBUG     5[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:18) - DamqRcvProducer begins.
-[2017-09-24 15:38:37,516]DEBUG     6[Thread-2] - io.dase.network.DamqSndConsumer.run(DamqSndConsumer.java:21) - DamqSndConsumer begins.
-[2017-09-24 15:38:39,473]DEBUG  1963[Thread-0] - aries.DeviceManager.DevMgr.MainProc(DevMgr.java:34) - origin:devmgr & msgid:cc655607-4e6b-489c-964c-748e3c2505ab & body:{"provider":"github","auth_code":"48ff254740b053676001"}
-[2017-09-24 15:39:04,654]DEBUG 27144[Thread-0] - aries.DeviceManager.DevMgr.MainProc(DevMgr.java:34) - origin:devmgr & msgid:cc655607-4e6b-489c-964c-748e3c2505ff & body:{"provider":"github","auth_code":"48ff254740b053676001"}
-[2017-09-24 15:40:27,880]ERROR110370[main] - aries.DeviceManager.App.main(App.java:109) - ma1n error: No line found
-[2017-09-24 15:40:27,881]DEBUG110371[main] - aries.DeviceManager.App.main(App.java:113) - Adios
-[2017-09-24 15:40:30,479]DEBUG     0[main] - aries.DeviceManager.App.main(App.java:22) - Hola
-[2017-09-24 15:40:30,483]DEBUG     4[Thread-0] - io.dase.network.DamqRcvConsumer.run(DamqRcvConsumer.java:71) - DamqRcvConsumer begins.
-[2017-09-24 15:40:30,484]ERROR     5[Thread-0] - io.dase.network.DamqSndProducer.InitDamqSndProducer(DamqSndProducer.java:35) - InitDamqSndProducer
-[2017-09-24 15:40:30,484]DEBUG     5[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:18) - DamqRcvProducer begins.
-[2017-09-24 15:40:30,486]DEBUG     7[Thread-2] - io.dase.network.DamqSndConsumer.run(DamqSndConsumer.java:21) - DamqSndConsumer begins.
-[2017-09-24 15:40:31,981]DEBUG  1502[Thread-0] - aries.DeviceManager.DevMgr.MainProc(DevMgr.java:34) - origin:devmgr & msgid:cc655607-4e6b-489c-964c-748e3c2505ab & body:{"provider":"github","auth_code":"48ff254740b053676001"}
-[2017-09-24 15:40:41,949]DEBUG 11470[Thread-0] - aries.DeviceManager.DevMgr.MainProc(DevMgr.java:34) - origin:devmgr & msgid:cc655607-4e6b-489c-964c-748e3c2505ab & body:{"provider":"github","auth_code":"48ff254740b053676001"}
-[2017-09-24 15:40:52,951]ERROR 22472[main] - aries.DeviceManager.App.main(App.java:109) - ma1n error: No line found
-[2017-09-24 15:40:52,952]DEBUG 22473[main] - aries.DeviceManager.App.main(App.java:113) - Adios
-[2017-09-24 15:40:59,045]DEBUG     0[main] - aries.DeviceManager.App.main(App.java:22) - Hola
-[2017-09-24 15:40:59,049]DEBUG     4[Thread-0] - io.dase.network.DamqRcvConsumer.run(DamqRcvConsumer.java:71) - DamqRcvConsumer begins.
-[2017-09-24 15:40:59,050]ERROR     5[Thread-0] - io.dase.network.DamqSndProducer.InitDamqSndProducer(DamqSndProducer.java:35) - InitDamqSndProducer
-[2017-09-24 15:40:59,050]DEBUG     5[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:18) - DamqRcvProducer begins.
-[2017-09-24 15:40:59,051]DEBUG     6[Thread-2] - io.dase.network.DamqSndConsumer.run(DamqSndConsumer.java:21) - DamqSndConsumer begins.
-[2017-09-24 15:41:02,775]DEBUG  3730[Thread-0] - aries.DeviceManager.DevMgr.MainProc(DevMgr.java:34) - origin:devmgr & msgid:cc655607-4e6b-489c-964c-748e3c2505ff & body:{"provider":"github","auth_code":"48ff254740b053676001"}
-[2017-09-24 15:41:07,432]DEBUG  8387[Thread-0] - aries.DeviceManager.DevMgr.MainProc(DevMgr.java:34) - origin:devmgr & msgid:cc655607-4e6b-489c-964c-748e3c2505ab & body:{"provider":"github","auth_code":"48ff254740b053676001"}
-[2017-09-24 15:41:23,218]DEBUG 24173[Thread-0] - aries.DeviceManager.DevMgr.MainProc(DevMgr.java:34) - origin:devmgr & msgid:cc655607-4e6b-489c-964c-748e3c2505ab & body:{"expiresin":-1,"uid":"22883d77-4ab8-4b80-b75b-74774868b484","accesstoken":"e00d0d9ec36095d749a350dab04b5a8c1b94e136","status":200}
-[2017-09-24 15:41:40,984]ERROR 41939[main] - aries.DeviceManager.App.main(App.java:109) - ma1n error: No line found
-[2017-09-24 15:41:40,985]DEBUG 41940[main] - aries.DeviceManager.App.main(App.java:113) - Adios
-[2017-09-24 15:45:00,983]DEBUG     0[main] - aries.DeviceManager.App.main(App.java:22) - Hola
-[2017-09-24 15:45:00,987]DEBUG     4[Thread-0] - io.dase.network.DamqRcvConsumer.run(DamqRcvConsumer.java:71) - DamqRcvConsumer begins.
-[2017-09-24 15:45:00,988]ERROR     5[Thread-0] - io.dase.network.DamqSndProducer.InitDamqSndProducer(DamqSndProducer.java:35) - InitDamqSndProducer
-[2017-09-24 15:45:00,988]DEBUG     5[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:18) - DamqRcvProducer begins.
-[2017-09-24 15:45:00,989]DEBUG     6[Thread-2] - io.dase.network.DamqSndConsumer.run(DamqSndConsumer.java:21) - DamqSndConsumer begins.
-[2017-09-24 15:45:07,274]DEBUG  6291[Thread-0] - aries.DeviceManager.DevMgr.MainProc(DevMgr.java:34) - origin:devmgr & msgid:cc655607-4e6b-489c-964c-748e3c2505ff & body:{"provider":"github","auth_code":"48ff254740b053676001"}
-[2017-09-24 15:45:11,195]DEBUG 10212[Thread-0] - aries.DeviceManager.DevMgr.MainProc(DevMgr.java:34) - origin:devmgr & msgid:cc655607-4e6b-489c-964c-748e3c2505ab & body:{"provider":"github","auth_code":"48ff254740b053676001"}
-[2017-09-24 15:45:20,079]DEBUG 19096[Thread-0] - aries.DeviceManager.DevMgr.MainProc(DevMgr.java:34) - origin:devmgr & msgid:cc655607-4e6b-489c-964c-748e3c2505ab & body:{"expiresin":-1,"uid":"22883d77-4ab8-4b80-b75b-74774868b484","accesstoken":"e00d0d9ec36095d749a350dab04b5a8c1b94e136","status":200}
-[2017-09-24 15:45:30,553]DEBUG 29570[Thread-0] - aries.DeviceManager.DevMgr.MainProc(DevMgr.java:34) - origin:devmgr & msgid:cc655607-4e6b-489c-964c-748e3c2505ff & body:{"expiresin":-1,"uid":"22883d77-4ab8-4b80-b75b-74774868b484","accesstoken":"e00d0d9ec36095d749a350dab04b5a8c1b94e136","status":200}
-[2017-09-24 15:52:23,531]DEBUG442548[Thread-0] - aries.DeviceManager.DevMgr.MainProc(DevMgr.java:34) - origin:devmgr & msgid:cc655607-4e6b-489c-964c-748e3c2505ab & body:{"provider":"github","auth_code":"48ff254740b053676001"}
-[2017-09-24 15:52:33,223]DEBUG452240[Thread-0] - aries.DeviceManager.DevMgr.MainProc(DevMgr.java:34) - origin:devmgr & msgid:cc655607-4e6b-489c-964c-748e3c2505ab & body:{"expiresin":-1,"uid":"22883d77-4ab8-4b80-b75b-74774868b484","accesstoken":"e00d0d9ec36095d749a350dab04b5a8c1b94e136","status":200}
-[2017-09-24 15:54:35,705]ERROR574722[main] - aries.DeviceManager.App.main(App.java:109) - ma1n error: No line found
-[2017-09-24 15:54:35,706]DEBUG574723[main] - aries.DeviceManager.App.main(App.java:113) - Adios
-[2017-09-24 15:58:43,991]DEBUG     0[main] - aries.DeviceManager.App.main(App.java:22) - Hola
-[2017-09-24 15:58:43,995]DEBUG     4[Thread-0] - io.dase.network.DamqRcvConsumer.run(DamqRcvConsumer.java:71) - DamqRcvConsumer begins.
-[2017-09-24 15:58:43,996]ERROR     5[Thread-0] - io.dase.network.DamqSndProducer.InitDamqSndProducer(DamqSndProducer.java:35) - InitDamqSndProducer
-[2017-09-24 15:58:43,996]DEBUG     5[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:18) - DamqRcvProducer begins.
-[2017-09-24 15:58:43,997]DEBUG     6[Thread-2] - io.dase.network.DamqSndConsumer.run(DamqSndConsumer.java:21) - DamqSndConsumer begins.
-[2017-09-24 15:59:18,466]DEBUG 34475[Thread-0] - aries.DeviceManager.DevMgr.MainProc(DevMgr.java:34) - origin:devmgr & msgid:cc655607-4e6b-489c-964c-748e3c2505ab & body:{"provider":"github","auth_code":"48ff254740b053676001"}
-[2017-09-24 15:59:18,469]DEBUG 34478[Thread-0] - aries.DeviceManager.DevMgr.MainProc(DevMgr.java:34) - origin:devmgr & msgid:cc655607-4e6b-489c-964c-748e3c2505ab & body:{"status":404}
-[2017-09-24 16:00:23,305]ERROR 99314[main] - aries.DeviceManager.App.main(App.java:109) - ma1n error: No line found
-[2017-09-24 16:00:23,305]DEBUG 99314[main] - aries.DeviceManager.App.main(App.java:113) - Adios
-[2017-09-24 16:01:29,803]DEBUG     0[main] - aries.DeviceManager.App.main(App.java:22) - Hola
-[2017-09-24 16:01:29,807]DEBUG     4[Thread-0] - io.dase.network.DamqRcvConsumer.run(DamqRcvConsumer.java:71) - DamqRcvConsumer begins.
-[2017-09-24 16:01:29,808]ERROR     5[Thread-0] - io.dase.network.DamqSndProducer.InitDamqSndProducer(DamqSndProducer.java:35) - InitDamqSndProducer
-[2017-09-24 16:01:29,808]DEBUG     5[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:18) - DamqRcvProducer begins.
-[2017-09-24 16:01:29,808]DEBUG     5[Thread-2] - io.dase.network.DamqSndConsumer.run(DamqSndConsumer.java:21) - DamqSndConsumer begins.
-[2017-09-24 16:01:31,896]DEBUG  2093[Thread-0] - aries.DeviceManager.DevMgr.MainProc(DevMgr.java:34) - origin:devmgr & msgid:cc655607-4e6b-489c-964c-748e3c2505ab & body:{"provider":"github","auth_code":"48ff254740b053676001"}
-[2017-09-24 16:01:41,627]DEBUG 11824[Thread-0] - aries.DeviceManager.DevMgr.MainProc(DevMgr.java:34) - origin:devmgr & msgid:cc655607-4e6b-489c-964c-748e3c2505ab & body:{"expiresin":-1,"uid":"22883d77-4ab8-4b80-b75b-74774868b484","accesstoken":"e00d0d9ec36095d749a350dab04b5a8c1b94e136","status":200}
-[2017-09-24 16:05:15,237]ERROR225434[main] - aries.DeviceManager.App.main(App.java:109) - ma1n error: No line found
-[2017-09-24 16:05:15,238]DEBUG225435[main] - aries.DeviceManager.App.main(App.java:113) - Adios
-[2017-09-24 16:05:17,785]DEBUG     0[main] - aries.DeviceManager.App.main(App.java:22) - Hola
-[2017-09-24 16:05:17,789]DEBUG     4[Thread-0] - io.dase.network.DamqRcvConsumer.run(DamqRcvConsumer.java:71) - DamqRcvConsumer begins.
-[2017-09-24 16:05:17,790]ERROR     5[Thread-0] - io.dase.network.DamqSndProducer.InitDamqSndProducer(DamqSndProducer.java:35) - InitDamqSndProducer
-[2017-09-24 16:05:17,791]DEBUG     6[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:18) - DamqRcvProducer begins.
-[2017-09-24 16:05:17,792]DEBUG     7[Thread-2] - io.dase.network.DamqSndConsumer.run(DamqSndConsumer.java:21) - DamqSndConsumer begins.
-[2017-09-24 16:05:22,412]DEBUG  4627[Thread-0] - aries.DeviceManager.DevMgr.MainProc(DevMgr.java:34) - origin:app & msgid:cc655607-4e6b-489c-964c-748e3c2505ab & body:{"provider":"github","auth_code":"48ff254740b053676001"}
-[2017-09-24 16:05:51,237]DEBUG 33452[Thread-0] - aries.DeviceManager.DevMgr.MainProc(DevMgr.java:34) - origin:common & msgid:cc655607-4e6b-489c-964c-748e3c2505ab & body:{"expiresin":-1,"uid":"22883d77-4ab8-4b80-b75b-74774868b484","accesstoken":"e00d0d9ec36095d749a350dab04b5a8c1b94e136","status":200}
+[2017-09-24 16:30:23,427]ERROR  2805[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,427]ERROR  2805[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,427]ERROR  2805[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,427]ERROR  2805[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,427]ERROR  2805[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,427]ERROR  2805[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,427]ERROR  2805[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,428]ERROR  2806[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,428]ERROR  2806[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,428]ERROR  2806[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,428]ERROR  2806[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,428]ERROR  2806[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,428]ERROR  2806[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,428]ERROR  2806[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,428]ERROR  2806[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,428]ERROR  2806[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,428]ERROR  2806[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,428]ERROR  2806[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,428]ERROR  2806[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,428]ERROR  2806[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,428]ERROR  2806[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,428]ERROR  2806[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,428]ERROR  2806[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,428]ERROR  2806[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,428]ERROR  2806[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,428]ERROR  2806[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,428]ERROR  2806[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,428]ERROR  2806[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,428]ERROR  2806[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,428]ERROR  2806[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,428]ERROR  2806[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,428]ERROR  2806[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,428]ERROR  2806[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,428]ERROR  2806[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,428]ERROR  2806[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,428]ERROR  2806[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,429]ERROR  2807[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,429]ERROR  2807[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,429]ERROR  2807[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,429]ERROR  2807[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,429]ERROR  2807[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,429]ERROR  2807[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,429]ERROR  2807[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,429]ERROR  2807[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,429]ERROR  2807[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,429]ERROR  2807[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,429]ERROR  2807[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,429]ERROR  2807[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,429]ERROR  2807[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,429]ERROR  2807[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,429]ERROR  2807[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,429]ERROR  2807[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,429]ERROR  2807[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,429]ERROR  2807[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,429]ERROR  2807[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,429]ERROR  2807[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,429]ERROR  2807[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,429]ERROR  2807[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,429]ERROR  2807[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,429]ERROR  2807[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,429]ERROR  2807[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,429]ERROR  2807[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,429]ERROR  2807[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,429]ERROR  2807[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,429]ERROR  2807[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,429]ERROR  2807[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,430]ERROR  2808[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,430]ERROR  2808[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,430]ERROR  2808[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,430]ERROR  2808[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,430]ERROR  2808[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,430]ERROR  2808[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,430]ERROR  2808[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,430]ERROR  2808[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,430]ERROR  2808[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,430]ERROR  2808[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,430]ERROR  2808[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,430]ERROR  2808[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,430]ERROR  2808[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,430]ERROR  2808[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,430]ERROR  2808[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,430]ERROR  2808[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,430]ERROR  2808[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,430]ERROR  2808[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,430]ERROR  2808[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,430]ERROR  2808[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,430]ERROR  2808[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,430]ERROR  2808[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,430]ERROR  2808[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,430]ERROR  2808[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,430]ERROR  2808[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,430]ERROR  2808[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,430]ERROR  2808[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,430]ERROR  2808[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,430]ERROR  2808[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,431]ERROR  2809[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,431]ERROR  2809[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,431]ERROR  2809[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,431]ERROR  2809[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,431]ERROR  2809[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,431]ERROR  2809[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,431]ERROR  2809[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,431]ERROR  2809[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,431]ERROR  2809[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,431]ERROR  2809[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,431]ERROR  2809[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,431]ERROR  2809[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,431]ERROR  2809[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,431]ERROR  2809[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,431]ERROR  2809[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,431]ERROR  2809[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,431]ERROR  2809[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,431]ERROR  2809[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,431]ERROR  2809[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,431]ERROR  2809[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,431]ERROR  2809[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,432]ERROR  2810[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,432]ERROR  2810[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,432]ERROR  2810[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,432]ERROR  2810[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,432]ERROR  2810[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,432]ERROR  2810[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,432]ERROR  2810[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,432]ERROR  2810[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,432]ERROR  2810[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,432]ERROR  2810[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,432]ERROR  2810[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,432]ERROR  2810[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,432]ERROR  2810[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,432]ERROR  2810[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,432]ERROR  2810[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,432]ERROR  2810[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,432]ERROR  2810[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,432]ERROR  2810[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,432]ERROR  2810[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,432]ERROR  2810[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,432]ERROR  2810[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,432]ERROR  2810[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,432]ERROR  2810[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,432]ERROR  2810[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,432]ERROR  2810[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,432]ERROR  2810[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,432]ERROR  2810[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,432]ERROR  2810[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,433]ERROR  2811[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,433]ERROR  2811[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,433]ERROR  2811[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,433]ERROR  2811[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,433]ERROR  2811[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,433]ERROR  2811[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,433]ERROR  2811[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,433]ERROR  2811[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,433]ERROR  2811[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,433]ERROR  2811[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,433]ERROR  2811[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,433]ERROR  2811[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,433]ERROR  2811[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,433]ERROR  2811[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,433]ERROR  2811[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,433]ERROR  2811[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,433]ERROR  2811[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,433]ERROR  2811[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,433]ERROR  2811[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,433]ERROR  2811[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,433]ERROR  2811[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,433]ERROR  2811[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,433]ERROR  2811[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,433]ERROR  2811[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,433]ERROR  2811[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,433]ERROR  2811[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,433]ERROR  2811[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,433]ERROR  2811[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,433]ERROR  2811[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,434]ERROR  2812[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,434]ERROR  2812[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,434]ERROR  2812[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,434]ERROR  2812[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,434]ERROR  2812[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,434]ERROR  2812[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,434]ERROR  2812[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,434]ERROR  2812[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,434]ERROR  2812[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,434]ERROR  2812[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,434]ERROR  2812[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,434]ERROR  2812[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,434]ERROR  2812[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,434]ERROR  2812[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,434]ERROR  2812[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,434]ERROR  2812[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,434]ERROR  2812[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,434]ERROR  2812[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,434]ERROR  2812[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,434]ERROR  2812[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,434]ERROR  2812[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,434]ERROR  2812[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,434]ERROR  2812[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,434]ERROR  2812[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,434]ERROR  2812[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,434]ERROR  2812[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,434]ERROR  2812[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,434]ERROR  2812[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,434]ERROR  2812[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,435]ERROR  2813[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,435]ERROR  2813[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,435]ERROR  2813[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,435]ERROR  2813[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,435]ERROR  2813[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,435]ERROR  2813[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,435]ERROR  2813[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,435]ERROR  2813[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,435]ERROR  2813[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,435]ERROR  2813[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,435]ERROR  2813[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,435]ERROR  2813[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,435]ERROR  2813[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,435]ERROR  2813[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,435]ERROR  2813[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,435]ERROR  2813[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,435]ERROR  2813[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,435]ERROR  2813[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,435]ERROR  2813[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,435]ERROR  2813[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,435]ERROR  2813[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,435]ERROR  2813[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,435]ERROR  2813[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,435]ERROR  2813[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,435]ERROR  2813[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,435]ERROR  2813[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,435]ERROR  2813[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,435]ERROR  2813[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,435]ERROR  2813[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,436]ERROR  2814[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,436]ERROR  2814[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,436]ERROR  2814[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,436]ERROR  2814[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,436]ERROR  2814[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,436]ERROR  2814[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,436]ERROR  2814[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,436]ERROR  2814[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,436]ERROR  2814[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,436]ERROR  2814[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,436]ERROR  2814[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,436]ERROR  2814[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,436]ERROR  2814[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,436]ERROR  2814[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,436]ERROR  2814[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,436]ERROR  2814[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,436]ERROR  2814[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,436]ERROR  2814[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,436]ERROR  2814[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,436]ERROR  2814[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,436]ERROR  2814[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,436]ERROR  2814[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,436]ERROR  2814[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,436]ERROR  2814[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,436]ERROR  2814[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,436]ERROR  2814[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,436]ERROR  2814[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,436]ERROR  2814[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,436]ERROR  2814[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,436]ERROR  2814[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,437]ERROR  2815[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,437]ERROR  2815[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,437]ERROR  2815[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,437]ERROR  2815[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,437]ERROR  2815[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,437]ERROR  2815[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,437]ERROR  2815[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,437]ERROR  2815[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,437]ERROR  2815[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,437]ERROR  2815[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,437]ERROR  2815[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,437]ERROR  2815[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,437]ERROR  2815[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,437]ERROR  2815[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,437]ERROR  2815[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,437]ERROR  2815[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,437]ERROR  2815[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,437]ERROR  2815[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,437]ERROR  2815[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,437]ERROR  2815[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,437]ERROR  2815[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,437]ERROR  2815[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,437]ERROR  2815[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,437]ERROR  2815[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,437]ERROR  2815[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,437]ERROR  2815[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,437]ERROR  2815[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,437]ERROR  2815[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,437]ERROR  2815[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,438]ERROR  2816[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,438]ERROR  2816[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,438]ERROR  2816[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,438]ERROR  2816[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,438]ERROR  2816[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,438]ERROR  2816[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,438]ERROR  2816[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,438]ERROR  2816[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,438]ERROR  2816[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,438]ERROR  2816[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,438]ERROR  2816[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,438]ERROR  2816[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,438]ERROR  2816[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,438]ERROR  2816[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,438]ERROR  2816[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,438]ERROR  2816[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,438]ERROR  2816[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,438]ERROR  2816[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,438]ERROR  2816[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,438]ERROR  2816[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,438]ERROR  2816[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,438]ERROR  2816[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,438]ERROR  2816[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,438]ERROR  2816[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,438]ERROR  2816[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,438]ERROR  2816[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,438]ERROR  2816[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,438]ERROR  2816[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,438]ERROR  2816[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,439]ERROR  2817[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,439]ERROR  2817[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,439]ERROR  2817[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,439]ERROR  2817[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,439]ERROR  2817[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,439]ERROR  2817[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,439]ERROR  2817[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,439]ERROR  2817[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,439]ERROR  2817[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,439]ERROR  2817[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,439]ERROR  2817[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,439]ERROR  2817[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,439]ERROR  2817[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,439]ERROR  2817[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,439]ERROR  2817[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,439]ERROR  2817[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,439]ERROR  2817[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,439]ERROR  2817[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,439]ERROR  2817[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,439]ERROR  2817[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,439]ERROR  2817[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,439]ERROR  2817[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,439]ERROR  2817[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,439]ERROR  2817[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,439]ERROR  2817[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,439]ERROR  2817[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,439]ERROR  2817[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,439]ERROR  2817[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,439]ERROR  2817[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,440]ERROR  2818[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,440]ERROR  2818[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,440]ERROR  2818[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,440]ERROR  2818[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,440]ERROR  2818[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,440]ERROR  2818[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,440]ERROR  2818[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,440]ERROR  2818[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,440]ERROR  2818[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,440]ERROR  2818[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,440]ERROR  2818[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,440]ERROR  2818[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,440]ERROR  2818[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,440]ERROR  2818[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,440]ERROR  2818[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,440]ERROR  2818[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,440]ERROR  2818[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,440]ERROR  2818[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,440]ERROR  2818[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,440]ERROR  2818[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,440]ERROR  2818[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,440]ERROR  2818[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,440]ERROR  2818[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,440]ERROR  2818[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,440]ERROR  2818[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,440]ERROR  2818[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,440]ERROR  2818[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,440]ERROR  2818[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,440]ERROR  2818[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,441]ERROR  2819[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,441]ERROR  2819[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,441]ERROR  2819[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,441]ERROR  2819[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,441]ERROR  2819[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,441]ERROR  2819[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,441]ERROR  2819[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,441]ERROR  2819[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,441]ERROR  2819[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,441]ERROR  2819[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,441]ERROR  2819[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,441]ERROR  2819[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,441]ERROR  2819[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,441]ERROR  2819[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,441]ERROR  2819[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,441]ERROR  2819[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,441]ERROR  2819[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,441]ERROR  2819[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,441]ERROR  2819[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,441]ERROR  2819[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,441]ERROR  2819[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,441]ERROR  2819[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,441]ERROR  2819[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,441]ERROR  2819[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,441]ERROR  2819[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,441]ERROR  2819[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,441]ERROR  2819[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,441]ERROR  2819[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,441]ERROR  2819[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,442]ERROR  2820[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,442]ERROR  2820[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,442]ERROR  2820[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,442]ERROR  2820[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,442]ERROR  2820[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,442]ERROR  2820[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,442]ERROR  2820[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,442]ERROR  2820[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,442]ERROR  2820[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,442]ERROR  2820[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,442]ERROR  2820[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,442]ERROR  2820[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,442]ERROR  2820[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,442]ERROR  2820[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,442]ERROR  2820[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,442]ERROR  2820[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,442]ERROR  2820[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,442]ERROR  2820[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,442]ERROR  2820[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,442]ERROR  2820[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,442]ERROR  2820[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,442]ERROR  2820[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,442]ERROR  2820[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,442]ERROR  2820[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,442]ERROR  2820[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,442]ERROR  2820[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,442]ERROR  2820[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,442]ERROR  2820[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,442]ERROR  2820[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,443]ERROR  2821[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,443]ERROR  2821[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,443]ERROR  2821[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,443]ERROR  2821[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,443]ERROR  2821[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,443]ERROR  2821[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,443]ERROR  2821[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,443]ERROR  2821[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,443]ERROR  2821[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,443]ERROR  2821[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,443]ERROR  2821[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,443]ERROR  2821[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,443]ERROR  2821[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,443]ERROR  2821[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,443]ERROR  2821[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,443]ERROR  2821[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,443]ERROR  2821[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,443]ERROR  2821[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,443]ERROR  2821[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,443]ERROR  2821[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,443]ERROR  2821[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,443]ERROR  2821[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,443]ERROR  2821[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,443]ERROR  2821[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,443]ERROR  2821[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,443]ERROR  2821[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,443]ERROR  2821[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,443]ERROR  2821[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,444]ERROR  2822[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,444]ERROR  2822[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,444]ERROR  2822[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,444]ERROR  2822[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,444]ERROR  2822[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,444]ERROR  2822[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,444]ERROR  2822[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,444]ERROR  2822[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,444]ERROR  2822[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,444]ERROR  2822[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,444]ERROR  2822[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,444]ERROR  2822[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,444]ERROR  2822[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,444]ERROR  2822[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,444]ERROR  2822[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,444]ERROR  2822[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,444]ERROR  2822[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,444]ERROR  2822[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,444]ERROR  2822[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,444]ERROR  2822[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,444]ERROR  2822[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,444]ERROR  2822[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,444]ERROR  2822[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,444]ERROR  2822[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,444]ERROR  2822[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,444]ERROR  2822[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,444]ERROR  2822[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,444]ERROR  2822[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,444]ERROR  2822[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,445]ERROR  2823[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,445]ERROR  2823[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,445]ERROR  2823[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,445]ERROR  2823[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,445]ERROR  2823[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,445]ERROR  2823[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,445]ERROR  2823[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,445]ERROR  2823[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,445]ERROR  2823[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,445]ERROR  2823[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,445]ERROR  2823[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,445]ERROR  2823[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,445]ERROR  2823[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,445]ERROR  2823[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,445]ERROR  2823[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,445]ERROR  2823[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,445]ERROR  2823[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,445]ERROR  2823[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,445]ERROR  2823[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,445]ERROR  2823[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,445]ERROR  2823[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,445]ERROR  2823[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,445]ERROR  2823[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,445]ERROR  2823[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,445]ERROR  2823[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,445]ERROR  2823[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,445]ERROR  2823[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,445]ERROR  2823[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,445]ERROR  2823[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,445]ERROR  2823[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,446]ERROR  2824[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,446]ERROR  2824[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,446]ERROR  2824[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,446]ERROR  2824[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,446]ERROR  2824[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,446]ERROR  2824[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,446]ERROR  2824[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,446]ERROR  2824[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,446]ERROR  2824[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,446]ERROR  2824[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,446]ERROR  2824[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,446]ERROR  2824[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,446]ERROR  2824[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,446]ERROR  2824[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,446]ERROR  2824[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,446]ERROR  2824[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,446]ERROR  2824[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,446]ERROR  2824[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,446]ERROR  2824[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,446]ERROR  2824[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,446]ERROR  2824[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,446]ERROR  2824[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,446]ERROR  2824[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,446]ERROR  2824[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,446]ERROR  2824[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,446]ERROR  2824[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,446]ERROR  2824[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,446]ERROR  2824[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,446]ERROR  2824[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,447]ERROR  2825[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,447]ERROR  2825[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,447]ERROR  2825[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,447]ERROR  2825[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,447]ERROR  2825[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,447]ERROR  2825[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,447]ERROR  2825[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,447]ERROR  2825[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,447]ERROR  2825[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,447]ERROR  2825[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,447]ERROR  2825[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,447]ERROR  2825[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,447]ERROR  2825[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,447]ERROR  2825[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,447]ERROR  2825[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,447]ERROR  2825[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,447]ERROR  2825[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,447]ERROR  2825[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,447]ERROR  2825[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,462]ERROR  2840[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:47) - 3rr0r : null
+[2017-09-24 16:30:23,462]ERROR  2840[main] - aries.DeviceManager.App.main(App.java:110) - ma1n error: No line found
+[2017-09-24 16:30:26,809]DEBUG     0[main] - aries.DeviceManager.App.main(App.java:22) - Hola
+[2017-09-24 16:30:26,813]DEBUG     4[Thread-0] - io.dase.network.DamqRcvConsumer.run(DamqRcvConsumer.java:71) - DamqRcvConsumer begins.
+[2017-09-24 16:30:26,814]ERROR     5[Thread-0] - io.dase.network.DamqSndProducer.InitDamqSndProducer(DamqSndProducer.java:35) - InitDamqSndProducer
+[2017-09-24 16:30:26,814]DEBUG     5[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:18) - DamqRcvProducer begins.
+[2017-09-24 16:30:26,815]DEBUG     6[Thread-2] - io.dase.network.DamqSndConsumer.run(DamqSndConsumer.java:21) - DamqSndConsumer begins.
+[2017-09-24 16:35:46,628]DEBUG319819[Thread-0] - aries.DeviceManager.DevMgr.MainProc(DevMgr.java:34) - origin:app & msgid:msgid-signin-1234-5678-0001ab & body:{"uid":"22883d77-4ab8-4b80-b75b-74774868b484","accesstoken":"e00d0d9ec36095d749a350dab04b5a8c1b94e136"}
+[2017-09-24 16:35:52,701]ERROR325892[main] - aries.DeviceManager.App.main(App.java:110) - ma1n error: No line found
+[2017-09-24 16:35:52,702]DEBUG325893[main] - aries.DeviceManager.App.main(App.java:114) - Adios
+[2017-09-24 16:36:38,506]DEBUG     0[main] - aries.DeviceManager.App.main(App.java:22) - Hola
+[2017-09-24 16:36:38,510]DEBUG     4[Thread-0] - io.dase.network.DamqRcvConsumer.run(DamqRcvConsumer.java:71) - DamqRcvConsumer begins.
+[2017-09-24 16:36:38,511]ERROR     5[Thread-0] - io.dase.network.DamqSndProducer.InitDamqSndProducer(DamqSndProducer.java:35) - InitDamqSndProducer
+[2017-09-24 16:36:38,511]DEBUG     5[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:18) - DamqRcvProducer begins.
+[2017-09-24 16:36:38,512]DEBUG     6[Thread-2] - io.dase.network.DamqSndConsumer.run(DamqSndConsumer.java:21) - DamqSndConsumer begins.
+[2017-09-24 16:36:43,159]DEBUG  4653[Thread-0] - aries.DeviceManager.DevMgr.MainProc(DevMgr.java:35) - origin:app & msgid:msgid-signin-1234-5678-0001ab & body:{"uid":"22883d77-4ab8-4b80-b75b-74774868b484","accesstoken":"e00d0d9ec36095d749a350dab04b5a8c1b94e136"}
+[2017-09-24 16:36:52,940]ERROR 14434[main] - aries.DeviceManager.App.main(App.java:114) - ma1n error: null
+[2017-09-24 16:36:52,941]DEBUG 14435[main] - aries.DeviceManager.App.main(App.java:118) - Adios
+[2017-09-24 16:38:43,505]DEBUG     0[main] - aries.DeviceManager.App.main(App.java:22) - Hola
+[2017-09-24 16:38:43,509]DEBUG     4[Thread-0] - io.dase.network.DamqRcvConsumer.run(DamqRcvConsumer.java:71) - DamqRcvConsumer begins.
+[2017-09-24 16:38:43,510]ERROR     5[Thread-0] - io.dase.network.DamqSndProducer.InitDamqSndProducer(DamqSndProducer.java:35) - InitDamqSndProducer
+[2017-09-24 16:38:43,510]DEBUG     5[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:18) - DamqRcvProducer begins.
+[2017-09-24 16:38:43,510]DEBUG     5[Thread-2] - io.dase.network.DamqSndConsumer.run(DamqSndConsumer.java:21) - DamqSndConsumer begins.
+[2017-09-24 16:38:49,468]DEBUG  5963[Thread-0] - aries.DeviceManager.DevMgr.MainProc(DevMgr.java:35) - origin:app & msgid:msgid-signin-1234-5678-0001ab & body:{"uid":"22883d77-4ab8-4b80-b75b-74774868b484","accesstoken":"e00d0d9ec36095d749a350dab04b5a8c1b94e136"}
+[2017-09-24 16:38:56,274]DEBUG 12769[Thread-0] - aries.DeviceManager.DevMgr.MainProc(DevMgr.java:35) - origin:common & msgid:msgid-signin-1234-5678-0001ab & body:{"status":200}
+[2017-09-24 16:39:28,701]DEBUG 45196[Thread-0] - aries.DeviceManager.DevMgr.MainProc(DevMgr.java:35) - origin:app & msgid:msgid-signin-1234-5678-0001ff & body:{"uid":"22883d77-4ab8-4b80-b75b-74774868b484","accesstoken":"e00d0d9ec36095d749a350dab04b5a8c1b94e136"}
+[2017-09-24 16:39:52,149]DEBUG 68644[Thread-0] - aries.DeviceManager.DevMgr.MainProc(DevMgr.java:35) - origin:app & msgid:msgid-signin-1234-5678-0001ab & body:{"uid":"22883d77-4ab8-4b80-b75b-74774868b484","accesstoken":"e00d0d9ec36095d749a350dab04b5a8c1b94e136"}
+[2017-09-24 16:40:12,852]ERROR 89347[main] - aries.DeviceManager.App.main(App.java:114) - ma1n error: A JSONObject text must begin with '{' at 1 [character 2 line 1]
+[2017-09-24 16:40:12,853]DEBUG 89348[main] - aries.DeviceManager.App.main(App.java:118) - Adios
+[2017-09-24 16:40:23,189]DEBUG     0[main] - aries.DeviceManager.App.main(App.java:22) - Hola
+[2017-09-24 16:40:23,193]DEBUG     4[Thread-0] - io.dase.network.DamqRcvConsumer.run(DamqRcvConsumer.java:71) - DamqRcvConsumer begins.
+[2017-09-24 16:40:23,194]ERROR     5[Thread-0] - io.dase.network.DamqSndProducer.InitDamqSndProducer(DamqSndProducer.java:35) - InitDamqSndProducer
+[2017-09-24 16:40:23,194]DEBUG     5[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:18) - DamqRcvProducer begins.
+[2017-09-24 16:40:23,195]DEBUG     6[Thread-2] - io.dase.network.DamqSndConsumer.run(DamqSndConsumer.java:21) - DamqSndConsumer begins.
+[2017-09-24 16:40:28,400]DEBUG  5211[Thread-0] - aries.DeviceManager.DevMgr.MainProc(DevMgr.java:35) - origin:app & msgid:msgid-signin-1234-5678-0001ff & body:{"uid":"22883d77-4ab8-4b80-b75b-74774868b484","accesstoken":"e00d0d9ec36095d749a350dab04b5a8c1b94e136"}
+[2017-09-24 16:40:33,852]DEBUG 10663[Thread-0] - aries.DeviceManager.DevMgr.MainProc(DevMgr.java:35) - origin:app & msgid:msgid-signin-1234-5678-0001dd & body:{"uid":"22883d77-4ab8-4b80-b75b-74774868b484","accesstoken":"e00d0d9ec36095d749a350dab04b5a8c1b94e136"}
+[2017-09-24 16:40:38,878]DEBUG 15689[Thread-0] - aries.DeviceManager.DevMgr.MainProc(DevMgr.java:35) - origin:app & msgid:msgid-signin-1234-5678-0001ab & body:{"uid":"22883d77-4ab8-4b80-b75b-74774868b484","accesstoken":"e00d0d9ec36095d749a350dab04b5a8c1b94e136"}
+[2017-09-24 16:40:43,230]DEBUG 20041[Thread-0] - aries.DeviceManager.DevMgr.MainProc(DevMgr.java:35) - origin:app & msgid:msgid-signin-1234-5678-0001ab & body:{"uid":"22883d77-4ab8-4b80-b75b-74774868b484","accesstoken":"e00d0d9ec36095d749a350dab04b5a8c1b94e136"}
+[2017-09-24 16:40:47,956]DEBUG 24767[Thread-0] - aries.DeviceManager.DevMgr.MainProc(DevMgr.java:35) - origin:app & msgid:msgid-signin-1234-5678-0001ab & body:{"uid":"22883d77-4ab8-4b80-b75b-74774868b484","accesstoken":"e00d0d9ec36095d749a350dab04b5a8c1b94e136"}
+[2017-09-24 16:40:55,905]DEBUG 32716[Thread-0] - aries.DeviceManager.DevMgr.MainProc(DevMgr.java:35) - origin:app & msgid:msgid-signin-1234-5678-0001ab & body:{"uid":"22883d77-4ab8-4b80-b75b-74774868b484","accesstoken":"e00d0d9ec36095d749a350dab04b5a8c1b94e136"}
+[2017-09-24 16:40:57,029]DEBUG 33840[Thread-0] - aries.DeviceManager.DevMgr.MainProc(DevMgr.java:35) - origin:app & msgid:msgid-signin-1234-5678-0001ab & body:{"uid":"22883d77-4ab8-4b80-b75b-74774868b484","accesstoken":"e00d0d9ec36095d749a350dab04b5a8c1b94e136"}
+[2017-09-24 16:40:57,893]DEBUG 34704[Thread-0] - aries.DeviceManager.DevMgr.MainProc(DevMgr.java:35) - origin:app & msgid:msgid-signin-1234-5678-0001ab & body:{"uid":"22883d77-4ab8-4b80-b75b-74774868b484","accesstoken":"e00d0d9ec36095d749a350dab04b5a8c1b94e136"}
+[2017-09-24 16:40:58,591]DEBUG 35402[Thread-0] - aries.DeviceManager.DevMgr.MainProc(DevMgr.java:35) - origin:app & msgid:msgid-signin-1234-5678-0001ab & body:{"uid":"22883d77-4ab8-4b80-b75b-74774868b484","accesstoken":"e00d0d9ec36095d749a350dab04b5a8c1b94e136"}
+[2017-09-24 16:40:59,131]DEBUG 35942[Thread-0] - aries.DeviceManager.DevMgr.MainProc(DevMgr.java:35) - origin:app & msgid:msgid-signin-1234-5678-0001ab & body:{"uid":"22883d77-4ab8-4b80-b75b-74774868b484","accesstoken":"e00d0d9ec36095d749a350dab04b5a8c1b94e136"}
+[2017-09-24 16:40:59,603]DEBUG 36414[Thread-0] - aries.DeviceManager.DevMgr.MainProc(DevMgr.java:35) - origin:app & msgid:msgid-signin-1234-5678-0001ab & body:{"uid":"22883d77-4ab8-4b80-b75b-74774868b484","accesstoken":"e00d0d9ec36095d749a350dab04b5a8c1b94e136"}
+[2017-09-24 16:41:00,036]DEBUG 36847[Thread-0] - aries.DeviceManager.DevMgr.MainProc(DevMgr.java:35) - origin:app & msgid:msgid-signin-1234-5678-0001ab & body:{"uid":"22883d77-4ab8-4b80-b75b-74774868b484","accesstoken":"e00d0d9ec36095d749a350dab04b5a8c1b94e136"}
+[2017-09-24 16:41:00,418]DEBUG 37229[Thread-0] - aries.DeviceManager.DevMgr.MainProc(DevMgr.java:35) - origin:app & msgid:msgid-signin-1234-5678-0001ab & body:{"uid":"22883d77-4ab8-4b80-b75b-74774868b484","accesstoken":"e00d0d9ec36095d749a350dab04b5a8c1b94e136"}
+[2017-09-24 16:41:07,219]DEBUG 44030[Thread-0] - aries.DeviceManager.DevMgr.MainProc(DevMgr.java:35) - origin:app & msgid:msgid-signin-1234-5678-0001ab & body:{"uid":"22883d77-4ab8-4b80-b75b-74774868b484","accesstoken":"e00d0d9ec36095d749a350dab04b5a8c1b94e136"}
+[2017-09-24 16:41:09,440]DEBUG 46251[Thread-0] - aries.DeviceManager.DevMgr.MainProc(DevMgr.java:35) - origin:app & msgid:msgid-signin-1234-5678-0001ab & body:{"uid":"22883d77-4ab8-4b80-b75b-74774868b484","accesstoken":"e00d0d9ec36095d749a350dab04b5a8c1b94e136"}
+[2017-09-24 16:41:18,793]DEBUG 55604[Thread-0] - aries.DeviceManager.DevMgr.MainProc(DevMgr.java:35) - origin:common & msgid:msgid-signin-1234-5678-0001ab & body:{"status":200}
+[2017-09-24 16:41:18,795]ERROR 55606[Thread-0] - aries.DeviceManager.DevMgr.ExceptionProc(DevMgr.java:86) - err0r: A JSONObject text must begin with '{' at 1 [character 2 line 1]
+[2017-09-24 16:41:27,323]DEBUG 64134[Thread-0] - aries.DeviceManager.DevMgr.MainProc(DevMgr.java:35) - origin:common & msgid:msgid-signin-1234-5678-0001ab & body:{"status":200}
+[2017-09-24 16:41:27,326]ERROR 64137[Thread-0] - aries.DeviceManager.DevMgr.ExceptionProc(DevMgr.java:86) - err0r: A JSONObject text must begin with '{' at 1 [character 2 line 1]
+[2017-09-24 16:41:38,769]DEBUG 75580[Thread-0] - aries.DeviceManager.DevMgr.MainProc(DevMgr.java:35) - origin:common & msgid:msgid-signin-1234-5678-0001ff & body:{"status":200}
+[2017-09-24 16:41:48,512]DEBUG 85323[Thread-0] - aries.DeviceManager.DevMgr.MainProc(DevMgr.java:35) - origin:common & msgid:msgid-signin-1234-5678-0001dd & body:{"status":200}
+[2017-09-24 16:42:00,569]DEBUG 97380[Thread-0] - aries.DeviceManager.DevMgr.MainProc(DevMgr.java:35) - origin:common & msgid:msgid-signin-1234-5678-0001ab & body:{"status":200}
+[2017-09-24 16:42:00,573]ERROR 97384[Thread-0] - aries.DeviceManager.DevMgr.ExceptionProc(DevMgr.java:86) - err0r: A JSONObject text must begin with '{' at 1 [character 2 line 1]
+[2017-09-24 16:42:44,012]DEBUG140823[Thread-0] - aries.DeviceManager.DevMgr.MainProc(DevMgr.java:35) - origin:common & msgid:msgid-signin-1234-5678-0001ab & body:{"status":200}
+[2017-09-24 16:42:44,014]ERROR140825[Thread-0] - aries.DeviceManager.DevMgr.ExceptionProc(DevMgr.java:86) - err0r: A JSONObject text must begin with '{' at 1 [character 2 line 1]
+[2017-09-24 16:43:27,828]ERROR184639[main] - aries.DeviceManager.App.main(App.java:114) - ma1n error: No line found
+[2017-09-24 16:43:27,829]DEBUG184640[main] - aries.DeviceManager.App.main(App.java:118) - Adios
+[2017-09-24 16:43:33,207]DEBUG     0[main] - aries.DeviceManager.App.main(App.java:22) - Hola
+[2017-09-24 16:43:33,211]DEBUG     4[Thread-0] - io.dase.network.DamqRcvConsumer.run(DamqRcvConsumer.java:71) - DamqRcvConsumer begins.
+[2017-09-24 16:43:33,212]ERROR     5[Thread-0] - io.dase.network.DamqSndProducer.InitDamqSndProducer(DamqSndProducer.java:35) - InitDamqSndProducer
+[2017-09-24 16:43:33,212]DEBUG     5[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:18) - DamqRcvProducer begins.
+[2017-09-24 16:43:33,213]DEBUG     6[Thread-2] - io.dase.network.DamqSndConsumer.run(DamqSndConsumer.java:21) - DamqSndConsumer begins.
+[2017-09-24 16:43:34,557]DEBUG  1350[Thread-0] - aries.DeviceManager.DevMgr.MainProc(DevMgr.java:35) - origin:app & msgid:msgid-signin-1234-5678-0001ab & body:{"uid":"22883d77-4ab8-4b80-b75b-74774868b484","accesstoken":"e00d0d9ec36095d749a350dab04b5a8c1b94e136"}
+[2017-09-24 16:43:37,322]DEBUG  4115[Thread-0] - aries.DeviceManager.DevMgr.MainProc(DevMgr.java:35) - origin:app & msgid:msgid-signin-1234-5678-0001ab & body:{"uid":"22883d77-4ab8-4b80-b75b-74774868b484","accesstoken":"e00d0d9ec36095d749a350dab04b5a8c1b94e136"}
+[2017-09-24 16:43:43,410]DEBUG 10203[Thread-0] - aries.DeviceManager.DevMgr.MainProc(DevMgr.java:35) - origin:common & msgid:msgid-signin-1234-5678-0001ab & body:{"status":200}
+[2017-09-24 16:43:43,415]ERROR 10208[Thread-0] - aries.DeviceManager.DevMgr.ExceptionProc(DevMgr.java:86) - err0r: A JSONObject text must begin with '{' at 1 [character 2 line 1]
+[2017-09-24 16:43:59,038]ERROR 25831[main] - aries.DeviceManager.App.main(App.java:114) - ma1n error: No line found
+[2017-09-24 16:43:59,039]DEBUG 25832[main] - aries.DeviceManager.App.main(App.java:118) - Adios
+[2017-09-24 16:44:02,871]DEBUG     0[main] - aries.DeviceManager.App.main(App.java:22) - Hola
+[2017-09-24 16:44:02,875]DEBUG     4[Thread-0] - io.dase.network.DamqRcvConsumer.run(DamqRcvConsumer.java:71) - DamqRcvConsumer begins.
+[2017-09-24 16:44:02,879]ERROR     8[Thread-0] - io.dase.network.DamqSndProducer.InitDamqSndProducer(DamqSndProducer.java:35) - InitDamqSndProducer
+[2017-09-24 16:44:02,879]DEBUG     8[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:18) - DamqRcvProducer begins.
+[2017-09-24 16:44:02,883]DEBUG    12[Thread-2] - io.dase.network.DamqSndConsumer.run(DamqSndConsumer.java:21) - DamqSndConsumer begins.
+[2017-09-24 16:44:04,100]DEBUG  1229[Thread-0] - aries.DeviceManager.DevMgr.MainProc(DevMgr.java:35) - origin:app & msgid:msgid-signin-1234-5678-0001ab & body:{"uid":"22883d77-4ab8-4b80-b75b-74774868b484","accesstoken":"e00d0d9ec36095d749a350dab04b5a8c1b94e136"}
+[2017-09-24 16:44:08,737]DEBUG  5866[Thread-0] - aries.DeviceManager.DevMgr.MainProc(DevMgr.java:35) - origin:common & msgid:msgid-signin-1234-5678-0001ab & body:{"status":200}
+[2017-09-24 16:51:31,024]DEBUG448153[Thread-0] - aries.DeviceManager.DevMgr.MainProc(DevMgr.java:35) - origin:app & msgid:msgid-signin-1234-5678-0001ab & body:{"uid":"22883d77-4ab8-4b80-b75b-74774868b484","accesstoken":"e00d0d9ec36095d749a350dab04b5a8c1b94e136"}
+[2017-09-24 16:51:36,956]DEBUG454085[Thread-0] - aries.DeviceManager.DevMgr.MainProc(DevMgr.java:35) - origin:app & msgid:msgid-signin-1234-5678-0001ff & body:{"uid":"22883d77-4ab8-4b80-b75b-74774868b484","accesstoken":"e00d0d9ec36095d749a350dab04b5a8c1b94e136"}
+[2017-09-24 16:51:52,739]DEBUG469868[Thread-0] - aries.DeviceManager.DevMgr.MainProc(DevMgr.java:35) - origin:common & msgid:msgid-signin-1234-5678-0001ff & body:{"status":200}
+[2017-09-24 16:52:01,660]DEBUG478789[Thread-0] - aries.DeviceManager.DevMgr.MainProc(DevMgr.java:35) - origin:common & msgid:msgid-signin-1234-5678-0001ab & body:{"status":200}
+[2017-09-24 16:52:09,530]DEBUG486659[Thread-0] - aries.DeviceManager.DevMgr.MainProc(DevMgr.java:35) - origin:app & msgid:msgid-signin-1234-5678-0001ab & body:{"uid":"22883d77-4ab8-4b80-b75b-74774868b484","accesstoken":"e00d0d9ec36095d749a350dab04b5a8c1b94e136"}
+[2017-09-24 16:52:13,412]DEBUG490541[Thread-0] - aries.DeviceManager.DevMgr.MainProc(DevMgr.java:35) - origin:app & msgid:msgid-signin-1234-5678-0001ab & body:{"uid":"22883d77-4ab8-4b80-b75b-74774868b484","accesstoken":"e00d0d9ec36095d749a350dab04b5a8c1b94e136"}
+[2017-09-24 16:52:20,258]DEBUG497387[Thread-0] - aries.DeviceManager.DevMgr.MainProc(DevMgr.java:35) - origin:common & msgid:msgid-signin-1234-5678-0001ab & body:{"status":200}
+[2017-09-24 16:52:20,259]ERROR497388[Thread-0] - aries.DeviceManager.DevMgr.ExceptionProc(DevMgr.java:86) - err0r: A JSONObject text must begin with '{' at 1 [character 2 line 1]
+[2017-09-24 16:53:31,746]DEBUG568875[Thread-0] - aries.DeviceManager.DevMgr.MainProc(DevMgr.java:35) - origin:common & msgid:msgid-signin-1234-5678-0001ab & body:{"status":200}
+[2017-09-24 16:54:24,774]DEBUG621903[Thread-0] - aries.DeviceManager.DevMgr.MainProc(DevMgr.java:35) - origin:app & msgid:msgid-signin-1234-5678-0001ab & body:{"uid":"22883d77-4ab8-4b80-b75b-74774868b484","accesstoken":"e00d0d9ec36095d749a350dab04b5a8c1b94e136"}
+[2017-09-24 16:54:28,660]DEBUG625789[Thread-0] - aries.DeviceManager.DevMgr.MainProc(DevMgr.java:35) - origin:app & msgid:msgid-signin-1234-5678-0001ab & body:{"uid":"22883d77-4ab8-4b80-b75b-74774868b484","accesstoken":"e00d0d9ec36095d749a350dab04b5a8c1b94e136"}
+[2017-09-24 16:54:29,395]DEBUG626524[Thread-0] - aries.DeviceManager.DevMgr.MainProc(DevMgr.java:35) - origin:app & msgid:msgid-signin-1234-5678-0001ab & body:{"uid":"22883d77-4ab8-4b80-b75b-74774868b484","accesstoken":"e00d0d9ec36095d749a350dab04b5a8c1b94e136"}
+[2017-09-24 16:54:39,378]DEBUG636507[Thread-0] - aries.DeviceManager.DevMgr.MainProc(DevMgr.java:35) - origin:common & msgid:msgid-signin-1234-5678-0001ab & body:{"status":200}
+[2017-09-24 16:54:39,381]ERROR636510[Thread-0] - aries.DeviceManager.DevMgr.ExceptionProc(DevMgr.java:86) - err0r: A JSONObject text must begin with '{' at 1 [character 2 line 1]
+[2017-09-24 16:54:46,016]DEBUG643145[Thread-0] - aries.DeviceManager.DevMgr.MainProc(DevMgr.java:35) - origin:common & msgid:msgid-signin-1234-5678-0001ab & body:{"status":200}
+[2017-09-24 16:54:46,019]ERROR643148[Thread-0] - aries.DeviceManager.DevMgr.ExceptionProc(DevMgr.java:86) - err0r: A JSONObject text must begin with '{' at 1 [character 2 line 1]
+[2017-09-24 16:55:04,492]DEBUG661621[Thread-0] - aries.DeviceManager.DevMgr.MainProc(DevMgr.java:35) - origin:common & msgid:msgid-signin-1234-5678-0001ab & body:{"status":200}
+[2017-09-24 16:55:17,362]DEBUG674491[Thread-0] - aries.DeviceManager.DevMgr.MainProc(DevMgr.java:35) - origin:app & msgid:msgid-signin-1234-5678-0001ab & body:{"uid":"22883d77-4ab8-4b80-b75b-74774868b484","accesstoken":"e00d0d9ec36095d749a350dab04b5a8c1b94e136"}
+[2017-09-24 16:55:23,469]DEBUG680598[Thread-0] - aries.DeviceManager.DevMgr.MainProc(DevMgr.java:35) - origin:app & msgid:msgid-signin-1234-5678-0001ff & body:{"uid":"22883d77-4ab8-4b80-b75b-74774868b484","accesstoken":"e00d0d9ec36095d749a350dab04b5a8c1b94e136"}
+[2017-09-24 16:55:36,168]DEBUG693297[Thread-0] - aries.DeviceManager.DevMgr.MainProc(DevMgr.java:35) - origin:app & msgid:msgid-signin-1234-5678-0001ab & body:{"uid":"22883d77-4ab8-4b80-b75b-74774868b484","accesstoken":"e00d0d9ec36095d749a350dab04b5a8c1b94e136"}
+[2017-09-24 16:55:55,340]DEBUG712469[Thread-0] - aries.DeviceManager.DevMgr.MainProc(DevMgr.java:35) - origin:common & msgid:msgid-signin-1234-5678-0001ab & body:{"status":200}
+[2017-09-24 16:55:55,343]ERROR712472[Thread-0] - aries.DeviceManager.DevMgr.ExceptionProc(DevMgr.java:86) - err0r: A JSONObject text must begin with '{' at 1 [character 2 line 1]
+[2017-09-24 16:56:03,335]DEBUG720464[Thread-0] - aries.DeviceManager.DevMgr.MainProc(DevMgr.java:35) - origin:common & msgid:msgid-signin-1234-5678-0001ab & body:{"status":200}
+[2017-09-24 16:56:10,368]DEBUG727497[Thread-0] - aries.DeviceManager.DevMgr.MainProc(DevMgr.java:35) - origin:common & msgid:msgid-signin-1234-5678-0001ff & body:{"status":200}
