@@ -29,7 +29,7 @@ public class ObserverSignIn extends CmdProcessTimerTaskObserver {
 		DamqSndProducer sndProducer = DamqSndProducer.getInstance();
 		System.out.println("[3333 Send Request signup] ----->");
 		sndProducer.PushToSendQueue("common", recvdReq.getString("msgid"), MsgType.Request,
-				recvdReq.getString("workcode"), recvdReq.getString("body"));
+				recvdReq.getString("workcode"), recvdReq.get("body").toString());
 		System.out.println("[4444 Wait Response...] ----->");
 	}
 
@@ -40,19 +40,19 @@ public class ObserverSignIn extends CmdProcessTimerTaskObserver {
 
 		DamqSndProducer sndProducer = DamqSndProducer.getInstance();
 		System.out.println("[7777 Send Response signup] ----->");
-		sndProducer.PushToSendQueue(sendResp.getString("dst"), jo.getString("msgid"), MsgType.Response, jo.getString("workcode"),
-				jo.getString("body"));
+		sndProducer.PushToSendQueue(sendRespJO.getString("dst"), jo.getString("msgid"), MsgType.Response,
+				jo.getString("workcode"), jo.get("body").toString());
 		System.out.println("[8888 Process Done]");
 	}
 
 	@Override
 	protected void ExpiredProc() {
 		System.out.println("      >>> Response ExpiredProc <<<  ");
-		System.out.println("[5555 Send Response signup is expired] ----->");
+		System.out.println("[5555 Send Response signin is expired] -----> body : " + sendRespJO.get("body").toString() + " msgid : " + getMsgID());
 
 		DamqSndProducer sndProducer = DamqSndProducer.getInstance();
-		/*sndProducer.PushToSendQueue("common", jo.get("msgid").toString(), MsgType.Request,
-				jo.get("workcode").toString(), jo.get("body").toString());*/
+		sndProducer.PushToSendQueue(sendRespJO.getString("dst"), sendRespJO.getString("msgid"), MsgType.Response,
+				sendRespJO.getString("workcode"), sendRespJO.get("body").toString());
 	}
 
 }

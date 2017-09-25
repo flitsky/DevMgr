@@ -13,16 +13,16 @@ public abstract class CmdProcessTimerTaskObserver extends TimerTask implements O
 	private String ResponseMsgID = "";
 	private ObservableRespMsg responseMessage;
 	private Timer expiredTimer;
-	private int expirationSeconds;
-	JSONObject recvReq;
-	JSONObject sendResp;
+	JSONObject recvdReqJO;
+	JSONObject sendRespJO;
 
 	public String getMsgID() {
 		return ResponseMsgID;
 	}
 
 	public CmdProcessTimerTaskObserver(Message msg, ObservableRespMsg observable, int expirationSec) {
-		expirationSeconds = expirationSec;
+		recvdReqJO = new JSONObject(msg.getMsg());
+		sendRespJO = new JSONObject();
 
 		observable.addObserver(this);
 		this.responseMessage = observable;
@@ -30,21 +30,20 @@ public abstract class CmdProcessTimerTaskObserver extends TimerTask implements O
 
 		if (expirationSec > 0) {
 			System.out.println("[0000 Observer constructed] observers count : " + responseMessage.countObservers()
-					+ " id=" + ResponseMsgID + " will be expired in " + expirationSeconds + " seconds");
+					+ " id=" + ResponseMsgID + " will be expired in " + expirationSec + " seconds");
 			expiredTimer = new Timer();
-			expiredTimer.schedule(this, expirationSeconds * 1000);
+			expiredTimer.schedule(this, expirationSec * 1000);
 		} else {
 			System.out.println("[0000 Observer constructed] observers count : " + responseMessage.countObservers()
 					+ " id=" + ResponseMsgID + " will never be expired");
 		}
 
-		recvReq = new JSONObject(msg.getMsg());
-		sendResp = new JSONObject();
-		sendResp.put("org", recvReq.getString("dst"));
-		sendResp.put("dst", recvReq.getString("org"));
-		sendResp.put("workcode", recvReq.getString("workcode"));
+		sendRespJO.put("org", recvdReqJO.getString("dst"));
+		sendRespJO.put("dst", recvdReqJO.getString("org"));
+		sendRespJO.put("msgid", recvdReqJO.getString("msgid"));
+		sendRespJO.put("workcode", recvdReqJO.getString("workcode"));
 
-		CmdProc(recvReq);
+		CmdProc(recvdReqJO);
 	}
 
 	public CmdProcessTimerTaskObserver(Message msg, ObservableRespMsg observable) {
@@ -53,7 +52,7 @@ public abstract class CmdProcessTimerTaskObserver extends TimerTask implements O
 
 	@Override
 	public void update(Observable observable, Object arg) {
-		// responseMessage = (ObservableRespMsg) observable;
+		// if ((ObservableRespMsg)observable).getMessageId().equals(ResponseMsgID))
 		if (responseMessage.getMessageId().equals(ResponseMsgID)) {
 			expiredTimer.cancel();
 			System.out.println("[5555 Response is arrived] <----- msg : " + responseMessage.getMessage());
@@ -67,10 +66,10 @@ public abstract class CmdProcessTimerTaskObserver extends TimerTask implements O
 	@Override
 	public void run() {
 		if (!ResponseMsgID.equals("")) {
+			sendRespJO.put("body", new JSONObject().put("status", 408));
 			ExpiredProc();
 			RemoveObserver();
-			System.out.println("      Response Expired... observers count : " + responseMessage.countObservers()
-					+ " id=" + ResponseMsgID);
+			System.out.println("      Response Expired... observers count : " + responseMessage.countObservers());
 		}
 	}
 
