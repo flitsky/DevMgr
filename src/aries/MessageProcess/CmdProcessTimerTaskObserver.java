@@ -8,13 +8,18 @@ import java.util.TimerTask;
 import org.json.JSONObject;
 
 import aries.DeviceManager.Message;
+import io.dase.network.DamqSndProducer;
+import io.dase.network.DamqRcvConsumer.MsgType;
 
 public abstract class CmdProcessTimerTaskObserver extends TimerTask implements Observer {
 	private String ResponseMsgID = "";
 	private ObservableRespMsg responseMessage;
 	private Timer expiredTimer;
 	JSONObject recvdReqJO;
+	JSONObject sendReqJO;
+	JSONObject recvdRespJO;
 	JSONObject sendRespJO;
+	private String LogMsgFlow = "";
 
 	public String getMsgID() {
 		return ResponseMsgID;
@@ -22,6 +27,7 @@ public abstract class CmdProcessTimerTaskObserver extends TimerTask implements O
 
 	public CmdProcessTimerTaskObserver(Message msg, ObservableRespMsg observable, int expirationSec) {
 		recvdReqJO = new JSONObject(msg.getMsg());
+		sendReqJO = new JSONObject();
 		sendRespJO = new JSONObject();
 
 		observable.addObserver(this);
@@ -40,10 +46,15 @@ public abstract class CmdProcessTimerTaskObserver extends TimerTask implements O
 
 		sendRespJO.put("org", recvdReqJO.getString("dst"));
 		sendRespJO.put("dst", recvdReqJO.getString("org"));
+		sendRespJO.put("msgtype", "res");
 		sendRespJO.put("msgid", recvdReqJO.getString("msgid"));
 		sendRespJO.put("workcode", recvdReqJO.getString("workcode"));
 
-		CmdProc(recvdReqJO);
+		LogMsgFlow = "===> [1]" + recvdReqJO.getString("workcode") + " ==> ";
+		System.out.println(LogMsgFlow);
+		LogMsgFlow = LogMsgFlow + "[2]Request process & Make Request ==> ";
+		System.out.println(LogMsgFlow);
+		recvdReqProc(recvdReqJO);
 	}
 
 	public CmdProcessTimerTaskObserver(Message msg, ObservableRespMsg observable) {
@@ -55,8 +66,11 @@ public abstract class CmdProcessTimerTaskObserver extends TimerTask implements O
 		// if ((ObservableRespMsg)observable).getMessageId().equals(ResponseMsgID))
 		if (responseMessage.getMessageId().equals(ResponseMsgID)) {
 			expiredTimer.cancel();
-			System.out.println("[5555 Response is arrived] <----- msg : " + responseMessage.getMessage());
-			ResponseProc(responseMessage.getMessage());
+			LogMsgFlow = LogMsgFlow + "[5]Response is arrived ==> ";
+			System.out.println(LogMsgFlow);
+			recvdRespJO = new JSONObject(responseMessage.getMessage());
+			recvdRespProc(recvdRespJO);
+			System.out.println(LogMsgFlow = LogMsgFlow + "[7]Process Done");
 			responseMessage.takeMessage();
 			RemoveObserver();
 			System.out.println("[**** DeleteObserver] observers cnt : " + responseMessage.countObservers());
@@ -67,7 +81,9 @@ public abstract class CmdProcessTimerTaskObserver extends TimerTask implements O
 	public void run() {
 		if (!ResponseMsgID.equals("")) {
 			sendRespJO.put("body", new JSONObject().put("status", 408));
-			ExpiredProc();
+			LogMsgFlow = LogMsgFlow + "[5]Response Expired ";
+			System.out.println(LogMsgFlow);
+			expiredRespProc();
 			RemoveObserver();
 			System.out.println("      Response Expired... observers count : " + responseMessage.countObservers());
 		}
@@ -78,9 +94,32 @@ public abstract class CmdProcessTimerTaskObserver extends TimerTask implements O
 		responseMessage.deleteObserver(this);
 	}
 
-	protected abstract void CmdProc(JSONObject receivedRequest);
+	protected abstract void recvdReqProc(JSONObject receivedRequest);
 
-	protected abstract void ResponseProc(String msg);
+	protected void sendReqProc(JSONObject sendRequest) {
+		LogMsgFlow = LogMsgFlow + "[3]Send Request to " + sendRequest.getString("dst") + "] ==> ";
+		System.out.println(LogMsgFlow);
+		sendMsgProc(sendRequest);
+		LogMsgFlow = LogMsgFlow + "[4]Wait Response ... ";
+		System.out.println(LogMsgFlow);
+	}
 
-	protected abstract void ExpiredProc();
+	protected abstract void recvdRespProc(JSONObject msg);
+
+	protected abstract void expiredRespProc();
+
+	protected void sendRespProc(JSONObject sendResponse) {
+		LogMsgFlow = LogMsgFlow + "[6]Send Response ";
+		System.out.println(LogMsgFlow);
+		sendMsgProc(sendResponse);
+	}
+
+	private void sendMsgProc(JSONObject sendMsg) {
+		DamqSndProducer sndProducer = DamqSndProducer.getInstance();
+		MsgType msgType = MsgType.Request;
+		if (sendMsg.getString("msgtype").equals("res"))
+			msgType = MsgType.Response;
+		sndProducer.PushToSendQueue(sendMsg.getString("dst"), sendMsg.getString("msgid"), msgType,
+				sendMsg.getString("workcode"), sendMsg.get("body").toString());
+	}
 }

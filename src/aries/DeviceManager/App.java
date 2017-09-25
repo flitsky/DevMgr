@@ -8,11 +8,10 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 import aries.interoperate.Schema0Header;
-import io.dase.network.DamqRcvConsumer;
-import io.dase.network.DamqSndProducer;
 //import io.dase.network.Damq.ModuleType;
 import io.dase.network.DamqRcvConsumer.ModuleType;
 import io.dase.network.DamqRcvConsumer.MsgType;
+import io.dase.network.DamqSndProducer;
 
 public class App {
 	private static final Logger logger = LoggerFactory.getLogger(App.class);
@@ -80,7 +79,8 @@ public class App {
 					} else {
 						// PushToSendQueue(String dest, String msgId, MsgType msgType, String workCode,
 						// String msgBody)
-						//sndProducer.PushToSendQueue(recvd.dst, recvd.msgid, msgType, recvd.workcode, msg);
+						// sndProducer.PushToSendQueue(recvd.dst, recvd.msgid, msgType, recvd.workcode,
+						// msg);
 						sndProducer.PushToSendQueue(recvd.org, recvd.dst, recvd.msgid, msgType, recvd.workcode, msg);
 					}
 				}
