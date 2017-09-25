@@ -27,6 +27,9 @@ public class ObserverSignUp extends CmdProcessTimerTaskObserver {
 	protected void recvdRespProc(JSONObject recvdResp) {
 		sendRespJO.put("body", recvdResp.get("body").toString());
 		sendRespProc(sendRespJO);
+
+		// TODO
+		// save data to DB
 	}
 
 	@Override
