@@ -93,7 +93,7 @@ public class DevMgr extends DamqRcvConsumer {
 
 		switch (cmd.workcode) {
 		case "signup":
-			ObserverSignUp obsSignUp = new ObserverSignUp(msg, ObsResp);
+			ObserverSignUp obsSignUp = new ObserverSignUp(msg, ObsResp, 10);
 			break;
 		case "signin":
 			ObserverSignIn obsSignIn = new ObserverSignIn(msg, ObsResp);

@@ -8,50 +8,29 @@ import aries.interoperate.Schema1Body;
 import io.dase.network.DamqRcvConsumer.MsgType;
 import io.dase.network.DamqSndProducer;
 
-public class ObserverSignUp extends CmdProcessObserver {
+public class ObserverSignUp extends CmdProcessTimerTaskObserver {
+	JSONObject sendResp;
 
 	public ObserverSignUp(Message msg, ObservableRespMsg observable) {
 		super(msg, observable);
 		// TODO Auto-generated constructor stub
 	}
 
+	public ObserverSignUp(Message msg, ObservableRespMsg observable, int expirationSec) {
+		super(msg, observable, expirationSec);
+		// TODO Auto-generated constructor stub
+	}
+
 	@Override
-	protected void CmdProc(Message msg) {
-		JSONObject jo = new JSONObject(msg.getMsg());
-		Schema0Header cmd = new Schema0Header();
+	protected void CmdProc(JSONObject recvdReq) {
 		System.out.println("[1111 Receive Request signup] =====>");
 		System.out.println("[2222 Request process > Make Request] =====>");
-		try {
-			cmd.importFromJson(jo);
-			Schema0Header sendReq = new Schema0Header();
-			sendReq.msgtype = cmd.msgtype;
-			sendReq.dst = "common";
-			sendReq.workcode = cmd.workcode;
-			sendReq.msgid = cmd.msgid;
-			sendReq.body = new Schema1Body();
-			sendReq.body.provider = cmd.body.provider;
-			sendReq.body.authcode = cmd.body.authcode;
-			Schema1Body msgBody = sendReq.body;
-			String str = null;
-			try {
-				str = msgBody.exportToString();
-			} catch (Exception e) {
-				// TODO Auto-generated catch block
-				e.printStackTrace();
-			}
-			MsgType msgType = MsgType.Request;
-			if (sendReq.msgtype.equals("res"))
-				msgType = MsgType.Response;
-			DamqSndProducer sndProducer = DamqSndProducer.getInstance();
+		DamqSndProducer sndProducer = DamqSndProducer.getInstance();
 
-			// System.out.println(" >>>>> sndProducer : ["+sendReq.dst+"] str=" + str);
-			System.out.println("[3333 Send Request signup] ----->");
-			sndProducer.PushToSendQueue(sendReq.dst, sendReq.msgid, msgType, sendReq.workcode, str);
-			System.out.println("[4444 Wait Response...] ----->");
-		} catch (Exception e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		}
+		// System.out.println(" >>>>> sndProducer : ["+sendReq.dst+"] str=" + str);
+		System.out.println("[3333 Send Request signup] ----->");
+		sndProducer.PushToSendQueue("common", recvdReq.getString("msgid"), MsgType.Request, recvdReq.getString("workcode"), recvdReq.getString("body"));
+		System.out.println("[4444 Wait Response...] ----->");
 	}
 
 	@Override
@@ -91,5 +70,15 @@ public class ObserverSignUp extends CmdProcessObserver {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
+	}
+
+	@Override
+	protected void ExpiredProc() {
+		System.out.println("      >>> Response ExpiredProc <<<  ");
+		System.out.println("[5555 Send Response signin is expired] ----->");
+
+		DamqSndProducer sndProducer = DamqSndProducer.getInstance();
+		// sndProducer.PushToSendQueue(sendResp.dst, sendResp.msgid, MsgType.Response,
+		// "", str);
 	}
 }
