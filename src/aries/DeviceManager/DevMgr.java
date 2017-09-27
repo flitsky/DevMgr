@@ -11,6 +11,8 @@ import aries.MessageProcess.ObservableRespMsg;
 import aries.MessageProcess.MsgProc_DiscoveryDevice;
 import aries.MessageProcess.MsgProc_DiscoveryResource;
 import aries.MessageProcess.MsgProc_Get;
+import aries.MessageProcess.MsgProc_Observe;
+import aries.MessageProcess.MsgProc_ObserveCancel;
 import aries.MessageProcess.MsgProc_Post;
 import aries.MessageProcess.MsgProc_SignIn;
 import aries.MessageProcess.MsgProc_SignOut;
@@ -96,9 +98,11 @@ public class DevMgr extends DamqRcvConsumer {
 			new MsgProc_Post(msg, ObsResp);
 			break;
 		case "observe":
-			// break;
+			new MsgProc_Observe(msg, ObsResp);
+			break;
 		case "obs_can":
-			// break;
+			new MsgProc_ObserveCancel(msg, ObsResp);
+			break;
 		default:
 			jo.put("body", new JSONObject().put("status", 404));
 			sndProducer.PushToSendQueue(jo.getString("org"), jo.getString("msgid"), MsgType.Response,
