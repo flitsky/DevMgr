@@ -1,6 +1,9 @@
 package aries.MessageProcess;
 
+import java.util.Date;
 import java.util.Observable;
+import java.util.Timer;
+import java.util.TimerTask;
 import java.util.concurrent.BlockingQueue;
 
 import aries.DeviceManager.Message;
@@ -9,6 +12,7 @@ public class ObservableRespMsg extends Observable {
 	private String msg = "";
 	private String messageId = "";
 	private BlockingQueue<Message> queueResp;
+	private Timer expiredTimer;
 
 	public ObservableRespMsg(BlockingQueue<Message> qResp) {
 		this.queueResp = qResp;
@@ -26,6 +30,9 @@ public class ObservableRespMsg extends Observable {
 
 	private void setMessageId(String msgId) {
 		this.messageId = msgId;
+		ScheduledJob job = new ScheduledJob();
+		expiredTimer = new Timer();
+		expiredTimer.schedule(job, 2000);
 	}
 
 	public String getMessageId() {
@@ -43,6 +50,7 @@ public class ObservableRespMsg extends Observable {
 
 		// initialization by take message.
 		this.msg = "";
+		expiredTimer.cancel();
 
 		// take message & check response queue is available
 		if (queueResp.isEmpty()) {
@@ -58,5 +66,13 @@ public class ObservableRespMsg extends Observable {
 			}
 		}
 		return true;
+	}
+
+	class ScheduledJob extends TimerTask {
+
+		public void run() {
+			System.out.println(new Date() + "no one take the response message");
+			takeMessage();
+		}
 	}
 }
