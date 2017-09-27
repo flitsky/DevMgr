@@ -77,8 +77,6 @@ public class App {
 					if (recvd.msgid.equals("")) {
 						sndProducer.PushToSendQueue(moduleType, msgType, recvd.workcode, msg);
 					} else {
-						// PushToSendQueue(String dest, String msgId, MsgType msgType, String workCode,
-						// String msgBody)
 						// sndProducer.PushToSendQueue(recvd.dst, recvd.msgid, msgType, recvd.workcode,
 						// msg);
 						sndProducer.PushToSendQueue(recvd.org, recvd.dst, recvd.msgid, msgType, recvd.workcode, msg);

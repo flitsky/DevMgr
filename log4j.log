@@ -245,3 +245,36 @@
 [2017-09-26 10:52:47,481]DEBUG    90[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:18) - DamqRcvProducer begins.
 [2017-09-26 10:52:47,482]DEBUG    91[Thread-2] - io.dase.network.DamqSndConsumer.run(DamqSndConsumer.java:21) - DamqSndConsumer begins.
 [2017-09-26 10:52:50,156]ERROR  2765[main] - aries.DeviceManager.App.main(App.java:121) - ma1n error: No line found
+[2017-09-27 11:05:02,033]DEBUG     0[main] - aries.DeviceManager.App.main(App.java:21) - Hola
+[2017-09-27 11:05:02,174]DEBUG   141[Thread-0] - io.dase.network.DamqRcvConsumer.run(DamqRcvConsumer.java:71) - DamqRcvConsumer begins.
+[2017-09-27 11:05:02,183]ERROR   150[Thread-0] - io.dase.network.DamqSndProducer.InitDamqSndProducer(DamqSndProducer.java:35) - InitDamqSndProducer
+[2017-09-27 11:05:02,184]DEBUG   151[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:18) - DamqRcvProducer begins.
+[2017-09-27 11:05:02,195]DEBUG   162[Thread-2] - io.dase.network.DamqSndConsumer.run(DamqSndConsumer.java:21) - DamqSndConsumer begins.
+[2017-09-27 11:05:09,864]DEBUG  7831[Thread-0] - aries.DeviceManager.DevMgr.MainProc(DevMgr.java:36) - origin:app & msgid:cc655607-4e6b-489c-964c-748e3c2505ab & body:{"provider":"github","auth_code":"48ff254740b053676001"}
+[2017-09-27 11:05:21,952]DEBUG 19919[Thread-0] - aries.DeviceManager.DevMgr.MainProc(DevMgr.java:36) - origin:common & msgid:cc655607-4e6b-489c-964c-748e3c2505ab & body:{"expiresin":-1,"uid":"22883d77-4ab8-4b80-b75b-74774868b484","accesstoken":"e00d0d9ec36095d749a350dab04b5a8c1b94e136","status":200}
+[2017-09-27 11:12:41,803]ERROR459770[main] - aries.DeviceManager.App.main(App.java:96) - ma1n error: No line found
+[2017-09-27 11:12:41,804]DEBUG459771[main] - aries.DeviceManager.App.main(App.java:100) - Adios
+[2017-09-27 11:12:43,857]DEBUG     0[main] - aries.DeviceManager.App.main(App.java:21) - Hola
+[2017-09-27 11:12:43,861]DEBUG     4[Thread-0] - io.dase.network.DamqRcvConsumer.run(DamqRcvConsumer.java:71) - DamqRcvConsumer begins.
+[2017-09-27 11:12:43,861]ERROR     4[Thread-0] - io.dase.network.DamqSndProducer.InitDamqSndProducer(DamqSndProducer.java:35) - InitDamqSndProducer
+[2017-09-27 11:12:43,861]DEBUG     4[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:18) - DamqRcvProducer begins.
+[2017-09-27 11:12:43,862]DEBUG     5[Thread-2] - io.dase.network.DamqSndConsumer.run(DamqSndConsumer.java:21) - DamqSndConsumer begins.
+[2017-09-27 11:12:52,427]DEBUG  8570[Thread-0] - aries.DeviceManager.DevMgr.MainProc(DevMgr.java:36) - origin:app & msgid:cc655607-4e6b-489c-964c-748e3c2505ab & body:{"provider":"github","auth_code":"48ff254740b053676001"}
+[2017-09-27 11:14:17,237]ERROR 93380[main] - aries.DeviceManager.App.main(App.java:94) - ma1n error: No line found
+[2017-09-27 11:14:17,238]DEBUG 93381[main] - aries.DeviceManager.App.main(App.java:98) - Adios
+[2017-09-27 11:14:18,854]DEBUG     0[main] - aries.DeviceManager.App.main(App.java:21) - Hola
+[2017-09-27 11:14:18,860]DEBUG     6[Thread-0] - io.dase.network.DamqRcvConsumer.run(DamqRcvConsumer.java:71) - DamqRcvConsumer begins.
+[2017-09-27 11:14:18,860]ERROR     6[Thread-0] - io.dase.network.DamqSndProducer.InitDamqSndProducer(DamqSndProducer.java:35) - InitDamqSndProducer
+[2017-09-27 11:14:18,860]DEBUG     6[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:18) - DamqRcvProducer begins.
+[2017-09-27 11:14:18,861]DEBUG     7[Thread-2] - io.dase.network.DamqSndConsumer.run(DamqSndConsumer.java:21) - DamqSndConsumer begins.
+[2017-09-27 11:14:23,236]DEBUG  4382[Thread-0] - aries.DeviceManager.DevMgr.MainProc(DevMgr.java:36) - origin:app & msgid:cc655607-4e6b-489c-964c-748e3c2505ab & body:{"provider":"github","auth_code":"48ff254740b053676001"}
+[2017-09-27 11:14:29,412]DEBUG 10558[Thread-0] - aries.DeviceManager.DevMgr.MainProc(DevMgr.java:36) - origin:common & msgid:cc655607-4e6b-489c-964c-748e3c2505ab & body:{"expiresin":-1,"uid":"22883d77-4ab8-4b80-b75b-74774868b484","accesstoken":"e00d0d9ec36095d749a350dab04b5a8c1b94e136","status":200}
+[2017-09-27 11:17:01,513]ERROR162659[main] - aries.DeviceManager.App.main(App.java:94) - ma1n error: No line found
+[2017-09-27 11:17:01,514]DEBUG162660[main] - aries.DeviceManager.App.main(App.java:98) - Adios
+[2017-09-27 11:17:05,303]DEBUG     0[main] - aries.DeviceManager.App.main(App.java:21) - Hola
+[2017-09-27 11:17:05,307]DEBUG     4[Thread-0] - io.dase.network.DamqRcvConsumer.run(DamqRcvConsumer.java:71) - DamqRcvConsumer begins.
+[2017-09-27 11:17:05,308]ERROR     5[Thread-0] - io.dase.network.DamqSndProducer.InitDamqSndProducer(DamqSndProducer.java:35) - InitDamqSndProducer
+[2017-09-27 11:17:05,308]DEBUG     5[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:18) - DamqRcvProducer begins.
+[2017-09-27 11:17:05,308]DEBUG     5[Thread-2] - io.dase.network.DamqSndConsumer.run(DamqSndConsumer.java:21) - DamqSndConsumer begins.
+[2017-09-27 11:17:19,648]DEBUG 14345[Thread-0] - aries.DeviceManager.DevMgr.MainProc(DevMgr.java:36) - origin:app & msgid:cc655607-4e6b-489c-964c-748e3c2505ab & body:{"provider":"github","auth_code":"48ff254740b053676001"}
+[2017-09-27 11:17:22,012]DEBUG 16709[Thread-0] - aries.DeviceManager.DevMgr.MainProc(DevMgr.java:36) - origin:common & msgid:cc655607-4e6b-489c-964c-748e3c2505ab & body:{"expiresin":-1,"uid":"22883d77-4ab8-4b80-b75b-74774868b484","accesstoken":"e00d0d9ec36095d749a350dab04b5a8c1b94e136","status":200}

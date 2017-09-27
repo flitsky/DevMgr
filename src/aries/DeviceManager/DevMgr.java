@@ -13,7 +13,6 @@ import aries.MessageProcess.ObserverSignIn;
 import aries.MessageProcess.ObserverSignOut;
 import aries.MessageProcess.ObserverSignUp;
 import aries.interoperate.Schema0Header;
-import aries.interoperate.Schema1Body;
 import io.dase.network.DamqRcvConsumer;
 
 public class DevMgr extends DamqRcvConsumer {
@@ -35,36 +34,16 @@ public class DevMgr extends DamqRcvConsumer {
 			String msgBody) {
 		logger.debug("origin:" + org + " & msgid:" + msgId + " & body:" + msgBody);
 
-		// 헤더 포함해서 던져주기위해서...
-		// ===========> 정리 필요
-		Schema0Header cmd = new Schema0Header();
-		cmd.org = org;
-		cmd.dst = dst;
-		cmd.date = dateTime;
-		cmd.msgid = msgId;
-		cmd.msgtype = msgType;
-		cmd.workcode = workCode;
-		Schema1Body body = new Schema1Body();
-		JSONObject JsonObj = new JSONObject(msgBody);
+		JSONObject jo = new JSONObject();
+		jo.put("org", org);
+		jo.put("dst", dst);
+		jo.put("date", dateTime);
+		jo.put("msgid", msgId);
+		jo.put("msgtype", msgType);
+		jo.put("workcode", workCode);
+		jo.put("body", new JSONObject(msgBody));
 
-		try {
-			body.importFromJson(JsonObj);
-		} catch (Exception e1) {
-			// TODO Auto-generated catch block
-			e1.printStackTrace();
-		}
-		cmd.body = body;
-		String msgFull = null;
-		try {
-			msgFull = cmd.exportToString();
-		} catch (Exception e1) {
-			// TODO Auto-generated catch block
-			e1.printStackTrace();
-		}
-		// <=========== 정리 필요
-
-		// Message msg = new Message(msgBody); // 헤더 포함해서 던져주기위해서...
-		Message msg = new Message(msgId, msgFull); // 헤더 포함해서 던져주기위해서...
+		Message msg = new Message(msgId, jo.toString()); // 헤더 포함해서 던져주기위해서...
 		try {
 			if (msgType.equals("req")) {
 				requestProcess(msg);
@@ -93,13 +72,13 @@ public class DevMgr extends DamqRcvConsumer {
 
 		switch (cmd.workcode) {
 		case "signup":
-			ObserverSignUp obsSignUp = new ObserverSignUp(msg, ObsResp, 10);
+			new ObserverSignUp(msg, ObsResp, 10);
 			break;
 		case "signin":
-			ObserverSignIn obsSignIn = new ObserverSignIn(msg, ObsResp);
+			new ObserverSignIn(msg, ObsResp);
 			break;
 		case "signout":
-			ObserverSignOut obsSignOut = new ObserverSignOut(msg, ObsResp);
+			new ObserverSignOut(msg, ObsResp);
 			break;
 		case "dis_dev":
 			break;
