@@ -9,6 +9,7 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 import aries.MessageProcess.ObservableRespMsg;
+import aries.MessageProcess.ObserverDiscoveryDevice;
 import aries.MessageProcess.ObserverSignIn;
 import aries.MessageProcess.ObserverSignOut;
 import aries.MessageProcess.ObserverSignUp;
@@ -81,6 +82,7 @@ public class DevMgr extends DamqRcvConsumer {
 			new ObserverSignOut(msg, ObsResp);
 			break;
 		case "dis_dev":
+			new ObserverDiscoveryDevice(msg, ObsResp);
 			break;
 		case "dis_res":
 			break;
