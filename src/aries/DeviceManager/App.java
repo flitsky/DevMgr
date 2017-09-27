@@ -45,6 +45,8 @@ public class App {
 					String s = scanner.nextLine();
 					if (s.equals("exit"))
 						break;
+					if (s.isEmpty())
+						continue;
 
 					JSONObject jo = new JSONObject(s);
 					MsgType msgType;
