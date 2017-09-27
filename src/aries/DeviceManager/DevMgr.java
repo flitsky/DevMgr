@@ -16,7 +16,6 @@ import aries.MessageProcess.ObserverPost;
 import aries.MessageProcess.ObserverSignIn;
 import aries.MessageProcess.ObserverSignOut;
 import aries.MessageProcess.ObserverSignUp;
-import aries.interoperate.Schema0Header;
 import io.dase.network.DamqRcvConsumer;
 
 public class DevMgr extends DamqRcvConsumer {
@@ -38,6 +37,7 @@ public class DevMgr extends DamqRcvConsumer {
 			String msgBody) {
 		logger.debug("origin:" + org + " & msgid:" + msgId + " & body:" + msgBody);
 
+		// integrate msgBody with header info
 		JSONObject jo = new JSONObject();
 		jo.put("org", org);
 		jo.put("dst", dst);
@@ -47,7 +47,7 @@ public class DevMgr extends DamqRcvConsumer {
 		jo.put("workcode", workCode);
 		jo.put("body", new JSONObject(msgBody));
 
-		Message msg = new Message(msgId, jo.toString()); // 헤더 포함해서 던져주기위해서...
+		Message msg = new Message(msgId, jo.toString());
 		try {
 			if (msgType.equals("req")) {
 				requestProcess(msg);
@@ -72,9 +72,8 @@ public class DevMgr extends DamqRcvConsumer {
 	}
 
 	private void requestProcess(Message msg) {
-		//Schema0Header cmd = String2JsonObj2EntityX(msg.getMsg());
 		JSONObject jo = new JSONObject(msg.getMsg());
-		
+
 		switch (jo.getString("workcode")) {
 		case "signup":
 			new ObserverSignUp(msg, ObsResp, 10);
@@ -103,27 +102,9 @@ public class DevMgr extends DamqRcvConsumer {
 			// break;
 		default:
 			jo.put("body", new JSONObject().put("status", 404));
-			sndProducer.PushToSendQueue(jo.getString("org"), jo.getString("msgid"), MsgType.Response, jo.getString("workcode"), jo.get("body").toString());
+			sndProducer.PushToSendQueue(jo.getString("org"), jo.getString("msgid"), MsgType.Response,
+					jo.getString("workcode"), jo.get("body").toString());
 			break;
 		}
-	}
-
-	static Schema0Header String2JsonObj2EntityX(String str) {
-		if (str.isEmpty()) {
-			return null;
-		}
-		JSONObject JsonObj = new JSONObject(str);
-		Schema0Header recvSchema0Cmd = new Schema0Header();
-		// Import from jsonObject
-		try {
-			recvSchema0Cmd.importFromJson(JsonObj);
-		} catch (FileNotFoundException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		} catch (Exception e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		}
-		return recvSchema0Cmd;
 	}
 }
