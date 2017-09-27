@@ -10,6 +10,9 @@ import org.slf4j.LoggerFactory;
 
 import aries.MessageProcess.ObservableRespMsg;
 import aries.MessageProcess.ObserverDiscoveryDevice;
+import aries.MessageProcess.ObserverDiscoveryResource;
+import aries.MessageProcess.ObserverGet;
+import aries.MessageProcess.ObserverPost;
 import aries.MessageProcess.ObserverSignIn;
 import aries.MessageProcess.ObserverSignOut;
 import aries.MessageProcess.ObserverSignUp;
@@ -69,9 +72,10 @@ public class DevMgr extends DamqRcvConsumer {
 	}
 
 	private void requestProcess(Message msg) {
-		Schema0Header cmd = String2JsonObj2EntityX(msg.getMsg());
-
-		switch (cmd.workcode) {
+		//Schema0Header cmd = String2JsonObj2EntityX(msg.getMsg());
+		JSONObject jo = new JSONObject(msg.getMsg());
+		
+		switch (jo.getString("workcode")) {
 		case "signup":
 			new ObserverSignUp(msg, ObsResp, 10);
 			break;
@@ -85,19 +89,21 @@ public class DevMgr extends DamqRcvConsumer {
 			new ObserverDiscoveryDevice(msg, ObsResp);
 			break;
 		case "dis_res":
+			new ObserverDiscoveryResource(msg, ObsResp);
 			break;
 		case "get":
+			new ObserverGet(msg, ObsResp);
 			break;
 		case "post":
+			new ObserverPost(msg, ObsResp);
 			break;
 		case "observe":
-			break;
+			// break;
 		case "obs_can":
-			break;
+			// break;
 		default:
-			JSONObject jo = new JSONObject();
-			jo.put("status", 404);
-			sndProducer.PushToSendQueue(cmd.org, cmd.msgid, MsgType.Response, cmd.workcode, jo.toString());
+			jo.put("body", new JSONObject().put("status", 404));
+			sndProducer.PushToSendQueue(jo.getString("org"), jo.getString("msgid"), MsgType.Response, jo.getString("workcode"), jo.get("body").toString());
 			break;
 		}
 	}

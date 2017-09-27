@@ -278,3 +278,19 @@
 [2017-09-27 11:17:05,308]DEBUG     5[Thread-2] - io.dase.network.DamqSndConsumer.run(DamqSndConsumer.java:21) - DamqSndConsumer begins.
 [2017-09-27 11:17:19,648]DEBUG 14345[Thread-0] - aries.DeviceManager.DevMgr.MainProc(DevMgr.java:36) - origin:app & msgid:cc655607-4e6b-489c-964c-748e3c2505ab & body:{"provider":"github","auth_code":"48ff254740b053676001"}
 [2017-09-27 11:17:22,012]DEBUG 16709[Thread-0] - aries.DeviceManager.DevMgr.MainProc(DevMgr.java:36) - origin:common & msgid:cc655607-4e6b-489c-964c-748e3c2505ab & body:{"expiresin":-1,"uid":"22883d77-4ab8-4b80-b75b-74774868b484","accesstoken":"e00d0d9ec36095d749a350dab04b5a8c1b94e136","status":200}
+[2017-09-27 12:16:32,254]ERROR566951[main] - aries.DeviceManager.App.main(App.java:94) - ma1n error: No line found
+[2017-09-27 12:16:32,255]DEBUG566952[main] - aries.DeviceManager.App.main(App.java:98) - Adios
+[2017-09-27 12:23:41,046]DEBUG     0[main] - aries.DeviceManager.App.main(App.java:21) - Hola
+[2017-09-27 12:23:41,050]DEBUG     4[Thread-0] - io.dase.network.DamqRcvConsumer.run(DamqRcvConsumer.java:71) - DamqRcvConsumer begins.
+[2017-09-27 12:23:41,050]ERROR     4[Thread-0] - io.dase.network.DamqSndProducer.InitDamqSndProducer(DamqSndProducer.java:35) - InitDamqSndProducer
+[2017-09-27 12:23:41,051]DEBUG     5[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:18) - DamqRcvProducer begins.
+[2017-09-27 12:23:41,051]DEBUG     5[Thread-2] - io.dase.network.DamqSndConsumer.run(DamqSndConsumer.java:21) - DamqSndConsumer begins.
+[2017-09-27 12:24:03,755]DEBUG 22709[Thread-0] - aries.DeviceManager.DevMgr.MainProc(DevMgr.java:39) - origin:app & msgid:msgid-signout-1234-5678-0001ab & body:{"accesstoken":"e00d0d9ec36095d749a350dab04b5a8c1b94e136"}
+[2017-09-27 12:25:05,483]ERROR 84437[main] - aries.DeviceManager.App.main(App.java:94) - ma1n error: No line found
+[2017-09-27 12:25:05,484]DEBUG 84438[main] - aries.DeviceManager.App.main(App.java:98) - Adios
+[2017-09-27 12:25:07,290]DEBUG     0[main] - aries.DeviceManager.App.main(App.java:21) - Hola
+[2017-09-27 12:25:07,293]DEBUG     3[Thread-0] - io.dase.network.DamqRcvConsumer.run(DamqRcvConsumer.java:71) - DamqRcvConsumer begins.
+[2017-09-27 12:25:07,294]ERROR     4[Thread-0] - io.dase.network.DamqSndProducer.InitDamqSndProducer(DamqSndProducer.java:35) - InitDamqSndProducer
+[2017-09-27 12:25:07,294]DEBUG     4[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:18) - DamqRcvProducer begins.
+[2017-09-27 12:25:07,295]DEBUG     5[Thread-2] - io.dase.network.DamqSndConsumer.run(DamqSndConsumer.java:21) - DamqSndConsumer begins.
+[2017-09-27 12:25:10,909]DEBUG  3619[Thread-0] - aries.DeviceManager.DevMgr.MainProc(DevMgr.java:39) - origin:app & msgid:msgid-signout-1234-5678-0001ab & body:{"accesstoken":"e00d0d9ec36095d749a350dab04b5a8c1b94e136"}
