@@ -1,6 +1,5 @@
 package aries.DeviceManager;
 
-import java.io.FileNotFoundException;
 import java.util.concurrent.ArrayBlockingQueue;
 import java.util.concurrent.BlockingQueue;
 
@@ -55,7 +54,7 @@ public class DevMgr extends DamqRcvConsumer {
 				queueResp.put(msg);
 				ObsResp.work();
 			} else {
-				// error
+				// msgType error proc
 			}
 		} catch (InterruptedException e) {
 			// TODO Auto-generated catch block

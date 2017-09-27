@@ -36,5 +36,4 @@ public class ObserverSignIn extends CmdProcessTimerTaskObserver {
 	protected void expiredRespProc() {
 		sendRespProc(sendRespJO);
 	}
-
 }

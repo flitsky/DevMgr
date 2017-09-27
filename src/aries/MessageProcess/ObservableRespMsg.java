@@ -3,8 +3,6 @@ package aries.MessageProcess;
 import java.util.Observable;
 import java.util.concurrent.BlockingQueue;
 
-import org.json.JSONObject;
-
 import aries.DeviceManager.Message;
 
 public class ObservableRespMsg extends Observable {

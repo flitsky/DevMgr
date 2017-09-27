@@ -36,5 +36,4 @@ public class ObserverDiscoveryResource extends CmdProcessTimerTaskObserver {
 	protected void expiredRespProc() {
 		sendRespProc(sendRespJO);
 	}
-
 }

@@ -36,5 +36,4 @@ public class ObserverDiscoveryDevice extends CmdProcessTimerTaskObserver {
 	protected void expiredRespProc() {
 		sendRespProc(sendRespJO);
 	}
-
 }

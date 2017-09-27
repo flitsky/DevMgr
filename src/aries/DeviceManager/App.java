@@ -1,13 +1,11 @@
 package aries.DeviceManager;
 
-import java.io.FileNotFoundException;
 import java.util.Scanner;
 
 import org.json.JSONObject;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import aries.interoperate.Schema0Header;
 //import io.dase.network.Damq.ModuleType;
 import io.dase.network.DamqRcvConsumer.ModuleType;
 import io.dase.network.DamqRcvConsumer.MsgType;
@@ -48,15 +46,15 @@ public class App {
 					if (s.equals("exit"))
 						break;
 
-					Schema0Header recvd = String2JsonObj2EntityX(s);
+					JSONObject jo = new JSONObject(s);
 					MsgType msgType;
-					if (recvd.msgtype.equals("res"))
+					if (jo.getString("msgtype").equals("res"))
 						msgType = MsgType.Response;
 					else
 						msgType = MsgType.Request;
 
 					ModuleType moduleType = ModuleType.DEVMGR;
-					switch (recvd.dst) {
+					switch (jo.getString("dst")) {
 					case "app":
 						moduleType = ModuleType.APP;
 						break;
@@ -70,16 +68,19 @@ public class App {
 						moduleType = ModuleType.COMCLNT;
 						break;
 					default:
+						// moduleType error proc
 						break;
 					}
-					String msg = recvd.body.exportToString();
-					System.out.println(" ### sndProducer >>>>> workcode : " + recvd.workcode);
-					if (recvd.msgid.equals("")) {
-						sndProducer.PushToSendQueue(moduleType, msgType, recvd.workcode, msg);
+
+					System.out.println(" ### sndProducer >>>>> workcode : " + jo.getString("workcode"));
+					if (jo.getString("msgid").equals("")) {
+						sndProducer.PushToSendQueue(moduleType, msgType, jo.getString("workcode"),
+								jo.get("body").toString());
 					} else {
 						// sndProducer.PushToSendQueue(recvd.dst, recvd.msgid, msgType, recvd.workcode,
 						// msg);
-						sndProducer.PushToSendQueue(recvd.org, recvd.dst, recvd.msgid, msgType, recvd.workcode, msg);
+						sndProducer.PushToSendQueue(jo.getString("org"), jo.getString("dst"), jo.getString("msgid"),
+								msgType, jo.getString("workcode"), jo.get("body").toString());
 					}
 				}
 				scanner.close();
@@ -99,24 +100,4 @@ public class App {
 
 		System.exit(0);
 	}
-
-	static Schema0Header String2JsonObj2EntityX(String str) {
-		if (str.isEmpty()) {
-			return null;
-		}
-		JSONObject JsonObj = new JSONObject(str);
-		Schema0Header recvSchema0Cmd = new Schema0Header();
-		// Import from jsonObject
-		try {
-			recvSchema0Cmd.importFromJson(JsonObj);
-		} catch (FileNotFoundException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		} catch (Exception e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		}
-		return recvSchema0Cmd;
-	}
-
 }
