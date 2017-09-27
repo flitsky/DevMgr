@@ -4,14 +4,14 @@ import org.json.JSONObject;
 
 import aries.DeviceManager.Message;
 
-public class ObserverDiscoveryDevice extends CmdProcessTimerTaskObserver {
+public class MsgProc_SignIn extends CmdProcessTimerTaskObserver {
 
-	public ObserverDiscoveryDevice(Message msg, ObservableRespMsg observable) {
+	public MsgProc_SignIn(Message msg, ObservableRespMsg observable) {
 		super(msg, observable);
 		// TODO Auto-generated constructor stub
 	}
 
-	public ObserverDiscoveryDevice(Message msg, ObservableRespMsg observable, int expirationSec) {
+	public MsgProc_SignIn(Message msg, ObservableRespMsg observable, int expirationSec) {
 		super(msg, observable, expirationSec);
 		// TODO Auto-generated constructor stub
 	}

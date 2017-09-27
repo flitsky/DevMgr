@@ -8,13 +8,13 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 import aries.MessageProcess.ObservableRespMsg;
-import aries.MessageProcess.ObserverDiscoveryDevice;
-import aries.MessageProcess.ObserverDiscoveryResource;
-import aries.MessageProcess.ObserverGet;
-import aries.MessageProcess.ObserverPost;
-import aries.MessageProcess.ObserverSignIn;
-import aries.MessageProcess.ObserverSignOut;
-import aries.MessageProcess.ObserverSignUp;
+import aries.MessageProcess.MsgProc_DiscoveryDevice;
+import aries.MessageProcess.MsgProc_DiscoveryResource;
+import aries.MessageProcess.MsgProc_Get;
+import aries.MessageProcess.MsgProc_Post;
+import aries.MessageProcess.MsgProc_SignIn;
+import aries.MessageProcess.MsgProc_SignOut;
+import aries.MessageProcess.MsgProc_SignUp;
 import io.dase.network.DamqRcvConsumer;
 
 public class DevMgr extends DamqRcvConsumer {
@@ -75,25 +75,25 @@ public class DevMgr extends DamqRcvConsumer {
 
 		switch (jo.getString("workcode")) {
 		case "signup":
-			new ObserverSignUp(msg, ObsResp, 10);
+			new MsgProc_SignUp(msg, ObsResp, 10);
 			break;
 		case "signin":
-			new ObserverSignIn(msg, ObsResp);
+			new MsgProc_SignIn(msg, ObsResp);
 			break;
 		case "signout":
-			new ObserverSignOut(msg, ObsResp);
+			new MsgProc_SignOut(msg, ObsResp);
 			break;
 		case "dis_dev":
-			new ObserverDiscoveryDevice(msg, ObsResp);
+			new MsgProc_DiscoveryDevice(msg, ObsResp);
 			break;
 		case "dis_res":
-			new ObserverDiscoveryResource(msg, ObsResp);
+			new MsgProc_DiscoveryResource(msg, ObsResp);
 			break;
 		case "get":
-			new ObserverGet(msg, ObsResp);
+			new MsgProc_Get(msg, ObsResp);
 			break;
 		case "post":
-			new ObserverPost(msg, ObsResp);
+			new MsgProc_Post(msg, ObsResp);
 			break;
 		case "observe":
 			// break;
