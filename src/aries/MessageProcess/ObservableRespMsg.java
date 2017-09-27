@@ -50,7 +50,8 @@ public class ObservableRespMsg extends Observable {
 
 		// initialization by take message.
 		this.msg = "";
-		expiredTimer.cancel();
+		if(expiredTimer != null)
+			expiredTimer.cancel();
 
 		// take message & check response queue is available
 		if (queueResp.isEmpty()) {
