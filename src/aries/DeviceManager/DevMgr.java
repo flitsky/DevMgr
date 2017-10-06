@@ -99,7 +99,7 @@ public class DevMgr extends DamqRcvConsumer {
 			new MsgProc_Post(msg, ObsResp);
 			break;
 		case "observe":
-			new MsgProc_Observe(msg, ObsResp, 0, MsgReqType.Constantly);
+			new MsgProc_Observe(msg, ObsResp, 5, MsgReqType.Constantly);
 			break;
 		case "obs_can":
 			new MsgProc_ObserveCancel(msg, ObsResp);

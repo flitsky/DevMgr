@@ -29,7 +29,7 @@ public class MsgProc_ObserveCancel extends CmdProcessTimerTaskObserver {
 		sendRespProc(sendRespJO);
 
 		// TODO
-		// save data to DB
+		// cancel observe
 	}
 
 	@Override
