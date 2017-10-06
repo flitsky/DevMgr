@@ -7,7 +7,7 @@ import org.json.JSONObject;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import aries.MessageProcess.ObservableRespMsg;
+import aries.MessageProcess.CmdProcessTimerTaskObserver.MsgReqType;
 import aries.MessageProcess.MsgProc_DiscoveryDevice;
 import aries.MessageProcess.MsgProc_DiscoveryResource;
 import aries.MessageProcess.MsgProc_Get;
@@ -17,6 +17,7 @@ import aries.MessageProcess.MsgProc_Post;
 import aries.MessageProcess.MsgProc_SignIn;
 import aries.MessageProcess.MsgProc_SignOut;
 import aries.MessageProcess.MsgProc_SignUp;
+import aries.MessageProcess.ObservableRespMsg;
 import io.dase.network.DamqRcvConsumer;
 
 public class DevMgr extends DamqRcvConsumer {
@@ -98,7 +99,7 @@ public class DevMgr extends DamqRcvConsumer {
 			new MsgProc_Post(msg, ObsResp);
 			break;
 		case "observe":
-			new MsgProc_Observe(msg, ObsResp);
+			new MsgProc_Observe(msg, ObsResp, 0, MsgReqType.Constantly);
 			break;
 		case "obs_can":
 			new MsgProc_ObserveCancel(msg, ObsResp);

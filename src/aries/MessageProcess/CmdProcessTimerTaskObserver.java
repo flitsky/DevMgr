@@ -19,13 +19,32 @@ public abstract class CmdProcessTimerTaskObserver extends TimerTask implements O
 	JSONObject sendReqJO;
 	JSONObject recvdRespJO;
 	JSONObject sendRespJO;
+	MsgReqType msgReqType;
 	private String LogMsgFlow = "";
 
-	public String getMsgID() {
-		return ResponseMsgID;
+	public enum MsgReqType {
+		OneTime(0), Constantly(1);
+		private int _value;
+
+		MsgReqType(int Value) {
+			this._value = Value;
+		}
+
+		public int getValue() {
+			return _value;
+		}
+	}
+
+	public CmdProcessTimerTaskObserver(Message msg, ObservableRespMsg observable) {
+		this(msg, observable, 5); // set default expiration to 5 seconds.
 	}
 
 	public CmdProcessTimerTaskObserver(Message msg, ObservableRespMsg observable, int expirationSec) {
+		this(msg, observable, expirationSec, MsgReqType.OneTime); // set default MsgReqType to OneTime.
+	}
+
+	public CmdProcessTimerTaskObserver(Message msg, ObservableRespMsg observable, int expirationSec,
+			MsgReqType cmdType) {
 		recvdReqJO = new JSONObject(msg.getMsg());
 		sendReqJO = new JSONObject();
 		sendRespJO = new JSONObject();
@@ -33,6 +52,7 @@ public abstract class CmdProcessTimerTaskObserver extends TimerTask implements O
 		observable.addObserver(this);
 		this.responseMessage = observable;
 		this.ResponseMsgID = msg.getMessageID();
+		this.msgReqType = cmdType;
 
 		if (expirationSec > 0) {
 			System.out.println("[0000 Observer constructed] observers count : " + responseMessage.countObservers()
@@ -57,10 +77,6 @@ public abstract class CmdProcessTimerTaskObserver extends TimerTask implements O
 		recvdReqProc(recvdReqJO);
 	}
 
-	public CmdProcessTimerTaskObserver(Message msg, ObservableRespMsg observable) {
-		this(msg, observable, 5); // set default expiration to 5 seconds.
-	}
-
 	@Override
 	public void update(Observable observable, Object arg) {
 		// if ((ObservableRespMsg)observable).getMessageId().equals(ResponseMsgID))
@@ -72,8 +88,10 @@ public abstract class CmdProcessTimerTaskObserver extends TimerTask implements O
 			recvdRespProc(recvdRespJO);
 			System.out.println(LogMsgFlow = LogMsgFlow + "[7]Process Done");
 			responseMessage.takeMessage();
-			RemoveObserver();
-			System.out.println("[**** DeleteObserver] observers cnt : " + responseMessage.countObservers());
+			if (msgReqType == MsgReqType.OneTime) {
+				RemoveObserver();
+				System.out.println("[**** DeleteObserver] observers cnt : " + responseMessage.countObservers());
+			}
 		}
 	}
 
@@ -87,6 +105,10 @@ public abstract class CmdProcessTimerTaskObserver extends TimerTask implements O
 			RemoveObserver();
 			System.out.println("      Response Expired... observers count : " + responseMessage.countObservers());
 		}
+	}
+
+	public String getMsgID() {
+		return ResponseMsgID;
 	}
 
 	protected void RemoveObserver() {

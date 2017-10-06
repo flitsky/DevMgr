@@ -16,6 +16,11 @@ public class MsgProc_Observe extends CmdProcessTimerTaskObserver {
 		// TODO Auto-generated constructor stub
 	}
 
+	public MsgProc_Observe(Message msg, ObservableRespMsg observable, int expirationSec, MsgReqType msgReqType) {
+		super(msg, observable, expirationSec, msgReqType);
+		// TODO Auto-generated constructor stub
+	}
+
 	@Override
 	protected void recvdReqProc(JSONObject recvdReq) {
 		sendReqJO = recvdReq;
