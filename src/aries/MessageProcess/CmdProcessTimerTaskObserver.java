@@ -81,7 +81,8 @@ public abstract class CmdProcessTimerTaskObserver extends TimerTask implements O
 	public void update(Observable observable, Object arg) {
 		// if ((ObservableRespMsg)observable).getMessageId().equals(ResponseMsgID))
 		if (responseMessage.getMessageId().equals(ResponseMsgID)) {
-			expiredTimer.cancel();
+			if (expiredTimer != null)
+				expiredTimer.cancel();
 			LogMsgFlow = LogMsgFlow + "[5]Response is arrived ==> ";
 			System.out.println(LogMsgFlow);
 			recvdRespJO = new JSONObject(responseMessage.getMessage());
