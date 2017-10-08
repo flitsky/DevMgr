@@ -1,6 +1,5 @@
 package aries.MessageProcess;
 
-import java.util.Date;
 import java.util.Observable;
 import java.util.Timer;
 import java.util.TimerTask;
@@ -72,7 +71,7 @@ public class ObservableRespMsg extends Observable {
 	class ScheduledJob extends TimerTask {
 
 		public void run() {
-			System.out.println(new Date() + "no one take the response message");
+			System.out.println("### No one take the response message");
 			takeMessage();
 		}
 	}

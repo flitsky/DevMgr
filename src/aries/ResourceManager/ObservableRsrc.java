@@ -1,4 +1,4 @@
-package aries.TriggerManager;
+package aries.ResourceManager;
 
 import java.util.Observable;
 
