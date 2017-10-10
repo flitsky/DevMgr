@@ -19,7 +19,7 @@ public abstract class DamqRcvConsumer implements Runnable {
     public int getValue() { return _value; }
   }
   public static String[] ModuleName = { "app", "ngin", "devmgr", "common" };
-  public static String[] ModuleAddress = { "192.168.25.14", "192.168.25.10", "127.0.0.1", "192.168.25.6" };
+  public static String[] ModuleAddress = { "10.167.8.117", "10.167.8.114", "127.0.0.1", "10.167.8.108" };
   public static int[] ModulePort = { 5001, 5002, 5003, 5004 };
   public static String[] MsgTypeName = { "req", "res" };
   
