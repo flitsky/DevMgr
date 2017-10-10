@@ -18,6 +18,7 @@ public class RsrcMgr {
 	}
 
 	static HashMap<String, Observable> rsrcIdObservableMap = new HashMap<String, Observable>();
+	static int iVal = 0;
 
 	public static boolean Subscribe(String[] rsrcIds, Observer subscriber) {
 		for (String rsrcId : rsrcIds) {
@@ -34,8 +35,32 @@ public class RsrcMgr {
 		return true;
 	}
 	
+
+	public static boolean Unsubscribe(String[] rsrcIds, Observer subscriber) {
+		for (String rsrcId : rsrcIds) {
+			Unsubscribe(rsrcId, subscriber);
+		}
+		return true;
+	}
+
+	public static boolean Unsubscribe(String rsrcId, Observer subscriber) {
+		if (!rsrcIdObservableMap.containsKey(rsrcId)) {
+			// error?
+			return false;
+		}
+		rsrcIdObservableMap.get(rsrcId).deleteObserver(subscriber);
+		return true;
+	}
+	
 	public static boolean SingletonTest() {
-		
+		System.out.println("SingletonTest [[[ iVal=" + iVal++);
+		try {
+			Thread.sleep(5000);
+		} catch (InterruptedException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		System.out.println("SingletonTest ]]] iVal=" + iVal++);
 		return true;
 	}
 }

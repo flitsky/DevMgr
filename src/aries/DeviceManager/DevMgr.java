@@ -18,6 +18,7 @@ import aries.MessageProcess.MsgProc_SignIn;
 import aries.MessageProcess.MsgProc_SignOut;
 import aries.MessageProcess.MsgProc_SignUp;
 import aries.MessageProcess.ObservableRespMsg;
+import aries.ResourceManager.RsrcMgr;
 import io.dase.network.DamqRcvConsumer;
 
 public class DevMgr extends DamqRcvConsumer {
@@ -103,6 +104,10 @@ public class DevMgr extends DamqRcvConsumer {
 			break;
 		case "obs_can":
 			new MsgProc_ObserveCancel(msg, ObsResp);
+			break;
+		case "test":
+			RsrcMgr resManager = RsrcMgr.getInstance();
+			resManager.SingletonTest();
 			break;
 		default:
 			jo.put("body", new JSONObject().put("status", 404));
