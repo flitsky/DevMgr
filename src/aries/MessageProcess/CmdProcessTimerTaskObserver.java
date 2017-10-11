@@ -22,19 +22,6 @@ public abstract class CmdProcessTimerTaskObserver extends TimerTask implements O
 	MsgReqType msgReqType;
 	private String LogMsgFlow = "";
 
-	public enum MsgReqType {
-		OneTime(0), Constantly(1);
-		private int _value;
-
-		MsgReqType(int Value) {
-			this._value = Value;
-		}
-
-		public int getValue() {
-			return _value;
-		}
-	}
-
 	public CmdProcessTimerTaskObserver(Message msg, ObservableRespMsg observable) {
 		this(msg, observable, 5); // set default expiration to 5 seconds.
 	}
@@ -144,5 +131,18 @@ public abstract class CmdProcessTimerTaskObserver extends TimerTask implements O
 			msgType = MsgType.Response;
 		sndProducer.PushToSendQueue(sendMsg.getString("dst"), sendMsg.getString("msgid"), msgType,
 				sendMsg.getString("workcode"), sendMsg.get("body").toString());
+	}
+
+	public enum MsgReqType {
+		OneTime(0), Constantly(1);
+		private int _value;
+
+		MsgReqType(int Value) {
+			this._value = Value;
+		}
+
+		public int getValue() {
+			return _value;
+		}
 	}
 }

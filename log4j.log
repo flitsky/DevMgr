@@ -212,3 +212,16 @@
 [2017-10-10 16:31:45,206]DEBUG  2592[Thread-0] - aries.DeviceManager.DevMgr.MainProc(DevMgr.java:41) - origin:common & msgid:msgid-signout-1234-5678-0001ab & body:{}
 [2017-10-10 16:31:50,214]DEBUG  7600[Thread-0] - aries.DeviceManager.DevMgr.MainProc(DevMgr.java:41) - origin:common & msgid:msgid-signout-1234-5678-0001ab & body:{}
 [2017-10-10 16:31:55,216]DEBUG 12602[Thread-0] - aries.DeviceManager.DevMgr.MainProc(DevMgr.java:41) - origin:common & msgid:msgid-signout-1234-5678-0001ab & body:{}
+[2017-10-11 12:40:48,527]DEBUG545913[Thread-0] - aries.DeviceManager.DevMgr.MainProc(DevMgr.java:41) - origin:common & msgid: & body:{"expiresin":-1,"uid":"4051eb2d-7b9a-4937-8d09-ccd31c4c7234","accesstoken":"44399f2c3bdda602d1c59bd2a2650deffdc80b62","status":200}
+[2017-10-11 12:40:51,777]DEBUG549163[Thread-0] - aries.DeviceManager.DevMgr.MainProc(DevMgr.java:41) - origin:common & msgid: & body:{"status":200}
+[2017-10-11 12:40:54,743]DEBUG552129[Thread-0] - aries.DeviceManager.DevMgr.MainProc(DevMgr.java:41) - origin:common & msgid: & body:{"status":404}
+[2017-10-11 12:53:06,183]DEBUG283569[Thread-0] - aries.DeviceManager.DevMgr.MainProc(DevMgr.java:41) - origin:common & msgid: & body:{"expiresin":-1,"uid":"00dcbb44-74a9-4841-b16a-e8962e1da80c","accesstoken":"5a06a545793fd9df1a59cbbb2f975831e0c01b8a","status":200}
+[2017-10-11 12:53:11,801]DEBUG289187[Thread-0] - aries.DeviceManager.DevMgr.MainProc(DevMgr.java:41) - origin:common & msgid: & body:{"status":200}
+[2017-10-11 12:53:41,314]DEBUG318700[Thread-0] - aries.DeviceManager.DevMgr.MainProc(DevMgr.java:41) - origin:common & msgid: & body:{"status":404}
+[2017-10-11 12:54:15,181]DEBUG352567[Thread-0] - aries.DeviceManager.DevMgr.MainProc(DevMgr.java:41) - origin:common & msgid: & body:{"status":404}
+[2017-10-11 12:54:18,746]DEBUG356132[Thread-0] - aries.DeviceManager.DevMgr.MainProc(DevMgr.java:41) - origin:common & msgid: & body:{"status":404}
+[2017-10-11 12:54:25,290]DEBUG362676[Thread-0] - aries.DeviceManager.DevMgr.MainProc(DevMgr.java:41) - origin:common & msgid: & body:{"status":200}
+[2017-10-11 12:54:29,661]DEBUG367047[Thread-0] - aries.DeviceManager.DevMgr.MainProc(DevMgr.java:41) - origin:common & msgid: & body:{"devices":[{"dev_name":"andy's light","spec_ver":"ocf.1.0.0","dev_type":["oic.wk.d","oic.d.light"],"host_addr":"coap+tcp://35.197.4.112:5683","dev_id":"6341cb6f-2179-55a3-3732-c3ffbad1be68"}],"status":200}
+[2017-10-11 12:54:39,621]DEBUG377007[Thread-0] - aries.DeviceManager.DevMgr.MainProc(DevMgr.java:41) - origin:common & msgid: & body:{"status":420}
+[2017-10-11 12:55:24,021]DEBUG421407[Thread-0] - aries.DeviceManager.DevMgr.MainProc(DevMgr.java:41) - origin:common & msgid: & body:{"status":200}
+[2017-10-11 12:55:26,731]DEBUG424117[Thread-0] - aries.DeviceManager.DevMgr.MainProc(DevMgr.java:41) - origin:common & msgid: & body:{"status":404}
