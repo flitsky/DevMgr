@@ -78,8 +78,7 @@ public class App {
 						sndProducer.PushToSendQueue(moduleType, msgType, jo.getString("workcode"),
 								jo.get("body").toString());
 					} else {
-						// sndProducer.PushToSendQueue(recvd.dst, recvd.msgid, msgType, recvd.workcode,
-						// msg);
+						// sndProducer.PushToSendQueue(dst, msgid, msgType, workcode, msg);
 						sndProducer.PushToSendQueue(jo.getString("org"), jo.getString("dst"), jo.getString("msgid"),
 								msgType, jo.getString("workcode"), jo.get("body").toString());
 					}

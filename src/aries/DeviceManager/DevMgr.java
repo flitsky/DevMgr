@@ -17,6 +17,7 @@ import aries.MessageProcess.MsgProc_Post;
 import aries.MessageProcess.MsgProc_SignIn;
 import aries.MessageProcess.MsgProc_SignOut;
 import aries.MessageProcess.MsgProc_SignUp;
+import aries.MessageProcess.MsgProc_Trigger;
 import aries.MessageProcess.ObservableRespMsg;
 import aries.ResourceManager.RsrcMgr;
 import aries.TriggerManager.TrgMgr;
@@ -105,6 +106,9 @@ public class DevMgr extends DamqRcvConsumer {
 			break;
 		case "obs_can":
 			new MsgProc_ObserveCancel(msg, ObsResp);
+			break;
+		case "trigger_add":
+			new MsgProc_Trigger(msg, null, 0);
 			break;
 		case "test":
 			// 트리거매니저에게 특정 리소스 아이디에 해당하는 트리거 생성요청

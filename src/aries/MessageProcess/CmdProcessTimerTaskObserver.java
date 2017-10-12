@@ -13,7 +13,7 @@ import io.dase.network.DamqRcvConsumer.MsgType;
 
 public abstract class CmdProcessTimerTaskObserver extends TimerTask implements Observer {
 	private String ResponseMsgID = "";
-	private ObservableRespMsg responseMessage;
+	private ObservableRespMsg respMsgObservable;
 	private Timer expiredTimer;
 	JSONObject recvdReqJO;
 	JSONObject sendReqJO;
@@ -36,19 +36,20 @@ public abstract class CmdProcessTimerTaskObserver extends TimerTask implements O
 		sendReqJO = new JSONObject();
 		sendRespJO = new JSONObject();
 
-		observable.addObserver(this);
-		this.responseMessage = observable;
-		this.ResponseMsgID = msg.getMessageID();
 		this.msgReqType = cmdType;
+		this.ResponseMsgID = msg.getMessageID();
+		if (observable != null) {
+			observable.addObserver(this);
+			this.respMsgObservable = observable;
+			System.out.println("observers count : " + respMsgObservable.countObservers());
+		}
 
 		if (expirationSec > 0) {
-			System.out.println("[0000 Observer constructed] observers count : " + responseMessage.countObservers()
-					+ " id=" + ResponseMsgID + " will be expired in " + expirationSec + " seconds");
+			System.out.println("[0000 Observer constructed] id=" + ResponseMsgID + " will be expired in " + expirationSec + " seconds");
 			expiredTimer = new Timer();
 			expiredTimer.schedule(this, expirationSec * 1000);
 		} else {
-			System.out.println("[0000 Observer constructed] observers count : " + responseMessage.countObservers()
-					+ " id=" + ResponseMsgID + " will never be expired");
+			System.out.println("[0000 Observer constructed] id=" + ResponseMsgID + " will never be expired");
 		}
 
 		sendRespJO.put("org", recvdReqJO.getString("dst"));
@@ -66,19 +67,19 @@ public abstract class CmdProcessTimerTaskObserver extends TimerTask implements O
 
 	@Override
 	public void update(Observable observable, Object arg) {
-		// if (responseMessage.getMessageId().equals(ResponseMsgID)) {
+		// if (respMsgObservable.getMessageId().equals(ResponseMsgID)) {
 		if (((ObservableRespMsg) observable).getMessageId().equals(ResponseMsgID)) {
 			if (expiredTimer != null)
 				expiredTimer.cancel();
 			LogMsgFlow = LogMsgFlow + "[5]Response is arrived ==> ";
 			System.out.println(LogMsgFlow);
-			recvdRespJO = new JSONObject(responseMessage.getMessage());
+			recvdRespJO = new JSONObject(respMsgObservable.getMessage());
 			recvdRespProc(recvdRespJO);
 			System.out.println(LogMsgFlow = LogMsgFlow + "[7]Process Done");
-			responseMessage.takeMessage();
+			respMsgObservable.takeMessage();
 			if (msgReqType == MsgReqType.OneTime) {
 				RemoveObserver();
-				System.out.println("[**** DeleteObserver] observers cnt : " + responseMessage.countObservers());
+				System.out.println("[**** DeleteObserver] observers cnt : " + respMsgObservable.countObservers());
 			}
 		}
 	}
@@ -91,7 +92,7 @@ public abstract class CmdProcessTimerTaskObserver extends TimerTask implements O
 			System.out.println(LogMsgFlow);
 			expiredRespProc();
 			RemoveObserver();
-			System.out.println("      Response Expired... observers count : " + responseMessage.countObservers());
+			System.out.println("      Response Expired... observers count : " + respMsgObservable.countObservers());
 		}
 	}
 
@@ -101,7 +102,7 @@ public abstract class CmdProcessTimerTaskObserver extends TimerTask implements O
 
 	protected void RemoveObserver() {
 		ResponseMsgID = "";
-		responseMessage.deleteObserver(this);
+		respMsgObservable.deleteObserver(this);
 	}
 
 	protected abstract void recvdReqProc(JSONObject receivedRequest);
