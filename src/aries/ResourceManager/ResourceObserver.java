@@ -3,9 +3,7 @@ package aries.ResourceManager;
 import java.util.Observable;
 import java.util.Observer;
 
-import org.json.JSONObject;
-
-public abstract class ResourceObserver implements Observer {
+public class ResourceObserver implements Observer {
 	private String ResourceID = "";
 
 	public ResourceObserver(String rsrcID) {
@@ -14,6 +12,7 @@ public abstract class ResourceObserver implements Observer {
 
 	@Override
 	public void update(Observable observable, Object arg) {
+		System.out.println("ResourceObserver update()... ResourceID=" + ResourceID);
 	}
 
 	public String getRsrcID() {
@@ -22,7 +21,5 @@ public abstract class ResourceObserver implements Observer {
 
 	protected void RemoveObserver() {
 	}
-
-	protected abstract void recvdReqProc(JSONObject receivedRequest);
 
 }

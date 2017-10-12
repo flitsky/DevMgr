@@ -6,7 +6,7 @@ public class ObservableRsrc extends Observable {
 	private String resourceId = "";
 
 	public ObservableRsrc(String rsrcId) {
-		this.resourceId = rsrcId;
+		setResourceID(rsrcId);
 	}
 
 	private void setResourceID(String rsrcId) {
@@ -17,7 +17,7 @@ public class ObservableRsrc extends Observable {
 		return resourceId;
 	}
 
-	private void onChanged(String rsrcId) {
+	public void onChanged(String rsrcId) {
 		if (this.resourceId == rsrcId) {
 			setChanged();
 			notifyObservers();

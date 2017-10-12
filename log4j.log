@@ -225,3 +225,317 @@
 [2017-10-11 12:54:39,621]DEBUG377007[Thread-0] - aries.DeviceManager.DevMgr.MainProc(DevMgr.java:41) - origin:common & msgid: & body:{"status":420}
 [2017-10-11 12:55:24,021]DEBUG421407[Thread-0] - aries.DeviceManager.DevMgr.MainProc(DevMgr.java:41) - origin:common & msgid: & body:{"status":200}
 [2017-10-11 12:55:26,731]DEBUG424117[Thread-0] - aries.DeviceManager.DevMgr.MainProc(DevMgr.java:41) - origin:common & msgid: & body:{"status":404}
+[2017-10-11 14:04:14,020]DEBUG551406[Thread-0] - aries.DeviceManager.DevMgr.MainProc(DevMgr.java:41) - origin:app & msgid:deed647e-0769-4eae-a4ed-88b49717db14 & body:{"uid":"22883d77-4ab8-4b80-b75b-74774868b484","accesstoken":"e00d0d9ec36095d749a350dab04b5a8c1b94e136"}
+[2017-10-11 14:11:09,062]DEBUG966448[Thread-0] - aries.DeviceManager.DevMgr.MainProc(DevMgr.java:41) - origin:app & msgid:a6d35911-2eba-4c4e-8c84-18d17915e7b0 & body:{"authcode":"247374c9cd837cfa5565","provider":"github"}
+[2017-10-11 14:11:10,157]DEBUG967543[Thread-0] - aries.DeviceManager.DevMgr.MainProc(DevMgr.java:41) - origin:app & msgid:669baa67-aa63-4460-bc23-179913df90df & body:{"uid":"22883d77-4ab8-4b80-b75b-74774868b484","accesstoken":"e00d0d9ec36095d749a350dab04b5a8c1b94e136"}
+[2017-10-11 14:12:59,793]DEBUG077179[Thread-0] - aries.DeviceManager.DevMgr.MainProc(DevMgr.java:41) - origin:app & msgid:6b282b67-c25e-4729-9f0c-47cd3ce0ee22 & body:{"authcode":"06885de2b9441039a4bc","provider":"github"}
+[2017-10-11 14:13:00,847]DEBUG078233[Thread-0] - aries.DeviceManager.DevMgr.MainProc(DevMgr.java:41) - origin:app & msgid:1a90f773-ebc4-4102-a898-db5c16df8d5a & body:{"uid":"22883d77-4ab8-4b80-b75b-74774868b484","accesstoken":"e00d0d9ec36095d749a350dab04b5a8c1b94e136"}
+[2017-10-11 14:27:16,808]DEBUG934194[Thread-0] - aries.DeviceManager.DevMgr.MainProc(DevMgr.java:41) - origin:app & msgid:cc655607-4e6b-489c-964c-748e3c2505ab & body:{"provider":"github","auth_code":"48ff254740b053676001"}
+[2017-10-11 15:19:11,971]DEBUG049357[Thread-0] - aries.DeviceManager.DevMgr.MainProc(DevMgr.java:41) - origin:app & msgid:d64eb576-847c-4f23-b6d3-c44c8b47e30e & body:{"authcode":"89dd8306607879c877a7","provider":"github"}
+[2017-10-11 15:19:13,080]DEBUG050466[Thread-0] - aries.DeviceManager.DevMgr.MainProc(DevMgr.java:41) - origin:app & msgid:bed864e7-5f00-418b-9eb6-39e9caa1347b & body:{"uid":"22883d77-4ab8-4b80-b75b-74774868b484","accesstoken":"e00d0d9ec36095d749a350dab04b5a8c1b94e136"}
+[2017-10-11 15:19:32,303]DEBUG069689[Thread-0] - aries.DeviceManager.DevMgr.MainProc(DevMgr.java:41) - origin:app & msgid:1679d405-7fb0-441d-8f4f-1f1ccd146aa0 & body:{}
+[2017-10-11 15:22:12,871]DEBUG230257[Thread-0] - aries.DeviceManager.DevMgr.MainProc(DevMgr.java:41) - origin:app & msgid:398239ad-a1e0-412b-b1d5-83aee11002cc & body:{"authcode":"e897c348a9c1322dd3b9","provider":"github"}
+[2017-10-11 15:22:13,924]DEBUG231310[Thread-0] - aries.DeviceManager.DevMgr.MainProc(DevMgr.java:41) - origin:app & msgid:a79c42c8-df16-402f-bf7c-8898bc670047 & body:{"uid":"22883d77-4ab8-4b80-b75b-74774868b484","accesstoken":"e00d0d9ec36095d749a350dab04b5a8c1b94e136"}
+[2017-10-11 15:23:08,637]DEBUG286023[Thread-0] - aries.DeviceManager.DevMgr.MainProc(DevMgr.java:41) - origin:app & msgid:f187e608-d27f-46a8-99a7-3644c0822fb7 & body:{"authcode":"ba99d9c0bcac1c55241e","provider":"github"}
+[2017-10-11 15:23:09,727]DEBUG287113[Thread-0] - aries.DeviceManager.DevMgr.MainProc(DevMgr.java:41) - origin:app & msgid:f518b4ef-bba3-4ec6-92f4-8c07263c1438 & body:{"uid":"22883d77-4ab8-4b80-b75b-74774868b484","accesstoken":"e00d0d9ec36095d749a350dab04b5a8c1b94e136"}
+[2017-10-11 15:23:14,851]DEBUG292237[Thread-0] - aries.DeviceManager.DevMgr.MainProc(DevMgr.java:41) - origin:app & msgid:1b9a810c-d6fd-4c84-b873-29b8a4e59130 & body:{}
+[2017-10-11 15:23:18,868]DEBUG296254[Thread-0] - aries.DeviceManager.DevMgr.MainProc(DevMgr.java:41) - origin:app & msgid:db6cb62d-2805-4a73-bc77-5a56f28e6805 & body:{"dev_id":"6341cb6f-2179-55a3-3732-c3ffbad1be68"}
+[2017-10-11 15:28:09,684]DEBUG587070[Thread-0] - aries.DeviceManager.DevMgr.MainProc(DevMgr.java:41) - origin:app & msgid:617e9ad4-92ef-4f5f-a5ea-89e266db48b8 & body:{"authcode":"7f6958c0a2a35c27c9f1","provider":"github"}
+[2017-10-11 15:28:10,784]DEBUG588170[Thread-0] - aries.DeviceManager.DevMgr.MainProc(DevMgr.java:41) - origin:app & msgid:4d383750-eefd-4b03-89a4-915668ea870a & body:{"uid":"22883d77-4ab8-4b80-b75b-74774868b484","accesstoken":"e00d0d9ec36095d749a350dab04b5a8c1b94e136"}
+[2017-10-11 15:28:18,038]DEBUG595424[Thread-0] - aries.DeviceManager.DevMgr.MainProc(DevMgr.java:41) - origin:app & msgid:8bf19b6d-de55-4b73-b8b5-a9f5c42023f6 & body:{}
+[2017-10-11 15:32:42,811]DEBUG860197[Thread-0] - aries.DeviceManager.DevMgr.MainProc(DevMgr.java:41) - origin:app & msgid:98ab7dff-4d11-4ded-9407-0325a8ad8412 & body:{"authcode":"5cf98e32177dc887d59a","provider":"github"}
+[2017-10-11 15:32:43,863]DEBUG861249[Thread-0] - aries.DeviceManager.DevMgr.MainProc(DevMgr.java:41) - origin:app & msgid:4efbcc66-6257-45c5-a636-65f83e4f521f & body:{"uid":"22883d77-4ab8-4b80-b75b-74774868b484","accesstoken":"e00d0d9ec36095d749a350dab04b5a8c1b94e136"}
+[2017-10-11 15:33:05,953]DEBUG883339[Thread-0] - aries.DeviceManager.DevMgr.MainProc(DevMgr.java:41) - origin:app & msgid:2cfc0fed-accd-4c67-aeb1-4184a07a00ec & body:{}
+[2017-10-11 15:34:40,578]DEBUG977964[Thread-0] - aries.DeviceManager.DevMgr.MainProc(DevMgr.java:41) - origin:app & msgid:a55091fa-ce9a-40fa-bd76-8b9beab22515 & body:{"authcode":"e74b4d2a4ec6a57ce38c","provider":"github"}
+[2017-10-11 15:34:41,589]DEBUG978975[Thread-0] - aries.DeviceManager.DevMgr.MainProc(DevMgr.java:41) - origin:app & msgid:88db3ff7-d598-471f-ae32-8d3cc20d456f & body:{"uid":"22883d77-4ab8-4b80-b75b-74774868b484","accesstoken":"e00d0d9ec36095d749a350dab04b5a8c1b94e136"}
+[2017-10-11 15:34:46,016]DEBUG983402[Thread-0] - aries.DeviceManager.DevMgr.MainProc(DevMgr.java:41) - origin:app & msgid:456600aa-c2ed-4fa9-93eb-c5c79b3aafe8 & body:{}
+[2017-10-11 15:35:12,292]DEBUG009678[Thread-0] - aries.DeviceManager.DevMgr.MainProc(DevMgr.java:41) - origin:app & msgid:a02be637-66f1-4b56-b3b7-0ca73cf9eabf & body:{"dev_id":"6341cb6f-2179-55a3-3732-c3ffbad1be68"}
+[2017-10-11 15:35:18,506]DEBUG015892[Thread-0] - aries.DeviceManager.DevMgr.MainProc(DevMgr.java:41) - origin:app & msgid:dc38cb20-6451-40a9-bbad-8848d4e87203 & body:{"res_id":"/oic/route/6341cb6f-2179-55a3-3732-c3ffbad1be68/power/0"}
+[2017-10-11 15:35:21,756]DEBUG019142[Thread-0] - aries.DeviceManager.DevMgr.MainProc(DevMgr.java:41) - origin:app & msgid:85208c3e-96b8-4364-9a55-85bb3045be42 & body:{"res_id":"/oic/route/6341cb6f-2179-55a3-3732-c3ffbad1be68/power/0"}
+[2017-10-11 15:37:59,289]DEBUG176675[Thread-0] - aries.DeviceManager.DevMgr.MainProc(DevMgr.java:41) - origin:app & msgid:3a856b29-e04c-4fec-a3ee-477f4bbb0aee & body:{"authcode":"7731c3b9fbfdbd914ecf","provider":"github"}
+[2017-10-11 15:38:00,409]DEBUG177795[Thread-0] - aries.DeviceManager.DevMgr.MainProc(DevMgr.java:41) - origin:app & msgid:ec87b2dd-25fd-483e-bcf8-5f84cd91de7b & body:{"uid":"22883d77-4ab8-4b80-b75b-74774868b484","accesstoken":"e00d0d9ec36095d749a350dab04b5a8c1b94e136"}
+[2017-10-11 15:38:03,786]DEBUG181172[Thread-0] - aries.DeviceManager.DevMgr.MainProc(DevMgr.java:41) - origin:app & msgid:c3528649-ce09-4943-9c8b-bcedf5037b5a & body:{}
+[2017-10-11 15:38:05,640]DEBUG183026[Thread-0] - aries.DeviceManager.DevMgr.MainProc(DevMgr.java:41) - origin:app & msgid:dc65210a-c390-48be-a341-ae84880b4475 & body:{"dev_id":"6341cb6f-2179-55a3-3732-c3ffbad1be68"}
+[2017-10-11 15:38:07,492]DEBUG184878[Thread-0] - aries.DeviceManager.DevMgr.MainProc(DevMgr.java:41) - origin:app & msgid:5b70b485-47b9-4d5d-bae5-488154fef250 & body:{"res_id":"/oic/route/6341cb6f-2179-55a3-3732-c3ffbad1be68/power/0"}
+[2017-10-11 15:49:49,332]DEBUG886718[Thread-0] - aries.DeviceManager.DevMgr.MainProc(DevMgr.java:41) - origin:app & msgid:7b9a036a-c24d-4fa2-9cec-2374c46d3dd9 & body:{"authcode":"717f6e7b944b2c771d2f","provider":"github"}
+[2017-10-11 15:49:50,342]DEBUG887728[Thread-0] - aries.DeviceManager.DevMgr.MainProc(DevMgr.java:41) - origin:app & msgid:8abf25c7-40c0-41da-8f0a-085dd97f34ac & body:{"uid":"22883d77-4ab8-4b80-b75b-74774868b484","accesstoken":"e00d0d9ec36095d749a350dab04b5a8c1b94e136"}
+[2017-10-11 15:49:55,723]DEBUG893109[Thread-0] - aries.DeviceManager.DevMgr.MainProc(DevMgr.java:41) - origin:app & msgid:49a7f2fd-98b7-4e6c-a893-7f99f97cd705 & body:{}
+[2017-10-11 15:49:58,264]DEBUG895650[Thread-0] - aries.DeviceManager.DevMgr.MainProc(DevMgr.java:41) - origin:app & msgid:59bdfddb-3785-460b-ad8d-2fc3c6d1aeb8 & body:{"dev_id":"6341cb6f-2179-55a3-3732-c3ffbad1be68"}
+[2017-10-11 15:50:00,033]DEBUG897419[Thread-0] - aries.DeviceManager.DevMgr.MainProc(DevMgr.java:41) - origin:app & msgid:097a5312-09f1-4c6a-a92c-d687d87192d2 & body:{"res_id":"/oic/route/6341cb6f-2179-55a3-3732-c3ffbad1be68/power/0"}
+[2017-10-11 15:53:36,921]DEBUG114307[Thread-0] - aries.DeviceManager.DevMgr.MainProc(DevMgr.java:41) - origin:app & msgid:c718d29a-6564-4895-92a8-14a209d28754 & body:{"authcode":"db48ae7e230e627e69bb","provider":"github"}
+[2017-10-11 15:53:37,994]DEBUG115380[Thread-0] - aries.DeviceManager.DevMgr.MainProc(DevMgr.java:41) - origin:app & msgid:5edc9668-9019-45db-b5e8-fc5851dcefa5 & body:{"uid":"22883d77-4ab8-4b80-b75b-74774868b484","accesstoken":"e00d0d9ec36095d749a350dab04b5a8c1b94e136"}
+[2017-10-11 15:53:41,803]DEBUG119189[Thread-0] - aries.DeviceManager.DevMgr.MainProc(DevMgr.java:41) - origin:app & msgid:001bf78a-1cdc-4357-8695-51a09ef5de7b & body:{}
+[2017-10-11 15:53:47,367]DEBUG124753[Thread-0] - aries.DeviceManager.DevMgr.MainProc(DevMgr.java:41) - origin:app & msgid:fedc70dc-d68f-45ed-b0fb-1c45c55ca706 & body:{"dev_id":"6341cb6f-2179-55a3-3732-c3ffbad1be68"}
+[2017-10-11 15:53:49,516]DEBUG126902[Thread-0] - aries.DeviceManager.DevMgr.MainProc(DevMgr.java:41) - origin:app & msgid:a9c378a2-dee2-4b4c-ac75-05b3e7ef2d6c & body:{"res_id":"/oic/route/6341cb6f-2179-55a3-3732-c3ffbad1be68/power/0"}
+[2017-10-11 15:53:59,030]DEBUG136416[Thread-0] - aries.DeviceManager.DevMgr.MainProc(DevMgr.java:41) - origin:app & msgid:48d62d96-cf82-4864-88cf-2a01cdaed4b3 & body:{"res_id":"/oic/route/6341cb6f-2179-55a3-3732-c3ffbad1be68/power/0","properties":[{"prop_name":"value","prop_value":false,"read_only":false,"prop_type":"boolean"}]}
+[2017-10-11 16:07:35,753]DEBUG953139[Thread-0] - aries.DeviceManager.DevMgr.MainProc(DevMgr.java:41) - origin:app & msgid:318c040f-47f9-4d5e-ad8d-111d0304f135 & body:{"authcode":"eed96fc93ba414cf83fb","provider":"github"}
+[2017-10-11 16:07:36,772]DEBUG954158[Thread-0] - aries.DeviceManager.DevMgr.MainProc(DevMgr.java:41) - origin:app & msgid:886a8d78-aaae-40fe-b190-d7500cf249d3 & body:{"uid":"22883d77-4ab8-4b80-b75b-74774868b484","accesstoken":"e00d0d9ec36095d749a350dab04b5a8c1b94e136"}
+[2017-10-11 16:07:58,849]DEBUG976235[Thread-0] - aries.DeviceManager.DevMgr.MainProc(DevMgr.java:41) - origin:app & msgid:38907f42-817e-4cfc-9b34-997556a31972 & body:{}
+[2017-10-11 16:08:02,660]DEBUG980046[Thread-0] - aries.DeviceManager.DevMgr.MainProc(DevMgr.java:41) - origin:app & msgid:756e9a83-f70f-4cc6-9324-f742723b0c9b & body:{"dev_id":"6341cb6f-2179-55a3-3732-c3ffbad1be68"}
+[2017-10-11 16:08:04,466]DEBUG981852[Thread-0] - aries.DeviceManager.DevMgr.MainProc(DevMgr.java:41) - origin:app & msgid:28f391d1-8ac5-4542-bcfd-ed145803a1f0 & body:{"res_id":"/oic/route/6341cb6f-2179-55a3-3732-c3ffbad1be68/power/0"}
+[2017-10-11 16:08:09,576]DEBUG986962[Thread-0] - aries.DeviceManager.DevMgr.MainProc(DevMgr.java:41) - origin:app & msgid:d7c2adc3-cbe5-44a6-888a-2a2fd35e5949 & body:{"res_id":"/oic/route/6341cb6f-2179-55a3-3732-c3ffbad1be68/power/0","properties":[{"prop_name":"value","prop_value":true,"read_only":false,"prop_type":"boolean"}]}
+[2017-10-11 16:12:20,679]DEBUG238065[Thread-0] - aries.DeviceManager.DevMgr.MainProc(DevMgr.java:41) - origin:app & msgid:fbb746f5-1e0c-47b2-ad49-cffb504c24ca & body:{"authcode":"2b5fc005794624d872c3","provider":"github"}
+[2017-10-11 16:12:21,724]DEBUG239110[Thread-0] - aries.DeviceManager.DevMgr.MainProc(DevMgr.java:41) - origin:app & msgid:e40cf41c-33ea-4ceb-a15e-31c76d2cbe90 & body:{"uid":"22883d77-4ab8-4b80-b75b-74774868b484","accesstoken":"e00d0d9ec36095d749a350dab04b5a8c1b94e136"}
+[2017-10-11 16:12:27,086]DEBUG244472[Thread-0] - aries.DeviceManager.DevMgr.MainProc(DevMgr.java:41) - origin:app & msgid:b7a11b07-a2b0-43ce-862f-6d5e5386c3b7 & body:{}
+[2017-10-11 16:12:33,219]DEBUG250605[Thread-0] - aries.DeviceManager.DevMgr.MainProc(DevMgr.java:41) - origin:app & msgid:11b27a57-f3bc-443c-bcfb-a5753fe547ad & body:{"dev_id":"6341cb6f-2179-55a3-3732-c3ffbad1be68"}
+[2017-10-11 16:12:35,181]DEBUG252567[Thread-0] - aries.DeviceManager.DevMgr.MainProc(DevMgr.java:41) - origin:app & msgid:2e8dc74d-4561-468d-bb79-d724eb8cdd0f & body:{"res_id":"/oic/route/6341cb6f-2179-55a3-3732-c3ffbad1be68/power/0"}
+[2017-10-11 16:12:38,915]DEBUG256301[Thread-0] - aries.DeviceManager.DevMgr.MainProc(DevMgr.java:41) - origin:app & msgid:02665b01-d16c-4283-9f06-c968701eea52 & body:{"res_id":"/oic/route/6341cb6f-2179-55a3-3732-c3ffbad1be68/power/0","properties":[{"prop_name":"value","prop_value":true,"read_only":false,"prop_type":"boolean"}]}
+[2017-10-11 16:14:08,323]DEBUG345709[Thread-0] - aries.DeviceManager.DevMgr.MainProc(DevMgr.java:41) - origin:app & msgid:38e004b9-81b8-40b7-80d6-08b4e52c2855 & body:{"authcode":"4/xtc9odprl-yusz323kdslre4tzmnkmgnu7gbmlhnvvu","provider":"google"}
+[2017-10-11 16:14:09,332]DEBUG346718[Thread-0] - aries.DeviceManager.DevMgr.MainProc(DevMgr.java:41) - origin:app & msgid:84d7cc98-86e7-440e-a515-8beeb5eb4833 & body:{"uid":"22883d77-4ab8-4b80-b75b-74774868b484","accesstoken":"e00d0d9ec36095d749a350dab04b5a8c1b94e136"}
+[2017-10-11 16:38:11,771]DEBUG789157[Thread-0] - aries.DeviceManager.DevMgr.MainProc(DevMgr.java:41) - origin:app & msgid:99029290-6089-472d-9a01-8507f6b2ab5e & body:{"authcode":"4/q5sh8_2avizqeebug0qarhfjtx0vbnh0ldtk1d9cano","provider":"google"}
+[2017-10-11 16:38:12,778]DEBUG790164[Thread-0] - aries.DeviceManager.DevMgr.MainProc(DevMgr.java:41) - origin:app & msgid:f877f094-7733-4620-9f86-04b257b32c3d & body:{"uid":"22883d77-4ab8-4b80-b75b-74774868b484","accesstoken":"e00d0d9ec36095d749a350dab04b5a8c1b94e136"}
+[2017-10-11 16:42:03,885]DEBUG021271[Thread-0] - aries.DeviceManager.DevMgr.MainProc(DevMgr.java:41) - origin:app & msgid:a573aea8-ae87-41ff-9610-5b1c11276c56 & body:{"authcode":"b00e05ddb31b16094bb7","provider":"github"}
+[2017-10-11 16:42:04,938]DEBUG022324[Thread-0] - aries.DeviceManager.DevMgr.MainProc(DevMgr.java:41) - origin:app & msgid:6d7bfc51-7a42-4bf4-854b-1de9dd719e79 & body:{"uid":"22883d77-4ab8-4b80-b75b-74774868b484","accesstoken":"e00d0d9ec36095d749a350dab04b5a8c1b94e136"}
+[2017-10-11 16:44:02,982]DEBUG140368[Thread-0] - aries.DeviceManager.DevMgr.MainProc(DevMgr.java:41) - origin:app & msgid:01baed25-b7cc-4a36-bc80-1bbeab39e92d & body:{"authcode":"4/qkh-6ccmfb_hjgix6dh7qrgps8gf0wd5rie4d-qz8ng","provider":"google"}
+[2017-10-11 16:44:03,988]DEBUG141374[Thread-0] - aries.DeviceManager.DevMgr.MainProc(DevMgr.java:41) - origin:app & msgid:7f62a56e-e6e8-4ed1-ba7d-4b5d3f198083 & body:{"uid":"22883d77-4ab8-4b80-b75b-74774868b484","accesstoken":"e00d0d9ec36095d749a350dab04b5a8c1b94e136"}
+[2017-10-11 16:46:55,604]DEBUG312990[Thread-0] - aries.DeviceManager.DevMgr.MainProc(DevMgr.java:41) - origin:app & msgid:fbecc347-a497-4aee-af97-218e08cee6b2 & body:{"authcode":"4/0_qq_qtafmpfqrzpgxwwtlhmvzqnllv3vhz9g1_vkfc","provider":"google"}
+[2017-10-11 16:46:56,648]DEBUG314034[Thread-0] - aries.DeviceManager.DevMgr.MainProc(DevMgr.java:41) - origin:app & msgid:6e2c11c3-6164-43ed-831a-13bc0b12b0c8 & body:{"uid":"22883d77-4ab8-4b80-b75b-74774868b484","accesstoken":"e00d0d9ec36095d749a350dab04b5a8c1b94e136"}
+[2017-10-11 16:50:41,739]DEBUG539125[Thread-0] - aries.DeviceManager.DevMgr.MainProc(DevMgr.java:41) - origin:app & msgid:599e7269-fb62-4605-a85e-dbc723363842 & body:{"authcode":"4/d7ff8xlmppvqjbbrrmvbfjv4cbz-q6qtgm_y5j6ebt8","provider":"google"}
+[2017-10-11 16:50:42,780]DEBUG540166[Thread-0] - aries.DeviceManager.DevMgr.MainProc(DevMgr.java:41) - origin:app & msgid:61118bde-2bc4-4b5f-bef6-2c62e55fa7a6 & body:{"uid":"22883d77-4ab8-4b80-b75b-74774868b484","accesstoken":"e00d0d9ec36095d749a350dab04b5a8c1b94e136"}
+[2017-10-11 17:12:35,444]DEBUG852830[Thread-0] - aries.DeviceManager.DevMgr.MainProc(DevMgr.java:41) - origin:app & msgid:cc655607-4e6b-489c-964c-748e3c2505ab & body:{"authcode":"48ff254740b053676001","provider":"github"}
+[2017-10-11 17:13:07,605]DEBUG884991[Thread-0] - aries.DeviceManager.DevMgr.MainProc(DevMgr.java:41) - origin:app & msgid:95946061-56d4-4873-bcaa-fc0085111d7f & body:{"authcode":"4eb81927d9d70b3ea4ee","provider":"github"}
+[2017-10-11 17:13:08,660]DEBUG886046[Thread-0] - aries.DeviceManager.DevMgr.MainProc(DevMgr.java:41) - origin:app & msgid:080002da-e271-4996-afeb-4a317c1dd3a8 & body:{"uid":"22883d77-4ab8-4b80-b75b-74774868b484","accesstoken":"e00d0d9ec36095d749a350dab04b5a8c1b94e136"}
+[2017-10-12 10:49:06,065]DEBUG     0[main] - aries.DeviceManager.App.main(App.java:18) - Hola
+[2017-10-12 10:49:06,094]DEBUG    29[Thread-0] - io.dase.network.DamqRcvConsumer.run(DamqRcvConsumer.java:71) - DamqRcvConsumer begins.
+[2017-10-12 10:49:06,095]ERROR    30[Thread-0] - io.dase.network.DamqSndProducer.InitDamqSndProducer(DamqSndProducer.java:35) - InitDamqSndProducer
+[2017-10-12 10:49:06,096]DEBUG    31[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:18) - DamqRcvProducer begins.
+[2017-10-12 10:49:06,097]DEBUG    32[Thread-2] - io.dase.network.DamqSndConsumer.run(DamqSndConsumer.java:21) - DamqSndConsumer begins.
+[2017-10-12 10:49:17,863]DEBUG 11798[Thread-0] - aries.DeviceManager.DevMgr.MainProc(DevMgr.java:41) - origin:common & msgid:msgid-signout-1234-5678-0001ab & body:{}
+[2017-10-12 10:49:22,873]DEBUG 16808[Thread-0] - aries.DeviceManager.DevMgr.MainProc(DevMgr.java:41) - origin:common & msgid:msgid-signout-1234-5678-0001ab & body:{}
+[2017-10-12 10:58:10,198]DEBUG544133[Thread-0] - aries.DeviceManager.DevMgr.MainProc(DevMgr.java:41) - origin:app & msgid:710533e8-bf5b-478c-8646-fd4b2baae3d1 & body:{"authcode":"76505b8d48d48936ca78","provider":"github"}
+[2017-10-12 10:58:11,299]DEBUG545234[Thread-0] - aries.DeviceManager.DevMgr.MainProc(DevMgr.java:41) - origin:app & msgid:1fb5381d-0c0f-4031-b517-564018a1bb46 & body:{"uid":"22883d77-4ab8-4b80-b75b-74774868b484","accesstoken":"e00d0d9ec36095d749a350dab04b5a8c1b94e136"}
+[2017-10-12 11:27:59,596]DEBUG333531[Thread-0] - aries.DeviceManager.DevMgr.MainProc(DevMgr.java:41) - origin:app & msgid:cc655607-4e6b-489c-964c-748e3c2505ab & body:{"authcode":"48ff254740b053676001","provider":"github"}
+[2017-10-12 12:35:14,149]DEBUG368084[Thread-0] - aries.DeviceManager.DevMgr.MainProc(DevMgr.java:41) - origin:app & msgid:cc655607-4e6b-489c-964c-748e3c2505ab & body:{"authcode":"48ff254740b053676001","provider":"github"}
+[2017-10-12 12:50:11,424]DEBUG265359[Thread-0] - aries.DeviceManager.DevMgr.MainProc(DevMgr.java:41) - origin:app & msgid:cc655607-4e6b-489c-964c-748e3c2505ab & body:{"authcode":"48ff254740b053676001","provider":"github"}
+[2017-10-12 12:50:52,258]DEBUG306193[Thread-0] - aries.DeviceManager.DevMgr.MainProc(DevMgr.java:41) - origin:app & msgid:cc655607-4e6b-489c-964c-748e3c2505ab & body:{"authcode":"48ff254740b053676001","provider":"github"}
+[2017-10-12 12:56:15,473]DEBUG629408[Thread-0] - aries.DeviceManager.DevMgr.MainProc(DevMgr.java:41) - origin:common & msgid:msgid-signout-1234-5678-0001ab & body:{}
+[2017-10-12 12:56:27,521]ERROR641456[main] - aries.DeviceManager.App.main(App.java:96) - ma1n error: No line found
+[2017-10-12 12:56:27,521]DEBUG641456[main] - aries.DeviceManager.App.main(App.java:100) - Adios
+[2017-10-12 12:56:29,496]DEBUG     0[main] - aries.DeviceManager.App.main(App.java:18) - Hola
+[2017-10-12 12:56:29,500]DEBUG     4[Thread-0] - io.dase.network.DamqRcvConsumer.run(DamqRcvConsumer.java:71) - DamqRcvConsumer begins.
+[2017-10-12 12:56:29,500]ERROR     4[Thread-0] - io.dase.network.DamqSndProducer.InitDamqSndProducer(DamqSndProducer.java:35) - InitDamqSndProducer
+[2017-10-12 12:56:29,501]DEBUG     5[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:18) - DamqRcvProducer begins.
+[2017-10-12 12:56:29,501]DEBUG     5[Thread-2] - io.dase.network.DamqSndConsumer.run(DamqSndConsumer.java:21) - DamqSndConsumer begins.
+[2017-10-12 12:56:32,097]DEBUG  2601[Thread-0] - aries.DeviceManager.DevMgr.MainProc(DevMgr.java:42) - origin:common & msgid:msgid-signout-1234-5678-0001ab & body:{}
+[2017-10-12 13:01:51,300]DEBUG321804[Thread-0] - aries.DeviceManager.DevMgr.MainProc(DevMgr.java:42) - origin:app & msgid:cc655607-4e6b-489c-964c-748e3c2505ab & body:{"authcode":"48ff254740b053676001","provider":"github"}
+[2017-10-12 14:09:12,248]ERROR362752[main] - aries.DeviceManager.App.main(App.java:96) - ma1n error: No line found
+[2017-10-12 14:09:14,830]DEBUG     0[main] - aries.DeviceManager.App.main(App.java:18) - Hola
+[2017-10-12 14:09:14,834]DEBUG     4[Thread-0] - io.dase.network.DamqRcvConsumer.run(DamqRcvConsumer.java:71) - DamqRcvConsumer begins.
+[2017-10-12 14:09:14,835]ERROR     5[Thread-0] - io.dase.network.DamqSndProducer.InitDamqSndProducer(DamqSndProducer.java:35) - InitDamqSndProducer
+[2017-10-12 14:09:14,835]DEBUG     5[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:18) - DamqRcvProducer begins.
+[2017-10-12 14:09:14,835]DEBUG     5[Thread-2] - io.dase.network.DamqSndConsumer.run(DamqSndConsumer.java:21) - DamqSndConsumer begins.
+[2017-10-12 14:09:23,711]DEBUG  8881[Thread-0] - aries.DeviceManager.DevMgr.MainProc(DevMgr.java:43) - origin:common & msgid:msgid-signout-1234-5678-0001ab & body:{}
+[2017-10-12 14:24:45,048]DEBUG930218[Thread-0] - aries.DeviceManager.DevMgr.MainProc(DevMgr.java:43) - origin:app & msgid:c803e306-e977-40e8-a994-cfa2f1fff2c2 & body:{"authcode":"c7b432624eafc5e1eb6b","provider":"github"}
+[2017-10-12 14:24:46,058]DEBUG931228[Thread-0] - aries.DeviceManager.DevMgr.MainProc(DevMgr.java:43) - origin:app & msgid:dd5b040e-06c0-4c64-b94d-cea6af57c431 & body:{"uid":"22883d77-4ab8-4b80-b75b-74774868b484","accesstoken":"e00d0d9ec36095d749a350dab04b5a8c1b94e136"}
+[2017-10-12 14:56:48,988]ERROR854158[main] - aries.DeviceManager.App.main(App.java:96) - ma1n error: No line found
+[2017-10-12 14:56:48,988]DEBUG854158[main] - aries.DeviceManager.App.main(App.java:100) - Adios
+[2017-10-12 14:56:50,378]DEBUG     0[main] - aries.DeviceManager.App.main(App.java:18) - Hola
+[2017-10-12 14:56:50,382]DEBUG     4[Thread-0] - io.dase.network.DamqRcvConsumer.run(DamqRcvConsumer.java:71) - DamqRcvConsumer begins.
+[2017-10-12 14:56:50,383]ERROR     5[Thread-0] - io.dase.network.DamqSndProducer.InitDamqSndProducer(DamqSndProducer.java:35) - InitDamqSndProducer
+[2017-10-12 14:56:50,383]DEBUG     5[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:18) - DamqRcvProducer begins.
+[2017-10-12 14:56:50,383]DEBUG     5[Thread-2] - io.dase.network.DamqSndConsumer.run(DamqSndConsumer.java:21) - DamqSndConsumer begins.
+[2017-10-12 14:57:00,819]DEBUG 10441[Thread-0] - aries.DeviceManager.DevMgr.MainProc(DevMgr.java:42) - origin:common & msgid:msgid-signout-1234-5678-0001ab & body:{}
+[2017-10-12 14:57:00,827]ERROR 10449[Thread-0] - aries.DeviceManager.DevMgr.ExceptionProc(DevMgr.java:74) - err0r: null
+[2017-10-12 14:57:24,504]DEBUG 34126[Thread-0] - aries.DeviceManager.DevMgr.MainProc(DevMgr.java:42) - origin:common & msgid:msgid-signout-1234-5678-0001ab & body:{}
+[2017-10-12 14:57:24,505]ERROR 34127[Thread-0] - aries.DeviceManager.DevMgr.ExceptionProc(DevMgr.java:74) - err0r: null
+[2017-10-12 14:57:50,418]DEBUG 60040[Thread-0] - aries.DeviceManager.DevMgr.MainProc(DevMgr.java:42) - origin:app & msgid:cc655607-4e6b-489c-964c-748e3c2505ab & body:{"authcode":"48ff254740b053676001","provider":"github"}
+[2017-10-12 14:57:51,789]DEBUG 61411[Thread-0] - aries.DeviceManager.DevMgr.MainProc(DevMgr.java:42) - origin:app & msgid:67c06edb-8f19-4fce-a150-0542cd7fc6cc & body:{"uid":"22883d77-4ab8-4b80-b75b-74774868b484","accesstoken":"e00d0d9ec36095d749a350dab04b5a8c1b94e136"}
+[2017-10-12 14:58:10,974]DEBUG 80596[Thread-0] - aries.DeviceManager.DevMgr.MainProc(DevMgr.java:42) - origin:common & msgid:msgid-signout-1234-5678-0001ab & body:{}
+[2017-10-12 14:58:10,975]ERROR 80597[Thread-0] - aries.DeviceManager.DevMgr.ExceptionProc(DevMgr.java:74) - err0r: null
+[2017-10-12 14:59:04,084]ERROR133706[main] - aries.DeviceManager.App.main(App.java:96) - ma1n error: No line found
+[2017-10-12 14:59:04,085]DEBUG133707[main] - aries.DeviceManager.App.main(App.java:100) - Adios
+[2017-10-12 14:59:05,732]DEBUG     0[main] - aries.DeviceManager.App.main(App.java:18) - Hola
+[2017-10-12 14:59:05,736]DEBUG     4[Thread-0] - io.dase.network.DamqRcvConsumer.run(DamqRcvConsumer.java:71) - DamqRcvConsumer begins.
+[2017-10-12 14:59:05,737]ERROR     5[Thread-0] - io.dase.network.DamqSndProducer.InitDamqSndProducer(DamqSndProducer.java:35) - InitDamqSndProducer
+[2017-10-12 14:59:05,737]DEBUG     5[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:18) - DamqRcvProducer begins.
+[2017-10-12 14:59:05,738]DEBUG     6[Thread-2] - io.dase.network.DamqSndConsumer.run(DamqSndConsumer.java:21) - DamqSndConsumer begins.
+[2017-10-12 14:59:09,228]DEBUG  3496[Thread-0] - aries.DeviceManager.DevMgr.MainProc(DevMgr.java:42) - origin:common & msgid:msgid-signout-1234-5678-0001ab & body:{}
+[2017-10-12 14:59:09,236]ERROR  3504[Thread-0] - aries.DeviceManager.DevMgr.ExceptionProc(DevMgr.java:74) - err0r: null
+[2017-10-12 14:59:23,100]DEBUG 17368[Thread-0] - aries.DeviceManager.DevMgr.MainProc(DevMgr.java:42) - origin:app & msgid:cc655607-4e6b-489c-964c-748e3c2505ab & body:{"authcode":"48ff254740b053676001","provider":"github"}
+[2017-10-12 14:59:24,118]DEBUG 18386[Thread-0] - aries.DeviceManager.DevMgr.MainProc(DevMgr.java:42) - origin:app & msgid:c43be45b-876a-47cf-9188-8e3648e6828d & body:{"uid":"22883d77-4ab8-4b80-b75b-74774868b484","accesstoken":"e00d0d9ec36095d749a350dab04b5a8c1b94e136"}
+[2017-10-12 14:59:42,805]DEBUG 37073[Thread-0] - aries.DeviceManager.DevMgr.MainProc(DevMgr.java:42) - origin:common & msgid:msgid-signout-1234-5678-0001ab & body:{}
+[2017-10-12 14:59:42,807]ERROR 37075[Thread-0] - aries.DeviceManager.DevMgr.ExceptionProc(DevMgr.java:74) - err0r: null
+[2017-10-12 15:00:23,252]ERROR 77520[main] - aries.DeviceManager.App.main(App.java:96) - ma1n error: No line found
+[2017-10-12 15:00:23,252]DEBUG 77520[main] - aries.DeviceManager.App.main(App.java:100) - Adios
+[2017-10-12 15:00:43,827]DEBUG     0[main] - aries.DeviceManager.App.main(App.java:18) - Hola
+[2017-10-12 15:00:43,840]DEBUG    13[Thread-0] - io.dase.network.DamqRcvConsumer.run(DamqRcvConsumer.java:71) - DamqRcvConsumer begins.
+[2017-10-12 15:00:43,841]ERROR    14[Thread-0] - io.dase.network.DamqSndProducer.InitDamqSndProducer(DamqSndProducer.java:35) - InitDamqSndProducer
+[2017-10-12 15:00:43,841]DEBUG    14[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:18) - DamqRcvProducer begins.
+[2017-10-12 15:00:43,842]DEBUG    15[Thread-2] - io.dase.network.DamqSndConsumer.run(DamqSndConsumer.java:21) - DamqSndConsumer begins.
+[2017-10-12 15:01:13,523]DEBUG 29696[Thread-0] - aries.DeviceManager.DevMgr.MainProc(DevMgr.java:42) - origin:common & msgid:msgid-signout-1234-5678-0001ab & body:{}
+[2017-10-12 15:01:41,411]ERROR 57584[Thread-0] - aries.DeviceManager.DevMgr.ExceptionProc(DevMgr.java:74) - err0r: null
+[2017-10-12 15:01:57,635]DEBUG 73808[Thread-0] - aries.DeviceManager.DevMgr.MainProc(DevMgr.java:42) - origin:common & msgid:msgid-signout-1234-5678-0001ab & body:{}
+[2017-10-12 15:02:19,160]ERROR 95333[Thread-0] - aries.DeviceManager.DevMgr.ExceptionProc(DevMgr.java:74) - err0r: null
+[2017-10-12 15:02:30,344]DEBUG106517[Thread-0] - aries.DeviceManager.DevMgr.MainProc(DevMgr.java:42) - origin:common & msgid:msgid-signout-1234-5678-0001ab & body:{}
+[2017-10-12 15:05:13,180]DEBUG     0[main] - aries.DeviceManager.App.main(App.java:18) - Hola
+[2017-10-12 15:05:13,184]DEBUG     4[Thread-0] - io.dase.network.DamqRcvConsumer.run(DamqRcvConsumer.java:71) - DamqRcvConsumer begins.
+[2017-10-12 15:05:13,185]ERROR     5[Thread-0] - io.dase.network.DamqSndProducer.InitDamqSndProducer(DamqSndProducer.java:35) - InitDamqSndProducer
+[2017-10-12 15:05:13,185]DEBUG     5[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:18) - DamqRcvProducer begins.
+[2017-10-12 15:05:13,185]DEBUG     5[Thread-2] - io.dase.network.DamqSndConsumer.run(DamqSndConsumer.java:21) - DamqSndConsumer begins.
+[2017-10-12 15:05:17,580]DEBUG  4400[Thread-0] - aries.DeviceManager.DevMgr.MainProc(DevMgr.java:42) - origin:common & msgid:msgid-signout-1234-5678-0001ab & body:{}
+[2017-10-12 15:05:17,587]ERROR  4407[Thread-0] - aries.DeviceManager.DevMgr.ExceptionProc(DevMgr.java:74) - err0r: null
+[2017-10-12 15:05:23,061]ERROR  9881[main] - aries.DeviceManager.App.main(App.java:96) - ma1n error: No line found
+[2017-10-12 15:05:23,062]DEBUG  9882[main] - aries.DeviceManager.App.main(App.java:100) - Adios
+[2017-10-12 15:05:29,679]DEBUG     0[main] - aries.DeviceManager.App.main(App.java:18) - Hola
+[2017-10-12 15:05:29,692]DEBUG    13[Thread-0] - io.dase.network.DamqRcvConsumer.run(DamqRcvConsumer.java:71) - DamqRcvConsumer begins.
+[2017-10-12 15:05:29,693]ERROR    14[Thread-0] - io.dase.network.DamqSndProducer.InitDamqSndProducer(DamqSndProducer.java:35) - InitDamqSndProducer
+[2017-10-12 15:05:29,693]DEBUG    14[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:18) - DamqRcvProducer begins.
+[2017-10-12 15:05:29,694]DEBUG    15[Thread-2] - io.dase.network.DamqSndConsumer.run(DamqSndConsumer.java:21) - DamqSndConsumer begins.
+[2017-10-12 15:05:47,519]DEBUG 17840[Thread-0] - aries.DeviceManager.DevMgr.MainProc(DevMgr.java:42) - origin:common & msgid:msgid-signout-1234-5678-0001ab & body:{}
+[2017-10-12 15:36:14,341]DEBUG     0[main] - aries.DeviceManager.App.main(App.java:18) - Hola
+[2017-10-12 15:36:14,345]DEBUG     4[Thread-0] - io.dase.network.DamqRcvConsumer.run(DamqRcvConsumer.java:71) - DamqRcvConsumer begins.
+[2017-10-12 15:36:14,346]ERROR     5[Thread-0] - io.dase.network.DamqSndProducer.InitDamqSndProducer(DamqSndProducer.java:35) - InitDamqSndProducer
+[2017-10-12 15:36:14,346]DEBUG     5[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:18) - DamqRcvProducer begins.
+[2017-10-12 15:36:14,346]DEBUG     5[Thread-2] - io.dase.network.DamqSndConsumer.run(DamqSndConsumer.java:21) - DamqSndConsumer begins.
+[2017-10-12 15:36:17,326]ERROR  2985[main] - aries.DeviceManager.App.main(App.java:96) - ma1n error: A JSONObject text must begin with '{' at 3 [character 4 line 1]
+[2017-10-12 15:36:17,326]DEBUG  2985[main] - aries.DeviceManager.App.main(App.java:100) - Adios
+[2017-10-12 15:36:31,282]DEBUG     0[main] - aries.DeviceManager.App.main(App.java:18) - Hola
+[2017-10-12 15:36:31,286]DEBUG     4[Thread-0] - io.dase.network.DamqRcvConsumer.run(DamqRcvConsumer.java:71) - DamqRcvConsumer begins.
+[2017-10-12 15:36:31,286]ERROR     4[Thread-0] - io.dase.network.DamqSndProducer.InitDamqSndProducer(DamqSndProducer.java:35) - InitDamqSndProducer
+[2017-10-12 15:36:31,286]DEBUG     4[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:18) - DamqRcvProducer begins.
+[2017-10-12 15:36:31,287]DEBUG     5[Thread-2] - io.dase.network.DamqSndConsumer.run(DamqSndConsumer.java:21) - DamqSndConsumer begins.
+[2017-10-12 15:36:32,350]DEBUG  1068[Thread-0] - aries.DeviceManager.DevMgr.MainProc(DevMgr.java:42) - origin:common & msgid:msgid-signout-1234-5678-0001ab & body:{}
+[2017-10-12 15:39:49,591]ERROR198309[main] - aries.DeviceManager.App.main(App.java:96) - ma1n error: No line found
+[2017-10-12 15:39:49,592]DEBUG198310[main] - aries.DeviceManager.App.main(App.java:100) - Adios
+[2017-10-12 15:39:57,527]DEBUG     0[main] - aries.DeviceManager.App.main(App.java:18) - Hola
+[2017-10-12 15:39:57,531]DEBUG     4[Thread-0] - io.dase.network.DamqRcvConsumer.run(DamqRcvConsumer.java:71) - DamqRcvConsumer begins.
+[2017-10-12 15:39:57,531]ERROR     4[Thread-0] - io.dase.network.DamqSndProducer.InitDamqSndProducer(DamqSndProducer.java:35) - InitDamqSndProducer
+[2017-10-12 15:39:57,531]DEBUG     4[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:18) - DamqRcvProducer begins.
+[2017-10-12 15:39:57,532]DEBUG     5[Thread-2] - io.dase.network.DamqSndConsumer.run(DamqSndConsumer.java:21) - DamqSndConsumer begins.
+[2017-10-12 15:39:59,101]DEBUG  1574[Thread-0] - aries.DeviceManager.DevMgr.MainProc(DevMgr.java:42) - origin:common & msgid:msgid-signout-1234-5678-0001ab & body:{}
+[2017-10-12 15:45:47,328]ERROR349801[main] - aries.DeviceManager.App.main(App.java:96) - ma1n error: No line found
+[2017-10-12 15:45:47,328]DEBUG349801[main] - aries.DeviceManager.App.main(App.java:100) - Adios
+[2017-10-12 15:46:51,734]DEBUG     0[main] - aries.DeviceManager.App.main(App.java:18) - Hola
+[2017-10-12 15:46:51,738]DEBUG     4[Thread-0] - io.dase.network.DamqRcvConsumer.run(DamqRcvConsumer.java:71) - DamqRcvConsumer begins.
+[2017-10-12 15:46:51,739]ERROR     5[Thread-0] - io.dase.network.DamqSndProducer.InitDamqSndProducer(DamqSndProducer.java:35) - InitDamqSndProducer
+[2017-10-12 15:46:51,739]DEBUG     5[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:18) - DamqRcvProducer begins.
+[2017-10-12 15:46:51,740]DEBUG     6[Thread-2] - io.dase.network.DamqSndConsumer.run(DamqSndConsumer.java:21) - DamqSndConsumer begins.
+[2017-10-12 15:47:02,090]DEBUG 10356[Thread-0] - aries.DeviceManager.DevMgr.MainProc(DevMgr.java:42) - origin:common & msgid:msgid-signout-1234-5678-0001ab & body:{}
+[2017-10-12 16:18:51,355]ERROR919621[main] - aries.DeviceManager.App.main(App.java:96) - ma1n error: No line found
+[2017-10-12 16:18:51,356]DEBUG919622[main] - aries.DeviceManager.App.main(App.java:100) - Adios
+[2017-10-12 16:18:53,578]DEBUG     0[main] - aries.DeviceManager.App.main(App.java:18) - Hola
+[2017-10-12 16:18:53,583]DEBUG     5[Thread-0] - io.dase.network.DamqRcvConsumer.run(DamqRcvConsumer.java:71) - DamqRcvConsumer begins.
+[2017-10-12 16:18:53,583]ERROR     5[Thread-0] - io.dase.network.DamqSndProducer.InitDamqSndProducer(DamqSndProducer.java:35) - InitDamqSndProducer
+[2017-10-12 16:18:53,583]DEBUG     5[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:18) - DamqRcvProducer begins.
+[2017-10-12 16:18:53,584]DEBUG     6[Thread-2] - io.dase.network.DamqSndConsumer.run(DamqSndConsumer.java:21) - DamqSndConsumer begins.
+[2017-10-12 16:19:33,876]DEBUG 40298[Thread-0] - aries.DeviceManager.DevMgr.MainProc(DevMgr.java:42) - origin:common & msgid:msgid-signout-1234-5678-0001ab & body:{}
+[2017-10-12 16:22:25,493]ERROR211915[main] - aries.DeviceManager.App.main(App.java:96) - ma1n error: No line found
+[2017-10-12 16:22:27,367]DEBUG     0[main] - aries.DeviceManager.App.main(App.java:18) - Hola
+[2017-10-12 16:22:27,372]DEBUG     5[Thread-0] - io.dase.network.DamqRcvConsumer.run(DamqRcvConsumer.java:71) - DamqRcvConsumer begins.
+[2017-10-12 16:22:27,373]ERROR     6[Thread-0] - io.dase.network.DamqSndProducer.InitDamqSndProducer(DamqSndProducer.java:35) - InitDamqSndProducer
+[2017-10-12 16:22:27,373]DEBUG     6[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:18) - DamqRcvProducer begins.
+[2017-10-12 16:22:27,374]DEBUG     7[Thread-2] - io.dase.network.DamqSndConsumer.run(DamqSndConsumer.java:21) - DamqSndConsumer begins.
+[2017-10-12 16:22:33,307]DEBUG  5940[Thread-0] - aries.DeviceManager.DevMgr.MainProc(DevMgr.java:42) - origin:common & msgid:msgid-signout-1234-5678-0001ab & body:{}
+[2017-10-12 16:23:41,597]ERROR 74230[main] - aries.DeviceManager.App.main(App.java:96) - ma1n error: No line found
+[2017-10-12 16:23:42,802]DEBUG     0[main] - aries.DeviceManager.App.main(App.java:18) - Hola
+[2017-10-12 16:23:42,806]DEBUG     4[Thread-0] - io.dase.network.DamqRcvConsumer.run(DamqRcvConsumer.java:71) - DamqRcvConsumer begins.
+[2017-10-12 16:23:42,807]ERROR     5[Thread-0] - io.dase.network.DamqSndProducer.InitDamqSndProducer(DamqSndProducer.java:35) - InitDamqSndProducer
+[2017-10-12 16:23:42,807]DEBUG     5[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:18) - DamqRcvProducer begins.
+[2017-10-12 16:23:42,807]DEBUG     5[Thread-2] - io.dase.network.DamqSndConsumer.run(DamqSndConsumer.java:21) - DamqSndConsumer begins.
+[2017-10-12 16:23:48,422]DEBUG  5620[Thread-0] - aries.DeviceManager.DevMgr.MainProc(DevMgr.java:42) - origin:common & msgid:msgid-signout-1234-5678-0001ab & body:{}
+[2017-10-12 16:24:25,197]ERROR 42395[main] - aries.DeviceManager.App.main(App.java:96) - ma1n error: No line found
+[2017-10-12 16:24:25,197]DEBUG 42395[main] - aries.DeviceManager.App.main(App.java:100) - Adios
+[2017-10-12 16:24:27,213]DEBUG     0[main] - aries.DeviceManager.App.main(App.java:18) - Hola
+[2017-10-12 16:24:27,218]DEBUG     5[Thread-0] - io.dase.network.DamqRcvConsumer.run(DamqRcvConsumer.java:71) - DamqRcvConsumer begins.
+[2017-10-12 16:24:27,218]ERROR     5[Thread-0] - io.dase.network.DamqSndProducer.InitDamqSndProducer(DamqSndProducer.java:35) - InitDamqSndProducer
+[2017-10-12 16:24:27,218]DEBUG     5[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:18) - DamqRcvProducer begins.
+[2017-10-12 16:24:27,219]DEBUG     6[Thread-2] - io.dase.network.DamqSndConsumer.run(DamqSndConsumer.java:21) - DamqSndConsumer begins.
+[2017-10-12 16:24:33,544]DEBUG  6331[Thread-0] - aries.DeviceManager.DevMgr.MainProc(DevMgr.java:42) - origin:common & msgid:msgid-signout-1234-5678-0001ab & body:{}
+[2017-10-12 16:24:33,555]ERROR  6342[Thread-0] - aries.DeviceManager.DevMgr.ExceptionProc(DevMgr.java:74) - err0r: null
+[2017-10-12 16:27:45,991]ERROR198778[main] - aries.DeviceManager.App.main(App.java:96) - ma1n error: No line found
+[2017-10-12 16:27:45,992]DEBUG198779[main] - aries.DeviceManager.App.main(App.java:100) - Adios
+[2017-10-12 16:27:47,287]DEBUG     0[main] - aries.DeviceManager.App.main(App.java:18) - Hola
+[2017-10-12 16:27:47,292]DEBUG     5[Thread-0] - io.dase.network.DamqRcvConsumer.run(DamqRcvConsumer.java:71) - DamqRcvConsumer begins.
+[2017-10-12 16:27:47,293]ERROR     6[Thread-0] - io.dase.network.DamqSndProducer.InitDamqSndProducer(DamqSndProducer.java:35) - InitDamqSndProducer
+[2017-10-12 16:27:47,293]DEBUG     6[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:18) - DamqRcvProducer begins.
+[2017-10-12 16:27:47,293]DEBUG     6[Thread-2] - io.dase.network.DamqSndConsumer.run(DamqSndConsumer.java:21) - DamqSndConsumer begins.
+[2017-10-12 16:27:51,759]DEBUG  4472[Thread-0] - aries.DeviceManager.DevMgr.MainProc(DevMgr.java:42) - origin:common & msgid:msgid-signout-1234-5678-0001ab & body:{}
+[2017-10-12 16:28:04,472]DEBUG 17185[Thread-0] - aries.DeviceManager.DevMgr.MainProc(DevMgr.java:42) - origin:common & msgid:msgid-signout-1234-5678-0001ab & body:{}
+[2017-10-12 16:28:09,475]DEBUG 22188[Thread-0] - aries.DeviceManager.DevMgr.MainProc(DevMgr.java:42) - origin:common & msgid:msgid-signout-1234-5678-0001ab & body:{}
+[2017-10-12 16:30:07,622]ERROR140335[main] - aries.DeviceManager.App.main(App.java:96) - ma1n error: No line found
+[2017-10-12 16:30:07,623]DEBUG140336[main] - aries.DeviceManager.App.main(App.java:100) - Adios
+[2017-10-12 16:30:09,313]DEBUG     0[main] - aries.DeviceManager.App.main(App.java:18) - Hola
+[2017-10-12 16:30:09,317]DEBUG     4[Thread-0] - io.dase.network.DamqRcvConsumer.run(DamqRcvConsumer.java:71) - DamqRcvConsumer begins.
+[2017-10-12 16:30:09,317]ERROR     4[Thread-0] - io.dase.network.DamqSndProducer.InitDamqSndProducer(DamqSndProducer.java:35) - InitDamqSndProducer
+[2017-10-12 16:30:09,317]DEBUG     4[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:18) - DamqRcvProducer begins.
+[2017-10-12 16:30:09,320]DEBUG     7[Thread-2] - io.dase.network.DamqSndConsumer.run(DamqSndConsumer.java:21) - DamqSndConsumer begins.
+[2017-10-12 16:30:14,263]DEBUG  4950[Thread-0] - aries.DeviceManager.DevMgr.MainProc(DevMgr.java:42) - origin:common & msgid:msgid-signout-1234-5678-0001ab & body:{}
+[2017-10-12 16:30:22,110]DEBUG 12797[Thread-0] - aries.DeviceManager.DevMgr.MainProc(DevMgr.java:42) - origin:common & msgid:msgid-signout-1234-5678-0001ab & body:{}
+[2017-10-12 16:30:44,735]DEBUG 35422[Thread-0] - aries.DeviceManager.DevMgr.MainProc(DevMgr.java:42) - origin:common & msgid:msgid-signout-1234-5678-0001ab & body:{}
+[2017-10-12 16:30:49,737]DEBUG 40424[Thread-0] - aries.DeviceManager.DevMgr.MainProc(DevMgr.java:42) - origin:common & msgid:msgid-signout-1234-5678-0001ab & body:{}
+[2017-10-12 16:32:04,757]DEBUG115444[Thread-0] - aries.DeviceManager.DevMgr.MainProc(DevMgr.java:42) - origin:app & msgid:f806e464-89fd-4b72-839f-651cbcdf614a & body:{"authcode":"cde5830194016714ead7","provider":"github"}
+[2017-10-12 16:32:05,806]DEBUG116493[Thread-0] - aries.DeviceManager.DevMgr.MainProc(DevMgr.java:42) - origin:app & msgid:a0ef45fe-8e95-4acd-921b-ed28bf63bd95 & body:{"uid":"22883d77-4ab8-4b80-b75b-74774868b484","accesstoken":"e00d0d9ec36095d749a350dab04b5a8c1b94e136"}
+[2017-10-12 16:32:17,001]DEBUG127688[Thread-0] - aries.DeviceManager.DevMgr.MainProc(DevMgr.java:42) - origin:app & msgid:3ba55cf3-cb99-426f-ac19-ac9ab4bf5a30 & body:{}
+[2017-10-12 16:33:09,440]DEBUG180127[Thread-0] - aries.DeviceManager.DevMgr.MainProc(DevMgr.java:42) - origin:app & msgid:7400c737-913b-4c60-b654-21041da5200c & body:{"authcode":"d8e68622d9622cfdfdf7","provider":"github"}
+[2017-10-12 16:33:10,522]DEBUG181209[Thread-0] - aries.DeviceManager.DevMgr.MainProc(DevMgr.java:42) - origin:app & msgid:bea3d4e3-5f0a-4f47-9048-ddae20f00968 & body:{"uid":"22883d77-4ab8-4b80-b75b-74774868b484","accesstoken":"e00d0d9ec36095d749a350dab04b5a8c1b94e136"}
+[2017-10-12 16:33:17,330]DEBUG188017[Thread-0] - aries.DeviceManager.DevMgr.MainProc(DevMgr.java:42) - origin:app & msgid:2db86f02-74a5-44bb-933d-cca7b34087c9 & body:{}
+[2017-10-12 16:35:35,232]DEBUG325919[Thread-0] - aries.DeviceManager.DevMgr.MainProc(DevMgr.java:42) - origin:app & msgid:85b9de24-ef24-4405-8001-3211584c5acc & body:{"authcode":"c43fe50880d4cdf0994d","provider":"github"}
+[2017-10-12 16:35:36,242]DEBUG326929[Thread-0] - aries.DeviceManager.DevMgr.MainProc(DevMgr.java:42) - origin:app & msgid:17224092-252d-4d41-8d4f-5888190c6889 & body:{"uid":"22883d77-4ab8-4b80-b75b-74774868b484","accesstoken":"e00d0d9ec36095d749a350dab04b5a8c1b94e136"}
+[2017-10-12 16:35:40,179]DEBUG330866[Thread-0] - aries.DeviceManager.DevMgr.MainProc(DevMgr.java:42) - origin:app & msgid:3cab2b3b-00a3-405e-b241-c9909594ff35 & body:{}
+[2017-10-12 16:38:37,007]DEBUG507694[Thread-0] - aries.DeviceManager.DevMgr.MainProc(DevMgr.java:42) - origin:app & msgid:512a2bf5-d1b0-40a2-878f-292382909018 & body:{"authcode":"4c193a77eac0d22dfa48","provider":"github"}
+[2017-10-12 16:38:38,098]DEBUG508785[Thread-0] - aries.DeviceManager.DevMgr.MainProc(DevMgr.java:42) - origin:app & msgid:a0621f6b-606a-47c4-b6c9-fa2cce638583 & body:{"uid":"22883d77-4ab8-4b80-b75b-74774868b484","accesstoken":"e00d0d9ec36095d749a350dab04b5a8c1b94e136"}
+[2017-10-12 16:43:30,867]DEBUG801554[Thread-0] - aries.DeviceManager.DevMgr.MainProc(DevMgr.java:42) - origin:app & msgid:0caadd44-df91-46ec-ad2b-be65fd1968fc & body:{"authcode":"4a6468fd87eabb1297c6","provider":"github"}
+[2017-10-12 16:43:31,988]DEBUG802675[Thread-0] - aries.DeviceManager.DevMgr.MainProc(DevMgr.java:42) - origin:app & msgid:d7d8297a-051c-4b20-8ac4-29172c3c1941 & body:{"uid":"22883d77-4ab8-4b80-b75b-74774868b484","accesstoken":"e00d0d9ec36095d749a350dab04b5a8c1b94e136"}
+[2017-10-12 16:43:31,991]DEBUG802678[Thread-0] - aries.DeviceManager.DevMgr.MainProc(DevMgr.java:42) - origin:app & msgid:d1f90284-50c3-4914-8056-9a425c6c8bb0 & body:{"uid":"22883d77-4ab8-4b80-b75b-74774868b484","accesstoken":"e00d0d9ec36095d749a350dab04b5a8c1b94e136"}
+[2017-10-12 17:06:50,313]DEBUG201000[Thread-0] - aries.DeviceManager.DevMgr.MainProc(DevMgr.java:42) - origin:app & msgid:c62f92f2-8258-47d0-bbef-c05a4177d255 & body:{"authcode":"bcef5917644231198be1","provider":"github"}
+[2017-10-12 17:06:51,803]DEBUG202490[Thread-0] - aries.DeviceManager.DevMgr.MainProc(DevMgr.java:42) - origin:app & msgid:fefbcab2-8073-482f-b0e6-4e8722447300 & body:{"uid":"22883d77-4ab8-4b80-b75b-74774868b484","accesstoken":"e00d0d9ec36095d749a350dab04b5a8c1b94e136"}
+[2017-10-12 17:07:35,950]DEBUG246637[Thread-0] - aries.DeviceManager.DevMgr.MainProc(DevMgr.java:42) - origin:app & msgid:8efed787-9f01-4a1a-a1ee-d1790881c31e & body:{"authcode":"590cb951183c91497c55","provider":"github"}
+[2017-10-12 17:07:37,069]DEBUG247756[Thread-0] - aries.DeviceManager.DevMgr.MainProc(DevMgr.java:42) - origin:app & msgid:b82e1b9a-9c15-4d40-b0f7-a7776c847f42 & body:{"uid":"22883d77-4ab8-4b80-b75b-74774868b484","accesstoken":"e00d0d9ec36095d749a350dab04b5a8c1b94e136"}
+[2017-10-12 17:07:37,073]DEBUG247760[Thread-0] - aries.DeviceManager.DevMgr.MainProc(DevMgr.java:42) - origin:app & msgid:d0c4563c-416c-445f-9f1e-429c4b3ea18d & body:{"uid":"22883d77-4ab8-4b80-b75b-74774868b484","accesstoken":"e00d0d9ec36095d749a350dab04b5a8c1b94e136"}
+[2017-10-12 17:08:29,089]DEBUG299776[Thread-0] - aries.DeviceManager.DevMgr.MainProc(DevMgr.java:42) - origin:app & msgid:30759c54-886a-4f92-bd46-a51a09c605c3 & body:{"authcode":"6d2d1afa92e6921de841","provider":"github"}
+[2017-10-12 17:08:30,217]DEBUG300904[Thread-0] - aries.DeviceManager.DevMgr.MainProc(DevMgr.java:42) - origin:app & msgid:12c6b8d3-c6ad-466a-bee2-1fc0b4690690 & body:{"uid":"22883d77-4ab8-4b80-b75b-74774868b484","accesstoken":"e00d0d9ec36095d749a350dab04b5a8c1b94e136"}
+[2017-10-12 17:29:35,163]DEBUG565850[Thread-0] - aries.DeviceManager.DevMgr.MainProc(DevMgr.java:42) - origin:app & msgid:867aa43b-15ed-4960-a803-e2669d5fc5f2 & body:{"authcode":"9a895fa67f886989238b","provider":"github"}
+[2017-10-12 17:29:36,177]DEBUG566864[Thread-0] - aries.DeviceManager.DevMgr.MainProc(DevMgr.java:42) - origin:app & msgid:7aa650a8-02da-4232-a7fe-5ea7b4f694b5 & body:{"uid":"22883d77-4ab8-4b80-b75b-74774868b484","accesstoken":"e00d0d9ec36095d749a350dab04b5a8c1b94e136"}
+[2017-10-12 17:29:44,341]DEBUG575028[Thread-0] - aries.DeviceManager.DevMgr.MainProc(DevMgr.java:42) - origin:app & msgid:d2d04772-6e9e-4b39-9bd3-c4607704bf59 & body:{}
+[2017-10-12 17:31:09,435]DEBUG660122[Thread-0] - aries.DeviceManager.DevMgr.MainProc(DevMgr.java:42) - origin:app & msgid:aeb0dde1-4299-4067-8aa4-4ab72288dd9a & body:{"authcode":"b28bc6c91b2bf77a829d","provider":"github"}
+[2017-10-12 17:31:10,505]DEBUG661192[Thread-0] - aries.DeviceManager.DevMgr.MainProc(DevMgr.java:42) - origin:app & msgid:7e10b5fe-64e2-4152-aebd-78db6c338efa & body:{"uid":"22883d77-4ab8-4b80-b75b-74774868b484","accesstoken":"e00d0d9ec36095d749a350dab04b5a8c1b94e136"}
+[2017-10-12 17:31:14,455]DEBUG665142[Thread-0] - aries.DeviceManager.DevMgr.MainProc(DevMgr.java:42) - origin:app & msgid:bf274fcb-665d-4fab-9409-273ab16892e2 & body:{}
+[2017-10-12 17:32:09,759]DEBUG720446[Thread-0] - aries.DeviceManager.DevMgr.MainProc(DevMgr.java:42) - origin:app & msgid:a2cadf3e-e445-4d88-a57e-5eee0f5cab19 & body:{"authcode":"cdba3859a261dc35d467","provider":"github"}
+[2017-10-12 17:32:10,772]DEBUG721459[Thread-0] - aries.DeviceManager.DevMgr.MainProc(DevMgr.java:42) - origin:app & msgid:d1d83405-d210-4a19-8a61-c1c7075c29e1 & body:{"uid":"22883d77-4ab8-4b80-b75b-74774868b484","accesstoken":"e00d0d9ec36095d749a350dab04b5a8c1b94e136"}
+[2017-10-12 17:32:17,276]DEBUG727963[Thread-0] - aries.DeviceManager.DevMgr.MainProc(DevMgr.java:42) - origin:app & msgid:15104b9a-4c2e-4863-98d5-1bb56e015622 & body:{}
+[2017-10-12 17:32:26,375]DEBUG737062[Thread-0] - aries.DeviceManager.DevMgr.MainProc(DevMgr.java:42) - origin:app & msgid:a59af4f3-2727-44de-9e3c-f41839bd0431 & body:{"dev_id":"6341cb6f-2179-55a3-3732-c3ffbad1be68"}
+[2017-10-12 17:32:29,274]DEBUG739961[Thread-0] - aries.DeviceManager.DevMgr.MainProc(DevMgr.java:42) - origin:app & msgid:fc412aa1-40dd-4c75-9d6f-c84591ee9e37 & body:{"res_id":"/oic/route/6341cb6f-2179-55a3-3732-c3ffbad1be68/power/0"}
+[2017-10-12 17:34:35,758]DEBUG866445[Thread-0] - aries.DeviceManager.DevMgr.MainProc(DevMgr.java:42) - origin:app & msgid:32a7c332-6714-4e6d-b99d-54741121f809 & body:{"authcode":"730172cb0f0337c0c081","provider":"github"}
+[2017-10-12 17:34:36,846]DEBUG867533[Thread-0] - aries.DeviceManager.DevMgr.MainProc(DevMgr.java:42) - origin:app & msgid:c1f41a37-b7fa-4c8a-9b93-bebb18573103 & body:{"uid":"22883d77-4ab8-4b80-b75b-74774868b484","accesstoken":"e00d0d9ec36095d749a350dab04b5a8c1b94e136"}
+[2017-10-12 17:34:47,980]DEBUG878667[Thread-0] - aries.DeviceManager.DevMgr.MainProc(DevMgr.java:42) - origin:app & msgid:1e4e901a-9d1e-4ec0-8509-595e1661b407 & body:{}
+[2017-10-12 17:35:49,121]DEBUG939808[Thread-0] - aries.DeviceManager.DevMgr.MainProc(DevMgr.java:42) - origin:app & msgid:3c0abf01-8bcb-45da-b566-6c8b2d78b800 & body:{"authcode":"fd30de1388c92d9a57c7","provider":"github"}
+[2017-10-12 17:35:50,166]DEBUG940853[Thread-0] - aries.DeviceManager.DevMgr.MainProc(DevMgr.java:42) - origin:app & msgid:d43947dc-334a-401d-8347-0acf0a38ee19 & body:{"uid":"22883d77-4ab8-4b80-b75b-74774868b484","accesstoken":"e00d0d9ec36095d749a350dab04b5a8c1b94e136"}
+[2017-10-12 17:35:59,036]DEBUG949723[Thread-0] - aries.DeviceManager.DevMgr.MainProc(DevMgr.java:42) - origin:app & msgid:c911abdb-75d7-4967-bc8a-888dd62036d6 & body:{}
+[2017-10-12 17:48:02,291]DEBUG672978[Thread-0] - aries.DeviceManager.DevMgr.MainProc(DevMgr.java:42) - origin:app & msgid:db8f086d-b1c5-4ef5-9880-7f7273037689 & body:{"authcode":"5d58b475ac0fa92df879","provider":"github"}
+[2017-10-12 17:48:03,312]DEBUG673999[Thread-0] - aries.DeviceManager.DevMgr.MainProc(DevMgr.java:42) - origin:app & msgid:8cfcd943-c601-4540-9a16-635c7c58a446 & body:{"uid":"22883d77-4ab8-4b80-b75b-74774868b484","accesstoken":"e00d0d9ec36095d749a350dab04b5a8c1b94e136"}
+[2017-10-12 17:48:06,470]DEBUG677157[Thread-0] - aries.DeviceManager.DevMgr.MainProc(DevMgr.java:42) - origin:app & msgid:f28fc5f8-49ac-446e-931d-282f9925677c & body:{}
+[2017-10-12 17:49:36,967]DEBUG767654[Thread-0] - aries.DeviceManager.DevMgr.MainProc(DevMgr.java:42) - origin:app & msgid:fb08fa2f-0793-4931-883d-cb97503b1a90 & body:{"dev_id":"6341cb6f-2179-55a3-3732-c3ffbad1be68"}
+[2017-10-12 18:14:31,537]ERROR262224[main] - aries.DeviceManager.App.main(App.java:96) - ma1n error: No line found
+[2017-10-12 18:14:31,541]DEBUG262228[main] - aries.DeviceManager.App.main(App.java:100) - Adios
+[2017-10-12 18:14:34,112]DEBUG     0[main] - aries.DeviceManager.App.main(App.java:18) - Hola
+[2017-10-12 18:14:34,116]DEBUG     4[Thread-0] - io.dase.network.DamqRcvConsumer.run(DamqRcvConsumer.java:71) - DamqRcvConsumer begins.
+[2017-10-12 18:14:34,117]ERROR     5[Thread-0] - io.dase.network.DamqSndProducer.InitDamqSndProducer(DamqSndProducer.java:35) - InitDamqSndProducer
+[2017-10-12 18:14:34,117]DEBUG     5[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:18) - DamqRcvProducer begins.
+[2017-10-12 18:14:34,118]DEBUG     6[Thread-2] - io.dase.network.DamqSndConsumer.run(DamqSndConsumer.java:21) - DamqSndConsumer begins.
+[2017-10-12 18:14:51,656]DEBUG 17544[Thread-0] - aries.DeviceManager.DevMgr.MainProc(DevMgr.java:42) - origin:common & msgid:msgid-signout-1234-5678-0001ab & body:{}
+[2017-10-12 18:14:56,663]DEBUG 22551[Thread-0] - aries.DeviceManager.DevMgr.MainProc(DevMgr.java:42) - origin:common & msgid:msgid-signout-1234-5678-0001ab & body:{}
+[2017-10-12 18:22:01,102]ERROR446990[main] - aries.DeviceManager.App.main(App.java:96) - ma1n error: No line found
+[2017-10-12 18:22:01,103]DEBUG446991[main] - aries.DeviceManager.App.main(App.java:100) - Adios
+[2017-10-12 18:22:04,299]DEBUG     0[main] - aries.DeviceManager.App.main(App.java:18) - Hola
+[2017-10-12 18:22:04,303]DEBUG     4[Thread-0] - io.dase.network.DamqRcvConsumer.run(DamqRcvConsumer.java:71) - DamqRcvConsumer begins.
+[2017-10-12 18:22:04,304]ERROR     5[Thread-0] - io.dase.network.DamqSndProducer.InitDamqSndProducer(DamqSndProducer.java:35) - InitDamqSndProducer
+[2017-10-12 18:22:04,304]DEBUG     5[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:18) - DamqRcvProducer begins.
+[2017-10-12 18:22:04,304]DEBUG     5[Thread-2] - io.dase.network.DamqSndConsumer.run(DamqSndConsumer.java:21) - DamqSndConsumer begins.
+[2017-10-12 18:23:48,431]ERROR104132[main] - aries.DeviceManager.App.main(App.java:96) - ma1n error: No line found
+[2017-10-12 18:23:48,432]DEBUG104133[main] - aries.DeviceManager.App.main(App.java:100) - Adios
+[2017-10-12 18:23:49,982]DEBUG     0[main] - aries.DeviceManager.App.main(App.java:18) - Hola
+[2017-10-12 18:23:49,986]DEBUG     4[Thread-0] - io.dase.network.DamqRcvConsumer.run(DamqRcvConsumer.java:71) - DamqRcvConsumer begins.
+[2017-10-12 18:23:49,987]ERROR     5[Thread-0] - io.dase.network.DamqSndProducer.InitDamqSndProducer(DamqSndProducer.java:35) - InitDamqSndProducer
+[2017-10-12 18:23:49,987]DEBUG     5[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:18) - DamqRcvProducer begins.
+[2017-10-12 18:23:49,988]DEBUG     6[Thread-2] - io.dase.network.DamqSndConsumer.run(DamqSndConsumer.java:21) - DamqSndConsumer begins.
+[2017-10-12 18:24:01,892]DEBUG 11910[Thread-0] - aries.DeviceManager.DevMgr.MainProc(DevMgr.java:42) - origin:common & msgid:msgid-signout-1234-5678-0001ab & body:{}
+[2017-10-12 18:25:44,485]ERROR114503[main] - aries.DeviceManager.App.main(App.java:96) - ma1n error: No line found
+[2017-10-12 18:25:44,486]DEBUG114504[main] - aries.DeviceManager.App.main(App.java:100) - Adios
+[2017-10-12 18:25:46,809]DEBUG     0[main] - aries.DeviceManager.App.main(App.java:18) - Hola
+[2017-10-12 18:25:46,814]DEBUG     5[Thread-0] - io.dase.network.DamqRcvConsumer.run(DamqRcvConsumer.java:71) - DamqRcvConsumer begins.
+[2017-10-12 18:25:46,814]ERROR     5[Thread-0] - io.dase.network.DamqSndProducer.InitDamqSndProducer(DamqSndProducer.java:35) - InitDamqSndProducer
+[2017-10-12 18:25:46,815]DEBUG     6[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:18) - DamqRcvProducer begins.
+[2017-10-12 18:25:46,815]DEBUG     6[Thread-2] - io.dase.network.DamqSndConsumer.run(DamqSndConsumer.java:21) - DamqSndConsumer begins.
+[2017-10-12 18:25:55,390]DEBUG  8581[Thread-0] - aries.DeviceManager.DevMgr.MainProc(DevMgr.java:42) - origin:common & msgid:msgid-signout-1234-5678-0001ab & body:{}
+[2017-10-12 18:31:01,998]ERROR315189[main] - aries.DeviceManager.App.main(App.java:96) - ma1n error: No line found
+[2017-10-12 18:31:01,998]DEBUG315189[main] - aries.DeviceManager.App.main(App.java:100) - Adios

@@ -19,6 +19,7 @@ import aries.MessageProcess.MsgProc_SignOut;
 import aries.MessageProcess.MsgProc_SignUp;
 import aries.MessageProcess.ObservableRespMsg;
 import aries.ResourceManager.RsrcMgr;
+import aries.TriggerManager.TrgMgr;
 import io.dase.network.DamqRcvConsumer;
 
 public class DevMgr extends DamqRcvConsumer {
@@ -106,8 +107,25 @@ public class DevMgr extends DamqRcvConsumer {
 			new MsgProc_ObserveCancel(msg, ObsResp);
 			break;
 		case "test":
-			RsrcMgr resManager = RsrcMgr.getInstance();
-			resManager.SingletonTest();
+			// 트리거매니저에게 특정 리소스 아이디에 해당하는 트리거 생성요청
+			// 트리거매니저는 트리거를 생성하게되며, 트리거 생성자에서 옵져버로서 리소스매니저에게 구독 신청
+			String rsrcID = "rsrcID-1234";
+			String[] rsrcIDs1 = { rsrcID, "rsrcID-2222" };
+			String[] rsrcIDs2 = { "rsrcID-0000", rsrcID };
+			TrgMgr.getInstance().addTrigger("test trigger1", rsrcIDs1);
+			TrgMgr.getInstance().addTrigger("test trigger2", rsrcIDs2);
+			// MsgProc_Observe 또는 MsgProc_Post 등으로 리소스가 변경된 경우 해당 리소스 아이디를 리소스매니저에게 전달
+			// 리소스매니져는 전달받은 rsrcID 에 해당하는 Observable 을 찾아서 setChanged(), NotifyObservers()
+			RsrcMgr.getInstance().onChanged(rsrcID);
+			// 구독 신청했던 observer 에서는 변동에 따른 Notify를 받아서 update() 펑션 수행
+			// System.out.println("Trigger Observer update()... ResourceID=" + ResourceID);
+
+			// 트리거 삭제가 필요한 경우
+			TrgMgr.getInstance().deleteTrigger("test trigger0");
+			TrgMgr.getInstance().deleteTrigger("test trigger1");
+
+			// 싱글톤 테스트
+			RsrcMgr.getInstance().SingletonTest();
 			break;
 		default:
 			jo.put("body", new JSONObject().put("status", 404));
