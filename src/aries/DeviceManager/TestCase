@@ -46,6 +46,9 @@
 [Recv Req] Trigger
 {"org":"ngin","dst":"devmgr","msgtype":"req","workcode":"trigger_add","msgid":"msgid-trigger-1234-5678-0001ab","body":{"triggername":"test trigger1", "rsrcids":["rsrcID-1234", "rsrcID-2222"]}}
 
+[Recv Req] TriggerCancel
+{"org":"ngin","dst":"devmgr","msgtype":"req","workcode":"trigger_cancel","msgid":"msgid-trigger_cancel-1234-5678-0001ab","body":{"triggername":"test trigger1"}}
+
 
 {"org":"common","dst":"devmgr","msgtype":"req","workcode":"test","msgid":"msgid-signout-1234-5678-0001ab","body":{}}
 

@@ -60,7 +60,7 @@ public abstract class CmdProcessTimerTaskObserver extends TimerTask implements O
 
 		LogMsgFlow = "===> [1]" + recvdReqJO.getString("workcode") + " ==> ";
 		System.out.println(LogMsgFlow);
-		LogMsgFlow = LogMsgFlow + "[2]Request process & Make Request ==> ";
+		LogMsgFlow = LogMsgFlow + "[2]Request processing ==> ";
 		System.out.println(LogMsgFlow);
 		recvdReqProc(recvdReqJO);
 	}
@@ -108,7 +108,7 @@ public abstract class CmdProcessTimerTaskObserver extends TimerTask implements O
 	protected abstract void recvdReqProc(JSONObject receivedRequest);
 
 	protected void sendReqProc(JSONObject sendRequest) {
-		LogMsgFlow = LogMsgFlow + "[3]Send Request to " + sendRequest.getString("dst") + "] ==> ";
+		LogMsgFlow = LogMsgFlow + "[3]Make Request and Send to " + sendRequest.getString("dst") + "] ==> ";
 		System.out.println(LogMsgFlow);
 		sendMsgProc(sendRequest);
 		LogMsgFlow = LogMsgFlow + "[4]Wait Response ... ";

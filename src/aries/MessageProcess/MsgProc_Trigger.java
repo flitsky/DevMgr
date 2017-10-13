@@ -29,8 +29,12 @@ public class MsgProc_Trigger extends CmdProcessTimerTaskObserver {
 			rsrcIDsList.toArray(rsrcIDs = new String[rsrcIDsList.size()]);
 			System.out.println("recvdReqProc()   rsrcIDs = " + Arrays.toString(rsrcIDs));
 			triggerName = recvdReq.getJSONObject("body").getString("triggername");
-			TrgMgr.getInstance().addTrigger(triggerName, rsrcIDs);
-			sendRespJO.put("body", new JSONObject().put("status", 200));
+			if (TrgMgr.getInstance().addTrigger(triggerName, rsrcIDs)) {
+				sendRespJO.put("body", new JSONObject().put("status", 200));
+			} else {
+				sendRespJO.put("body", new JSONObject().put("status", 404));
+				sendRespJO.put("body", new JSONObject().put("reason", "Trigger Name is already exist"));
+			}
 		} else {
 			System.out.println("recvdReqProc()   error... rsrcIDsList.size ");
 			sendRespJO.put("body", new JSONObject().put("status", 404));

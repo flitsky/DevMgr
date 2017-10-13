@@ -24,8 +24,8 @@ public class MsgProc_TriggerCancel extends CmdProcessTimerTaskObserver {
 		if(TrgMgr.getInstance().deleteTrigger(triggerName)) {
 			sendRespJO.put("body", new JSONObject().put("status", 200));
 		} else {
-			System.out.println("recvdReqProc()   error... that trigger name is not exist. ");
 			sendRespJO.put("body", new JSONObject().put("status", 404));
+			sendRespJO.put("body", new JSONObject().put("reason", "Trigger Name is not exist."));
 		}
 
 		sendRespJO.put("dst", recvdReq.getString("org"));
