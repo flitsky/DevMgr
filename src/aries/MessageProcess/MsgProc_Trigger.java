@@ -23,30 +23,28 @@ public class MsgProc_Trigger extends CmdProcessTimerTaskObserver {
 	@Override
 	protected void recvdReqProc(JSONObject recvdReq) {
 		String[] rsrcIDs;
+		String triggerName;
 		List<Object> rsrcIDsList = recvdReq.getJSONObject("body").getJSONArray("rsrcids").toList();
 		if (rsrcIDsList.size() > 0) {
 			rsrcIDsList.toArray(rsrcIDs = new String[rsrcIDsList.size()]);
 			System.out.println("recvdReqProc()   rsrcIDs = " + Arrays.toString(rsrcIDs));
-			TrgMgr.getInstance().addTrigger("test trigger1", rsrcIDs);
+			triggerName = recvdReq.getJSONObject("body").getString("triggername");
+			TrgMgr.getInstance().addTrigger(triggerName, rsrcIDs);
+			sendRespJO.put("body", new JSONObject().put("status", 200));
 		} else {
 			System.out.println("recvdReqProc()   error... rsrcIDsList.size ");
+			sendRespJO.put("body", new JSONObject().put("status", 404));
 		}
 
-		// sendRespJO.put("dst", recvdReq.getString("org"));
-		// sendRespProc(sendRespJO);
+		sendRespJO.put("dst", recvdReq.getString("org"));
+		sendRespProc(sendRespJO);
 	}
 
 	@Override
 	protected void recvdRespProc(JSONObject recvdResp) {
-		sendRespJO.put("body", recvdResp.get("body").toString());
-		sendRespProc(sendRespJO);
-
-		// TODO
-		// save data to DB
 	}
 
 	@Override
 	protected void expiredRespProc() {
-		sendRespProc(sendRespJO);
 	}
 }
