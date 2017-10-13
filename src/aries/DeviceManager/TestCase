@@ -44,7 +44,7 @@
 {"org":"common","dst":"devmgr","msgtype":"res","workcode":"obs_can","body":{"status":200,"res_id":"/oic/route/6341cb6f-2179-55a3-3732-c3ffbad1be68/power/0"},"msgid":"msgid-obs_can-9999"}
 
 [Recv Req] Trigger
-{"org":"engine","dst":"devmgr","msgtype":"req","workcode":"trigger_add","msgid":"msgid-trigger-1234-5678-0001ab","body":{"rsrcids":["rsrcID-1234", "rsrcID-2222"]}}
+{"org":"ngin","dst":"devmgr","msgtype":"req","workcode":"trigger_add","msgid":"msgid-trigger-1234-5678-0001ab","body":{"triggername":"test trigger1", "rsrcids":["rsrcID-1234", "rsrcID-2222"]}}
 
 
 {"org":"common","dst":"devmgr","msgtype":"req","workcode":"test","msgid":"msgid-signout-1234-5678-0001ab","body":{}}
