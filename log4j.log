@@ -650,3 +650,30 @@
 [2017-10-13 17:03:03,126]DEBUG    12[Thread-3] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:18) - DamqRcvProducer begins.
 [2017-10-13 17:03:03,128]DEBUG    14[Thread-4] - io.dase.network.DamqSndConsumer.run(DamqSndConsumer.java:21) - DamqSndConsumer begins.
 [2017-10-13 17:03:34,533]DEBUG 31419[Thread-2] - aries.DeviceManager.DevMgr.MainProc(DevMgr.java:44) - origin:ngin & msgid:msgid-trigger-1234-5678-0001ab & body:{"triggername":"test trigger1","rsrcids":["rsrcid-1234","rsrcid-2222"]}
+[2017-10-13 18:18:50,142]ERROR547028[main] - aries.DeviceManager.App.main(App.java:95) - ma1n error: No line found
+[2017-10-13 18:18:50,143]DEBUG547029[main] - aries.DeviceManager.App.main(App.java:99) - Adios
+[2017-10-13 18:19:00,274]DEBUG     0[main] - aries.DeviceManager.App.main(App.java:18) - Hola
+[2017-10-13 18:19:00,278]DEBUG     4[Thread-0] - io.dase.network.DamqRcvConsumer.run(DamqRcvConsumer.java:71) - DamqRcvConsumer begins.
+[2017-10-13 18:19:00,279]ERROR     5[Thread-0] - io.dase.network.DamqSndProducer.InitDamqSndProducer(DamqSndProducer.java:35) - InitDamqSndProducer
+[2017-10-13 18:19:00,279]DEBUG     5[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:18) - DamqRcvProducer begins.
+[2017-10-13 18:19:00,279]DEBUG     5[Thread-2] - io.dase.network.DamqSndConsumer.run(DamqSndConsumer.java:21) - DamqSndConsumer begins.
+[2017-10-13 18:19:13,226]DEBUG 12952[Thread-0] - aries.DeviceManager.DevMgr.MainProc(DevMgr.java:44) - origin:ngin & msgid:msgid-trigger-1234-5678-0001ab & body:{"triggername":"test trigger1","rsrcids":["rsrcid-1234","rsrcid-2222"]}
+[2017-10-13 18:19:29,671]DEBUG 29397[Thread-0] - aries.DeviceManager.DevMgr.MainProc(DevMgr.java:44) - origin:ngin & msgid:msgid-trigger-1234-5678-0002ab & body:{"triggername":"test trigger2","rsrcids":["rsrcid-5555","rsrcid-6666"]}
+[2017-10-13 18:39:38,120]ERROR237846[main] - aries.DeviceManager.App.main(App.java:95) - ma1n error: No line found
+[2017-10-13 18:39:38,121]DEBUG237847[main] - aries.DeviceManager.App.main(App.java:99) - Adios
+[2017-10-16 10:53:31,569]DEBUG     1[main] - aries.DeviceManager.App.main(App.java:18) - Hola
+[2017-10-16 10:53:31,639]DEBUG    71[Thread-0] - io.dase.network.DamqRcvConsumer.run(DamqRcvConsumer.java:71) - DamqRcvConsumer begins.
+[2017-10-16 10:53:31,643]ERROR    75[Thread-0] - io.dase.network.DamqSndProducer.InitDamqSndProducer(DamqSndProducer.java:35) - InitDamqSndProducer
+[2017-10-16 10:53:31,644]DEBUG    76[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:18) - DamqRcvProducer begins.
+[2017-10-16 10:53:31,647]DEBUG    79[Thread-2] - io.dase.network.DamqSndConsumer.run(DamqSndConsumer.java:21) - DamqSndConsumer begins.
+[2017-10-16 11:04:00,961]DEBUG629393[Thread-0] - aries.DeviceManager.DevMgr.MainProc(DevMgr.java:44) - origin:app & msgid:e33be0c0-bc30-4841-b738-f1024d842ce4 & body:{"authcode":"5597fd610edc552a9e68","provider":"github"}
+[2017-10-16 11:04:01,963]DEBUG630395[Thread-0] - aries.DeviceManager.DevMgr.MainProc(DevMgr.java:44) - origin:app & msgid:05bdea66-cab9-465d-ba6d-13a34b0219cf & body:{"uid":"22883d77-4ab8-4b80-b75b-74774868b484","accesstoken":"e00d0d9ec36095d749a350dab04b5a8c1b94e136"}
+[2017-10-16 11:06:08,318]DEBUG756750[Thread-0] - aries.DeviceManager.DevMgr.MainProc(DevMgr.java:44) - origin:app & msgid:a8b730f0-cfae-4dc1-b344-a29a00f7376d & body:{"authcode":"c7852c99ee5b168ded09","provider":"github"}
+[2017-10-16 11:06:09,364]DEBUG757796[Thread-0] - aries.DeviceManager.DevMgr.MainProc(DevMgr.java:44) - origin:app & msgid:e003d26e-2b16-478b-8d8e-e8283967f89b & body:{"uid":"22883d77-4ab8-4b80-b75b-74774868b484","accesstoken":"e00d0d9ec36095d749a350dab04b5a8c1b94e136"}
+[2017-10-16 12:37:00,497]ERROR208929[main] - aries.DeviceManager.App.main(App.java:95) - ma1n error: No line found
+[2017-10-16 12:37:00,498]DEBUG208930[main] - aries.DeviceManager.App.main(App.java:99) - Adios
+[2017-10-16 12:37:09,872]DEBUG     0[main] - io.aries.DeviceManager.App.main(App.java:18) - Hola
+[2017-10-16 12:37:09,876]DEBUG     4[Thread-0] - io.dase.network.DamqRcvConsumer.run(DamqRcvConsumer.java:71) - DamqRcvConsumer begins.
+[2017-10-16 12:37:09,877]ERROR     5[Thread-0] - io.dase.network.DamqSndProducer.InitDamqSndProducer(DamqSndProducer.java:35) - InitDamqSndProducer
+[2017-10-16 12:37:09,877]DEBUG     5[Thread-1] - io.dase.network.DamqRcvProducer.run(DamqRcvProducer.java:18) - DamqRcvProducer begins.
+[2017-10-16 12:37:09,877]DEBUG     5[Thread-2] - io.dase.network.DamqSndConsumer.run(DamqSndConsumer.java:21) - DamqSndConsumer begins.
