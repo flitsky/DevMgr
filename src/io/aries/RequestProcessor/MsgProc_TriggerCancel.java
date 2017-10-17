@@ -21,7 +21,7 @@ public class MsgProc_TriggerCancel extends CmdProcessTimerTaskObserver {
 	protected void recvdReqProc(JSONObject recvdReq) {
 		String triggerName;
 		triggerName = recvdReq.getJSONObject("body").getString("triggername");
-		if(TrgMgr.getInstance().deleteTrigger(triggerName)) {
+		if(TrgMgr.getInstance().removeTrigger(triggerName)) {
 			sendRespJO.put("body", new JSONObject().put("status", 200));
 		} else {
 			sendRespJO.put("body", new JSONObject().put("status", 404));

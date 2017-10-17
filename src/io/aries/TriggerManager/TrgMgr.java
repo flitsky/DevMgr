@@ -32,13 +32,13 @@ public class TrgMgr {
 		return true;
 	}
 
-	public boolean deleteTrigger(String triggerName) {
+	public boolean removeTrigger(String triggerName) {
 		if (!triggerMap.containsKey(triggerName)) {
 			// error
 			System.out.println("deleteTrigger failed cause triggerName was not contained in the map : " + triggerName);
 			return false;
 		}
-		triggerMap.get(triggerName).deleteTrigger();
+		triggerMap.get(triggerName).destoryTrigger();
 		triggerMap.remove(triggerName);
 		System.out.println("Trigger deleted... triggerName : " + triggerName);
 		return true;

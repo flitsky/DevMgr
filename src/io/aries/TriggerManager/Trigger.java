@@ -31,7 +31,7 @@ public class Trigger implements Observer {
 		return ResourceIDs;
 	}
 	
-	public boolean deleteTrigger() {
+	public boolean destoryTrigger() {
 		unsubscribe(this.ResourceIDs);
 		this.ResourceIDs = null;
 		return true;
